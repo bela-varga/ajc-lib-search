@@ -10,15 +10,17 @@
 
 ## Tech Stack Debate
 
-### Recommended: **Vite + React + TypeScript**
+### Selected: **Vite + React Router v7 + TypeScript + Tailwind CSS**
 
 **Pros:**
 - Fast development with hot module replacement
 - TypeScript support out of the box
+- React Router v7 provides routing infrastructure for shareable URLs with search parameters
+- Tailwind CSS for rapid, modern styling with the blue-ish color scheme
 - Simple build process for static hosting
-- React provides clean component structure without being overkill
-- Easy to deploy (just `npm run build` → host the `dist` folder)
-- Great DX with minimal configuration
+- Easy to deploy (just `npm run build` → host the `build` folder)
+- Great DX with file-based routing
+- URL-based search enables sharing specific searches (e.g., `/search?q=jazz&tags=true`)
 
 **Alternatives considered:**
 
@@ -32,7 +34,7 @@
    - ❌ Overkill for this project (no SSR needed, no backend)
    - ❌ Heavier build
 
-**Decision**: Vite + React + TypeScript - strikes the best balance between simplicity and structure.
+**Decision**: Vite + React Router v7 + TypeScript + Tailwind CSS - provides routing for shareable URLs while maintaining simplicity.
 
 ---
 
@@ -88,28 +90,31 @@ export const audioLibraryList: AudioLibSearchElement[] = [...];
 
 ```
 ajc-lib-search/
-├── src/
+├── app/
 │   ├── components/
 │   │   ├── SearchBar.tsx         # Search input + button
-│   │   ├── SearchFilters.tsx     # Phase 2: checkboxes for title/desc/tags
+│   │   ├── SearchFilters.tsx     # Phase 7: checkboxes for title/desc/tags
 │   │   ├── ResultsList.tsx       # Display search results
-│   │   └── ResultItem.tsx        # Single result card
+│   │   ├── ResultItem.tsx        # Single result card
+│   │   └── Pagination.tsx        # Phase 6: pagination component
 │   ├── hooks/
 │   │   └── useSearch.ts          # Search logic
 │   ├── types/
 │   │   └── library.types.ts      # AudioLibSearchElement type
 │   ├── utils/
 │   │   └── searchEngine.ts       # Core search algorithm
-│   ├── data/
-│   │   └── library.ts            # The actual library data
-│   ├── App.tsx
-│   ├── App.css
-│   └── main.tsx
+│   ├── routes/
+│   │   └── home.tsx              # Main search page
+│   ├── root.tsx                  # App root with Layout
+│   ├── app.css                   # Global styles + Tailwind
+│   └── routes.ts                 # Route configuration
+├── data/
+│   └── library.ts                # The actual library data
 ├── public/
-├── index.html
 ├── package.json
 ├── tsconfig.json
-└── vite.config.ts
+├── vite.config.ts
+└── react-router.config.ts
 ```
 
 ---
@@ -122,22 +127,29 @@ ajc-lib-search/
 
 #### Step 0.1: Create Vite Project
 
-**Prompt:**
-```
-You are setting up Phase 0: Project Setup.
-Initialize a new Vite project with React and TypeScript in the current directory.
-Use the template 'react-ts'.
-Install dependencies automatically.
-Do not add any features yet.
-```
+**Status:** ✅ COMPLETED
+
+Used React Router v7 template which includes:
+- Vite + React + TypeScript
+- React Router v7 for routing
+- Tailwind CSS for styling
 
 **Commands:**
 ```bash
 npm create vite@latest . -- --template react-ts
+# Selected React Router v7 variant
 npm install
 ```
 
 #### Step 0.2: Clean Up Boilerplate
+
+**Status:** ✅ COMPLETED
+
+Cleaned up:
+- Removed welcome components and logos
+- Restored Tailwind CSS with blue-ish color theme
+- Simplified `root.tsx` and `app/routes/home.tsx`
+- Verified dev server runs
 
 **Prompt:**
 ```
@@ -152,15 +164,24 @@ Do not add any features yet.
 
 #### Step 0.3: Create Folder Structure
 
+**Status:** ✅ COMPLETED
+
+Created:
+- `app/components/`
+- `app/hooks/`
+- `app/types/`
+- `app/utils/`
+- `data/` (at root level)
+
 **Prompt:**
 ```
 You are completing Phase 0: Project Setup.
 Create the folder structure as defined in plan.md:
-- src/components/
-- src/hooks/
-- src/types/
-- src/utils/
-- src/data/
+- app/components/
+- app/hooks/
+- app/types/
+- app/utils/
+- data/
 
 Do not create any files yet, just the folders.
 ```

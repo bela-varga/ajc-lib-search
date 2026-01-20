@@ -188,25 +188,12 @@ Created:
 
 #### Step 2.1: Create Search Utility
 
-**Prompt:**
-```
-You are implementing Phase 2 only: Core Search Engine.
-Create src/utils/searchEngine.ts with a searchLibrary function.
+#### Step 2.1: Create Search Utility
 
-Requirements:
-- Function signature: searchLibrary(library: AudioLibSearchElement[], query: string): AudioLibSearchElement[]
-- Case-insensitive search
-- Search in: title, description, and tags (all fields)
-- Return items that match the query in ANY of these fields
-- Empty query returns empty array
+**Status:** ✅ COMPLETED
 
-Add unit test examples in comments.
-Do not add features outside this phase.
-Follow the existing folder structure and types exactly.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `src/utils/searchEngine.ts`
+**File**: `app/utils/searchEngine.ts`
+**Tests**: `app/utils/searchEngine.test.ts` (Vitest)
 
 ---
 

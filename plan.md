@@ -151,17 +151,6 @@ Cleaned up:
 - Simplified `root.tsx` and `app/routes/home.tsx`
 - Verified dev server runs
 
-**Prompt:**
-```
-You are completing Phase 0: Project Setup.
-Clean up the Vite boilerplate:
-- Remove default Vite logos and sample components
-- Clear App.tsx and App.css
-- Keep only the essential structure
-- Verify the dev server runs with `npm run dev`
-Do not add any features yet.
-```
-
 #### Step 0.3: Create Folder Structure
 
 **Status:** ✅ COMPLETED
@@ -173,19 +162,6 @@ Created:
 - `app/utils/`
 - `data/` (at root level)
 
-**Prompt:**
-```
-You are completing Phase 0: Project Setup.
-Create the folder structure as defined in plan.md:
-- app/components/
-- app/hooks/
-- app/types/
-- app/utils/
-- data/
-
-Do not create any files yet, just the folders.
-```
-
 ---
 
 ### **Phase 1: Data Model & Type Definitions**
@@ -194,32 +170,15 @@ Do not create any files yet, just the folders.
 
 #### Step 1.1: Create Type Definitions
 
-**Prompt:**
-```
-You are implementing Phase 1 only: Data Model & Type Definitions.
-Create src/types/library.types.ts with the AudioLibSearchElement type exactly as specified in plan.md.
-Add JSDoc comments explaining each field.
-Do not add features outside this phase.
-```
+**Status:** ✅ COMPLETED
 
-**Expected file**: `src/types/library.types.ts`
+**File**: `app/types/library.types.ts`
 
 #### Step 1.2: Create Sample Data
 
-**Prompt:**
-```
-You are implementing Phase 1 only: Data Model & Type Definitions.
-Create src/data/library.ts with the sample data from plan.md.
-Export audioLibraryList as AudioLibSearchElement[].
-Add at least 10 diverse sample items for testing:
-- Mix of YouTube-only, Spotify-only, and both
-- Various tags
-- Different timestamps
-Follow the existing types exactly.
-If something is unclear, ask before coding.
-```
+**Status:** ✅ COMPLETED
 
-**Expected file**: `src/data/library.ts`
+**File**: `data/dummy.library.ts`
 
 ---
 

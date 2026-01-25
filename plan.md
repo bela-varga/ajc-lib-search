@@ -203,73 +203,21 @@ Created:
 
 #### Step 3.1: Create SearchBar Component
 
-**Prompt:**
-```
-You are implementing Phase 3 only: Basic UI Components.
-Create app/components/SearchBar.tsx.
+**Status:** ✅ COMPLETED
 
-Requirements:
-- Single text input
-- Search button
-- OnSearch callback prop: (query: string) => void
-- Enter key triggers search
-- Accessible (labels, ARIA)
-- Keyboard-friendly
-
-Add basic styling for desktop-first, mobile-friendly layout.
-Do not add features outside this phase.
-Follow the existing folder structure and types exactly.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `app/components/SearchBar.tsx`
+**File**: `app/components/SearchBar.tsx`
 
 #### Step 3.2: Create ResultItem Component
 
-**Prompt:**
-```
-You are implementing Phase 3 only: Basic UI Components.
-Create app/components/ResultItem.tsx.
+**Status:** ✅ COMPLETED
 
-Requirements:
-- Props: AudioLibSearchElement
-- Card-style layout
-- Display: title, tags, source link(s)
-- Show text labels for links ("YouTube" / "Spotify") - no icons/badges
-- Clicking a link opens in new tab (_blank)
-- If timestamp exists, append &t={timestamp}s to YouTube link
-- Tags displayed as pills/chips
-
-Add clean, modern card styling with subtle shadows.
-Do not add features outside this phase.
-Follow the existing folder structure and types exactly.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `app/components/ResultItem.tsx`
+**File**: `app/components/ResultItem.tsx`
 
 #### Step 3.3: Create ResultsList Component
 
-**Prompt:**
-```
-You are implementing Phase 3 only: Basic UI Components.
-Create app/components/ResultsList.tsx.
+**Status:** ✅ COMPLETED
 
-Requirements:
-- Props: results: AudioLibSearchElement[], hasSearched: boolean
-- If !hasSearched → render nothing
-- If hasSearched && results.length === 0 → show "No results found"
-- If hasSearched && results.length > 0:
-  - Show "X results found" message at the top
-  - Render list of ResultItem components
-
-Add appropriate spacing and layout.
-Do not add features outside this phase.
-Follow the existing folder structure and types exactly.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `app/components/ResultsList.tsx`
+**File**: `app/components/ResultsList.tsx`
 
 ---
 
@@ -279,45 +227,15 @@ If something is unclear, ask before coding.
 
 #### Step 4.1: Create useSearch Hook
 
-**Prompt:**
-```
-You are implementing Phase 4 only: Wire Everything Together.
-Create app/hooks/useSearch.ts.
+**Status:** ✅ COMPLETED
 
-Requirements:
-- Load library data (import from data/library.ts)
-- State: searchQuery, results, hasSearched
-- Function: handleSearch(query: string)
-- Use searchEngine from utils
-- Return: { results, hasSearched, handleSearch }
-
-Do not add features outside this phase.
-Follow the existing folder structure and types exactly.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `app/hooks/useSearch.ts`
+**File**: `app/hooks/useSearch.ts`
 
 #### Step 4.2: Implement Main App
 
-**Prompt:**
-```
-You are implementing Phase 4 only: Wire Everything Together.
-Update app/routes/home.tsx to use all components and the useSearch hook.
+**Status:** ✅ COMPLETED
 
-Requirements:
-- Import SearchBar, ResultsList, useSearch
-- Pass handleSearch to SearchBar
-- Pass results and hasSearched to ResultsList
-- Add header with app title
-- Add basic layout and styling
-
-Do not add features outside this phase.
-Follow the existing folder structure and types exactly.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `app/routes/home.tsx`
+**File**: `app/routes/home.tsx`
 
 #### Step 4.3: Polish Styles
 

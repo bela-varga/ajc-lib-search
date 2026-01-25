@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-**One-sentence goal**: Build a simple, fast, client-side library search app that loads a static JSON file and lets the user search items by title and tags.
+**One-sentence goal**: Build a simple, fast, client-side library search app that loads a static JSON file and lets the user search items by title and tags - and it should be Hungarian.
 
-**Target user**: Single user, desktop-first but mobile-friendly, keyboard-driven usage preferred.
+**Target user**: Single user, desktop-first but mobile-friendly, keyboard-driven usage preferred. Language is Hungarian.
 
 ---
 
@@ -206,7 +206,7 @@ Created:
 **Prompt:**
 ```
 You are implementing Phase 3 only: Basic UI Components.
-Create src/components/SearchBar.tsx.
+Create app/components/SearchBar.tsx.
 
 Requirements:
 - Single text input
@@ -222,14 +222,14 @@ Follow the existing folder structure and types exactly.
 If something is unclear, ask before coding.
 ```
 
-**Expected file**: `src/components/SearchBar.tsx`
+**Expected file**: `app/components/SearchBar.tsx`
 
 #### Step 3.2: Create ResultItem Component
 
 **Prompt:**
 ```
 You are implementing Phase 3 only: Basic UI Components.
-Create src/components/ResultItem.tsx.
+Create app/components/ResultItem.tsx.
 
 Requirements:
 - Props: AudioLibSearchElement
@@ -246,14 +246,14 @@ Follow the existing folder structure and types exactly.
 If something is unclear, ask before coding.
 ```
 
-**Expected file**: `src/components/ResultItem.tsx`
+**Expected file**: `app/components/ResultItem.tsx`
 
 #### Step 3.3: Create ResultsList Component
 
 **Prompt:**
 ```
 You are implementing Phase 3 only: Basic UI Components.
-Create src/components/ResultsList.tsx.
+Create app/components/ResultsList.tsx.
 
 Requirements:
 - Props: results: AudioLibSearchElement[], hasSearched: boolean
@@ -269,7 +269,7 @@ Follow the existing folder structure and types exactly.
 If something is unclear, ask before coding.
 ```
 
-**Expected file**: `src/components/ResultsList.tsx`
+**Expected file**: `app/components/ResultsList.tsx`
 
 ---
 
@@ -282,10 +282,10 @@ If something is unclear, ask before coding.
 **Prompt:**
 ```
 You are implementing Phase 4 only: Wire Everything Together.
-Create src/hooks/useSearch.ts.
+Create app/hooks/useSearch.ts.
 
 Requirements:
-- Load library data (import from src/data/library.ts)
+- Load library data (import from data/library.ts)
 - State: searchQuery, results, hasSearched
 - Function: handleSearch(query: string)
 - Use searchEngine from utils
@@ -296,14 +296,14 @@ Follow the existing folder structure and types exactly.
 If something is unclear, ask before coding.
 ```
 
-**Expected file**: `src/hooks/useSearch.ts`
+**Expected file**: `app/hooks/useSearch.ts`
 
 #### Step 4.2: Implement Main App
 
 **Prompt:**
 ```
 You are implementing Phase 4 only: Wire Everything Together.
-Update src/App.tsx to use all components and the useSearch hook.
+Update app/routes/home.tsx to use all components and the useSearch hook.
 
 Requirements:
 - Import SearchBar, ResultsList, useSearch
@@ -317,14 +317,14 @@ Follow the existing folder structure and types exactly.
 If something is unclear, ask before coding.
 ```
 
-**Expected file**: `src/App.tsx`
+**Expected file**: `app/routes/home.tsx`
 
 #### Step 4.3: Polish Styles
 
 **Prompt:**
 ```
 You are implementing Phase 4 only: Wire Everything Together.
-Update src/App.css with cohesive styling.
+Update app/app.css with cohesive styling.
 
 Requirements:
 - Modern, clean design
@@ -338,7 +338,7 @@ Do not add features outside this phase.
 If something is unclear, ask before coding.
 ```
 
-**Expected file**: `src/App.css`
+**Expected file**: `app/app.css`
 
 ---
 
@@ -386,7 +386,7 @@ Do not add features outside this phase.
 **Prompt:**
 ```
 You are implementing Phase 6 only: Pagination.
-Create src/components/Pagination.tsx.
+Create app/components/Pagination.tsx.
 
 Requirements:
 - Props: currentPage, totalPages, onPageChange
@@ -406,7 +406,7 @@ If something is unclear, ask before coding.
 **Prompt:**
 ```
 You are implementing Phase 6 only: Pagination.
-Update src/components/ResultsList.tsx to include pagination.
+Update app/components/ResultsList.tsx to include pagination.
 
 Requirements:
 - Add itemsPerPage state (default: 20)
@@ -431,7 +431,7 @@ If something is unclear, ask before coding.
 **Prompt:**
 ```
 You are implementing Phase 7 only: Advanced Features.
-Create src/components/SearchFilters.tsx.
+Create app/components/SearchFilters.tsx.
 
 Requirements:
 - Three checkboxes: Search in Title, Search in Description, Search in Tags
@@ -449,7 +449,7 @@ If something is unclear, ask before coding.
 **Prompt:**
 ```
 You are implementing Phase 7 only: Advanced Features.
-Update src/utils/searchEngine.ts to accept filters parameter.
+Update app/utils/searchEngine.ts to accept filters parameter.
 
 New signature: searchLibrary(library, query, filters)
 Respect the filter flags when searching.
@@ -463,7 +463,7 @@ If something is unclear, ask before coding.
 **Prompt:**
 ```
 You are implementing Phase 7 only: Advanced Features.
-Update src/components/ResultItem.tsx to add copy link button.
+Update app/components/ResultItem.tsx to add copy link button.
 
 Requirements:
 - Add "Copy Link" button for each source link (YouTube/Spotify)

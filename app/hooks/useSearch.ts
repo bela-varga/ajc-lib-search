@@ -1,7 +1,7 @@
-import { useState, useCallback } from "react";
-import type { AudioLibSearchElement } from "../types/library.types";
-import { searchLibrary } from "../utils/searchEngine";
-import { audioLibraryList } from "../../data/AJCaudioLibraryList";
+import { useState, useCallback } from 'react';
+import type { AudioLibSearchElement } from '../types/library.types';
+import { searchLibrary } from '../utils/searchEngine';
+import { audioLibraryList } from '../../data/AJCaudioLibraryList';
 
 interface UseSearchResult {
   results: AudioLibSearchElement[];
@@ -11,7 +11,7 @@ interface UseSearchResult {
 }
 
 export function useSearch(): UseSearchResult {
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState('');
   const [results, setResults] = useState<AudioLibSearchElement[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
 
@@ -28,6 +28,6 @@ export function useSearch(): UseSearchResult {
     results,
     hasSearched,
     handleSearch,
-    searchQuery
+    searchQuery,
   };
 }

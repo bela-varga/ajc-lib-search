@@ -13,6 +13,7 @@
 ### Selected: **Vite + React Router v7 + TypeScript + Tailwind CSS**
 
 **Pros:**
+
 - Fast development with hot module replacement
 - TypeScript support out of the box
 - React Router v7 provides routing infrastructure for shareable URLs with search parameters
@@ -47,6 +48,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [...];
 ```
 
 **Pros:**
+
 - ✅ Type-safe at compile time
 - ✅ Direct import, no fetch needed
 - ✅ Better DX in the repository
@@ -54,6 +56,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [...];
 - ✅ IDE autocomplete when editing data
 
 **Cons:**
+
 - ❌ Requires rebuild to update data
 - ❌ Non-technical contributors need to understand TypeScript basics
 
@@ -70,11 +73,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [...];
 ```
 
 **Pros:**
+
 - ✅ Standard format, universally understood
 - ✅ Can be edited without technical knowledge
 - ✅ Could be swapped at runtime (future: config option)
 
 **Cons:**
+
 - ❌ No compile-time type safety
 - ❌ Needs runtime validation
 - ❌ Requires fetch (minimal overhead)
@@ -130,11 +135,13 @@ ajc-lib-search/
 **Status:** ✅ COMPLETED
 
 Used React Router v7 template which includes:
+
 - Vite + React + TypeScript
 - React Router v7 for routing
 - Tailwind CSS for styling
 
 **Commands:**
+
 ```bash
 npm create vite@latest . -- --template react-ts
 # Selected React Router v7 variant
@@ -146,6 +153,7 @@ npm install
 **Status:** ✅ COMPLETED
 
 Cleaned up:
+
 - Removed welcome components and logos
 - Restored Tailwind CSS with blue-ish color theme
 - Simplified `root.tsx` and `app/routes/home.tsx`
@@ -156,6 +164,7 @@ Cleaned up:
 **Status:** ✅ COMPLETED
 
 Created:
+
 - `app/components/`
 - `app/hooks/`
 - `app/types/`
@@ -240,6 +249,7 @@ Created:
 #### Step 4.3: Polish Styles
 
 **Prompt:**
+
 ```
 You are implementing Phase 4 only: Wire Everything Together.
 Update app/app.css with cohesive styling.
@@ -267,6 +277,7 @@ If something is unclear, ask before coding.
 #### Step 5.1: Manual Testing
 
 **Prompt:**
+
 ```
 You are implementing Phase 5 only: Testing & Verification.
 Run the app with `npm run dev` and test:
@@ -286,6 +297,7 @@ If something is unclear, ask before coding.
 #### Step 5.2: Bug Fixes
 
 **Prompt:**
+
 ```
 You are implementing Phase 5 only: Testing & Verification.
 Fix any bugs discovered during testing.
@@ -302,6 +314,7 @@ Do not add features outside this phase.
 #### Step 6.1: Create Pagination Component
 
 **Prompt:**
+
 ```
 You are implementing Phase 6 only: Pagination.
 Create app/components/Pagination.tsx.
@@ -322,6 +335,7 @@ If something is unclear, ask before coding.
 #### Step 6.2: Update ResultsList with Pagination
 
 **Prompt:**
+
 ```
 You are implementing Phase 6 only: Pagination.
 Update app/components/ResultsList.tsx to include pagination.
@@ -347,6 +361,7 @@ If something is unclear, ask before coding.
 #### Step 7.1: Create SearchFilters Component
 
 **Prompt:**
+
 ```
 You are implementing Phase 7 only: Advanced Features.
 Create app/components/SearchFilters.tsx.
@@ -365,6 +380,7 @@ If something is unclear, ask before coding.
 #### Step 7.2: Update Search Engine for Filters
 
 **Prompt:**
+
 ```
 You are implementing Phase 7 only: Advanced Features.
 Update app/utils/searchEngine.ts to accept filters parameter.
@@ -379,6 +395,7 @@ If something is unclear, ask before coding.
 #### Step 7.3: Add Copy Link Button
 
 **Prompt:**
+
 ```
 You are implementing Phase 7 only: Advanced Features.
 Update app/components/ResultItem.tsx to add copy link button.

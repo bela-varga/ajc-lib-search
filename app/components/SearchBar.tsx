@@ -1,15 +1,15 @@
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent } from 'react';
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
 }
 
 export function SearchBar({ onSearch }: SearchBarProps) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState('');
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (query.trim() !== "") {
+    if (query.trim() !== '') {
       onSearch(query.trim());
     }
   };

@@ -1,12 +1,15 @@
-import type { AudioLibSearchElement } from "../types/library.types";
-import ResultItem from "./ResultItem";
+import type { AudioLibSearchElement } from '../types/library.types';
+import ResultItem from './ResultItem';
 
 interface ResultsListProps {
   results: AudioLibSearchElement[];
   hasSearched: boolean;
 }
 
-export default function ResultsList({ results, hasSearched }: ResultsListProps) {
+export default function ResultsList({
+  results,
+  hasSearched,
+}: ResultsListProps) {
   if (!hasSearched) {
     return null;
   }

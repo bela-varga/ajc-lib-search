@@ -60,11 +60,13 @@ ajc-lib-search/
 ## Design Conventions
 
 ### Styling
+
 - **Color scheme**: Blue-ish (primary colors defined in `app.css` as `--color-primary-*`)
 - **Layout**: Card-style for results with subtle shadows
 - **Responsive**: Desktop-first, mobile-friendly
 
 ### UI Behavior
+
 - **Search trigger**: Button click or Enter key (not search-as-you-type)
 - **Empty search**: Do not search, show nothing
 - **Results display**:
@@ -74,6 +76,7 @@ ajc-lib-search/
   - Clicking link opens in new tab with timestamp appended if exists
 
 ### Code Preferences
+
 - Use Tailwind utility classes for styling
 - Components in `app/components/`
 - Types in `app/types/`
@@ -87,6 +90,7 @@ ajc-lib-search/
 See **[plan.md](../plan.md)** for detailed phase-by-phase implementation guide with copy-paste prompts.
 
 ### Current Status
+
 - ✅ **Phase 0**: Project setup complete
 - ⏳ **Phase 1**: Data model & type definitions (next)
 - ⏳ **Phase 2**: Core search engine

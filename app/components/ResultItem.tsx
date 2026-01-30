@@ -1,4 +1,4 @@
-import type { AudioLibSearchElement } from "../types/library.types";
+import type { AudioLibSearchElement } from '../types/library.types';
 
 export default function ResultItem({
   title,
@@ -12,7 +12,7 @@ export default function ResultItem({
     if (!youtubeLink) return null;
     if (timestamp && timestamp > 0) {
       // Check if link already has params
-      const separator = youtubeLink.includes("?") ? "&" : "?";
+      const separator = youtubeLink.includes('?') ? '&' : '?';
       return `${youtubeLink}${separator}t=${timestamp}s`;
     }
     return youtubeLink;

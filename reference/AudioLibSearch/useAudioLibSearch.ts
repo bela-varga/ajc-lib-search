@@ -1,4 +1,4 @@
-import { AudioLibSearchElement } from './AudioLibSearch.types';
+import type { AudioLibSearchElement } from './AudioLibSearch.types';
 
 export const useAudioLibSearch = (
   audioLibraryList: AudioLibSearchElement[],

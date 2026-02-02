@@ -1,39 +1,17 @@
 # Audio Library Search - AI Context
 
-## Project Overview
+> **For project overview, setup, and general information**, see [README.md](../README.md)
 
-**One-sentence goal**: Build a simple, fast, client-side library search app that loads a static TypeScript file and lets users search audio library items by title, description, and tags.
-
-**Target user**: Single user, desktop-first but mobile-friendly, keyboard-driven usage preferred.
+This file contains specific instructions and context for AI assistants working on this project.
 
 ---
 
-## Tech Stack
+## Quick Reference
 
-- **Framework**: Vite + React Router v7
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS (blue-ish color scheme)
-- **Deployment**: Static site (GitHub Pages, Netlify, or Vercel)
-
----
-
-## Project Structure
-
-```
-ajc-lib-search/
-├── app/                          # React Router v7 app directory
-│   ├── components/               # React components
-│   ├── hooks/                    # Custom React hooks
-│   ├── types/                    # TypeScript type definitions
-│   ├── utils/                    # Utility functions (search engine)
-│   ├── routes/                   # Route components
-│   ├── root.tsx                  # App root with Layout
-│   └── app.css                   # Global styles + Tailwind config
-├── data/                         # Static data (library items)
-│   └── library.ts                # AudioLibSearchElement[] export
-├── plan.md                       # Detailed implementation plan
-└── .ai/                          # AI context (this folder)
-```
+- **[README.md](../README.md)** - Project overview, setup, tech stack, deployment
+- **[plan.md](../plan.md)** - Implementation roadmap and phase tracking (READ THIS FIRST before coding)
+- **[DECISIONS.md](../DECISIONS.md)** - Architectural and technical decisions with rationale
+- **[CHANGELOG.md](../CHANGELOG.md)** - Chronological list of changes to the project
 
 ---
 
@@ -64,6 +42,7 @@ ajc-lib-search/
 - **Color scheme**: Blue-ish (primary colors defined in `app.css` as `--color-primary-*`)
 - **Layout**: Card-style for results with subtle shadows
 - **Responsive**: Desktop-first, mobile-friendly
+- **Language**: Hungarian UI
 
 ### UI Behavior
 
@@ -85,48 +64,6 @@ ajc-lib-search/
 
 ---
 
-## Implementation Phases
-
-See **[plan.md](../plan.md)** for detailed phase-by-phase implementation guide with copy-paste prompts.
-
-### Current Status
-
-- ✅ **Phase 0**: Project setup complete
-- ⏳ **Phase 1**: Data model & type definitions (next)
-- ⏳ **Phase 2**: Core search engine
-- ⏳ **Phase 3**: Basic UI components
-- ⏳ **Phase 4**: Wire everything together
-- ⏳ **Phase 5**: Testing & verification
-- ⏳ **Phase 6**: Pagination
-- ⏳ **Phase 7**: Advanced features (filters + copy link)
-
-**Track progress**: See `.gemini/antigravity/brain/[conversation-id]/task.md`
-
----
-
-## Common Commands
-
-```bash
-# Development
-npm run dev              # Start dev server at http://localhost:5173
-
-# Build
-npm run build            # Build for production
-
-# Testing
-npm run typecheck        # Check TypeScript types
-```
-
----
-
-## Key Files Reference
-
-- **[plan.md](../plan.md)** - Complete implementation plan with prompts for each phase
-- **[data/library.ts](../data/library.ts)** - Audio library data (will be created in Phase 1)
-- **[app/types/library.types.ts](../app/types/library.types.ts)** - Type definitions (will be created in Phase 1)
-
----
-
 ## What NOT to Do
 
 - ❌ No backend or database
@@ -138,11 +75,41 @@ npm run typecheck        # Check TypeScript types
 
 ---
 
-## Notes for AI Assistants
+## AI Workflow Instructions
 
-- Follow the phase-by-phase approach in `plan.md`
-- Each phase has a specific prompt - use it to stay focused
-- Don't add features outside the current phase
-- Reference existing folder structure and types
-- Ask if anything is unclear before coding
-- Updates to data happen via PR to the repository
+### Before Starting Any Task
+
+1. **Always read `plan.md` first** to understand the current project state and implementation phases
+2. **Check if the task is in the plan** - if not, ask the user for clarification before proceeding
+3. **Verify current phase** - don't add features outside the current phase scope
+
+### During Implementation
+
+1. **Write tests for all new code:**
+   - New components → unit tests
+   - New utility functions → unit tests  
+   - New features → integration tests if applicable
+2. **Ask before refactoring** - if you notice something that could be improved or refactored, ask the user first
+3. **Follow the code conventions** defined in this file
+
+### After Making Changes
+
+1. **Update `plan.md`** to reflect what was accomplished (mark items as completed, update status)
+2. **Update `CHANGELOG.md`** with a brief description of changes made
+3. **For significant changes** (architecture, tech stack, design decisions):
+   - Update this `.ai/context.md` file
+   - Document the decision rationale in `DECISIONS.md`
+
+### Additional Documentation
+
+- **[plan.md](../plan.md)** - Implementation roadmap and phase tracking (READ THIS FIRST)
+- **[DECISIONS.md](../DECISIONS.md)** - Architectural and technical decisions with rationale
+- **[CHANGELOG.md](../CHANGELOG.md)** - Chronological list of changes to the project
+
+### Key Principles
+
+- ✅ Follow the phase-by-phase approach in `plan.md`
+- ✅ Don't add features outside the current phase
+- ✅ Ask if anything is unclear before coding
+- ✅ Test everything you build
+- ✅ Keep documentation up to date

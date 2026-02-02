@@ -1,24 +1,57 @@
-# Welcome to React Router!
+# Audio Library Search
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A fast, client-side search application for browsing and searching an audio library. Built with Vite, React Router v7, and TypeScript.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+**One-sentence goal**: Build a simple, fast, client-side library search app that loads a static TypeScript file and lets users search audio library items by title, description, and tags.
+
+---
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- 🔍 **Fast client-side search** - Search by title, description, and tags
+- 🎯 **Keyboard-driven** - Search on Enter or button click
+- 🔗 **Shareable URLs** - Search parameters in the URL for easy sharing
+- 🇭🇺 **Hungarian UI** - Fully localized for Hungarian users
+- 📱 **Responsive** - Desktop-first, mobile-friendly design
+- 🎨 **Modern styling** - Blue-ish color scheme with Tailwind CSS
+
+---
+
+## Tech Stack
+
+- **Framework**: Vite + React Router v7
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (blue-ish color scheme)
+- **Deployment**: Static site (GitHub Pages, Netlify, or Vercel)
+
+---
+
+## Project Structure
+
+```
+ajc-lib-search/
+├── app/                          # React Router v7 app directory
+│   ├── components/               # React components
+│   ├── hooks/                    # Custom React hooks
+│   ├── types/                    # TypeScript type definitions
+│   ├── utils/                    # Utility functions (search engine)
+│   ├── routes/                   # Route components
+│   ├── root.tsx                  # App root with Layout
+│   └── app.css                   # Global styles + Tailwind config
+├── data/                         # Static data (library items)
+│   └── library.ts                # AudioLibSearchElement[] export
+├── .ai/                          # AI assistant context
+│   └── context.md                # Instructions for AI assistants
+├── plan.md                       # Detailed implementation plan
+├── DECISIONS.md                  # Architectural decisions
+└── CHANGELOG.md                  # Project changelog
+```
+
+---
 
 ## Getting Started
 
 ### Installation
-
-Install the dependencies:
 
 ```bash
 npm install
@@ -26,7 +59,7 @@ npm install
 
 ### Development
 
-Start the development server with HMR:
+Start the development server:
 
 ```bash
 npm run dev
@@ -34,54 +67,109 @@ npm run dev
 
 Your application will be available at `http://localhost:5173`.
 
-## Building for Production
-
-Create a production build:
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-## Deployment
+This creates a `dist/` folder with static files ready for deployment.
 
-### Docker Deployment
-
-To build and run using Docker:
+### Testing
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+npm run typecheck        # Check TypeScript types
+npm test                 # Run unit tests (Vitest)
 ```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
 ---
 
-Built with ❤️ using React Router.
+## Data Model
+
+The library uses a TypeScript file for data storage with the following structure:
+
+```typescript
+interface AudioLibSearchElement {
+  id: string;
+  youtubeLink?: string;    // Optional but at least one link required
+  spotifyLink?: string;    // Optional but at least one link required
+  timestamp: number;       // For YouTube &t= parameter
+  title: string;
+  description: string;
+  tags: string[];
+}
+```
+
+**Data location**: `data/library.ts` (TypeScript file, not JSON)
+
+---
+
+## Deployment
+
+The app generates static files that can be deployed to any static hosting service:
+
+### GitHub Pages
+
+1. Build the project: `npm run build`
+2. Push the `dist/` folder to `gh-pages` branch
+3. Enable GitHub Pages in repository settings
+
+### Netlify
+
+- Drag & drop the `dist` folder to Netlify
+- Or connect to GitHub for auto-deploy
+
+### Vercel
+
+- Connect your GitHub repository
+- Auto-deploy on push
+
+### Any Static Host
+
+- Upload the contents of the `dist/` folder
+
+---
+
+## Documentation
+
+- **[plan.md](./plan.md)** - Complete implementation plan with phase-by-phase guide
+- **[DECISIONS.md](./DECISIONS.md)** - Architectural and technical decisions
+- **[CHANGELOG.md](./CHANGELOG.md)** - Project changelog
+- **[.ai/context.md](./.ai/context.md)** - AI assistant instructions and context
+
+---
+
+## Current Implementation Status
+
+- ✅ **Phase 0**: Project setup
+- ✅ **Phase 1**: Data model & type definitions
+- ✅ **Phase 2**: Core search engine
+- ✅ **Phase 3**: Basic UI components
+- ✅ **Phase 4**: Wire everything together
+- ⏳ **Phase 5**: Testing & verification
+- ⏳ **Phase 6**: Pagination
+- ⏳ **Phase 7**: Advanced features (filters + copy link)
+
+See [plan.md](./plan.md) for detailed progress tracking.
+
+---
+
+## Contributing
+
+Updates to the library data happen via PR to the repository. When adding new entries:
+
+1. Edit `data/library.ts`
+2. Follow the existing type structure
+3. Submit a PR
+
+---
+
+## License
+
+[Add your license here]
+
+---
+
+## AI Assistant Instructions
+
+If you're an AI assistant helping with this project, **please read [.ai/context.md](./.ai/context.md) first** for important context, conventions, and workflow guidelines.

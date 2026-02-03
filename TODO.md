@@ -43,6 +43,7 @@ Quick list of ideas, improvements, and tasks to consider for the project.
 - [ ] Dark mode toggle
 - [ ] Search history
 - [ ] Virtual scrolling for large libraries
+- [ ] dynamic import of library data
 
 
 ---

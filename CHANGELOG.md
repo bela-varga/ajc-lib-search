@@ -6,11 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## [Unreleased]
+## [2026-02-03] - Accessibility & Code Refactoring
+
+### Added
+- `ExternalLink` component (`app/components/ExternalLink.tsx`) for accessible external links
+- Unit tests for `ExternalLink` with `jsdom` setup
+
+### Changed
+- ResultItem now uses `ExternalLink` for YouTube and Spotify links (adds visual icon & screen-reader warnings)
+- Refactored imports to use `import type` across the codebase for better performance
+- Configured Vitest setup with `@testing-library/react` and `jsdom`
+
+---
+
+## [2026-02-02] - AI Assistant helping updates
 
 ### Added
 - Initial documentation structure (`.ai/context.md`, `DECISIONS.md`, `CHANGELOG.md`)
 - AI instruction files for multiple AI assistants (`.cursorrules`, `.github/copilot-instructions.md`, etc.)
+
+### Changed
+- updated context.md to be the main source of truth for AI assistants
 
 ---
 

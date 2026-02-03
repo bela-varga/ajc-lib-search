@@ -1,4 +1,5 @@
 import type { AudioLibSearchElement } from '../types/library.types';
+import { ExternalLink } from './ExternalLink';
 
 export default function ResultItem({
   title,
@@ -52,24 +53,20 @@ export default function ResultItem({
         {/* Links */}
         <div className="flex flex-wrap gap-3 mt-1">
           {finalYoutubeLink && (
-            <a
+            <ExternalLink
               href={finalYoutubeLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 hover:underline"
+              className="text-sm font-medium text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300"
             >
               YouTube
-            </a>
+            </ExternalLink>
           )}
           {spotifyLink && (
-            <a
+            <ExternalLink
               href={spotifyLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 hover:underline"
+              className="text-sm font-medium text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
             >
               Spotify
-            </a>
+            </ExternalLink>
           )}
         </div>
       </div>

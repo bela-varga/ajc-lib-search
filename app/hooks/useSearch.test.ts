@@ -4,14 +4,12 @@ import { useSearch } from './useSearch';
 import { searchLibrary } from '../utils/searchEngine';
 import { audioLibraryList } from '../../data/AJCaudioLibraryList';
 
-// Mock the search engine
 vi.mock('../utils/searchEngine', () => ({
   searchLibrary: vi.fn(),
 }));
 
-// Mock the data
 vi.mock('../../data/AJCaudioLibraryList', () => ({
-  audioLibraryList: ['mock-data'], // Just a placeholder, as we check checking referential equality or just passing it through
+  audioLibraryList: ['mock-data'],
 }));
 
 describe('useSearch', () => {
@@ -37,10 +35,8 @@ describe('useSearch', () => {
       result.current.handleSearch('test');
     });
 
-    // Verify searchLibrary was called with the imported data list and the query
     expect(searchLibrary).toHaveBeenCalledWith(audioLibraryList, 'test');
     
-    // Verify state updates
     expect(result.current.results).toEqual(mockResults);
     expect(result.current.hasSearched).toBe(true);
     expect(result.current.searchQuery).toBe('test');

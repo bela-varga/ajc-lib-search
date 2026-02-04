@@ -3,7 +3,6 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import Home, { meta } from './home';
 import { useSearch } from '~/hooks/useSearch';
 
-// Mock the hook
 vi.mock('~/hooks/useSearch', () => ({
   useSearch: vi.fn(),
 }));

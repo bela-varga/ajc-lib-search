@@ -61,6 +61,7 @@ This file contains specific instructions and context for AI assistants working o
 - Types in `app/types/`
 - Keep search logic in `app/utils/searchEngine.ts`
 - Use React Router for URL-based search params (shareable URLs)
+- **Testing**: Always use `npm run test:run` to avoid watch mode.
 
 ---
 

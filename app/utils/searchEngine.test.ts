@@ -24,6 +24,20 @@ const mockLibrary: AudioLibSearchElement[] = [
     tags: ['metal', 'heavy'],
     timestamp: 0,
   },
+  {
+    id: '4',
+    title: 'Dr. Dre & Snoop Dogg',
+    description: 'Hip-Hop classics',
+    tags: ['rap', '90s', '$money$'],
+    timestamp: 0,
+  },
+  {
+    id: '5',
+    title: 'Café del Mar',
+    description: 'Chillout & Lounge',
+    tags: ['chill', 'ambience'],
+    timestamp: 0,
+  },
 ];
 
 describe('searchLibrary', () => {
@@ -55,8 +69,6 @@ describe('searchLibrary', () => {
 
   it('should return multiple results if they match', () => {
     const results = searchLibrary(mockLibrary, 'a');
-    // "Jazz Saxophone", "Pop Hit", "Heavy Metal" all contain 'a' in title or description or tags
-    // Jazz (tags), Pop (description - "Classic"), Metal (title)
     expect(results.length).toBeGreaterThanOrEqual(2);
   });
 
@@ -66,7 +78,34 @@ describe('searchLibrary', () => {
 
   it('should trim query before searching', () => {
     const results = searchLibrary(mockLibrary, '  heavy  ');
+    expect(results[0].id).toBe('3');
+  });
+
+  it('should handle special characters in query', () => {
+    const resultsAnd = searchLibrary(mockLibrary, '&');
+    expect(resultsAnd).toHaveLength(2);
+    expect(resultsAnd.map(r => r.id)).toContain('4');
+    expect(resultsAnd.map(r => r.id)).toContain('5');
+
+    const resultsMoney = searchLibrary(mockLibrary, '$money$');
+    expect(resultsMoney).toHaveLength(1);
+    expect(resultsMoney[0].id).toBe('4');
+  });
+  
+  it('should match mixed case tags specifically', () => {
+    const results = searchLibrary(mockLibrary, 'MeTaL');
     expect(results).toHaveLength(1);
     expect(results[0].id).toBe('3');
+  });
+
+  it('should handle queries with accents', () => {
+     // "Café" has an accent
+     const results = searchLibrary(mockLibrary, 'Café');
+     expect(results).toHaveLength(1);
+     expect(results[0].id).toBe('5');
+     
+     // Verify that searching without accent does NOT find the accented item (current limitation)
+     const resultsNoAccent = searchLibrary(mockLibrary, 'cafe');
+     expect(resultsNoAccent).toEqual([]);
   });
 });

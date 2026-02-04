@@ -1,19 +1,11 @@
 import type { AudioLibSearchElement } from '../types/library.types';
 import ResultItem from './ResultItem';
 
-interface ResultsListProps {
-  results: AudioLibSearchElement[];
-  hasSearched: boolean;
-}
-
 export default function ResultsList({
   results,
-  hasSearched,
-}: ResultsListProps) {
-  if (!hasSearched) {
-    return null;
-  }
-
+}: {
+  results: AudioLibSearchElement[];
+}) {
   if (results.length === 0) {
     return (
       <div className="mt-8 text-center text-gray-500 dark:text-gray-400">

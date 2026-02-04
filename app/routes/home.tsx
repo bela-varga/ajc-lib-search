@@ -29,9 +29,11 @@ export default function Home() {
             <SearchBar onSearch={handleSearch} />
           </div>
 
-          <div className="w-full">
-            <ResultsList results={results} hasSearched={hasSearched} />
-          </div>
+          {hasSearched && (
+            <div className="w-full">
+              <ResultsList results={results} />
+            </div>
+          )}
         </div>
       </div>
     </div>

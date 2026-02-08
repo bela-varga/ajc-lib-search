@@ -2,7 +2,8 @@ import type { AudioLibSearchElement } from '../types/library.types';
 import { ExternalLink } from './ExternalLink';
 
 export default function ResultItem({
-  title,
+  talkTitle,
+  topicTitle,
   description,
   tags,
   youtubeLink,
@@ -26,10 +27,22 @@ export default function ResultItem({
       <div className="flex flex-col gap-3">
         {/* Header: Title */}
         <div>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight">
-            {title}
-          </h3>
+          {topicTitle && (
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight">
+              {topicTitle}
+            </h3>
+          )}
+          {talkTitle && (
+            <div className="text-xs font-medium text-blue-600 dark:text-blue-400 mb-0.5 uppercase tracking-wider">
+              {talkTitle}
+            </div>
+          )}
         </div>
+
+        {/* Description - optionally truncated if very long, but for now full */}
+        <p className="text-sm text-gray-600 dark:text-gray-300">
+          {description}
+        </p>
 
         {/* Tags */}
         {tags && tags.length > 0 && (
@@ -44,11 +57,6 @@ export default function ResultItem({
             ))}
           </div>
         )}
-
-        {/* Description - optionally truncated if very long, but for now full */}
-        <p className="text-sm text-gray-600 dark:text-gray-300">
-          {description}
-        </p>
 
         {/* Links */}
         <div className="flex flex-wrap gap-3 mt-1">

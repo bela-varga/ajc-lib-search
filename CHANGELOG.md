@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-02-08] - Data Model Refactoring (Talk Title & Topic Title)
+
+### Changed
+- Renamed `title` to `talkTitle` in `AudioLibSearchElement` type definition.
+- Added optional `topicTitle` field to `AudioLibSearchElement`.
+- did changes across the codebase to support the new fields.
+
 ---
 
 ## [2026-02-03] - Accessibility & Code Refactoring

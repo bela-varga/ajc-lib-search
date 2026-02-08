@@ -26,7 +26,7 @@ describe('useSearch', () => {
   });
 
   it('performs search and updates state', () => {
-    const mockResults = [{ id: '1', title: 'Test', description: 'desc', tags: [], timestamp: 0 }];
+    const mockResults = [{ id: '1', talkTitle: 'Test', description: 'desc', tags: [], timestamp: 0 }];
     (searchLibrary as any).mockReturnValue(mockResults);
 
     const { result } = renderHook(() => useSearch());

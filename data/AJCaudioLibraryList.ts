@@ -16,7 +16,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 0,
-    title: 'Előadás, 2020 március',
+    topicTitle: 'Előadás, 2020 március',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Előadás, 2020 március',
     tags: ['teljes előadás'], // TODO: betenni ide az összes tag-et, ami ez alatt az előadás alatt van
   },
@@ -25,7 +26,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 113,
-    title: 'Bűn, Karma',
+    topicTitle: 'Bűn, Karma',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Bűn, Karma - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'bűn', 'karma'],
   },
@@ -34,7 +36,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 403,
-    title: 'Fájdalom - Spirituális, Testi',
+    topicTitle: 'Fájdalom - Spirituális, Testi',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Fájdalom - Spirituális, Testi - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'fájdalom', 'végtelen', 'fejlődés'],
   },
@@ -43,7 +46,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 806,
-    title: 'Járvány',
+    topicTitle: 'Járvány',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Járvány - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'járvány', 'koronavírus', 'covid'],
   },
@@ -52,7 +56,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 1913,
-    title: 'Születés - Ikrek',
+    topicTitle: 'Születés - Ikrek',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Születés - Ikrek - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'születés', 'ikrek'],
   },
@@ -61,7 +66,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 2156,
-    title: 'Tanítóvá válni',
+    topicTitle: 'Tanítóvá válni',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Tanítóvá válni - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'tanító', 'tanítás'],
   },
@@ -70,7 +76,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 2520,
-    title: 'Függőség',
+    topicTitle: 'Függőség',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Függőség - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'függőség'],
   },
@@ -79,7 +86,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 2967,
-    title: 'Szeretet-Határtalan szeretet',
+    topicTitle: 'Szeretet-Határtalan szeretet',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Szeretet-Határtalan szeretet - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'szeretet', 'határtalan szeretet'],
   },
@@ -88,7 +96,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 3074,
-    title: 'Család: szülő-gyerek',
+    topicTitle: 'Család: szülő-gyerek',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Család: szülő-gyerek - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'család', 'szülő', 'gyerek'],
   },
@@ -97,7 +106,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 3181,
-    title: 'Halál',
+    topicTitle: 'Halál',
+    talkTitle: 'Előadás, 2020 március',
     description:
       'Halál - Előadás, 2020 március ("2 éve meghalt édesanyám láthatja, tudhatja, hogy mi van velünk, mi van a családdal?")',
     tags: ['2020 március előadás', 'halál', 'halál után'],
@@ -107,7 +117,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 3852,
-    title: 'Tudatos testkilépés -tudatos öngyilkosság',
+    topicTitle: 'Tudatos testkilépés -tudatos öngyilkosság',
+    talkTitle: 'Előadás, 2020 március',
     description:
       'Tudatos testkilépés -tudatos öngyilkosság - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'öngyilkosság', 'tudatos halál'], // "tudatos" kell ide vagy jó ide? nem lenne más jobb?
@@ -117,7 +128,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4081,
-    title: 'Párkapcsolat, érzelmi zsarolás, szakítás',
+    topicTitle: 'Párkapcsolat, érzelmi zsarolás, szakítás',
+    talkTitle: 'Előadás, 2020 március',
     description:
       'Párkapcsolat, érzelmi zsarolás, szakítás - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: [
@@ -132,7 +144,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4342,
-    title: 'Nagy Ő(k)',
+    topicTitle: 'Nagy Ő(k)',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Nagy Ő(k) - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'nagy Ő'],
   },
@@ -141,7 +154,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4632,
-    title: 'Üdvözlet',
+    topicTitle: 'Üdvözlet',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Üdvözlet - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás'],
   },
@@ -150,7 +164,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4647,
-    title: 'Christian, Te hogy vagy?',
+    topicTitle: 'Christian, Te hogy vagy?',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Christian, Te hogy vagy? - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'Christian'],
   },
@@ -159,7 +174,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4662,
-    title: 'Befelé figyelés - betegségek',
+    topicTitle: 'Befelé figyelés - betegségek',
+    talkTitle: 'Előadás, 2020 március',
     description: 'Befelé figyelés - betegségek - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'befelé figyelés', 'betegség'],
   },
@@ -168,7 +184,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4736,
-    title: 'A határtalan szeretet megélése',
+    topicTitle: 'A határtalan szeretet megélése',
+    talkTitle: 'Előadás, 2020 március',
     description: 'A határtalan szeretet megélése - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'határtalan szeretet'],
   },
@@ -177,7 +194,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=zOJ7pullkyg',
     spotifyLink: 'spotifylink',
     timestamp: 4832,
-    title: 'Kedves Chris, mi a legfontosabb üzeneted számunkra?',
+    topicTitle: 'Kedves Chris, mi a legfontosabb üzeneted számunkra?',
+    talkTitle: 'Előadás, 2020 március',
     description:
       'Kedves Chris, mi a legfontosabb üzeneted számunkra? - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'üzenet'], // ? , "koronavírus", "covid"
@@ -187,7 +205,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=PQgM2PUoI4U',
     spotifyLink: 'spotifylink',
     timestamp: 0,
-    title: 'Társadalom, egyén, gyógyulás',
+    topicTitle: 'Társadalom, egyén, gyógyulás',
+    talkTitle: 'Társadalom, egyén, gyógyulás',
     description: 'Társadalom, egyén, gyógyulás',
     tags: ['covid', 'koronavírus', 'járvány', 'egyén', 'társadalom'],
   },
@@ -196,7 +215,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=PQgM2PUoI4U',
     spotifyLink: 'spotifylink',
     timestamp: 0,
-    title: 'Orvosok és a járvány',
+    topicTitle: 'Orvosok és a járvány',
+    talkTitle: 'Társadalom, egyén, gyógyulás',
     description: 'Orvosok és a járvány (Covid)',
     tags: ['covid', 'koronavírus', 'járvány'],
   },
@@ -205,7 +225,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=PQgM2PUoI4U',
     spotifyLink: 'spotifylink',
     timestamp: 147,
-    title: 'Társadalom, egyén, gyógyulás',
+    topicTitle: 'Társadalom, egyén, gyógyulás',
+    talkTitle: 'Társadalom, egyén, gyógyulás',
     description: 'Társadalom, egyén, gyógyulás',
     tags: ['covid', 'koronavírus', 'járvány', 'egyén', 'társadalom'],
   },

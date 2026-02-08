@@ -5,37 +5,45 @@ import type { AudioLibSearchElement } from '../types/library.types';
 const mockLibrary: AudioLibSearchElement[] = [
   {
     id: '1',
-    title: 'Jazz Saxophone',
+    talkTitle: 'Jazz Saxophone',
     description: 'Smooth jazz rhythms',
     tags: ['jazz', 'instrumental'],
     timestamp: 0,
   },
   {
     id: '2',
-    title: 'Pop Hit',
+    talkTitle: 'Pop Hit',
     description: 'Classic 80s pop song',
     tags: ['pop', '80s'],
     timestamp: 10,
   },
   {
     id: '3',
-    title: 'Heavy Metal',
+    talkTitle: 'Heavy Metal',
     description: 'Intense guitar solos',
     tags: ['metal', 'heavy'],
     timestamp: 0,
   },
   {
     id: '4',
-    title: 'Dr. Dre & Snoop Dogg',
+    talkTitle: 'Dr. Dre & Snoop Dogg',
     description: 'Hip-Hop classics',
     tags: ['rap', '90s', '$money$'],
     timestamp: 0,
   },
   {
     id: '5',
-    title: 'Café del Mar',
+    talkTitle: 'Café del Mar',
     description: 'Chillout & Lounge',
     tags: ['chill', 'ambience'],
+    timestamp: 0,
+  },
+  {
+    id: '6',
+    talkTitle: 'The Cross and Violence',
+    topicTitle: 'Christianity and Violence',
+    description: 'Discussion on historical context',
+    tags: ['theology', 'history'],
     timestamp: 0,
   },
 ];
@@ -49,10 +57,16 @@ describe('searchLibrary', () => {
     expect(searchLibrary(mockLibrary, '   ')).toEqual([]);
   });
 
-  it('should match title regardless of case', () => {
+  it('should match talkTitle regardless of case', () => {
     const results = searchLibrary(mockLibrary, 'JAZZ');
     expect(results).toHaveLength(1);
     expect(results[0].id).toBe('1');
+  });
+
+  it('should match topicTitle regardless of case', () => {
+    const results = searchLibrary(mockLibrary, 'CHRISTIANITY');
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe('6');
   });
 
   it('should match description regardless of case', () => {

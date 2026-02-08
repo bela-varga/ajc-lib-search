@@ -42,7 +42,7 @@ describe('Home route', () => {
 
   it('renders results state correctly', () => {
     (useSearch as any).mockReturnValue({
-      results: [{ id: '1', title: 'Test Result', description: 'Desc', tags: [], timestamp: 0 }],
+      results: [{ id: '1', talkTitle: 'Test Result', description: 'Desc', tags: [], timestamp: 0 }],
       hasSearched: true,
       handleSearch: vi.fn(),
       searchQuery: 'test',

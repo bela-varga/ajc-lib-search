@@ -28,7 +28,10 @@ export function searchLibrary(
   }
 
   return library.filter((item) => {
-    const titleMatch = item.title.toLowerCase().includes(normalizedQuery);
+    const talkTitleMatch = item.talkTitle.toLowerCase().includes(normalizedQuery);
+    const topicTitleMatch = item.topicTitle
+      ?.toLowerCase()
+      .includes(normalizedQuery);
     const descriptionMatch = item.description
       .toLowerCase()
       .includes(normalizedQuery);
@@ -36,6 +39,8 @@ export function searchLibrary(
       tag.toLowerCase().includes(normalizedQuery),
     );
 
-    return titleMatch || descriptionMatch || tagMatch;
+    return (
+      talkTitleMatch || topicTitleMatch || descriptionMatch || tagMatch
+    );
   });
 }

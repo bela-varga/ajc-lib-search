@@ -5,7 +5,8 @@ import type { AudioLibSearchElement } from '../types/library.types';
 
 const mockItem: AudioLibSearchElement = {
   id: '1',
-  title: 'Test Title',
+  talkTitle: 'Test Title',
+  topicTitle: 'Test Topic',
   description: 'Test Description',
   tags: ['tag1', 'tag2'],
   youtubeLink: 'https://youtube.com/watch?v=123',
@@ -14,10 +15,11 @@ const mockItem: AudioLibSearchElement = {
 };
 
 describe('ResultItem', () => {
-  it('renders title, description, and tags', () => {
+  it('renders talkTitle, topicTitle, description, and tags', () => {
     render(<ResultItem {...mockItem} />);
 
     expect(screen.getByText('Test Title')).toBeInTheDocument();
+    expect(screen.getByText('Test Topic')).toBeInTheDocument();
     expect(screen.getByText('Test Description')).toBeInTheDocument();
     expect(screen.getByText('tag1')).toBeInTheDocument();
     expect(screen.getByText('tag2')).toBeInTheDocument();

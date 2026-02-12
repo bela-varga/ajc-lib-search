@@ -13,7 +13,6 @@ export default function ResultItem({
   const getYoutubeLink = () => {
     if (!youtubeLink) return null;
     if (timestamp && timestamp > 0) {
-      // Check if link already has params
       const separator = youtubeLink.includes('?') ? '&' : '?';
       return `${youtubeLink}${separator}t=${timestamp}s`;
     }
@@ -25,7 +24,6 @@ export default function ResultItem({
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-4 hover:shadow-md transition-shadow duration-200">
       <div className="flex flex-col gap-3">
-        {/* Header: Title */}
         <div>
           {topicTitle && (
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight">
@@ -39,12 +37,12 @@ export default function ResultItem({
           )}
         </div>
 
-        {/* Description - optionally truncated if very long, but for now full */}
-        <p className="text-sm text-gray-600 dark:text-gray-300">
-          {description}
-        </p>
+        {description !== topicTitle && (
+          <p className="text-sm text-gray-600 dark:text-gray-300">
+            {description}
+          </p>
+        )}
 
-        {/* Tags */}
         {tags && tags.length > 0 && (
           <div className="flex flex-wrap gap-2">
             {tags.map((tag) => (
@@ -58,7 +56,6 @@ export default function ResultItem({
           </div>
         )}
 
-        {/* Links */}
         <div className="flex flex-wrap gap-3 mt-1">
           {finalYoutubeLink && (
             <ExternalLink

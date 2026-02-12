@@ -28,7 +28,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 113,
     topicTitle: 'Bűn, Karma',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Bűn, Karma - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Bűn, Karma', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'bűn', 'karma'],
   },
   {
@@ -38,7 +38,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 403,
     topicTitle: 'Fájdalom - Spirituális, Testi',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Fájdalom - Spirituális, Testi - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Fájdalom - Spirituális, Testi', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'fájdalom', 'végtelen', 'fejlődés'],
   },
   {
@@ -48,7 +48,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 806,
     topicTitle: 'Járvány',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Járvány - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Járvány', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'járvány', 'koronavírus', 'covid'],
   },
   {
@@ -58,7 +58,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1913,
     topicTitle: 'Születés - Ikrek',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Születés - Ikrek - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Születés - Ikrek', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'születés', 'ikrek'],
   },
   {
@@ -68,7 +68,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2156,
     topicTitle: 'Tanítóvá válni',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Tanítóvá válni - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Tanítóvá válni', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'tanító', 'tanítás'],
   },
   {
@@ -78,7 +78,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2520,
     topicTitle: 'Függőség',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Függőség - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Függőség', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'függőség'],
   },
   {
@@ -88,7 +88,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2967,
     topicTitle: 'Szeretet-Határtalan szeretet',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Szeretet-Határtalan szeretet - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Szeretet-Határtalan szeretet', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'szeretet', 'határtalan szeretet'],
   },
   {
@@ -98,7 +98,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3074,
     topicTitle: 'Család: szülő-gyerek',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Család: szülő-gyerek - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Család: szülő-gyerek', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'család', 'szülő', 'gyerek'],
   },
   {
@@ -109,7 +109,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     topicTitle: 'Halál',
     talkTitle: 'Előadás, 2020 március',
     description:
-      'Halál - Előadás, 2020 március ("2 éve meghalt édesanyám láthatja, tudhatja, hogy mi van velünk, mi van a családdal?")',
+      'Halál ("2 éve meghalt édesanyám láthatja, tudhatja, hogy mi van velünk, mi van a családdal?")',
     tags: ['2020 március előadás', 'halál', 'halál után'],
   },
   {
@@ -120,7 +120,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     topicTitle: 'Tudatos testkilépés -tudatos öngyilkosság',
     talkTitle: 'Előadás, 2020 március',
     description:
-      'Tudatos testkilépés -tudatos öngyilkosság - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+      'Tudatos testkilépés -tudatos öngyilkosság', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'öngyilkosság', 'tudatos halál'], // "tudatos" kell ide vagy jó ide? nem lenne más jobb?
   },
   {
@@ -131,7 +131,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     topicTitle: 'Párkapcsolat, érzelmi zsarolás, szakítás',
     talkTitle: 'Előadás, 2020 március',
     description:
-      'Párkapcsolat, érzelmi zsarolás, szakítás - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+      'Párkapcsolat, érzelmi zsarolás, szakítás', // TODO?: teljes kerdest beirni zarojelben?
     tags: [
       '2020 március előadás',
       'párkapcsolat',
@@ -146,7 +146,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4342,
     topicTitle: 'Nagy Ő(k)',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Nagy Ő(k) - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Nagy Ő(k)', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'nagy Ő'],
   },
   {
@@ -156,7 +156,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4632,
     topicTitle: 'Üdvözlet',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Üdvözlet - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Üdvözlet', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás'],
   },
   {
@@ -166,7 +166,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4647,
     topicTitle: 'Christian, Te hogy vagy?',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Christian, Te hogy vagy? - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Christian, Te hogy vagy?', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'Christian'],
   },
   {
@@ -176,7 +176,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4662,
     topicTitle: 'Befelé figyelés - betegségek',
     talkTitle: 'Előadás, 2020 március',
-    description: 'Befelé figyelés - betegségek - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Befelé figyelés - betegségek', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'befelé figyelés', 'betegség'],
   },
   {
@@ -186,7 +186,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4736,
     topicTitle: 'A határtalan szeretet megélése',
     talkTitle: 'Előadás, 2020 március',
-    description: 'A határtalan szeretet megélése - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'A határtalan szeretet megélése', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'határtalan szeretet'],
   },
   {
@@ -197,7 +197,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     topicTitle: 'Kedves Chris, mi a legfontosabb üzeneted számunkra?',
     talkTitle: 'Előadás, 2020 március',
     description:
-      'Kedves Chris, mi a legfontosabb üzeneted számunkra? - Előadás, 2020 március', // TODO?: teljes kerdest beirni zarojelben?
+      'Kedves Chris, mi a legfontosabb üzeneted számunkra?', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'üzenet'], // ? , "koronavírus", "covid"
   },
   {

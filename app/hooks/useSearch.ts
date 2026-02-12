@@ -18,7 +18,6 @@ export function useSearch(): UseSearchResult {
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query);
 
-    // Perform search
     const searchResults = searchLibrary(audioLibraryList, query);
     setResults(searchResults);
     setHasSearched(true);

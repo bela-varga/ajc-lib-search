@@ -7,9 +7,7 @@ export interface AudioLibSearchElement {
   youtubeLink?: string;
   spotifyLink?: string;
   timestamp: number;
-  /** The specific title of the talk or segment */
   talkTitle: string;
-  /** The broader topic title the talk belongs to, if applicable */
   topicTitle?: string;
   description: string;
   tags: string[];

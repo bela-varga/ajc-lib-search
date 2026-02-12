@@ -4,20 +4,20 @@ import ResultsList from './ResultsList';
 import type { AudioLibSearchElement } from '../types/library.types';
 
 vi.mock('./ResultItem', () => ({
-  default: ({ title }: { title: string }) => <div data-testid="result-item">{title}</div>,
+  default: ({ talkTitle }: { talkTitle: string }) => <div data-testid="result-item">{talkTitle}</div>,
 }));
 
 const mockResults: AudioLibSearchElement[] = [
   {
     id: '1',
-    title: 'Item 1',
+    talkTitle: 'Item 1',
     description: 'Desc 1',
     tags: ['tag1'],
     timestamp: 0,
   },
   {
     id: '2',
-    title: 'Item 2',
+    talkTitle: 'Item 2',
     description: 'Desc 2',
     tags: ['tag2'],
     timestamp: 0,

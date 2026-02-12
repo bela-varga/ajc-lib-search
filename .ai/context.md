@@ -25,13 +25,14 @@ This file contains specific instructions and context for AI assistants working o
   youtubeLink?: string;    // Optional but at least one link required
   spotifyLink?: string;    // Optional but at least one link required
   timestamp: number;       // For YouTube &t= parameter
-  title: string;
+  talkTitle: string;       // The talk/video title
+  topicTitle?: string;     // Optional topic/segment title within the talk
   description: string;
   tags: string[];
 }
 ```
 
-**Data location**: `data/library.ts` (TypeScript file, not JSON)
+**Data location**: `data/AJCaudioLibraryList.ts` (TypeScript file, not JSON)
 
 ---
 

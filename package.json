@@ -10,7 +10,9 @@
     "test": "vitest",
     "test:run": "vitest run",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "check": "npm run typecheck && npm run lint:fix && npm run format"
   },
   "dependencies": {
     "@react-router/node": "7.12.0",

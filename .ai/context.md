@@ -96,9 +96,10 @@ This file contains specific instructions and context for AI assistants working o
 
 ### After Making Changes
 
-1. **Update `plan.md`** to reflect what was accomplished (mark items as completed, update status)
-2. **Update `CHANGELOG.md`** with a brief description of changes made
-3. **For significant changes** (architecture, tech stack, design decisions):
+1. **Run quality checks**: `npm run check` (runs typecheck, lint:fix, and format)
+2. **Update `plan.md`** to reflect what was accomplished (mark items as completed, update status)
+3. **Update `CHANGELOG.md`** with a brief description of changes made
+4. **For significant changes** (architecture, tech stack, design decisions):
    - Update this `.ai/context.md` file
    - Document the decision rationale in `DECISIONS.md`
 

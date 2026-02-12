@@ -92,12 +92,12 @@ describe('ResultItem', () => {
   });
 
   it('does not render links if they are missing', () => {
-    const itemNoLinks: AudioLibSearchElement = {
+    const itemNoLinks = {
       ...mockItem,
       youtubeLink: undefined,
       spotifyLink: undefined,
     };
-    render(<ResultItem {...itemNoLinks} />);
+    render(<ResultItem {...(itemNoLinks as AudioLibSearchElement)} />);
 
     expect(
       screen.queryByRole('link', { name: /YouTube/i }),

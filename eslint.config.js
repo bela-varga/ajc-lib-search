@@ -39,4 +39,11 @@ export default tseslint.config(
       },
     },
   },
+  // Override for test files
+  {
+    files: ['**/*.test.{ts,tsx}'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+    },
+  },
 );

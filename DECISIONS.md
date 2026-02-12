@@ -20,6 +20,7 @@ Use Vite + React Router v7 + TypeScript + Tailwind CSS
 ### Rationale
 
 **Pros:**
+
 - Fast development with hot module replacement
 - TypeScript support out of the box
 - React Router v7 provides routing infrastructure for shareable URLs with search parameters
@@ -57,6 +58,7 @@ Use TypeScript file (`data/library.ts`) with exported array
 ### Rationale
 
 **TypeScript file benefits:**
+
 - ✅ Type-safe at compile time
 - ✅ Direct import, no fetch needed
 - ✅ Better DX in the repository
@@ -64,6 +66,7 @@ Use TypeScript file (`data/library.ts`) with exported array
 - ✅ IDE autocomplete when editing data
 
 **JSON file drawbacks:**
+
 - ❌ No compile-time type safety
 - ❌ Needs runtime validation
 - ❌ No comments support
@@ -136,14 +139,17 @@ When adding a new decision, use this template:
 [Why this decision? What are the tradeoffs?]
 
 **Pros:**
+
 - [Benefit 1]
 - [Benefit 2]
 
 **Cons:**
+
 - [Drawback 1]
 - [Drawback 2]
 
 **Alternatives Considered:**
+
 - [Alternative 1 and why it wasn't chosen]
 - [Alternative 2 and why it wasn't chosen]
 ```

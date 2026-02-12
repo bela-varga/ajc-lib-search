@@ -10,7 +10,11 @@ interface ExternalLinkProps {
  * A link component that safely opens urls in a new tab with accessibility features.
  * Includes a visual icon and screen-reader only text indicating the new window behavior.
  */
-export function ExternalLink({ href, children, className = '' }: ExternalLinkProps) {
+export function ExternalLink({
+  href,
+  children,
+  className = '',
+}: ExternalLinkProps) {
   return (
     <a
       href={href}

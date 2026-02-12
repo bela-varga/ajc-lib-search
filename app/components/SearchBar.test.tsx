@@ -7,8 +7,12 @@ describe('SearchBar', () => {
     const onSearch = vi.fn();
     render(<SearchBar onSearch={onSearch} />);
 
-    expect(screen.getByRole('textbox', { name: /Keresés/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Keresés/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole('textbox', { name: /Keresés/i }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: /Keresés/i }),
+    ).toBeInTheDocument();
   });
 
   it('updates input value on change', () => {

@@ -119,8 +119,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3852,
     topicTitle: 'Tudatos testkilépés -tudatos öngyilkosság',
     talkTitle: 'Előadás, 2020 március',
-    description:
-      'Tudatos testkilépés -tudatos öngyilkosság', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Tudatos testkilépés -tudatos öngyilkosság', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'öngyilkosság', 'tudatos halál'], // "tudatos" kell ide vagy jó ide? nem lenne más jobb?
   },
   {
@@ -130,8 +129,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4081,
     topicTitle: 'Párkapcsolat, érzelmi zsarolás, szakítás',
     talkTitle: 'Előadás, 2020 március',
-    description:
-      'Párkapcsolat, érzelmi zsarolás, szakítás', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Párkapcsolat, érzelmi zsarolás, szakítás', // TODO?: teljes kerdest beirni zarojelben?
     tags: [
       '2020 március előadás',
       'párkapcsolat',
@@ -196,8 +194,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4832,
     topicTitle: 'Kedves Chris, mi a legfontosabb üzeneted számunkra?',
     talkTitle: 'Előadás, 2020 március',
-    description:
-      'Kedves Chris, mi a legfontosabb üzeneted számunkra?', // TODO?: teljes kerdest beirni zarojelben?
+    description: 'Kedves Chris, mi a legfontosabb üzeneted számunkra?', // TODO?: teljes kerdest beirni zarojelben?
     tags: ['2020 március előadás', 'üzenet'], // ? , "koronavírus", "covid"
   },
   {

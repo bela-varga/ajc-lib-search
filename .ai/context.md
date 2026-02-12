@@ -89,7 +89,7 @@ This file contains specific instructions and context for AI assistants working o
 
 1. **Write tests for all new code:**
    - New components → unit tests
-   - New utility functions → unit tests  
+   - New utility functions → unit tests
    - New features → integration tests if applicable
 2. **Ask before refactoring** - if you notice something that could be improved or refactored, ask the user first
 3. **Follow the code conventions** defined in this file

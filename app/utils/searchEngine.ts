@@ -28,19 +28,19 @@ export function searchLibrary(
   }
 
   return library.filter((item) => {
-    const talkTitleMatch = item.talkTitle.toLowerCase().includes(normalizedQuery);
+    const talkTitleMatch = item.talkTitle
+      ?.toLowerCase()
+      .includes(normalizedQuery);
     const topicTitleMatch = item.topicTitle
       ?.toLowerCase()
       .includes(normalizedQuery);
     const descriptionMatch = item.description
-      .toLowerCase()
+      ?.toLowerCase()
       .includes(normalizedQuery);
-    const tagMatch = item.tags.some((tag) =>
+    const tagMatch = item.tags?.some((tag) =>
       tag.toLowerCase().includes(normalizedQuery),
     );
 
-    return (
-      talkTitleMatch || topicTitleMatch || descriptionMatch || tagMatch
-    );
+    return talkTitleMatch || topicTitleMatch || descriptionMatch || tagMatch;
   });
 }

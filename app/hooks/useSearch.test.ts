@@ -26,7 +26,15 @@ describe('useSearch', () => {
   });
 
   it('performs search and updates state', () => {
-    const mockResults = [{ id: '1', talkTitle: 'Test', description: 'desc', tags: [], timestamp: 0 }];
+    const mockResults = [
+      {
+        id: '1',
+        talkTitle: 'Test',
+        description: 'desc',
+        tags: [],
+        timestamp: 0,
+      },
+    ];
     (searchLibrary as any).mockReturnValue(mockResults);
 
     const { result } = renderHook(() => useSearch());
@@ -36,7 +44,7 @@ describe('useSearch', () => {
     });
 
     expect(searchLibrary).toHaveBeenCalledWith(audioLibraryList, 'test');
-    
+
     expect(result.current.results).toEqual(mockResults);
     expect(result.current.hasSearched).toBe(true);
     expect(result.current.searchQuery).toBe('test');

@@ -91,9 +91,9 @@ The library uses a TypeScript file for data storage with the following structure
 ```typescript
 interface AudioLibSearchElement {
   id: string;
-  youtubeLink?: string;    // Optional but at least one link required
-  spotifyLink?: string;    // Optional but at least one link required
-  timestamp: number;       // For YouTube &t= parameter
+  youtubeLink?: string; // Optional but at least one link required
+  spotifyLink?: string; // Optional but at least one link required
+  timestamp: number; // For YouTube &t= parameter
   title: string;
   description: string;
   tags: string[];

@@ -9,6 +9,8 @@ const mockLibrary: AudioLibSearchElement[] = [
     description: 'Smooth jazz rhythms',
     tags: ['jazz', 'instrumental'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=1',
+    spotifyLink: 'https://www.spotify.com/track/1',
   },
   {
     id: '2',
@@ -16,6 +18,8 @@ const mockLibrary: AudioLibSearchElement[] = [
     description: 'Classic 80s pop song',
     tags: ['pop', '80s'],
     timestamp: 10,
+    youtubeLink: 'https://www.youtube.com/watch?v=2',
+    spotifyLink: 'https://www.spotify.com/track/2',
   },
   {
     id: '3',
@@ -23,6 +27,8 @@ const mockLibrary: AudioLibSearchElement[] = [
     description: 'Intense guitar solos',
     tags: ['metal', 'heavy'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=3',
+    spotifyLink: 'https://www.spotify.com/track/3',
   },
   {
     id: '4',
@@ -30,6 +36,8 @@ const mockLibrary: AudioLibSearchElement[] = [
     description: 'Hip-Hop classics',
     tags: ['rap', '90s', '$money$'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=4',
+    spotifyLink: 'https://www.spotify.com/track/4',
   },
   {
     id: '5',
@@ -37,6 +45,8 @@ const mockLibrary: AudioLibSearchElement[] = [
     description: 'Chillout & Lounge',
     tags: ['chill', 'ambience'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=5',
+    spotifyLink: 'https://www.spotify.com/track/5',
   },
   {
     id: '6',
@@ -45,6 +55,8 @@ const mockLibrary: AudioLibSearchElement[] = [
     description: 'Discussion on historical context',
     tags: ['theology', 'history'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=6',
+    spotifyLink: 'https://www.spotify.com/track/6',
   },
 ];
 
@@ -98,14 +110,14 @@ describe('searchLibrary', () => {
   it('should handle special characters in query', () => {
     const resultsAnd = searchLibrary(mockLibrary, '&');
     expect(resultsAnd).toHaveLength(2);
-    expect(resultsAnd.map(r => r.id)).toContain('4');
-    expect(resultsAnd.map(r => r.id)).toContain('5');
+    expect(resultsAnd.map((r) => r.id)).toContain('4');
+    expect(resultsAnd.map((r) => r.id)).toContain('5');
 
     const resultsMoney = searchLibrary(mockLibrary, '$money$');
     expect(resultsMoney).toHaveLength(1);
     expect(resultsMoney[0].id).toBe('4');
   });
-  
+
   it('should match mixed case tags specifically', () => {
     const results = searchLibrary(mockLibrary, 'MeTaL');
     expect(results).toHaveLength(1);
@@ -113,13 +125,13 @@ describe('searchLibrary', () => {
   });
 
   it('should handle queries with accents', () => {
-     // "Café" has an accent
-     const results = searchLibrary(mockLibrary, 'Café');
-     expect(results).toHaveLength(1);
-     expect(results[0].id).toBe('5');
-     
-     // Verify that searching without accent does NOT find the accented item (current limitation)
-     const resultsNoAccent = searchLibrary(mockLibrary, 'cafe');
-     expect(resultsNoAccent).toEqual([]);
+    // "Café" has an accent
+    const results = searchLibrary(mockLibrary, 'Café');
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe('5');
+
+    // Verify that searching without accent does NOT find the accented item (current limitation)
+    const resultsNoAccent = searchLibrary(mockLibrary, 'cafe');
+    expect(resultsNoAccent).toEqual([]);
   });
 });

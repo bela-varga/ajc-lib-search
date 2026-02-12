@@ -4,7 +4,9 @@ import ResultsList from './ResultsList';
 import type { AudioLibSearchElement } from '../types/library.types';
 
 vi.mock('./ResultItem', () => ({
-  default: ({ talkTitle }: { talkTitle: string }) => <div data-testid="result-item">{talkTitle}</div>,
+  default: ({ talkTitle }: { talkTitle: string }) => (
+    <div data-testid="result-item">{talkTitle}</div>
+  ),
 }));
 
 const mockResults: AudioLibSearchElement[] = [
@@ -14,6 +16,8 @@ const mockResults: AudioLibSearchElement[] = [
     description: 'Desc 1',
     tags: ['tag1'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=1',
+    spotifyLink: 'https://www.spotify.com/track/1',
   },
   {
     id: '2',
@@ -21,6 +25,8 @@ const mockResults: AudioLibSearchElement[] = [
     description: 'Desc 2',
     tags: ['tag2'],
     timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=2',
+    spotifyLink: 'https://www.spotify.com/track/2',
   },
 ];
 
@@ -32,10 +38,10 @@ describe('ResultsList', () => {
 
   it('renders results (count and items) when results exist', () => {
     render(<ResultsList results={mockResults} />);
-    
+
     // Check count text
     expect(screen.getByText('2 találat')).toBeInTheDocument();
-    
+
     // Check items rendered (mocked)
     const items = screen.getAllByTestId('result-item');
     expect(items).toHaveLength(2);
@@ -44,10 +50,10 @@ describe('ResultsList', () => {
   });
 
   it('renders correct singular/plural count text (if specialized)', () => {
-     // Currently the component just says "{count} találat".
-     // If it changes to "1 találat", "2 találat", it is generic.
-     // Let's test 1 result.
-     render(<ResultsList results={[mockResults[0]]} />);
-     expect(screen.getByText('1 találat')).toBeInTheDocument();
+    // Currently the component just says "{count} találat".
+    // If it changes to "1 találat", "2 találat", it is generic.
+    // Let's test 1 result.
+    render(<ResultsList results={[mockResults[0]]} />);
+    expect(screen.getByText('1 találat')).toBeInTheDocument();
   });
 });

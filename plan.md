@@ -169,25 +169,7 @@ Created:
 
 #### Step 4.3: Polish Styles
 
-**Prompt:**
-
-```
-You are implementing Phase 4 only: Wire Everything Together.
-Update app/app.css with cohesive styling.
-
-Requirements:
-- Modern, clean design
-- Blue-ish color scheme
-- Desktop-first, mobile-friendly (responsive)
-- Keyboard focus indicators
-- Consistent spacing and colors
-- Dark mode optional but nice-to-have
-
-Do not add features outside this phase.
-If something is unclear, ask before coding.
-```
-
-**Expected file**: `app/app.css`
+**Status:** ✅ COMPLETED
 
 ---
 
@@ -197,34 +179,11 @@ If something is unclear, ask before coding.
 
 #### Step 5.1: Manual Testing
 
-**Prompt:**
-
-```
-You are implementing Phase 5 only: Testing & Verification.
-Run the app with `npm run dev` and test:
-- Search works (case-insensitive)
-- Empty search shows nothing
-- No results message appears correctly
-- Links open in new tab
-- Timestamp appends to YouTube links
-- Tags display correctly
-- Keyboard navigation works (Tab, Enter)
-
-Document any issues found.
-Do not add features outside this phase.
-If something is unclear, ask before coding.
-```
+**Status:** ✅ COMPLETED
 
 #### Step 5.2: Bug Fixes
 
-**Prompt:**
-
-```
-You are implementing Phase 5 only: Testing & Verification.
-Fix any bugs discovered during testing.
-List all changes made.
-Do not add features outside this phase.
-```
+**Status:** ✅ COMPLETED
 
 ---
 

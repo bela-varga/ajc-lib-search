@@ -42,7 +42,7 @@ ajc-lib-search/
 │   └── library.ts                # AudioLibSearchElement[] export
 ├── .ai/                          # AI assistant context
 │   └── context.md                # Instructions for AI assistants
-├── plan.md                       # Detailed implementation plan
+├── TODO.md                       # TODO list for future improvements
 ├── DECISIONS.md                  # Architectural decisions
 └── CHANGELOG.md                  # Project changelog
 ```
@@ -75,6 +75,23 @@ npm run build
 
 This creates a `dist/` folder with static files ready for deployment.
 
+### Hosting Options
+
+1. **GitHub Pages**
+   - Push to `gh-pages` branch
+   - Enable in repo settings
+
+2. **Netlify**
+   - Drag & drop the `dist` folder
+   - Or connect to GitHub for auto-deploy
+
+3. **Vercel**
+   - Connect GitHub repo
+   - Auto-deploy on push
+
+4. **Any static host**
+   - Upload `dist/` folder contents
+
 ### Testing
 
 ```bash
@@ -100,7 +117,7 @@ interface AudioLibSearchElement {
 }
 ```
 
-**Data location**: `data/library.ts` (TypeScript file, not JSON)
+**Data location**: `data/AJCaudioLibraryList.ts` (TypeScript file, not JSON)
 
 ---
 
@@ -132,25 +149,10 @@ The app generates static files that can be deployed to any static hosting servic
 
 ## Documentation
 
-- **[plan.md](./plan.md)** - Complete implementation plan with phase-by-phase guide
 - **[DECISIONS.md](./DECISIONS.md)** - Architectural and technical decisions
 - **[CHANGELOG.md](./CHANGELOG.md)** - Project changelog
 - **[.ai/context.md](./.ai/context.md)** - AI assistant instructions and context
-
----
-
-## Current Implementation Status
-
-- ✅ **Phase 0**: Project setup
-- ✅ **Phase 1**: Data model & type definitions
-- ✅ **Phase 2**: Core search engine
-- ✅ **Phase 3**: Basic UI components
-- ✅ **Phase 4**: Wire everything together
-- ⏳ **Phase 5**: Testing & verification
-- ⏳ **Phase 6**: Pagination
-- ⏳ **Phase 7**: Advanced features (filters + copy link)
-
-See [plan.md](./plan.md) for detailed progress tracking.
+- **[TODO.md](./TODO.md)** - TODO list for future improvements
 
 ---
 

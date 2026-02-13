@@ -9,9 +9,9 @@ This file contains specific instructions and context for AI assistants working o
 ## Quick Reference
 
 - **[README.md](../README.md)** - Project overview, setup, tech stack, deployment
-- **[plan.md](../plan.md)** - Implementation roadmap and phase tracking (READ THIS FIRST before coding)
 - **[DECISIONS.md](../DECISIONS.md)** - Architectural and technical decisions with rationale
 - **[CHANGELOG.md](../CHANGELOG.md)** - Chronological list of changes to the project
+- **[TODO.md](../TODO.md)** - List of ideas, improvements, and tasks to consider for the project.
 
 ---
 
@@ -81,9 +81,7 @@ This file contains specific instructions and context for AI assistants working o
 
 ### Before Starting Any Task
 
-1. **Always read `plan.md` first** to understand the current project state and implementation phases
-2. **Check if the task is in the plan** - if not, ask the user for clarification before proceeding
-3. **Verify current phase** - don't add features outside the current phase scope
+**Check if the task is in TODO.md** - if yes, check if there are subtasks or notes for it
 
 ### During Implementation
 
@@ -97,7 +95,7 @@ This file contains specific instructions and context for AI assistants working o
 ### After Making Changes
 
 1. **Run quality checks**: `npm run check` (runs typecheck, lint:fix, and format)
-2. **Update `plan.md`** to reflect what was accomplished (mark items as completed, update status)
+2. **Update `TODO.md`** to reflect what was accomplished (update items - if they have been implemented and will be marked in CHANGELOG.md then delete them from TODO.md)
 3. **Update `CHANGELOG.md`** with a brief description of changes made
 4. **For significant changes** (architecture, tech stack, design decisions):
    - Update this `.ai/context.md` file
@@ -105,14 +103,11 @@ This file contains specific instructions and context for AI assistants working o
 
 ### Additional Documentation
 
-- **[plan.md](../plan.md)** - Implementation roadmap and phase tracking (READ THIS FIRST)
 - **[DECISIONS.md](../DECISIONS.md)** - Architectural and technical decisions with rationale
 - **[CHANGELOG.md](../CHANGELOG.md)** - Chronological list of changes to the project
 
 ### Key Principles
 
-- ✅ Follow the phase-by-phase approach in `plan.md`
-- ✅ Don't add features outside the current phase
 - ✅ Ask if anything is unclear before coding
 - ✅ Test everything you build
 - ✅ Keep documentation up to date

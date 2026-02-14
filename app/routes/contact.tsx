@@ -1,6 +1,6 @@
 export function meta() {
   return [
-    { title: 'Kapcsolat - A.J. Christian "Könyvtár" Kereső' },
+    { title: 'Kapcsolat - A. J. Christian "Könyvtár" Kereső' },
     { name: 'description', content: 'Lépj kapcsolatba velünk' },
   ];
 }

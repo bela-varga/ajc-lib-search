@@ -1,6 +1,6 @@
 export function meta() {
   return [
-    { title: 'Adatvédelem - A.J. Christian "Könyvtár" Kereső' },
+    { title: 'Adatvédelem - A. J. Christian "Könyvtár" Kereső' },
     { name: 'description', content: 'Adatvédelmi szabályozás' },
   ];
 }

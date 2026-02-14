@@ -25,10 +25,10 @@ describe('Home route', () => {
     const metaTags = meta();
     expect(metaTags).toEqual(
       expect.arrayContaining([
-        { title: 'A.J. Christian "Könyvtár" Kereső' },
+        { title: 'A. J. Christian "Könyvtár" Kereső' },
         {
           name: 'description',
-          content: 'Keress A.J. Christian youtube videóiban',
+          content: 'Keress A. J. Christian youtube videóiban',
         },
       ]),
     );
@@ -51,7 +51,7 @@ describe('Home route', () => {
     renderHome();
 
     expect(
-      screen.getByText('A.J. Christian "Könyvtár" Kereső'),
+      screen.getByText('A. J. Christian "Könyvtár" Kereső'),
     ).toBeInTheDocument();
     expect(screen.getByRole('search')).toBeInTheDocument();
 

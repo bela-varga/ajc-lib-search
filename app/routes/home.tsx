@@ -5,8 +5,8 @@ import { Pagination } from '~/components/Pagination';
 
 export function meta() {
   return [
-    { title: 'A.J. Christian "Könyvtár" Kereső' },
-    { name: 'description', content: 'Keress A.J. Christian youtube videóiban' },
+    { title: 'A. J. Christian "Könyvtár" Kereső' },
+    { name: 'description', content: 'Keress A. J. Christian youtube videóiban' },
   ];
 }
 
@@ -28,7 +28,7 @@ export default function Home() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl mb-4">
-            A.J. Christian &quot;Könyvtár&quot; Kereső
+            A. J. Christian &quot;Könyvtár&quot; Kereső
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
             Keress rá Christian videói/podcastjai között a témára, ami érdekel.

@@ -1,9 +1,9 @@
 export function meta() {
   return [
-    { title: 'Rólunk - A.J. Christian "Könyvtár" Kereső' },
+    { title: 'Rólunk - A. J. Christian "Könyvtár" Kereső' },
     {
       name: 'description',
-      content: 'Tudj meg többet az A.J. Christian "Könyvtár" Keresőről',
+      content: 'Tudj meg többet az A. J. Christian "Könyvtár" Keresőről',
     },
   ];
 }

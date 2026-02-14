@@ -1,6 +1,6 @@
 export function meta() {
   return [
-    { title: 'Felhasználási feltételek - A.J. Christian "Könyvtár" Kereső' },
+    { title: 'Felhasználási feltételek - A. J. Christian "Könyvtár" Kereső' },
     { name: 'description', content: 'Felhasználási feltételek' },
   ];
 }

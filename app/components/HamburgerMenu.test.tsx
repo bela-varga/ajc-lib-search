@@ -56,7 +56,16 @@ describe('HamburgerMenu', () => {
 
     // Check for navigation links
     expect(screen.getByRole('link', { name: /kezdőlap/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /rólunk/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Mi ez\?/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /Kapcsolat/i }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /Felhasználási feltételek/i }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /Adatvédelem/i }),
+    ).toBeInTheDocument();
   });
 
   it('closes menu when a navigation link is clicked', () => {
@@ -100,10 +109,24 @@ describe('HamburgerMenu', () => {
     fireEvent.click(button);
 
     // Check link targets
-    const homeLink = screen.getByRole('link', { name: /kezdőlap/i });
-    const aboutLink = screen.getByRole('link', { name: /rólunk/i });
-
-    expect(homeLink).toHaveAttribute('href', '/');
-    expect(aboutLink).toHaveAttribute('href', '/about');
+    expect(screen.getByRole('link', { name: /kezdőlap/i })).toHaveAttribute(
+      'href',
+      '/',
+    );
+    expect(screen.getByRole('link', { name: /Mi ez\?/i })).toHaveAttribute(
+      'href',
+      '/about',
+    );
+    expect(screen.getByRole('link', { name: /Kapcsolat/i })).toHaveAttribute(
+      'href',
+      '/contact',
+    );
+    expect(
+      screen.getByRole('link', { name: /Felhasználási feltételek/i }),
+    ).toHaveAttribute('href', '/terms');
+    expect(screen.getByRole('link', { name: /Adatvédelem/i })).toHaveAttribute(
+      'href',
+      '/privacy',
+    );
   });
 });

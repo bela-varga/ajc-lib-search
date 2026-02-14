@@ -14,37 +14,45 @@ export default function About() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl mb-4">
-            Rólunk
+            Mi ez?
           </h1>
         </div>
 
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
           <div className="prose dark:prose-invert max-w-none">
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Christian több videójában mondta, hogy ő a youtube csatornáját
+              egyfajta könyvtárnak gondolja. Ez a kereső abban segít, hogy
+              könnyebben megtaláld abban a könyvtárban, amit keresel.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Ez az oldal nem Christian kezdeményezésére készült - de remélem
+              hasznos tud lenni másoknak is, nem csak nekem. Azért csináltam,
+              mert volt hogy emlékeztem, hogy valamelyik online előadásban volt
+              szó valamiről, de nem tudtam megtalálni. Akkor gondoltam arra,
+              bárcsak lenne egy egyszerű mód az A. J. Christian
+              &quot;könyvtáron&quot; belüli keresésre.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              Ez egy végtelenül egyszerű applikáció, nem használ adatbázist, nem
+              frissül automatikusan, egyszerűen csak a böngészőben fut, és keres
+              az eddig elmentett videók között. Ez azt is jelenti, hogy ha kijön
+              egy új videó Christian youtube oldalán, akkor az nem kerül fel ide
+              automatikusan. Ennélfogva előfordulhat, hogy amikor ezt az oldalt
+              nézed, akkor az utolsó pár videó nincs még a listában.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+              Ha van kedved, segíthetsz - akár ezen github repo fejlesztésében,
+              akár csak a &quot;könyvtár adatok&quot; frissítésében. Bármi
+              észrevételed, gondolatod van ezzel az oldallal kapcsolatban,
+              nyugodtan jelezd nekem emailben:{' '}
+              <a href="mailto:bela.varga.work@gmail.com">
+                bela.varga.work@gmail.com
+              </a>
+              .
             </p>
           </div>
         </div>

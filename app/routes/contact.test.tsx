@@ -9,9 +9,15 @@ describe('Contact Page', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it('renders lorem ipsum content', () => {
+  it('renders "Github link"', () => {
     render(<Contact />);
-    const content = screen.getByText(/lorem ipsum dolor sit amet/i);
+    const content = screen.getByText(/Github link/i);
+    expect(content).toBeInTheDocument();
+  });
+
+  it('renders "Email"', () => {
+    render(<Contact />);
+    const content = screen.getByText(/Email/i);
     expect(content).toBeInTheDocument();
   });
 

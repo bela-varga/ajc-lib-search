@@ -17,31 +17,52 @@ export default function Privacy() {
 
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
           <div className="prose dark:prose-invert max-w-none">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-3">
+              Adatvédelmi tájékoztató
+            </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Ez a weboldal egy egyszerű, statikus, kizárólag a felhasználó
+              böngészőjében futó alkalmazás.
             </p>
 
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
+              Személyes adatok kezelése
+            </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Az oldal nem gyűjt, nem tárol és nem dolgoz fel semmilyen
+              személyes adatot.
             </p>
 
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
+              Adatkezelés módja
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300 mb-2">
+              Az alkalmazás nem használ:
+            </p>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mb-4 ml-4">
+              <li>sütiket (cookies),</li>
+              <li>elemző vagy statisztikai eszközöket,</li>
+              <li>külső szolgáltatásokat,</li>
+              <li>backend szervert,</li>
+              <li>API-hívásokat.</li>
+            </ul>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              Minden funkció kizárólag a felhasználó eszközén, helyben fut.
             </p>
 
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
+              Adattovábbítás
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Az oldal nem továbbít adatokat harmadik fél részére.
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
+              Kapcsolat
+            </h3>
             <p className="text-gray-700 dark:text-gray-300">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+              Amennyiben kérdésed van az adatkezeléssel kapcsolatban, kérjük,
+              vedd fel a kapcsolatot az oldal készítőjével.
             </p>
           </div>
         </div>

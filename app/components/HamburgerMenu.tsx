@@ -7,8 +7,8 @@ interface MenuItem {
 }
 
 const MENU_ITEMS: MenuItem[] = [
-  { path: '/', label: 'Kezdőlap' },
-  { path: '/about', label: 'Rólunk' },
+  { path: '/', label: 'Kezdőlap / Kereső' },
+  { path: '/about', label: 'Mi ez?' },
   { path: '/contact', label: 'Kapcsolat' },
   { path: '/terms', label: 'Felhasználási feltételek' },
   { path: '/privacy', label: 'Adatvédelem' },

@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Implemented clickable tags: clicking a tag now triggers a search for that tag
 - synchronized search state with URL parameters (`?q=...`) to support shareable search links
 - Added pagination for search results (top and bottom), synchronized with URL (`?page=...`)
+- Updated text content on Home, About, Contact, Terms, and Privacy pages
 
 ---
 

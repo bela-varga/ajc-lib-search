@@ -6,7 +6,10 @@ import { Pagination } from '~/components/Pagination';
 export function meta() {
   return [
     { title: 'A. J. Christian "Könyvtár" Kereső' },
-    { name: 'description', content: 'Keress A. J. Christian youtube videóiban' },
+    {
+      name: 'description',
+      content: 'Keress A. J. Christian youtube videóiban',
+    },
   ];
 }
 

@@ -154,11 +154,11 @@ describe('useSearch', () => {
     });
 
     const { result } = renderHook(() => useSearch());
-    
+
     // Should be clamped to max pages (3)
     expect(result.current.currentPage).toBe(3);
     expect(result.current.totalPages).toBe(3);
-    
+
     // Should return results for the last page
     expect(result.current.paginatedResults.length).toBe(5);
     expect(result.current.paginatedResults[0].id).toBe('20');

@@ -5,13 +5,15 @@ import About from './about';
 describe('About Page', () => {
   it('renders the about page heading', () => {
     render(<About />);
-    const heading = screen.getByRole('heading', { name: /rólunk/i });
+    const heading = screen.getByRole('heading', { name: /Mi ez\?/i });
     expect(heading).toBeInTheDocument();
   });
 
-  it('renders lorem ipsum content', () => {
+  it('renders content', () => {
     render(<About />);
-    const content = screen.getByText(/lorem ipsum dolor sit amet/i);
+    const content = screen.getByText(
+      /Christian több videójában mondta, hogy ő a youtube csatornáját egyfajta könyvtárnak gondolja. Ez a kereső abban segít, hogy könnyebben megtaláld abban a könyvtárban, amit keresel./i,
+    );
     expect(content).toBeInTheDocument();
   });
 

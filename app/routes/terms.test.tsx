@@ -11,10 +11,13 @@ describe('Terms Page', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it('renders lorem ipsum content', () => {
+  it('renders the paragraphs needed', () => {
     render(<Terms />);
-    const content = screen.getByText(/lorem ipsum dolor sit amet/i);
-    expect(content).toBeInTheDocument();
+
+    expect(screen.getByText(/A weboldal használata/i)).toBeInTheDocument();
+    expect(screen.getByText(/Felelősség kizárása/i)).toBeInTheDocument();
+    expect(screen.getByText(/Felhasználás feltételei/i)).toBeInTheDocument();
+    expect(screen.getByText(/A feltételek módosítása/i)).toBeInTheDocument();
   });
 
   it('has proper page structure with card layout', () => {

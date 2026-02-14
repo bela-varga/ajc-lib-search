@@ -9,10 +9,13 @@ describe('Privacy Page', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it('renders lorem ipsum content', () => {
+  it('renders the paragraphs needed', () => {
     render(<Privacy />);
-    const content = screen.getByText(/lorem ipsum dolor sit amet/i);
-    expect(content).toBeInTheDocument();
+
+    expect(screen.getByText(/Adatvédelmi tájékoztató/i)).toBeInTheDocument();
+    expect(screen.getByText(/Személyes adatok kezelése/i)).toBeInTheDocument();
+    expect(screen.getByText(/Adatkezelés módja/i)).toBeInTheDocument();
+    expect(screen.getByText(/Adattovábbítás/i)).toBeInTheDocument();
   });
 
   it('has proper page structure with card layout', () => {

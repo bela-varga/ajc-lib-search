@@ -11,7 +11,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Refactored `HamburgerMenu` component to use a `MENU_ITEMS` configuration array for easier maintenance and scalability
 - Implemented clickable tags: clicking a tag now triggers a search for that tag
 - synchronized search state with URL parameters (`?q=...`) to support shareable search links
-- Fixed lint errors in `ResultItem.test.tsx` and optimized `useSearch` hook by removing unnecessary state
 
 ---
 

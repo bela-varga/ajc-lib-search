@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
+import { BrowserRouter } from 'react-router';
 import ResultItem from './ResultItem';
 import type { AudioLibSearchElement } from '../types/library.types';
 
@@ -15,8 +16,16 @@ const mockItem: AudioLibSearchElement = {
 };
 
 describe('ResultItem', () => {
+  const renderResultItem = (props: AudioLibSearchElement) => {
+    return render(
+      <BrowserRouter>
+        <ResultItem {...props} />
+      </BrowserRouter>,
+    );
+  };
+
   it('renders talkTitle, topicTitle, description, and tags', () => {
-    render(<ResultItem {...mockItem} />);
+    renderResultItem(mockItem);
 
     expect(screen.getByText('Test Title')).toBeInTheDocument();
     expect(screen.getByText('Test Topic')).toBeInTheDocument();
@@ -30,10 +39,7 @@ describe('ResultItem', () => {
       ...mockItem,
       tags: [],
     };
-    const { rerender } = render(<ResultItem {...itemNoTags} />);
-    // Check if any tag container is NOT present.
-    // The current implementation renders tags in a generic div.
-    // We can check that "tag1" is not there.
+    renderResultItem(itemNoTags);
     expect(screen.queryByText('tag1')).not.toBeInTheDocument();
 
     // Re-render with undefined tags
@@ -41,31 +47,34 @@ describe('ResultItem', () => {
       ...mockItem,
       tags: undefined as any,
     };
-    rerender(<ResultItem {...itemUndefinedTags} />);
+    // Note: strictly speaking we should create a new render or handle rerender carefully with wrappers
+    // but for simplicity let's just assert on a fresh render
+    renderResultItem(itemUndefinedTags);
     expect(screen.queryByText('tag1')).not.toBeInTheDocument();
+  });
 
-    // To be more precise, we might want to target the container, but it lacks a specific role/id.
-    // Checking for content absence is sufficient given the simple structure.
+  it('renders tags as clickable links', () => {
+    renderResultItem(mockItem);
+
+    const tag1 = screen.getByRole('link', { name: /tag1/i });
+    const tag2 = screen.getByRole('link', { name: /tag2/i });
+
+    expect(tag1).toBeInTheDocument();
+    expect(tag1).toHaveAttribute('href', '/?q=tag1');
+    expect(tag2).toBeInTheDocument();
+    expect(tag2).toHaveAttribute('href', '/?q=tag2');
   });
 
   it('renders YouTube link correctly without timestamp', () => {
-    render(<ResultItem {...mockItem} timestamp={0} />);
+    renderResultItem({ ...mockItem, timestamp: 0 });
 
-    const links = screen.getAllByRole('link', { name: /YouTube/i });
-    // Assuming ExternalLink renders an anchor with "YouTube" text + visually hidden "open in new tab"
-    // The accessible name might be "YouTube (új lapon nyílik meg)" depending on ExternalLink implementation.
-    // Let's look at ExternalLink.test.tsx: name: /Example/i matched "Example".
-    // So here name: /YouTube/i should work.
-
-    expect(links[0]).toHaveAttribute('href', 'https://youtube.com/watch?v=123');
+    const link = screen.getByRole('link', { name: /YouTube/i });
+    expect(link).toHaveAttribute('href', 'https://youtube.com/watch?v=123');
   });
 
   it('renders YouTube link with timestamp', () => {
-    render(<ResultItem {...mockItem} timestamp={60} />);
-
+    renderResultItem({ ...mockItem, timestamp: 60 });
     const link = screen.getByRole('link', { name: /YouTube/i });
-    // Should append &t=60s (since ? is present) or ?t=60s
-    // mock link has ?, so &t=60s. Wait, mock is "https://youtube.com/watch?v=123", which HAS '?'.
     expect(link).toHaveAttribute(
       'href',
       'https://youtube.com/watch?v=123&t=60s',
@@ -78,15 +87,14 @@ describe('ResultItem', () => {
       youtubeLink: 'https://youtu.be/123',
       timestamp: 30,
     };
-    render(<ResultItem {...itemNoQuery} />);
+    renderResultItem(itemNoQuery);
 
     const link = screen.getByRole('link', { name: /YouTube/i });
     expect(link).toHaveAttribute('href', 'https://youtu.be/123?t=30s');
   });
 
   it('renders Spotify link correctly', () => {
-    render(<ResultItem {...mockItem} />);
-
+    renderResultItem(mockItem);
     const link = screen.getByRole('link', { name: /Spotify/i });
     expect(link).toHaveAttribute('href', 'https://spotify.com/track/123');
   });
@@ -97,7 +105,7 @@ describe('ResultItem', () => {
       youtubeLink: undefined,
       spotifyLink: undefined,
     };
-    render(<ResultItem {...(itemNoLinks as AudioLibSearchElement)} />);
+    renderResultItem(itemNoLinks as AudioLibSearchElement);
 
     expect(
       screen.queryByRole('link', { name: /YouTube/i }),
@@ -108,7 +116,7 @@ describe('ResultItem', () => {
   });
 
   it('uses ExternalLink component for links (verifying target=_blank)', () => {
-    render(<ResultItem {...mockItem} />);
+    renderResultItem(mockItem);
     const ytLink = screen.getByRole('link', { name: /YouTube/i });
     const spotifyLink = screen.getByRole('link', { name: /Spotify/i });
 

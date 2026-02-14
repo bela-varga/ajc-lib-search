@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import type { AudioLibSearchElement } from '../types/library.types';
 import { ExternalLink } from './ExternalLink';
 
@@ -46,12 +47,13 @@ export default function ResultItem({
         {tags && tags.length > 0 && (
           <div className="flex flex-wrap gap-2">
             {tags.map((tag) => (
-              <span
+              <Link
                 key={tag}
-                className="px-2 py-0.5 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 rounded-full"
+                to={`/?q=${encodeURIComponent(tag)}`}
+                className="px-2 py-0.5 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
               >
                 {tag}
-              </span>
+              </Link>
             ))}
           </div>
         )}

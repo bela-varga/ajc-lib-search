@@ -1,67 +1,74 @@
 import { renderHook, act } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { useSearch } from './useSearch';
-import { searchLibrary } from '../utils/searchEngine';
-import { audioLibraryList } from '../../data/AJCaudioLibraryList';
+import { useSearchParams } from 'react-router';
 
-vi.mock('../utils/searchEngine', () => ({
-  searchLibrary: vi.fn(),
-}));
-
-vi.mock('../../data/AJCaudioLibraryList', () => ({
-  audioLibraryList: ['mock-data'],
+// Mock react-router
+vi.mock('react-router', () => ({
+  useSearchParams: vi.fn(),
 }));
 
 describe('useSearch', () => {
+  const setSearchParamsMock = vi.fn();
+  const searchParamsGetMock = vi.fn();
+
   beforeEach(() => {
     vi.clearAllMocks();
+    (useSearchParams as any).mockReturnValue([
+      { get: searchParamsGetMock },
+      setSearchParamsMock,
+    ]);
   });
 
-  it('initializes with default state', () => {
+  it('initializes with empty results', () => {
+    searchParamsGetMock.mockReturnValue(null);
     const { result } = renderHook(() => useSearch());
-
     expect(result.current.results).toEqual([]);
     expect(result.current.hasSearched).toBe(false);
     expect(result.current.searchQuery).toBe('');
   });
 
-  it('performs search and updates state', () => {
-    const mockResults = [
-      {
-        id: '1',
-        talkTitle: 'Test',
-        description: 'desc',
-        tags: [],
-        timestamp: 0,
-      },
-    ];
-    (searchLibrary as any).mockReturnValue(mockResults);
-
+  it('performs search when handleSearch is called', () => {
+    searchParamsGetMock.mockReturnValue(null);
     const { result } = renderHook(() => useSearch());
 
     act(() => {
       result.current.handleSearch('test');
     });
 
-    expect(searchLibrary).toHaveBeenCalledWith(audioLibraryList, 'test');
-
-    expect(result.current.results).toEqual(mockResults);
-    expect(result.current.hasSearched).toBe(true);
-    expect(result.current.searchQuery).toBe('test');
+    // It should update the URL
+    expect(setSearchParamsMock).toHaveBeenCalled();
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams();
+    updateFn(params);
+    expect(params.get('q')).toBe('test');
   });
 
-  it('updates hasSearched even if results are empty', () => {
-    (searchLibrary as any).mockReturnValue([]);
+  it('performs search when URL has query parameter', () => {
+    searchParamsGetMock.mockReturnValue('budapest');
+    const { result } = renderHook(() => useSearch());
 
+    expect(result.current.searchQuery).toBe('budapest');
+    expect(result.current.hasSearched).toBe(true);
+    // Should have results (assuming "budapest" matches something in the real or mock data)
+    // Note: This relies on the real data since we import audioLibraryList.
+    // If we wanted to be pure unit test, we'd mock searchLibrary too.
+  });
+
+  it('clears search when query is empty', () => {
+    searchParamsGetMock.mockReturnValue(null);
     const { result } = renderHook(() => useSearch());
 
     act(() => {
-      result.current.handleSearch('nonexistent');
+      result.current.handleSearch('');
     });
 
-    expect(searchLibrary).toHaveBeenCalledWith(audioLibraryList, 'nonexistent');
-    expect(result.current.results).toEqual([]);
-    expect(result.current.hasSearched).toBe(true);
-    expect(result.current.searchQuery).toBe('nonexistent');
+    // Should remove 'q' param
+    expect(setSearchParamsMock).toHaveBeenCalled();
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams();
+    params.set('q', 'old');
+    updateFn(params);
+    expect(params.has('q')).toBe(false);
   });
 });

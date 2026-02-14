@@ -16,7 +16,7 @@ Any item here may or may not be implemented.
   - [x] Add Terms page
   - [x] Add menu for the pages
   - [ ] change pages' initial Lorem Ipsum contents to something more meaningful
-- [ ] When we click on a tag, it should search for that tag
+- [x] When we click on a tag, it should search for that tag
 - [ ] When we click on a talk title, it should open that talk in a new tab
 - [ ] Update AJC audio library with more data
 - [ ] Pagination for results
@@ -25,7 +25,7 @@ Any item here may or may not be implemented.
   - [ ] Add description search
   - [ ] Add tags search
 - [ ] Add copy link functionality
-  - [ ] Add search query to URL
+  - [x] Add search query to URL
   - [ ] Add filters to URL
   - [ ] Add pagination to URL
   - [ ] Add sorting to URL

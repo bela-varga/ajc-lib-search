@@ -10,7 +10,7 @@ export function meta() {
 }
 
 export default function Home() {
-  const { results, hasSearched, handleSearch } = useSearch();
+  const { results, hasSearched, handleSearch, searchQuery } = useSearch();
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center space-y-8">
           <div className="w-full flex justify-center">
-            <SearchBar onSearch={handleSearch} />
+            <SearchBar onSearch={handleSearch} initialQuery={searchQuery} />
           </div>
 
           {hasSearched && (

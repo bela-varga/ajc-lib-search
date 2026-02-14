@@ -1,6 +1,19 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
 
+interface MenuItem {
+  path: string;
+  label: string;
+}
+
+const MENU_ITEMS: MenuItem[] = [
+  { path: '/', label: 'Kezdőlap' },
+  { path: '/about', label: 'Rólunk' },
+  { path: '/contact', label: 'Kapcsolat' },
+  { path: '/terms', label: 'Felhasználási feltételek' },
+  { path: '/privacy', label: 'Adatvédelem' },
+];
+
 export function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -61,51 +74,17 @@ export function HamburgerMenu() {
       >
         <div className="pt-20 px-6">
           <ul className="space-y-4">
-            <li>
-              <Link
-                to="/"
-                onClick={closeMenu}
-                className="block py-3 px-4 rounded-lg text-lg font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors"
-              >
-                Kezdőlap
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                onClick={closeMenu}
-                className="block py-3 px-4 rounded-lg text-lg font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors"
-              >
-                Rólunk
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                onClick={closeMenu}
-                className="block py-3 px-4 rounded-lg text-lg font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors"
-              >
-                Kapcsolat
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/terms"
-                onClick={closeMenu}
-                className="block py-3 px-4 rounded-lg text-lg font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors"
-              >
-                Felhasználási feltételek
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/privacy"
-                onClick={closeMenu}
-                className="block py-3 px-4 rounded-lg text-lg font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors"
-              >
-                Adatvédelem
-              </Link>
-            </li>
+            {MENU_ITEMS.map((item) => (
+              <li key={item.path}>
+                <Link
+                  to={item.path}
+                  onClick={closeMenu}
+                  className="block py-3 px-4 rounded-lg text-lg font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </nav>

@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-02-14] - Hamburger Menu Navigation, General Information Pages
+
+### Added
+
+- Hamburger menu navigation component (`app/components/HamburgerMenu.tsx`)
+- New "About" page at `/about` route
+- New "Contact" page at `/contact` route
+- New "Privacy" page at `/privacy` route
+- New "Terms" page at `/terms` route
+- Route configuration updates in `app/routes.ts`
+
+### Changed
+
+- Updated `app/root.tsx` to include HamburgerMenu in the Layout component (appears on all pages)
+
+---
+
 ## [2026-02-13] - Cleanup: plan.md deleted
 
 ### Deleted

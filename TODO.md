@@ -10,11 +10,12 @@ Any item here may or may not be implemented.
 ## Possible Future Enhancements
 
 - [ ] Add Pages for general information
-  - [ ] Add About page
-  - [ ] Add Contact page
-  - [ ] Add Privacy page
-  - [ ] Add Terms page
-  - [ ] Add menu for the pages
+  - [x] Add About page
+  - [x] Add Contact page
+  - [x] Add Privacy page
+  - [x] Add Terms page
+  - [x] Add menu for the pages
+  - [ ] change pages' initial Lorem Ipsum contents to something more meaningful
 - [ ] When we click on a tag, it should search for that tag
 - [ ] When we click on a talk title, it should open that talk in a new tab
 - [ ] Update AJC audio library with more data

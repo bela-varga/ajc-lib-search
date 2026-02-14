@@ -19,7 +19,7 @@ Any item here may or may not be implemented.
 - [x] When we click on a tag, it should search for that tag
 - [ ] When we click on a talk title, it should open that talk in a new tab
 - [ ] Update AJC audio library with more data
-- [ ] Pagination for results
+- [x] Pagination for results
 - [ ] Add search filters
   - [ ] Add title search
   - [ ] Add description search
@@ -27,7 +27,7 @@ Any item here may or may not be implemented.
 - [ ] Add copy link functionality
   - [x] Add search query to URL
   - [ ] Add filters to URL
-  - [ ] Add pagination to URL
+  - [x] Add pagination to URL
   - [ ] Add sorting to URL
   - [ ] Add 'Copy link' button
 - [ ] Fuzzy search integration (Fuse.js)

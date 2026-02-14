@@ -1,6 +1,7 @@
 import { SearchBar } from '~/components/SearchBar';
 import ResultsList from '~/components/ResultsList';
 import { useSearch } from '~/hooks/useSearch';
+import { Pagination } from '~/components/Pagination';
 
 export function meta() {
   return [
@@ -10,7 +11,17 @@ export function meta() {
 }
 
 export default function Home() {
-  const { results, hasSearched, handleSearch, searchQuery } = useSearch();
+  const {
+    hasSearched,
+    handleSearch,
+    searchQuery,
+    paginatedResults,
+    currentPage,
+    totalPages,
+    setPage,
+    itemsPerPage,
+    totalResults,
+  } = useSearch();
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
@@ -30,8 +41,23 @@ export default function Home() {
           </div>
 
           {hasSearched && (
-            <div className="w-full">
-              <ResultsList results={results} />
+            <div className="w-full space-y-8">
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={setPage}
+                itemsPerPage={itemsPerPage}
+              />
+              <ResultsList
+                results={paginatedResults}
+                totalResults={totalResults}
+              />
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={setPage}
+                itemsPerPage={itemsPerPage}
+              />
             </div>
           )}
         </div>

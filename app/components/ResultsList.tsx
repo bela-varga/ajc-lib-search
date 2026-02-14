@@ -3,8 +3,10 @@ import ResultItem from './ResultItem';
 
 export default function ResultsList({
   results,
+  totalResults,
 }: {
   results: AudioLibSearchElement[];
+  totalResults: number;
 }) {
   if (results.length === 0) {
     return (
@@ -17,7 +19,7 @@ export default function ResultsList({
   return (
     <div className="mt-6">
       <div className="mb-4 text-sm text-gray-500 dark:text-gray-400">
-        {results.length} találat
+        {totalResults} találat
       </div>
       <div className="grid grid-cols-1 gap-4">
         {results.map((result) => (

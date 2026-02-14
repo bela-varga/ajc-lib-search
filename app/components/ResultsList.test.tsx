@@ -32,12 +32,14 @@ const mockResults: AudioLibSearchElement[] = [
 
 describe('ResultsList', () => {
   it('renders "Nincs találat" when results are empty', () => {
-    render(<ResultsList results={[]} />);
+    render(<ResultsList results={[]} totalResults={0} />);
     expect(screen.getByText('Nincs találat.')).toBeInTheDocument();
   });
 
   it('renders results (count and items) when results exist', () => {
-    render(<ResultsList results={mockResults} />);
+    render(
+      <ResultsList results={mockResults} totalResults={mockResults.length} />,
+    );
 
     // Check count text
     expect(screen.getByText('2 találat')).toBeInTheDocument();
@@ -53,7 +55,7 @@ describe('ResultsList', () => {
     // Currently the component just says "{count} találat".
     // If it changes to "1 találat", "2 találat", it is generic.
     // Let's test 1 result.
-    render(<ResultsList results={[mockResults[0]]} />);
+    render(<ResultsList results={[mockResults[0]]} totalResults={1} />);
     expect(screen.getByText('1 találat')).toBeInTheDocument();
   });
 });

@@ -44,6 +44,36 @@ export default function About() {
               nézed, akkor az utolsó pár videó nincs még a listában.
             </p>
 
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
+              Miben jobb/más ez, mint ha youtube-on keresek?
+            </h2>
+
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Youtube-on is lehet keresni A. J. Christian youtube csatornáján, és
+              a youtube kereső keres a videó leírásában is, így meg tud találni
+              akár egy-egy témát egy előadáson belül.
+            </p>
+
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Ugyanakkor csak ennyit tud, ennél többet nem. Mivel ezen az oldalon
+              kézzel is be tudunk állítani címkéket és plusz leírást a videókhoz,
+              így ugyanazt a videó részt akár sokkal több kereső kifejezés által
+              el lehet érni.
+            </p>
+            
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Szeretném a legtöbb videónál, hogy emberileg is át legyen nézve és
+              így kézzel lehet beírni sok címkét és leírást egy-egy témához.
+              Ugyanakkor jelenleg az fért bele az időmbe, hogy sok videóhoz
+              AI-al vettem ki a téma címeket és címkéket. Mindenesetre nagy
+              eséllyel így is nagyobb eséllyel találsz meg valamit itt, mint 
+              a youtube keresőben.
+            </p>
+            
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
+              Hogyan segíthetsz?
+            </h2>
+
             <p className="text-gray-700 dark:text-gray-300">
               Ha van kedved, segíthetsz - akár ezen github repo fejlesztésében,
               akár csak a &quot;könyvtár adatok&quot; frissítésében. Bármi

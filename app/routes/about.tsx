@@ -74,7 +74,7 @@ export default function About() {
               Hogyan segíthetsz?
             </h2>
 
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
               Ha van kedved, segíthetsz - akár ezen github repo fejlesztésében,
               akár csak a &quot;könyvtár adatok&quot; frissítésében. Bármi
               észrevételed, gondolatod van ezzel az oldallal kapcsolatban,
@@ -83,6 +83,13 @@ export default function About() {
                 bela.varga.work@gmail.com
               </a>
               .
+            </p>
+
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Az oldal fel van készítve arre, hogy Spotify linkeket is kezeljen,
+              de én nem vagyok fent Spotify-on és őszintén, annyira nem is
+              érdekel. Ha szeretnéd, hogy Spotify linkek is legyenek, keress
+              meg!
             </p>
           </div>
         </div>

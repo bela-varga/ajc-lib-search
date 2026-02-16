@@ -116,6 +116,39 @@ Search triggers only on button click or Enter key press, not on every keystroke.
 
 ---
 
+## Data Structure: Flat Array vs. Hierarchical
+
+**Date:** 2026-02-16  
+**Status:** ✅ Adopted
+
+### Context
+
+As the dataset grows, there was a consideration to move from a flat array of elements to a hierarchical structure (e.g., Talks containing an array of Topics) to avoid data duplication (like `youtubeLink` or `talkTitle`).
+
+### Decision
+
+Maintain the flat `AudioLibSearchElement[]` structure.
+
+### Rationale
+
+**Pros:**
+
+- **Search Performance:** Flat filtering is the most efficient and straightforward approach in JavaScript.
+- **Implementation Simplicity:** Search results are inherently linear. A flat structure avoids the complexity of nested loops or runtime "flattening" to display results.
+- **Memory & Compression:** Modern JS engines use string interning to minimize duplication overhead in RAM. For transfer, GZIP/Brotli compression handles repeating strings extremely effectively.
+- **Compatibility:** Works seamlessly with standard pagination, sorting, and UI virtualization patterns.
+
+**Cons:**
+
+- Slightly higher memory usage in development before compression.
+- More manual editing if fields like URLs change frequently (mitigated by bulk find-and-replace).
+
+**Alternatives Considered:**
+
+- **Hierarchical JSON:** Rejected due to increased search complexity and the fact that search results would need to be flattened anyway to be usable in a list-based UI.
+
+---
+
 ## Template for Future Decisions
 
 When adding a new decision, use this template:

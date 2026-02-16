@@ -168,7 +168,8 @@ Updates to the library data happen via PR to the repository. When adding new ent
 
 ## License
 
-[Add your license here]
+- **Code**: Licensed under the [MIT License](LICENSE).
+- **Data**: The audio library metadata in `data/` is curated for educational/personal use. Please contact the author for commercial use of the timestamps and topics.
 
 ---
 

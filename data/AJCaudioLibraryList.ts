@@ -4,9 +4,9 @@
  * - main_id: "01" akkor ha a hivatalos, videohoz tartozó belső linkre/timestampre mutat, és "02" akkor, ha nemhivatalos timestamp
  * - sub_id: adott videon és main_id -n belül hányadik timestamp
  *
- * Kérdések:
- * - legyen külön találat teljes előadásra is, vagy arra nem fontos? (szerintem legyen, mert így lehet arra is keresni hogy pl. xy előadás)
- * - lenne értelme hierarchikusan csinálni az előadásokat, hogy egy parent elem és az alatt a többi?
+ * NOTE: This curated data is for personal and educational use.
+ * Commercial redistribution or usage of these timestamps requires permission.
+ * See README.md for full licensing details.
  */
 import type { AudioLibSearchElement } from '../app/types/library.types';
 

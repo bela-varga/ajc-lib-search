@@ -5,7 +5,7 @@
  * - sub_id: adott videon és main_id -n belül hányadik timestamp
  *
  * NOTE: This curated data is for personal and educational use.
- * Commercial redistribution or usage of these timestamps requires permission.
+ * Commercial redistribution or usage of these timestamps and tags requires permission.
  * See README.md for full licensing details.
  */
 import type { AudioLibSearchElement } from '../app/types/library.types';

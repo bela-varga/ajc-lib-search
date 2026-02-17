@@ -9,7 +9,11 @@ Any item here may or may not be implemented.
 
 ## Possible Future Enhancements
 
+- [ ] Add toggle for search order (for now order by video id: asc, desc)
 - [ ] When we click on a talk title, it should open that talk in a new tab
+- [ ] Check possibility of "search in search in search" (e.g. search for "halál" in the search results)
+  - [ ] first, add option to search in search results
+  - [ ] discover options to do this on multiple levels
 - [ ] Update AJC audio library with more data
 - [ ] Give the whole json to an AI and ask to reconsider the tags to be better
 - [ ] Add search filters

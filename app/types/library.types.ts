@@ -13,7 +13,7 @@ export type AudioLibSearchElement = AtLeastOne<
     timestamp: number;
     talkTitle: string;
     topicTitle?: string;
-    description: string;
+    description?: string;
     tags: string[];
   },
   'youtubeLink' | 'spotifyLink'

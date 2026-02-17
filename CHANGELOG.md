@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-02-17] - description made optional, library list update
+
+### Changed
+
+- Changed AudioLibSearchElement definition to make description optional
+- Updated AJCaudioLibraryList.ts by deleting descriptions that were just duplications of topicTitle
+
 ## [2026-02-14] - Hamburger Menu Refactor, search updates
 
 ### Changed

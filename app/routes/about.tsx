@@ -62,12 +62,12 @@ export default function About() {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Szeretném a legtöbb videónál, hogy emberileg is át legyen nézve és
-              így kézzel lehet beírni sok címkét és leírást egy-egy témához.
-              Ugyanakkor jelenleg az fért bele az időmbe, hogy sok videóhoz
-              AI-al vettem ki a téma címeket és címkéket. Mindenesetre nagy
-              eséllyel így is nagyobb eséllyel találsz meg valamit itt, mint a
-              youtube keresőben.
+              Szeretném a legtöbb videónál, hogy ember által is át legyen nézve,
+              mert úgy kézzel be lehet írni sok címkét és leírást egy-egy
+              témához. Ugyanakkor jelenleg az fért bele az időmbe, hogy a
+              legtöbb videóhoz AI-al vettem ki a téma címeket az előadásokból,
+              és a címkéket is AI generálta. Szerintem így is nagyobb eséllyel
+              találsz meg valamit itt, mint a youtube keresőben.
             </p>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">

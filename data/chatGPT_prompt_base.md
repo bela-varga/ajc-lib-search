@@ -1,4 +1,4 @@
-Egy podcasteket tartalmazó audio library-hez csinálok json-t, de typescriptben, hogy típusos legyen. Ebben kérlek, hogy segíts. 
+Egy podcasteket tartalmazó audio library-hez csinálok json-t, de typescriptben, hogy típusos legyen. Ebben kérlek, hogy segíts.
 
 A "json"-ban AudioLibSearchElement[] van, és ez az AudioLibSearchElement típus:
 
@@ -16,6 +16,7 @@ export type AudioLibSearchElement = {
 ```
 
 Egy példa eredmény egy előző videóról, amit én kézzel megcsináltam:
+
 ```
 export const audioLibraryList: AudioLibSearchElement[] = [
   {
@@ -108,18 +109,21 @@ Ebből kérlek csinálj nekem a videóról egy "json"-t, a fenti példa alapján
 A video id-ja nézzen ki így: pl. 0007-01-XX - ahol csak az XX részt változtatod, és azt mondja meg, hogy a videón belül hányadik timestamp.
 A 01 maga a teljes videó, "teljes videó" tag-gel, utána jönnek a timestampes részek.
 FONTOS:
+
 - NE változtasd meg semelyik topic címet sem, úgy másold be, ahogy a timestamp után meg van adva!
-- a legelső videó "teljes video" tag-et kap, valamint azt a tag-et amit minden más videó is megkap a videón belül.
+- a legelső videó "teljes video" tag-et kap, valamint azt a tag-et amit minden más videó is megkap a videón belül. A legelső videó CSAK ezt a kettő tag-et kapja, másikat nem.
 - ne tegyél be sehova sem kommentet
 - ne adj további tanácsokat, már másik chat-ben programozó AI-al meg lett beszélve a struktúra és a felhasználás, csak a "json"-generálást kérem tőled
 - a topicTitle alapján tegyél be tag-eket, amik szerinted megfelelnek az adott címhez
+- a tömbben az utolsó object után is tegyél vesszőt!
 
 Kérlek csak annyit válaszolj hogy "Rendben, várom az adatokat, és utána adom az adatokat, egyszerre mindig csak egy videóhoz.
 
 ---
-Video adatok: 
-- video link: 
-- video title: 
-- id: 0011-01-XX (csak az XX-et változtasd) 
-- timestampek:
 
+Video adatok:
+
+- video link:
+- video title:
+- id: 0011-01-XX (csak az XX-et változtasd)
+- timestampek:

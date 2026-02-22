@@ -10,7 +10,8 @@ interface UseSearchResult {
   results: AudioLibSearchElement[];
   hasSearched: boolean;
   handleSearch: (query: string) => void;
-  searchQuery: string;
+  removeQuery: (query: string) => void;
+  searchQueries: string[];
   currentPage: number;
   totalPages: number;
   paginatedResults: AudioLibSearchElement[];
@@ -22,12 +23,14 @@ interface UseSearchResult {
 export function useSearch(): UseSearchResult {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const query = searchParams.get('q') || '';
+  const searchQueries = searchParams.getAll('q');
   const pageParam = searchParams.get('page');
 
   // Derived state - no need for useEffect
-  const results = query ? searchLibrary(audioLibraryList, [query]) : [];
-  const hasSearched = !!query;
+  const results = searchQueries.length
+    ? searchLibrary(audioLibraryList, searchQueries)
+    : [];
+  const hasSearched = searchQueries.length > 0;
   const totalResults = results.length;
   const totalPages = Math.ceil(totalResults / ITEMS_PER_PAGE);
 
@@ -44,19 +47,32 @@ export function useSearch(): UseSearchResult {
 
   const handleSearch = useCallback(
     (newQuery: string) => {
-      if (newQuery) {
-        setSearchParams((prev) => {
-          prev.set('q', newQuery);
-          prev.delete('page'); // Reset to page 1 on new search
-          return prev;
-        });
-      } else {
-        setSearchParams((prev) => {
-          prev.delete('q');
-          prev.delete('page');
-          return prev;
-        });
-      }
+      const trimmed = newQuery.trim();
+      if (!trimmed) return;
+      setSearchParams((prev) => {
+        const existing = prev.getAll('q');
+        // Deduplicate: do not add if already present (case-sensitive match)
+        if (existing.includes(trimmed)) return prev;
+        prev.append('q', trimmed);
+        prev.delete('page'); // Reset to page 1 on new search
+        return prev;
+      });
+    },
+    [setSearchParams],
+  );
+
+  const removeQuery = useCallback(
+    (queryToRemove: string) => {
+      setSearchParams((prev) => {
+        const existing = prev.getAll('q');
+        // Rebuild params without the removed query
+        prev.delete('q');
+        existing
+          .filter((q) => q !== queryToRemove)
+          .forEach((q) => prev.append('q', q));
+        prev.delete('page');
+        return prev;
+      });
     },
     [setSearchParams],
   );
@@ -77,7 +93,8 @@ export function useSearch(): UseSearchResult {
     results,
     hasSearched,
     handleSearch,
-    searchQuery: query,
+    removeQuery,
+    searchQueries,
     currentPage: validPage,
     totalResults,
     totalPages,

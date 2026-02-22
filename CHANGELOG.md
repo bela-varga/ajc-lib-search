@@ -4,11 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [2026-02-22] - Option for Multiple Search Queries
+## [2026-02-22] - Add Support for Multiple Search Queries
 
 ### Added
 
-- SearchEngine now supports multiple search queries - it narrows down results with each additional query.
+- `SearchBar` now displays active search queries as removable chips above the input
+- Submitting a search adds a new chip (duplicates are ignored); input clears after adding
+- Clicking the × on a chip removes that query; removing all chips returns to initial (no results) state
+- Clicking a tag on a result card now **adds** it to the active queries (instead of replacing)
+- `useSearch` hook updated: reads multiple `?q=` URL params, exposes `searchQueries: string[]` and new `removeQuery()` function
+- `ResultsList` and `ResultItem` wired up with `onTagClick` prop
+- Unit tests added/updated across all affected components and the hook
+
+### Changed
+
+- SearchEngine already supported multiple search queries (added previously) — UI now fully reflects this
+- URL format for multiple queries: `?q=query1&q=query2` (standard repeated params)
 
 ---
 

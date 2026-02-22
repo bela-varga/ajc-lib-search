@@ -21,6 +21,20 @@ describe('Home route', () => {
     );
   };
 
+  const defaultMock = {
+    results: [],
+    paginatedResults: [],
+    hasSearched: false,
+    handleSearch: vi.fn(),
+    removeQuery: vi.fn(),
+    searchQueries: [],
+    currentPage: 1,
+    totalPages: 0,
+    setPage: vi.fn(),
+    itemsPerPage: 10,
+    totalResults: 0,
+  };
+
   it('has correct meta tags', () => {
     const metaTags = meta();
     expect(metaTags).toEqual(
@@ -35,18 +49,7 @@ describe('Home route', () => {
   });
 
   it('renders initial state correctly (not searched)', () => {
-    (useSearch as any).mockReturnValue({
-      results: [],
-      paginatedResults: [],
-      hasSearched: false,
-      handleSearch: vi.fn(),
-      searchQuery: '',
-      currentPage: 1,
-      totalPages: 0,
-      setPage: vi.fn(),
-      itemsPerPage: 10,
-      totalResults: 0,
-    });
+    (useSearch as any).mockReturnValue(defaultMock);
 
     renderHome();
 
@@ -62,6 +65,7 @@ describe('Home route', () => {
 
   it('renders results state correctly', () => {
     (useSearch as any).mockReturnValue({
+      ...defaultMock,
       results: [
         {
           id: '1',
@@ -81,12 +85,9 @@ describe('Home route', () => {
         },
       ],
       hasSearched: true,
-      handleSearch: vi.fn(),
-      searchQuery: 'test',
+      searchQueries: ['test'],
       currentPage: 1,
       totalPages: 1,
-      setPage: vi.fn(),
-      itemsPerPage: 10,
       totalResults: 1,
     });
 
@@ -94,21 +95,17 @@ describe('Home route', () => {
 
     expect(screen.getByRole('search')).toBeInTheDocument();
     expect(screen.getByText('Test Result')).toBeInTheDocument();
-    // Assuming ResultsList shows "1 találat" based on results.length
-    // We should check how ResultsList behaves. It usually takes filtered results.
   });
 
   it('renders pagination when multiple pages exist', () => {
     (useSearch as any).mockReturnValue({
+      ...defaultMock,
       results: Array(15).fill({}),
       paginatedResults: Array(10).fill({ id: '1', talkTitle: 'Hit' }),
       hasSearched: true,
-      handleSearch: vi.fn(),
-      searchQuery: 'test',
+      searchQueries: ['test'],
       currentPage: 1,
       totalPages: 2,
-      setPage: vi.fn(),
-      itemsPerPage: 10,
       totalResults: 15,
     });
 
@@ -124,15 +121,8 @@ describe('Home route', () => {
   it('handles search interaction', () => {
     const handleSearchMock = vi.fn();
     (useSearch as any).mockReturnValue({
-      results: [],
-      paginatedResults: [],
-      hasSearched: false,
+      ...defaultMock,
       handleSearch: handleSearchMock,
-      searchQuery: '',
-      currentPage: 1,
-      totalPages: 0,
-      setPage: vi.fn(),
-      itemsPerPage: 10,
     });
 
     renderHome();
@@ -144,5 +134,20 @@ describe('Home route', () => {
     fireEvent.click(button);
 
     expect(handleSearchMock).toHaveBeenCalledWith('integration test');
+  });
+
+  it('renders chips for active search queries', () => {
+    (useSearch as any).mockReturnValue({
+      ...defaultMock,
+      hasSearched: true,
+      searchQueries: ['halál', 'igazság'],
+      paginatedResults: [],
+      totalResults: 0,
+    });
+
+    renderHome();
+
+    expect(screen.getByText('halál')).toBeInTheDocument();
+    expect(screen.getByText('igazság')).toBeInTheDocument();
   });
 });

@@ -1,13 +1,17 @@
 import type { AudioLibSearchElement } from '../types/library.types';
 import ResultItem from './ResultItem';
 
+interface ResultsListProps {
+  results: AudioLibSearchElement[];
+  totalResults: number;
+  onTagClick?: (tag: string) => void;
+}
+
 export default function ResultsList({
   results,
   totalResults,
-}: {
-  results: AudioLibSearchElement[];
-  totalResults: number;
-}) {
+  onTagClick,
+}: ResultsListProps) {
   if (results.length === 0) {
     return (
       <div className="mt-8 text-center text-gray-500 dark:text-gray-400">
@@ -23,7 +27,7 @@ export default function ResultsList({
       </div>
       <div className="grid grid-cols-1 gap-4">
         {results.map((result) => (
-          <ResultItem key={result.id} {...result} />
+          <ResultItem key={result.id} {...result} onTagClick={onTagClick} />
         ))}
       </div>
     </div>

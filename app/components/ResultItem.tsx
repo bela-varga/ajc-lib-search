@@ -1,6 +1,9 @@
-import { Link } from 'react-router';
 import type { AudioLibSearchElement } from '../types/library.types';
 import { ExternalLink } from './ExternalLink';
+
+type ResultItemProps = AudioLibSearchElement & {
+  onTagClick?: (tag: string) => void;
+};
 
 export default function ResultItem({
   talkTitle,
@@ -10,7 +13,8 @@ export default function ResultItem({
   youtubeLink,
   spotifyLink,
   timestamp,
-}: AudioLibSearchElement) {
+  onTagClick,
+}: ResultItemProps) {
   const getYoutubeLink = () => {
     if (!youtubeLink) return null;
     if (timestamp && timestamp > 0) {
@@ -46,14 +50,15 @@ export default function ResultItem({
 
         {tags && tags.length > 0 && (
           <div className="flex flex-wrap gap-2">
-            {tags.map((tag) => (
-              <Link
+            {tags.map((tag: string) => (
+              <button
                 key={tag}
-                to={`/?q=${encodeURIComponent(tag)}`}
-                className="px-2 py-0.5 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
+                type="button"
+                onClick={() => onTagClick?.(tag)}
+                className="px-2 py-0.5 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors cursor-pointer"
               >
                 {tag}
-              </Link>
+              </button>
             ))}
           </div>
         )}

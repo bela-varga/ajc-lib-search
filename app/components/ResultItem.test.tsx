@@ -1,6 +1,5 @@
-import { render, screen } from '@testing-library/react';
-import { describe, it, expect } from 'vitest';
-import { BrowserRouter } from 'react-router';
+import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
 import ResultItem from './ResultItem';
 import type { AudioLibSearchElement } from '../types/library.types';
 
@@ -16,12 +15,11 @@ const mockItem: AudioLibSearchElement = {
 };
 
 describe('ResultItem', () => {
-  const renderResultItem = (props: AudioLibSearchElement) => {
-    return render(
-      <BrowserRouter>
-        <ResultItem {...props} />
-      </BrowserRouter>,
-    );
+  const renderResultItem = (
+    props: AudioLibSearchElement,
+    onTagClick?: (tag: string) => void,
+  ) => {
+    return render(<ResultItem {...props} onTagClick={onTagClick} />);
   };
 
   it('renders talkTitle, topicTitle, description, and tags', () => {
@@ -47,22 +45,40 @@ describe('ResultItem', () => {
       ...mockItem,
       tags: undefined as any,
     };
-    // Note: strictly speaking we should create a new render or handle rerender carefully with wrappers
-    // but for simplicity let's just assert on a fresh render
     renderResultItem(itemUndefinedTags);
     expect(screen.queryByText('tag1')).not.toBeInTheDocument();
   });
 
-  it('renders tags as clickable links', () => {
+  it('renders tags as buttons (not links)', () => {
     renderResultItem(mockItem);
 
-    const tag1 = screen.getByRole('link', { name: /tag1/i });
-    const tag2 = screen.getByRole('link', { name: /tag2/i });
+    const tag1 = screen.getByRole('button', { name: /tag1/i });
+    const tag2 = screen.getByRole('button', { name: /tag2/i });
 
     expect(tag1).toBeInTheDocument();
-    expect(tag1).toHaveAttribute('href', '/?q=tag1');
     expect(tag2).toBeInTheDocument();
-    expect(tag2).toHaveAttribute('href', '/?q=tag2');
+    // Tags should NOT be anchor links any more
+    expect(tag1.tagName).toBe('BUTTON');
+    expect(tag2.tagName).toBe('BUTTON');
+  });
+
+  it('calls onTagClick with the correct tag when a tag button is clicked', () => {
+    const onTagClick = vi.fn();
+    renderResultItem(mockItem, onTagClick);
+
+    fireEvent.click(screen.getByRole('button', { name: /tag1/i }));
+
+    expect(onTagClick).toHaveBeenCalledTimes(1);
+    expect(onTagClick).toHaveBeenCalledWith('tag1');
+  });
+
+  it('does not throw when onTagClick is not provided', () => {
+    // Should render without crashing; click should be a no-op
+    renderResultItem(mockItem, undefined);
+
+    expect(() =>
+      fireEvent.click(screen.getByRole('button', { name: /tag1/i })),
+    ).not.toThrow();
   });
 
   it('renders YouTube link correctly without timestamp', () => {

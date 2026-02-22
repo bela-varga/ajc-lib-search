@@ -21,12 +21,14 @@ vi.mock('../../data/AJCaudioLibraryList', () => ({
 
 describe('useSearch', () => {
   const setSearchParamsMock = vi.fn();
+  const searchParamsGetAllMock = vi.fn();
   const searchParamsGetMock = vi.fn();
 
   beforeEach(() => {
     vi.clearAllMocks();
     (useSearchParams as any).mockReturnValue([
       {
+        getAll: searchParamsGetAllMock,
         get: searchParamsGetMock,
       },
       setSearchParamsMock,
@@ -34,17 +36,14 @@ describe('useSearch', () => {
   });
 
   it('initializes with empty results and page 1', () => {
-    searchParamsGetMock.mockImplementation((key) => {
-      if (key === 'q') return null;
-      if (key === 'page') return null;
-      return null;
-    });
+    searchParamsGetAllMock.mockReturnValue([]);
+    searchParamsGetMock.mockReturnValue(null);
 
     const { result } = renderHook(() => useSearch());
     expect(result.current.results).toEqual([]);
     expect(result.current.paginatedResults).toEqual([]);
     expect(result.current.hasSearched).toBe(false);
-    expect(result.current.searchQuery).toBe('');
+    expect(result.current.searchQueries).toEqual([]);
     expect(result.current.currentPage).toBe(1);
     expect(result.current.totalPages).toBe(0);
     expect(result.current.totalResults).toBe(0);
@@ -52,18 +51,16 @@ describe('useSearch', () => {
   });
 
   it('performs search and updates pagination info', () => {
-    // Mock user searching for "Tag" which should match all mocked items
-    searchParamsGetMock.mockImplementation((key) => {
-      if (key === 'q') return 'Tag';
-      return null;
-    });
+    // Mock user searching for "tag" which should match all mocked items
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockReturnValue(null);
 
     const { result } = renderHook(() => useSearch());
 
-    expect(result.current.searchQuery).toBe('Tag');
+    expect(result.current.searchQueries).toEqual(['tag']);
     expect(result.current.hasSearched).toBe(true);
 
-    // We mocked 25 items, all should match "Tag" (case insensitive)
+    // We mocked 25 items, all should match "tag" (case insensitive)
     expect(result.current.results.length).toBe(25);
     expect(result.current.totalResults).toBe(25);
 
@@ -74,12 +71,22 @@ describe('useSearch', () => {
     expect(result.current.totalPages).toBe(3);
   });
 
+  it('narrows results with multiple queries', () => {
+    // "tag" matches all 25; "Talk 1" narrows to item with id=1, plus "Talk 10"-"Talk 19"
+    // Actually let's use two queries that combine to narrow: "tag" (all 25) + "Talk 1" (items 1,10-19)
+    searchParamsGetAllMock.mockReturnValue(['tag', 'Talk 1']);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    // "tag" matches all 25, then narrowed by "Talk 1" → matches id 1, 10-19 (11 items)
+    expect(result.current.results.length).toBe(11);
+    expect(result.current.hasSearched).toBe(true);
+  });
+
   it('updates page when setPage is used', () => {
-    // Mock user searching for "Tag" so that totalPages > 1
-    searchParamsGetMock.mockImplementation((key) => {
-      if (key === 'q') return 'Tag';
-      return null;
-    });
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockReturnValue(null);
 
     const { result } = renderHook(() => useSearch());
 
@@ -94,8 +101,10 @@ describe('useSearch', () => {
     expect(params.get('page')).toBe('2');
   });
 
-  it('resets page to 1 when new search is performed', () => {
+  it('handleSearch appends a new query and resets page', () => {
+    searchParamsGetAllMock.mockReturnValue([]);
     searchParamsGetMock.mockReturnValue(null);
+
     const { result } = renderHook(() => useSearch());
 
     act(() => {
@@ -105,17 +114,70 @@ describe('useSearch', () => {
     expect(setSearchParamsMock).toHaveBeenCalled();
     const updateFn = setSearchParamsMock.mock.calls[0][0];
     const params = new URLSearchParams();
-    // Simulate existing page param
     params.set('page', '5');
     updateFn(params);
-    expect(params.get('q')).toBe('new query');
-    expect(params.has('page')).toBe(false); // Should be deleted/reset
+    // Should have appended q
+    expect(params.getAll('q')).toContain('new query');
+    // Page should be reset
+    expect(params.has('page')).toBe(false);
+  });
+
+  it('handleSearch does not add duplicate queries', () => {
+    searchParamsGetAllMock.mockReturnValue(['existing']);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    act(() => {
+      result.current.handleSearch('existing');
+    });
+
+    expect(setSearchParamsMock).toHaveBeenCalled();
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams([['q', 'existing']]);
+    updateFn(params);
+    // Should still only have one 'existing'
+    expect(params.getAll('q')).toEqual(['existing']);
+  });
+
+  it('handleSearch ignores empty or whitespace-only strings', () => {
+    searchParamsGetAllMock.mockReturnValue([]);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    act(() => {
+      result.current.handleSearch('   ');
+    });
+
+    expect(setSearchParamsMock).not.toHaveBeenCalled();
+  });
+
+  it('removeQuery removes one query and keeps the rest', () => {
+    searchParamsGetAllMock.mockReturnValue(['first', 'second']);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    act(() => {
+      result.current.removeQuery('first');
+    });
+
+    expect(setSearchParamsMock).toHaveBeenCalled();
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams([
+      ['q', 'first'],
+      ['q', 'second'],
+      ['page', '2'],
+    ]);
+    updateFn(params);
+    expect(params.getAll('q')).toEqual(['second']);
+    expect(params.has('page')).toBe(false); // page reset
   });
 
   it('respects page parameter from URL', () => {
-    // Mock user on page 2 searching for "Tag"
-    searchParamsGetMock.mockImplementation((key) => {
-      if (key === 'q') return 'Tag';
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockImplementation((key: string) => {
       if (key === 'page') return '2';
       return null;
     });
@@ -130,9 +192,8 @@ describe('useSearch', () => {
   });
 
   it('handles last page correctly', () => {
-    // Mock user on page 3 searching for "Tag" (25 items total)
-    searchParamsGetMock.mockImplementation((key) => {
-      if (key === 'q') return 'Tag';
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockImplementation((key: string) => {
       if (key === 'page') return '3';
       return null;
     });
@@ -146,9 +207,8 @@ describe('useSearch', () => {
   });
 
   it('clamps page to totalPages if page param is too high', () => {
-    // Mock user requesting page 100 but only 3 pages exist
-    searchParamsGetMock.mockImplementation((key) => {
-      if (key === 'q') return 'Tag';
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockImplementation((key: string) => {
       if (key === 'page') return '100';
       return null;
     });

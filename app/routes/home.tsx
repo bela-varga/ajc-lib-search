@@ -17,7 +17,8 @@ export default function Home() {
   const {
     hasSearched,
     handleSearch,
-    searchQuery,
+    removeQuery,
+    searchQueries,
     paginatedResults,
     currentPage,
     totalPages,
@@ -40,7 +41,11 @@ export default function Home() {
 
         <div className="flex flex-col items-center space-y-8">
           <div className="w-full flex justify-center">
-            <SearchBar onSearch={handleSearch} initialQuery={searchQuery} />
+            <SearchBar
+              onSearch={handleSearch}
+              onRemoveQuery={removeQuery}
+              queries={searchQueries}
+            />
           </div>
 
           {hasSearched && (
@@ -54,6 +59,7 @@ export default function Home() {
               <ResultsList
                 results={paginatedResults}
                 totalResults={totalResults}
+                onTagClick={handleSearch}
               />
               <Pagination
                 currentPage={currentPage}

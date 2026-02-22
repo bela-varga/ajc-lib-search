@@ -25,6 +25,8 @@ export default function Home() {
     setPage,
     itemsPerPage,
     totalResults,
+    currentSort,
+    handleSortChange,
   } = useSearch();
 
   return (
@@ -60,6 +62,8 @@ export default function Home() {
                 results={paginatedResults}
                 totalResults={totalResults}
                 onTagClick={handleSearch}
+                currentSort={currentSort}
+                onSortChange={handleSortChange}
               />
               <Pagination
                 currentPage={currentPage}

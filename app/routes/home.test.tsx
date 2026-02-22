@@ -33,6 +33,8 @@ describe('Home route', () => {
     setPage: vi.fn(),
     itemsPerPage: 10,
     totalResults: 0,
+    currentSort: 'newest',
+    handleSortChange: vi.fn(),
   };
 
   it('has correct meta tags', () => {
@@ -95,6 +97,7 @@ describe('Home route', () => {
 
     expect(screen.getByRole('search')).toBeInTheDocument();
     expect(screen.getByText('Test Result')).toBeInTheDocument();
+    expect(screen.getByLabelText('Rendezés:')).toBeInTheDocument();
   });
 
   it('renders pagination when multiple pages exist', () => {
@@ -149,5 +152,25 @@ describe('Home route', () => {
 
     expect(screen.getByText('halál')).toBeInTheDocument();
     expect(screen.getByText('igazság')).toBeInTheDocument();
+  });
+
+  it('handles sort change interaction', () => {
+    const handleSortChangeMock = vi.fn();
+    (useSearch as any).mockReturnValue({
+      ...defaultMock,
+      hasSearched: true,
+      searchQueries: ['test'],
+      results: [{ id: '1', talkTitle: 'Hit' }],
+      paginatedResults: [{ id: '1', talkTitle: 'Hit' }],
+      totalResults: 1,
+      handleSortChange: handleSortChangeMock,
+    });
+
+    renderHome();
+
+    const select = screen.getByLabelText('Rendezés:');
+    fireEvent.change(select, { target: { value: 'oldest' } });
+
+    expect(handleSortChangeMock).toHaveBeenCalledWith('oldest');
   });
 });

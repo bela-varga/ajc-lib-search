@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { describe, it, expect, vi } from 'vitest';
 import ResultsList from './ResultsList';
 import type { AudioLibSearchElement } from '../types/library.types';
@@ -51,10 +51,26 @@ describe('ResultsList', () => {
     expect(screen.getByText('Item 2')).toBeInTheDocument();
   });
 
+  it('renders sorting dropdown and calls onSortChange', () => {
+    const onSortChange = vi.fn();
+    render(
+      <ResultsList
+        results={mockResults}
+        totalResults={2}
+        currentSort="newest"
+        onSortChange={onSortChange}
+      />,
+    );
+
+    const select = screen.getByLabelText('Rendezés:');
+    expect(select).toBeInTheDocument();
+    expect(select).toHaveValue('newest');
+
+    fireEvent.change(select, { target: { value: 'oldest' } });
+    expect(onSortChange).toHaveBeenCalledWith('oldest');
+  });
+
   it('renders correct singular/plural count text (if specialized)', () => {
-    // Currently the component just says "{count} találat".
-    // If it changes to "1 találat", "2 találat", it is generic.
-    // Let's test 1 result.
     render(<ResultsList results={[mockResults[0]]} totalResults={1} />);
     expect(screen.getByText('1 találat')).toBeInTheDocument();
   });

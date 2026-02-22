@@ -4,22 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [2026-02-22] - Add Support for Multiple Search Queries
+## [2026-02-22] - Support for Multiple Search Queries and Sorting
 
 ### Added
 
-- `SearchBar` now displays active search queries as removable chips above the input
-- Submitting a search adds a new chip (duplicates are ignored); input clears after adding
-- Clicking the × on a chip removes that query; removing all chips returns to initial (no results) state
-- Clicking a tag on a result card now **adds** it to the active queries (instead of replacing)
-- `useSearch` hook updated: reads multiple `?q=` URL params, exposes `searchQueries: string[]` and new `removeQuery()` function
-- `ResultsList` and `ResultItem` wired up with `onTagClick` prop
-- Unit tests added/updated across all affected components and the hook
+- Added support for multiple search queries
+- Added chips to display/delete active search queries
+- Added sorting functionality - sort by video id asc/desc (basically sort by newest/oldest)
+- Optimized sorting by using pre-sorted library pointers for O(1) sort selection and O(N) search performance
 
 ### Changed
 
-- SearchEngine already supported multiple search queries (added previously) — UI now fully reflects this
-- URL format for multiple queries: `?q=query1&q=query2` (standard repeated params)
+- url now contains multiple `?q=` parameters for multiple search queries
+- url now contains `?sort=` parameter for sorting
+- Default sorting changed from ID ascending to ID descending (newest first) for better UX
 
 ---
 

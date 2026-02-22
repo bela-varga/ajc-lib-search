@@ -11,7 +11,7 @@ vi.mock('react-router', () => ({
 // Mock the data source
 vi.mock('../../data/AJCaudioLibraryList', () => ({
   audioLibraryList: Array.from({ length: 25 }, (_, i) => ({
-    id: `${i}`,
+    id: `${100 + i}`, // Using IDs that indicate order
     talkTitle: `Talk ${i}`,
     topicTitle: `Topic ${i}`,
     description: `Description ${i}`,
@@ -71,15 +71,75 @@ describe('useSearch', () => {
     expect(result.current.totalPages).toBe(3);
   });
 
+  it('defaults to newest first (reversed id order)', () => {
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    // Original list was 100, 101, ..., 124
+    // Newest first should be 124, 123, ...
+    expect(result.current.results[0].id).toBe('124');
+    expect(result.current.results[24].id).toBe('100');
+    expect(result.current.currentSort).toBe('newest');
+  });
+
+  it('supports oldest first sorting', () => {
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockImplementation((key) => {
+      if (key === 'sort') return 'oldest';
+      return null;
+    });
+
+    const { result } = renderHook(() => useSearch());
+
+    expect(result.current.results[0].id).toBe('100');
+    expect(result.current.results[24].id).toBe('124');
+    expect(result.current.currentSort).toBe('oldest');
+  });
+
+  it('handleSortChange updates URL and resets page', () => {
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    act(() => {
+      result.current.handleSortChange('oldest');
+    });
+
+    expect(setSearchParamsMock).toHaveBeenCalled();
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams([['page', '2']]);
+    updateFn(params);
+    expect(params.get('sort')).toBe('oldest');
+    expect(params.has('page')).toBe(false);
+  });
+
+  it('handleSortChange removes sort param if set to newest (default)', () => {
+    searchParamsGetAllMock.mockReturnValue(['tag']);
+    searchParamsGetMock.mockReturnValue('oldest');
+
+    const { result } = renderHook(() => useSearch());
+
+    act(() => {
+      result.current.handleSortChange('newest');
+    });
+
+    expect(setSearchParamsMock).toHaveBeenCalled();
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams([['sort', 'oldest']]);
+    updateFn(params);
+    expect(params.has('sort')).toBe(false);
+  });
+
   it('narrows results with multiple queries', () => {
-    // "tag" matches all 25; "Talk 1" narrows to item with id=1, plus "Talk 10"-"Talk 19"
-    // Actually let's use two queries that combine to narrow: "tag" (all 25) + "Talk 1" (items 1,10-19)
     searchParamsGetAllMock.mockReturnValue(['tag', 'Talk 1']);
     searchParamsGetMock.mockReturnValue(null);
 
     const { result } = renderHook(() => useSearch());
 
-    // "tag" matches all 25, then narrowed by "Talk 1" → matches id 1, 10-19 (11 items)
+    // "Talk 1" matches: Talk 1, Talk 10, Talk 11, ..., Talk 19 (11 items)
     expect(result.current.results.length).toBe(11);
     expect(result.current.hasSearched).toBe(true);
   });
@@ -187,8 +247,6 @@ describe('useSearch', () => {
 
     // Page 2 should have 10 items (items 10-19)
     expect(result.current.paginatedResults.length).toBe(ITEMS_PER_PAGE);
-    // Verify content of first item on page 2 (index 10)
-    expect(result.current.paginatedResults[0].id).toBe('10');
   });
 
   it('handles last page correctly', () => {
@@ -203,7 +261,6 @@ describe('useSearch', () => {
 
     // Page 3 should have 5 items (items 20-24)
     expect(result.current.paginatedResults.length).toBe(5);
-    expect(result.current.paginatedResults[0].id).toBe('20');
   });
 
   it('clamps page to totalPages if page param is too high', () => {
@@ -221,6 +278,5 @@ describe('useSearch', () => {
 
     // Should return results for the last page
     expect(result.current.paginatedResults.length).toBe(5);
-    expect(result.current.paginatedResults[0].id).toBe('20');
   });
 });

@@ -6,6 +6,9 @@ import { audioLibraryList } from '../../data/AJCaudioLibraryList';
 
 export const ITEMS_PER_PAGE = 10;
 
+// Pre-sort the library once for performance
+const newestFirstLibrary = [...audioLibraryList].reverse();
+
 interface UseSearchResult {
   results: AudioLibSearchElement[];
   hasSearched: boolean;
@@ -18,6 +21,8 @@ interface UseSearchResult {
   setPage: (page: number) => void;
   itemsPerPage: number;
   totalResults: number;
+  currentSort: string;
+  handleSortChange: (sort: string) => void;
 }
 
 export function useSearch(): UseSearchResult {
@@ -25,10 +30,15 @@ export function useSearch(): UseSearchResult {
 
   const searchQueries = searchParams.getAll('q');
   const pageParam = searchParams.get('page');
+  const currentSort = searchParams.get('sort') || 'newest';
+
+  // Select pre-sorted library based on sort preference
+  const baseLibrary =
+    currentSort === 'oldest' ? audioLibraryList : newestFirstLibrary;
 
   // Derived state - no need for useEffect
   const results = searchQueries.length
-    ? searchLibrary(audioLibraryList, searchQueries)
+    ? searchLibrary(baseLibrary, searchQueries)
     : [];
   const hasSearched = searchQueries.length > 0;
   const totalResults = results.length;
@@ -77,6 +87,21 @@ export function useSearch(): UseSearchResult {
     [setSearchParams],
   );
 
+  const handleSortChange = useCallback(
+    (newSort: string) => {
+      setSearchParams((prev) => {
+        if (newSort === 'newest') {
+          prev.delete('sort');
+        } else {
+          prev.set('sort', newSort);
+        }
+        prev.delete('page'); // Reset to page 1 on sort change
+        return prev;
+      });
+    },
+    [setSearchParams],
+  );
+
   const setPage = useCallback(
     (newPage: number) => {
       setSearchParams((prev) => {
@@ -101,5 +126,7 @@ export function useSearch(): UseSearchResult {
     paginatedResults,
     setPage,
     itemsPerPage: ITEMS_PER_PAGE,
+    currentSort,
+    handleSortChange,
   };
 }

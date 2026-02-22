@@ -9,7 +9,7 @@ Any item here may or may not be implemented.
 
 ## Possible Future Enhancements
 
-- [ ] Add toggle for search order (for now order by video id: asc, desc)
+- [x] Add toggle for search order (for now order by video id: asc, desc)
 - [ ] When we click on a talk title, it should open that talk in a new tab
 - [x] Add "search in search in search" (e.g. search for "halál" in the search results)
   - [x] discover options to do this on multiple levels
@@ -17,7 +17,7 @@ Any item here may or may not be implemented.
   - [x] implement UI to support this
 - [ ] Update AJC audio library with more data
 - [ ] Check all tags and make them consistent (like 'gyerekek', 'gyermek' -> 'gyerek' and check for each other tag)
-  - [ ] grep and list  all the tags from the json
+  - [ ] grep and list all the tags from the json
   - [ ] check what changes should be made
   - [ ] make the changes and document them in chatGPT_prompt_base.md so the same mistake would not be repeated in future changes
   - [ ] or... write a script that checks for the changes that should be changed and fix them automagically?
@@ -30,7 +30,7 @@ Any item here may or may not be implemented.
   - [x] Add search query to URL
   - [ ] Add filters to URL
   - [x] Add pagination to URL
-  - [ ] Add sorting to URL
+  - [x] Add sorting (newest/oldest first)URL
   - [ ] Add 'Copy link' button
 - [ ] Fuzzy search integration (Fuse.js)
 - [ ] Favorites/bookmarks (localStorage)

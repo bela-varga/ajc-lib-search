@@ -26,7 +26,7 @@ export function useSearch(): UseSearchResult {
   const pageParam = searchParams.get('page');
 
   // Derived state - no need for useEffect
-  const results = query ? searchLibrary(audioLibraryList, query) : [];
+  const results = query ? searchLibrary(audioLibraryList, [query]) : [];
   const hasSearched = !!query;
   const totalResults = results.length;
   const totalPages = Math.ceil(totalResults / ITEMS_PER_PAGE);

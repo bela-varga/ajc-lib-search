@@ -73,7 +73,6 @@ This file contains specific instructions and context for AI assistants working o
 - ❌ No fuzzy search libraries (at first - may add later)
 - ❌ No search-as-you-type (search on button/Enter only)
 - ❌ No icons/badges for YouTube/Spotify (use text labels)
-- ❌ No pagination in MVP (added in Phase 6)
 
 ---
 
@@ -110,4 +109,4 @@ This file contains specific instructions and context for AI assistants working o
 
 - ✅ Ask if anything is unclear before coding
 - ✅ Test everything you build
-- ✅ Keep documentation up to date
+- ✅ Keep TODO.md and CHANGELOG.md up to date

@@ -1,3 +1,8 @@
+import { ExternalLink } from '~/components/ExternalLink';
+import { audioLibraryList } from '../../data/AJCaudioLibraryList';
+
+const lastEntry = audioLibraryList[audioLibraryList.length - 1];
+
 export function meta() {
   return [
     { title: 'Rólunk - A. J. Christian "Könyvtár" Kereső' },
@@ -43,6 +48,16 @@ export default function About() {
               automatikusan. Ennélfogva előfordulhat, hogy amikor ezt az oldalt
               nézed, akkor az utolsó pár videó nincs még a listában.
             </p>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              A lista jelenleg az{' '}
+              <ExternalLink
+                className="underline text-blue-600 dark:text-blue-400"
+                href={lastEntry.youtubeLink || ''}
+              >
+                {lastEntry.talkTitle}
+              </ExternalLink>{' '}
+              videóig tartalmaz adatokat.
+            </p>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
               Miben jobb/más ez, mint ha youtube-on keresek?
@@ -55,19 +70,40 @@ export default function About() {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Ugyanakkor csak ennyit tud, ennél többet nem. Mivel ezen az
-              oldalon kézzel is be tudunk állítani címkéket és plusz leírást a
-              videókhoz, így ugyanazt a videó részt akár sokkal több kereső
-              kifejezés által el lehet érni.
+              Ez az oldal alapvetően 2 dologban tud többet, mint a youtube
+              kereső:
             </p>
 
+            <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li className="text-gray-700 dark:text-gray-300">
+                Ezen az oldalon tudsz a találotokon belül tovább keresni.
+                Például rákeresel arra, hogy &quot;halál&quot;, és van több
+                tucat találat. Szűkíted a keresést azzal, hogy rákeresel arra
+                is, hogy &quot;lélek&quot; (elég csak rákattintani a
+                &quot;lélek&quot; címkére az egyik találatnál). Így már csak
+                azokat a videókat látod, ahol mindkét kifejezés szerepel. Ha
+                szeretnéd, ezt még tovább szűkítheted, akármennyi
+                keresőkifejezést használva. Lehet, hogy youtube-on is tudsz így
+                keresni, de itt biztos sokkal kényelmesebb.
+              </li>
+              <li className="text-gray-700 dark:text-gray-300">
+                <p>
+                  Mivel ezen az oldalon kézzel is be tudunk állítani címkéket és
+                  plusz leírást a videókhoz, így ugyanazt a videó részt akár
+                  sokkal több kereső kifejezés által el lehet érni.
+                </p>
+                <p>
+                  Például egy előadásban van egy olyan rész, hogy: &quot;Elhunyt
+                  az édesanyám&quot;. Ezt ezen az oldalon meg tudod találni a
+                  &quot;gyász&quot;, &quot;halál&quot;, &quot;veszteség&quot;
+                  címkékre keresve is.
+                </p>
+              </li>
+            </ul>
+
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Szeretném a legtöbb videónál, hogy ember által is át legyen nézve,
-              mert úgy kézzel be lehet írni sok címkét és leírást egy-egy
-              témához. Ugyanakkor jelenleg az fért bele az időmbe, hogy a
-              legtöbb videóhoz AI-al vettem ki a téma címeket az előadásokból,
-              és a címkéket is AI generálta. Szerintem így is nagyobb eséllyel
-              találsz meg valamit itt, mint a youtube keresőben.
+              Sajnos nincs időm minden videót megnézni és beírni a címkéket, így
+              a legtöbb videóhoz AI-al generáltatom a hozzá tartozó címkéket.
             </p>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">

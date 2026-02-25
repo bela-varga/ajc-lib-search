@@ -3247,12 +3247,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3603,
     topicTitle: 'Halál utáni élet - különálló lelkek',
     talkTitle: '2021. júniusi előadás - Megválaszolatlan kérdések',
-    tags: [
-      '2021 június előadás',
-      'halál utáni élet',
-      'lélek',
-      'spiritualitás',
-    ],
+    tags: ['2021 június előadás', 'halál utáni élet', 'lélek', 'spiritualitás'],
   },
   {
     id: '0042-01-12',
@@ -3478,12 +3473,7 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2205,
     topicTitle: 'Aranykor',
     talkTitle: 'A.J. Christian - Előadás, 2021. július',
-    tags: [
-      '2021 július előadás',
-      'aranykor',
-      'korszakváltás',
-      'spiritualitás',
-    ],
+    tags: ['2021 július előadás', 'aranykor', 'korszakváltás', 'spiritualitás'],
   },
   {
     id: '0047-01-09',
@@ -3773,7 +3763,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 129,
     topicTitle: 'Lelki fejlődés; szenvedés, nehézségek',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'lelki fejlődés', 'szenvedés', 'nehézségek', 'spirituális fejlődés'],
+    tags: [
+      '2021. augusztus előadás',
+      'lelki fejlődés',
+      'szenvedés',
+      'nehézségek',
+      'spirituális fejlődés',
+    ],
   },
   {
     id: '0051-01-03',
@@ -3782,7 +3778,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 313,
     topicTitle: 'Elakadás; élet, munka',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'elakadás', 'élethelyzet', 'munka', 'életút'],
+    tags: [
+      '2021. augusztus előadás',
+      'elakadás',
+      'élethelyzet',
+      'munka',
+      'életút',
+    ],
   },
   {
     id: '0051-01-04',
@@ -3791,7 +3793,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 568,
     topicTitle: 'Végstádium, morfium, átlépés',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'végstádium', 'halál', 'morfium', 'átlépés'],
+    tags: [
+      '2021. augusztus előadás',
+      'végstádium',
+      'halál',
+      'morfium',
+      'átlépés',
+    ],
   },
   {
     id: '0051-01-05',
@@ -3800,7 +3808,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 718,
     topicTitle: 'Félelem a kiszolgáltatottságtól',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'félelem', 'kiszolgáltatottság', 'bizonytalanság'],
+    tags: [
+      '2021. augusztus előadás',
+      'félelem',
+      'kiszolgáltatottság',
+      'bizonytalanság',
+    ],
   },
   {
     id: '0051-01-06',
@@ -3809,7 +3822,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1023,
     topicTitle: 'Christian, tartanál vezetett meditációt?',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'vezetett meditáció', 'meditáció', 'gyakorlat'],
+    tags: [
+      '2021. augusztus előadás',
+      'vezetett meditáció',
+      'meditáció',
+      'gyakorlat',
+    ],
   },
   {
     id: '0051-01-07',
@@ -3863,7 +3881,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2543,
     topicTitle: 'Lesznek e igazi közösségek?',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'közösség', 'társadalom', 'összetartozás'],
+    tags: [
+      '2021. augusztus előadás',
+      'közösség',
+      'társadalom',
+      'összetartozás',
+    ],
   },
   {
     id: '0051-01-13',
@@ -3890,7 +3913,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2755,
     topicTitle: 'Pszichedelikumok hatása',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'pszichedelikumok', 'tudatmódosítás', 'élmény'],
+    tags: [
+      '2021. augusztus előadás',
+      'pszichedelikumok',
+      'tudatmódosítás',
+      'élmény',
+    ],
   },
   {
     id: '0051-01-16',
@@ -3962,7 +3990,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4702,
     topicTitle: 'Értelmi képesség, intelligencia, jó memória',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'intelligencia', 'memória', 'értelmi képesség'],
+    tags: [
+      '2021. augusztus előadás',
+      'intelligencia',
+      'memória',
+      'értelmi képesség',
+    ],
   },
   {
     id: '0051-01-24',
@@ -3971,7 +4004,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4982,
     topicTitle: 'Kollektív Tudatos Teremtés',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'kollektív tudat', 'teremtés', 'tudatosság'],
+    tags: [
+      '2021. augusztus előadás',
+      'kollektív tudat',
+      'teremtés',
+      'tudatosság',
+    ],
   },
   {
     id: '0051-01-25',
@@ -4025,7 +4063,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 5931,
     topicTitle: 'Saint-Germain Gróf',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'Saint-Germain', 'misztika', 'történelem'],
+    tags: [
+      '2021. augusztus előadás',
+      'Saint-Germain',
+      'misztika',
+      'történelem',
+    ],
   },
   {
     id: '0051-01-31',
@@ -4062,7 +4105,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 346,
     topicTitle: 'Kompromisszum, egyéni fejlődés',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'kompromisszum', 'egyéni fejlődés', 'önismeret'],
+    tags: [
+      '2021. augusztus előadás',
+      'kompromisszum',
+      'egyéni fejlődés',
+      'önismeret',
+    ],
   },
   {
     id: '0052-01-04',
@@ -4098,7 +4146,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1554,
     topicTitle: 'Illúzió, érdektelenség',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'illúzió', 'érdektelenség', 'tudatállapot'],
+    tags: [
+      '2021. augusztus előadás',
+      'illúzió',
+      'érdektelenség',
+      'tudatállapot',
+    ],
   },
   {
     id: '0052-01-08',
@@ -4116,7 +4169,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2359,
     topicTitle: 'A láthatatlan világban',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'láthatatlan világ', 'spiritualitás', 'dimenziók'],
+    tags: [
+      '2021. augusztus előadás',
+      'láthatatlan világ',
+      'spiritualitás',
+      'dimenziók',
+    ],
   },
   {
     id: '0052-01-10',
@@ -4125,7 +4183,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2713,
     topicTitle: 'Tudatalatti',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'tudatalatti', 'psziché', 'belső működés'],
+    tags: [
+      '2021. augusztus előadás',
+      'tudatalatti',
+      'psziché',
+      'belső működés',
+    ],
   },
   {
     id: '0052-01-11',
@@ -4152,7 +4215,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3327,
     topicTitle: 'Elfáradtam az élettől',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'kimerültség', 'életuntság', 'lelkiállapot'],
+    tags: [
+      '2021. augusztus előadás',
+      'kimerültség',
+      'életuntság',
+      'lelkiállapot',
+    ],
   },
   {
     id: '0052-01-14',
@@ -4161,7 +4229,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3834,
     topicTitle: 'Lelki nehézségek',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'lelki nehézségek', 'belső küzdelem', 'önismeret'],
+    tags: [
+      '2021. augusztus előadás',
+      'lelki nehézségek',
+      'belső küzdelem',
+      'önismeret',
+    ],
   },
   {
     id: '0052-01-15',
@@ -4197,7 +4270,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4535,
     topicTitle: 'Megvilágosodás',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'megvilágosodás', 'ébredés', 'spiritualitás'],
+    tags: [
+      '2021. augusztus előadás',
+      'megvilágosodás',
+      'ébredés',
+      'spiritualitás',
+    ],
   },
   {
     id: '0052-01-19',
@@ -4262,7 +4340,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1654,
     topicTitle: 'Negatív gondolatok',
     talkTitle: 'A.J. Christian - Előadás, 2021. szeptember',
-    tags: ['2021. szeptember előadás', 'negatív gondolatok', 'mentális állapot', 'tudatosság'],
+    tags: [
+      '2021. szeptember előadás',
+      'negatív gondolatok',
+      'mentális állapot',
+      'tudatosság',
+    ],
   },
   {
     id: '0054-01-06',
@@ -4271,7 +4354,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1919,
     topicTitle: 'Dimenzióváltás',
     talkTitle: 'A.J. Christian - Előadás, 2021. szeptember',
-    tags: ['2021. szeptember előadás', 'dimenzióváltás', 'spiritualitás', 'tudatszint'],
+    tags: [
+      '2021. szeptember előadás',
+      'dimenzióváltás',
+      'spiritualitás',
+      'tudatszint',
+    ],
   },
   {
     id: '0054-01-07',
@@ -4289,7 +4377,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2740,
     topicTitle: 'II.Világháborús bolygóállás',
     talkTitle: 'A.J. Christian - Előadás, 2021. szeptember',
-    tags: ['2021. szeptember előadás', 'II. Világháború', 'asztrológia', 'bolygóállás'],
+    tags: [
+      '2021. szeptember előadás',
+      'II. Világháború',
+      'asztrológia',
+      'bolygóállás',
+    ],
   },
   {
     id: '0054-01-09',
@@ -4316,7 +4409,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3748,
     topicTitle: 'Gyermekkori zaklatás hatása a felnőtt korban',
     talkTitle: 'A.J. Christian - Előadás, 2021. szeptember',
-    tags: ['2021. szeptember előadás', 'gyermekkori zaklatás', 'trauma', 'felnőttkor'],
+    tags: [
+      '2021. szeptember előadás',
+      'gyermekkori zaklatás',
+      'trauma',
+      'felnőttkor',
+    ],
   },
   {
     id: '0054-01-12',
@@ -4325,7 +4423,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4119,
     topicTitle: '"Tedd a tudatod fényébe a lényeget, te az vagy, aki vagy...."',
     talkTitle: 'A.J. Christian - Előadás, 2021. szeptember',
-    tags: ['2021. szeptember előadás', 'önazonosság', 'tudatosság', 'önismeret'],
+    tags: [
+      '2021. szeptember előadás',
+      'önazonosság',
+      'tudatosság',
+      'önismeret',
+    ],
   },
   {
     id: '0054-01-13',
@@ -4352,7 +4455,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4668,
     topicTitle: 'Alexandriai könyvtár',
     talkTitle: 'A.J. Christian - Előadás, 2021. szeptember',
-    tags: ['2021. szeptember előadás', 'Alexandriai könyvtár', 'történelem', 'tudás'],
+    tags: [
+      '2021. szeptember előadás',
+      'Alexandriai könyvtár',
+      'történelem',
+      'tudás',
+    ],
   },
   {
     id: '0054-01-16',
@@ -4417,7 +4525,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 119,
     topicTitle: 'Testvéri kapcsolat-Vallásos nevelés',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'testvéri kapcsolat', 'vallásos nevelés', 'család'],
+    tags: [
+      '2021. szeptember előadás',
+      'testvéri kapcsolat',
+      'vallásos nevelés',
+      'család',
+    ],
   },
   {
     id: '0056-01-03',
@@ -4435,7 +4548,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 725,
     topicTitle: 'Születés-család, elvágyódás, külföldi élet',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'születés', 'család', 'külföldi élet', 'elvágyódás'],
+    tags: [
+      '2021. szeptember előadás',
+      'születés',
+      'család',
+      'külföldi élet',
+      'elvágyódás',
+    ],
   },
   {
     id: '0056-01-05',
@@ -4444,7 +4563,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1075,
     topicTitle: 'Kvantumgyógyítás',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'kvantumgyógyítás', 'gyógyulás', 'energia'],
+    tags: [
+      '2021. szeptember előadás',
+      'kvantumgyógyítás',
+      'gyógyulás',
+      'energia',
+    ],
   },
   {
     id: '0056-01-06',
@@ -4462,7 +4586,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1383,
     topicTitle: 'Változások Németországban',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'Németország', 'változások', 'társadalom'],
+    tags: [
+      '2021. szeptember előadás',
+      'Németország',
+      'változások',
+      'társadalom',
+    ],
   },
   {
     id: '0056-01-08',
@@ -4480,7 +4609,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2091,
     topicTitle: 'Ráérzések - elbizonytalanodás',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'ráérzés', 'intuíció', 'elbizonytalanodás'],
+    tags: [
+      '2021. szeptember előadás',
+      'ráérzés',
+      'intuíció',
+      'elbizonytalanodás',
+    ],
   },
   {
     id: '0056-01-10',
@@ -4498,7 +4632,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2584,
     topicTitle: 'Eltérő külső jegyek',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'külső jegyek', 'identitás', 'különbségek'],
+    tags: [
+      '2021. szeptember előadás',
+      'külső jegyek',
+      'identitás',
+      'különbségek',
+    ],
   },
   {
     id: '0056-01-12',
@@ -4516,7 +4655,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2751,
     topicTitle: 'Gátlásosság, szégyenlősség feloldása',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'gátlásosság', 'szégyenlősség', 'önbizalom'],
+    tags: [
+      '2021. szeptember előadás',
+      'gátlásosság',
+      'szégyenlősség',
+      'önbizalom',
+    ],
   },
   {
     id: '0056-01-14',
@@ -4534,7 +4678,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3347,
     topicTitle: 'Narkotikumok hatása',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'narkotikumok', 'tudatmódosítás', 'egészség'],
+    tags: [
+      '2021. szeptember előadás',
+      'narkotikumok',
+      'tudatmódosítás',
+      'egészség',
+    ],
   },
   {
     id: '0056-01-16',
@@ -4543,7 +4692,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3466,
     topicTitle: 'Skizofrénia - gyógyszeres kezelés',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'skizofrénia', 'gyógyszeres kezelés', 'mentális egészség'],
+    tags: [
+      '2021. szeptember előadás',
+      'skizofrénia',
+      'gyógyszeres kezelés',
+      'mentális egészség',
+    ],
   },
   {
     id: '0056-01-17',
@@ -4580,7 +4734,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 364,
     topicTitle: 'Amit érzek, amire gondolok annak az ellentéte is létrejön?',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'gondolat', 'érzelem', 'ellentét', 'polarítás', 'teremtő erő'],
+    tags: [
+      '2021 október előadás',
+      'gondolat',
+      'érzelem',
+      'ellentét',
+      'polarítás',
+      'teremtő erő',
+    ],
   },
   {
     id: '0057-01-04',
@@ -4589,7 +4750,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 761,
     topicTitle: 'Sport, karate, jóga káros hatása',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'sport', 'karate', 'jóga', 'egészség', 'káros hatás'],
+    tags: [
+      '2021 október előadás',
+      'sport',
+      'karate',
+      'jóga',
+      'egészség',
+      'káros hatás',
+    ],
   },
   {
     id: '0057-01-05',
@@ -4598,16 +4766,29 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1106,
     topicTitle: 'Létezik emberi végtelen?',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'végtelen', 'emberi tudat', 'létezés', 'spiritualitás'],
+    tags: [
+      '2021 október előadás',
+      'végtelen',
+      'emberi tudat',
+      'létezés',
+      'spiritualitás',
+    ],
   },
   {
     id: '0057-01-06',
     youtubeLink: 'https://www.youtube.com/watch?v=yzQE5xhfrL4',
     spotifyLink: '',
     timestamp: 1194,
-    topicTitle: 'Még nem találkoztunk, mégis sokszor érzem, hogy itt vagy velem a hétköznapokban',
+    topicTitle:
+      'Még nem találkoztunk, mégis sokszor érzem, hogy itt vagy velem a hétköznapokban',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'kapcsolódás', 'érzékelés', 'energetikai kapcsolat', 'jelenlét'],
+    tags: [
+      '2021 október előadás',
+      'kapcsolódás',
+      'érzékelés',
+      'energetikai kapcsolat',
+      'jelenlét',
+    ],
   },
   {
     id: '0057-01-07',
@@ -4616,7 +4797,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1604,
     topicTitle: 'Pszi-sebészet',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'pszi-sebészet', 'energiagyógyászat', 'gyógyítás', 'spirituális gyógyítás'],
+    tags: [
+      '2021 október előadás',
+      'pszi-sebészet',
+      'energiagyógyászat',
+      'gyógyítás',
+      'spirituális gyógyítás',
+    ],
   },
   {
     id: '0057-01-08',
@@ -4625,7 +4812,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1791,
     topicTitle: 'Oltani - nem oltani',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'oltás', 'vakcina', 'döntés', 'egészség', 'járvány'],
+    tags: [
+      '2021 október előadás',
+      'oltás',
+      'vakcina',
+      'döntés',
+      'egészség',
+      'járvány',
+    ],
   },
   {
     id: '0057-01-09',
@@ -4634,7 +4828,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1932,
     topicTitle: 'Halál után egy lélek rácsatlakozhat e valakire?',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'halál', 'lélek', 'reinkarnáció', 'szellem', 'kapcsolódás'],
+    tags: [
+      '2021 október előadás',
+      'halál',
+      'lélek',
+      'reinkarnáció',
+      'szellem',
+      'kapcsolódás',
+    ],
   },
   {
     id: '0057-01-10',
@@ -4643,7 +4844,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2168,
     topicTitle: 'A Föld valóban gömbölyű, igaz?',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'Föld', 'gömbölyű', 'valóság', 'hit', 'tudomány'],
+    tags: [
+      '2021 október előadás',
+      'Föld',
+      'gömbölyű',
+      'valóság',
+      'hit',
+      'tudomány',
+    ],
   },
   {
     id: '0057-01-11',
@@ -4652,7 +4860,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2188,
     topicTitle: 'Mi a boldog házasság titka?',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'házasság', 'kapcsolat', 'boldogság', 'párkapcsolat'],
+    tags: [
+      '2021 október előadás',
+      'házasság',
+      'kapcsolat',
+      'boldogság',
+      'párkapcsolat',
+    ],
   },
   {
     id: '0057-01-12',
@@ -4661,7 +4875,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3135,
     topicTitle: 'Közeli barát halálának feldolgozása',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'gyász', 'halál', 'feldolgozás', 'barátság', 'veszteség'],
+    tags: [
+      '2021 október előadás',
+      'gyász',
+      'halál',
+      'feldolgozás',
+      'barátság',
+      'veszteség',
+    ],
   },
   {
     id: '0057-01-13',
@@ -4670,7 +4891,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3307,
     topicTitle: 'Szexuális energia',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'szexualitás', 'energia', 'életerő', 'intimitás'],
+    tags: [
+      '2021 október előadás',
+      'szexualitás',
+      'energia',
+      'életerő',
+      'intimitás',
+    ],
   },
   {
     id: '0057-01-14',
@@ -4679,7 +4906,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3470,
     topicTitle: 'Élet-halál küszöbe - Emlékek',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'élet-halál', 'halálközeli élmény', 'emlékek', 'tudat'],
+    tags: [
+      '2021 október előadás',
+      'élet-halál',
+      'halálközeli élmény',
+      'emlékek',
+      'tudat',
+    ],
   },
   {
     id: '0057-01-15',
@@ -4688,7 +4921,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3525,
     topicTitle: 'Neked kik a mestereid?',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'mester', 'tanító', 'példaképek', 'spirituális út'],
+    tags: [
+      '2021 október előadás',
+      'mester',
+      'tanító',
+      'példaképek',
+      'spirituális út',
+    ],
   },
   {
     id: '0057-01-16',
@@ -4697,7 +4936,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3669,
     topicTitle: '1. Morfogenetikus tér, 2. Evészavarok',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'morfogenetikus tér', 'evészavar', 'tudatmező', 'pszichológia'],
+    tags: [
+      '2021 október előadás',
+      'morfogenetikus tér',
+      'evészavar',
+      'tudatmező',
+      'pszichológia',
+    ],
   },
   {
     id: '0057-01-17',
@@ -4706,7 +4951,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4112,
     topicTitle: 'Más lények, tudatos létezők útmutatása az álmokban',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'álmok', 'tudatos létezők', 'útmutatás', 'spiritualitás'],
+    tags: [
+      '2021 október előadás',
+      'álmok',
+      'tudatos létezők',
+      'útmutatás',
+      'spiritualitás',
+    ],
   },
   {
     id: '0057-01-18',
@@ -4715,7 +4966,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4455,
     topicTitle: 'Lassan 5 éve gyakorlom a Tudatos Figyelmet',
     talkTitle: 'A.J. Christian - Előadás, 2021. október',
-    tags: ['2021 október előadás', 'Tudatos Figyelem', 'gyakorlás', 'önismeret', 'tudatosság'],
+    tags: [
+      '2021 október előadás',
+      'Tudatos Figyelem',
+      'gyakorlás',
+      'önismeret',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva '2021. októberi előadás - Megválaszolatlan kérdések'-hoz
   {
@@ -4734,7 +4991,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 90,
     topicTitle: 'Az 1990. után születettek magasabb rezgésűek e?',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'rezgés', 'generációk', '1990 után születettek', 'tudatosság'],
+    tags: [
+      '2021 október előadás',
+      'rezgés',
+      'generációk',
+      '1990 után születettek',
+      'tudatosság',
+    ],
   },
   {
     id: '0058-01-03',
@@ -4743,7 +5006,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 525,
     topicTitle: 'Úgy érzem utat tévesztettem',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'életút', 'útkeresés', 'önismeret', 'elakadás'],
+    tags: [
+      '2021 október előadás',
+      'életút',
+      'útkeresés',
+      'önismeret',
+      'elakadás',
+    ],
   },
   {
     id: '0058-01-04',
@@ -4752,7 +5021,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 915,
     topicTitle: 'Bennünk élő mikroorganizmusok, gombák',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'mikroorganizmusok', 'gombák', 'test', 'egészség'],
+    tags: [
+      '2021 október előadás',
+      'mikroorganizmusok',
+      'gombák',
+      'test',
+      'egészség',
+    ],
   },
   {
     id: '0058-01-05',
@@ -4761,7 +5036,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1089,
     topicTitle: 'ADHD figyelemzavar',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'ADHD', 'figyelemzavar', 'koncentráció', 'mentális egészség'],
+    tags: [
+      '2021 október előadás',
+      'ADHD',
+      'figyelemzavar',
+      'koncentráció',
+      'mentális egészség',
+    ],
   },
   {
     id: '0058-01-06',
@@ -4770,7 +5051,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1468,
     topicTitle: 'Szorongás, sértettség, szégyen',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'szorongás', 'sértettség', 'szégyen', 'érzelmek'],
+    tags: [
+      '2021 október előadás',
+      'szorongás',
+      'sértettség',
+      'szégyen',
+      'érzelmek',
+    ],
   },
   {
     id: '0058-01-07',
@@ -4779,7 +5066,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1616,
     topicTitle: 'Depresszió',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'depresszió', 'mentális egészség', 'lehangoltság'],
+    tags: [
+      '2021 október előadás',
+      'depresszió',
+      'mentális egészség',
+      'lehangoltság',
+    ],
   },
   {
     id: '0058-01-08',
@@ -4788,7 +5080,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1941,
     topicTitle: 'Miről lehet felismerni egy tudatos embert?',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'tudatos ember', 'önismeret', 'tudatosság', 'éberség'],
+    tags: [
+      '2021 október előadás',
+      'tudatos ember',
+      'önismeret',
+      'tudatosság',
+      'éberség',
+    ],
   },
   {
     id: '0058-01-09',
@@ -4797,7 +5095,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2264,
     topicTitle: 'Világvége történet',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'világvége', 'apokalipszis', 'félelem', 'kollektív tudat'],
+    tags: [
+      '2021 október előadás',
+      'világvége',
+      'apokalipszis',
+      'félelem',
+      'kollektív tudat',
+    ],
   },
   {
     id: '0058-01-10',
@@ -4815,7 +5119,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2819,
     topicTitle: 'Áldozat, mártír játszma',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'áldozat', 'mártír', 'játszma', 'szerepek', 'pszichológia'],
+    tags: [
+      '2021 október előadás',
+      'áldozat',
+      'mártír',
+      'játszma',
+      'szerepek',
+      'pszichológia',
+    ],
   },
   {
     id: '0058-01-12',
@@ -4824,7 +5135,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3034,
     topicTitle: 'Egykor híres diktátorok',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'diktátorok', 'hatalom', 'történelem', 'vezetők'],
+    tags: [
+      '2021 október előadás',
+      'diktátorok',
+      'hatalom',
+      'történelem',
+      'vezetők',
+    ],
   },
   {
     id: '0058-01-13',
@@ -4842,7 +5159,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3823,
     topicTitle: 'Tudatos-öntudatlan döntés',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'döntés', 'tudatos', 'öntudatlan', 'választás'],
+    tags: [
+      '2021 október előadás',
+      'döntés',
+      'tudatos',
+      'öntudatlan',
+      'választás',
+    ],
   },
   {
     id: '0058-01-15',
@@ -4869,7 +5192,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4374,
     topicTitle: 'Lélek születése',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'lélek', 'születés', 'inkarnáció', 'spiritualitás'],
+    tags: [
+      '2021 október előadás',
+      'lélek',
+      'születés',
+      'inkarnáció',
+      'spiritualitás',
+    ],
   },
   {
     id: '0058-01-18',
@@ -4878,7 +5207,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4727,
     topicTitle: 'Kurzusok, tanfolyamok tömkelege',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'kurzusok', 'tanfolyamok', 'önfejlesztés', 'tanulás'],
+    tags: [
+      '2021 október előadás',
+      'kurzusok',
+      'tanfolyamok',
+      'önfejlesztés',
+      'tanulás',
+    ],
   },
   {
     id: '0058-01-19',
@@ -4887,7 +5222,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4775,
     topicTitle: 'Végtelen tudatos szexualitás és hűség',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'szexualitás', 'hűség', 'tudatosság', 'kapcsolat'],
+    tags: [
+      '2021 október előadás',
+      'szexualitás',
+      'hűség',
+      'tudatosság',
+      'kapcsolat',
+    ],
   },
   {
     id: '0058-01-20',
@@ -4896,7 +5237,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4979,
     topicTitle: 'Kik alkották az egyiptomi piramisokat?',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'egyiptomi piramisok', 'történelem', 'civilizáció', 'rejtély'],
+    tags: [
+      '2021 október előadás',
+      'egyiptomi piramisok',
+      'történelem',
+      'civilizáció',
+      'rejtély',
+    ],
   },
   {
     id: '0058-01-21',
@@ -4905,7 +5252,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 5044,
     topicTitle: 'Öntudatlan állapot-felébredt állapot',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'öntudatlan', 'felébredés', 'tudatállapot', 'éberség'],
+    tags: [
+      '2021 október előadás',
+      'öntudatlan',
+      'felébredés',
+      'tudatállapot',
+      'éberség',
+    ],
   },
   {
     id: '0058-01-22',
@@ -4914,7 +5267,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 5275,
     topicTitle: 'Benzin, dízel, elektromos autók',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'benzin', 'dízel', 'elektromos autó', 'energia', 'technológia'],
+    tags: [
+      '2021 október előadás',
+      'benzin',
+      'dízel',
+      'elektromos autó',
+      'energia',
+      'technológia',
+    ],
   },
   {
     id: '0058-01-23',
@@ -4923,7 +5283,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 5443,
     topicTitle: 'Tudatosan élni',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'tudatos élet', 'életvezetés', 'jelenlét', 'önismeret'],
+    tags: [
+      '2021 október előadás',
+      'tudatos élet',
+      'életvezetés',
+      'jelenlét',
+      'önismeret',
+    ],
   },
   // note: tag-ek AI által generálva 'Milyen a spirituális útkeresők, tanítványok egoizmusa?'-hoz
   {
@@ -4951,8 +5317,10 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=miHOCUtsfhk',
     spotifyLink: '',
     timestamp: 0,
-    topicTitle: 'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?',
-    talkTitle: 'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?',
+    topicTitle:
+      'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?',
+    talkTitle:
+      'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?',
     tags: ['teljes videó'],
   },
   // note: tag-ek AI által generálva 'Tévedni isteni dolog'-hoz
@@ -4992,7 +5360,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 140,
     topicTitle: 'Isten, Jézus, Biblia, Spiritualitás',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'Isten', 'Jézus', 'Biblia', 'spiritualitás', 'hit'],
+    tags: [
+      '2021 november előadás',
+      'Isten',
+      'Jézus',
+      'Biblia',
+      'spiritualitás',
+      'hit',
+    ],
   },
   {
     id: '0064-01-03',
@@ -5010,7 +5385,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 649,
     topicTitle: 'Gondolat, genetika - vírus',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'gondolat', 'genetika', 'vírus', 'test és tudat'],
+    tags: [
+      '2021 november előadás',
+      'gondolat',
+      'genetika',
+      'vírus',
+      'test és tudat',
+    ],
   },
   {
     id: '0064-01-05',
@@ -5019,7 +5400,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 765,
     topicTitle: 'Az álmok jelentősége',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'álmok', 'tudatalatti', 'jelentés', 'szimbólumok'],
+    tags: [
+      '2021 november előadás',
+      'álmok',
+      'tudatalatti',
+      'jelentés',
+      'szimbólumok',
+    ],
   },
   {
     id: '0064-01-06',
@@ -5028,7 +5415,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 940,
     topicTitle: 'Migrén',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'migrén', 'fejfájás', 'egészség', 'testi tünet'],
+    tags: [
+      '2021 november előadás',
+      'migrén',
+      'fejfájás',
+      'egészség',
+      'testi tünet',
+    ],
   },
   {
     id: '0064-01-07',
@@ -5037,7 +5430,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1088,
     topicTitle: 'Férfiak, akik minden kérdésre határozottan mondanak valamit',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'férfiak', 'határozottság', 'ego', 'kommunikáció'],
+    tags: [
+      '2021 november előadás',
+      'férfiak',
+      'határozottság',
+      'ego',
+      'kommunikáció',
+    ],
   },
   {
     id: '0064-01-08',
@@ -5055,7 +5454,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1423,
     topicTitle: 'Harmadik szem',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'harmadik szem', 'intuíció', 'spiritualitás', 'érzékelés'],
+    tags: [
+      '2021 november előadás',
+      'harmadik szem',
+      'intuíció',
+      'spiritualitás',
+      'érzékelés',
+    ],
   },
   {
     id: '0064-01-10',
@@ -5064,7 +5469,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 1674,
     topicTitle: 'A felelősségről',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'felelősség', 'döntés', 'életvezetés', 'tudatosság'],
+    tags: [
+      '2021 november előadás',
+      'felelősség',
+      'döntés',
+      'életvezetés',
+      'tudatosság',
+    ],
   },
   {
     id: '0064-01-11',
@@ -5073,7 +5484,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2030,
     topicTitle: 'A lélek teremt, az anyag formálódik',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'lélek', 'teremtés', 'anyag', 'manifestáció'],
+    tags: [
+      '2021 november előadás',
+      'lélek',
+      'teremtés',
+      'anyag',
+      'manifestáció',
+    ],
   },
   {
     id: '0064-01-12',
@@ -5082,7 +5499,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2131,
     topicTitle: 'Létezés-Hála-nem létezés-teljesség',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'létezés', 'hála', 'teljesség', 'spirituális állapot'],
+    tags: [
+      '2021 november előadás',
+      'létezés',
+      'hála',
+      'teljesség',
+      'spirituális állapot',
+    ],
   },
   {
     id: '0064-01-13',
@@ -5091,7 +5514,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2323,
     topicTitle: 'Miért nem tudom magam szeretni?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'önszeretet', 'önelfogadás', 'önismeret', 'érzelmi blokk'],
+    tags: [
+      '2021 november előadás',
+      'önszeretet',
+      'önelfogadás',
+      'önismeret',
+      'érzelmi blokk',
+    ],
   },
   {
     id: '0064-01-14',
@@ -5100,7 +5529,12 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 2937,
     topicTitle: 'Senki földje',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'átmeneti állapot', 'bizonytalanság', 'köztes tér'],
+    tags: [
+      '2021 november előadás',
+      'átmeneti állapot',
+      'bizonytalanság',
+      'köztes tér',
+    ],
   },
   {
     id: '0064-01-15',
@@ -5109,7 +5543,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3144,
     topicTitle: 'Katona vagyok - a következő életemben is lehet az?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'katona', 'reinkarnáció', 'életút', 'hivatás'],
+    tags: [
+      '2021 november előadás',
+      'katona',
+      'reinkarnáció',
+      'életút',
+      'hivatás',
+    ],
   },
   {
     id: '0064-01-16',
@@ -5118,7 +5558,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 3383,
     topicTitle: 'Negatív hatások kezelése',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'negatív hatások', 'védelem', 'energetikai tisztítás', 'önvédelem'],
+    tags: [
+      '2021 november előadás',
+      'negatív hatások',
+      'védelem',
+      'energetikai tisztítás',
+      'önvédelem',
+    ],
   },
   {
     id: '0064-01-17',
@@ -5145,7 +5591,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4048,
     topicTitle: 'Gazdasági válság - mit tehetnek, akiknek nincs tartalékuk?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'gazdasági válság', 'pénzügyek', 'biztonság', 'megélhetés'],
+    tags: [
+      '2021 november előadás',
+      'gazdasági válság',
+      'pénzügyek',
+      'biztonság',
+      'megélhetés',
+    ],
   },
   {
     id: '0064-01-20',
@@ -5154,7 +5606,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4289,
     topicTitle: 'Halál; koporsós temetés vagy hamvasztás?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'halál', 'temetés', 'hamvasztás', 'szertartás'],
+    tags: [
+      '2021 november előadás',
+      'halál',
+      'temetés',
+      'hamvasztás',
+      'szertartás',
+    ],
   },
   {
     id: '0064-01-21',
@@ -5163,7 +5621,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4435,
     topicTitle: 'Német, Osztrák, Holland blackout',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'blackout', 'Németország', 'Ausztria', 'Hollandia', 'energiaellátás'],
+    tags: [
+      '2021 november előadás',
+      'blackout',
+      'Németország',
+      'Ausztria',
+      'Hollandia',
+      'energiaellátás',
+    ],
   },
   {
     id: '0064-01-22',
@@ -5172,7 +5637,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4627,
     topicTitle: 'Lehet e egyedülállóként fejlődni?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'egyedülálló', 'fejlődés', 'önismeret', 'kapcsolatok'],
+    tags: [
+      '2021 november előadás',
+      'egyedülálló',
+      'fejlődés',
+      'önismeret',
+      'kapcsolatok',
+    ],
   },
   {
     id: '0064-01-23',
@@ -5181,7 +5652,13 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4827,
     topicTitle: 'Bemerevedhet a harmadik szem?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'harmadik szem', 'blokkok', 'spiritualitás', 'energetika'],
+    tags: [
+      '2021 november előadás',
+      'harmadik szem',
+      'blokkok',
+      'spiritualitás',
+      'energetika',
+    ],
   },
   {
     id: '0064-01-24',
@@ -5190,7 +5667,14 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     timestamp: 4910,
     topicTitle: 'Miért haragszik ránk a lányunk, a szüleire, testvéreire?',
     talkTitle: 'A.J. Christian - Előadás, 2021. november',
-    tags: ['2021 november előadás', 'család', 'harag', 'szülő-gyerek kapcsolat', 'testvér', 'konfliktus'],
+    tags: [
+      '2021 november előadás',
+      'család',
+      'harag',
+      'szülő-gyerek kapcsolat',
+      'testvér',
+      'konfliktus',
+    ],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];

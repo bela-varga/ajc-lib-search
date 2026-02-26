@@ -14,7 +14,15 @@ export function meta() {
   ];
 }
 
-const SUGGESTED_TAGS = ['teljes videó', 'tudat', 'lélek', 'szeretet', 'család', 'elengedés', 'halál'];
+const SUGGESTED_TAGS = [
+  'teljes videó',
+  'tudat',
+  'lélek',
+  'szeretet',
+  'család',
+  'elengedés',
+  'halál',
+];
 
 export default function Home() {
   const {

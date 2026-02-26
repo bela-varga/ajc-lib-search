@@ -21,8 +21,7 @@ export default function Contact() {
               Github link:{' '}
               <a href="https://github.com/bela-varga/ajc-lib-search">
                 https://github.com/bela-varga/ajc-lib-search
-              </a>{' '}
-              (jelenleg privát repo)
+              </a>
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">

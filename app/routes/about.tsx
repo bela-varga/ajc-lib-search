@@ -123,9 +123,8 @@ export default function About() {
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Az oldal fel van készítve arre, hogy Spotify linkeket is kezeljen,
-              de én nem vagyok fent Spotify-on és őszintén, annyira nem is
-              érdekel. Ha szeretnéd, hogy Spotify linkek is legyenek, keress
-              meg!
+              de én nem vagyok fent Spotify-on. Ha szeretnéd, hogy Spotify
+              linkek is legyenek, keress meg!
             </p>
           </div>
         </div>

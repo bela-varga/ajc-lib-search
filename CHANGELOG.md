@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-02-26] - "Start here" Section with Suggested Tags
+
+### Added
+
+- Added configs for github actions to deploy to github pages
+- New "Start here" section on the home page with clickable suggested tags
+
+### Changed
+
+- Refactor: added Chip component
+
+---
+
 ## [2026-02-22] - Support for Multiple Search Queries and Sorting
 
 ### Added

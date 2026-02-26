@@ -65,6 +65,36 @@ describe('Home route', () => {
     expect(screen.queryByText(/találat/)).not.toBeInTheDocument();
   });
 
+  it('renders "Start here" section when no search has been performed', () => {
+    (useSearch as any).mockReturnValue(defaultMock);
+
+    renderHome();
+
+    expect(
+      screen.getByText('Nem tudod mit keress? Kezdd itt!'),
+    ).toBeInTheDocument();
+
+    const tags = ['teljes videó', 'tudat', 'lélek', 'szeretet', 'halál'];
+    tags.forEach((tag) => {
+      expect(screen.getByRole('button', { name: tag })).toBeInTheDocument();
+    });
+  });
+
+  it('calls handleSearch when a suggested tag is clicked', () => {
+    const handleSearchMock = vi.fn();
+    (useSearch as any).mockReturnValue({
+      ...defaultMock,
+      handleSearch: handleSearchMock,
+    });
+
+    renderHome();
+
+    const tagButton = screen.getByRole('button', { name: 'tudat' });
+    fireEvent.click(tagButton);
+
+    expect(handleSearchMock).toHaveBeenCalledWith('tudat');
+  });
+
   it('renders results state correctly', () => {
     (useSearch as any).mockReturnValue({
       ...defaultMock,

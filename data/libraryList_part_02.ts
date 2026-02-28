@@ -19,7 +19,14 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Képes távolról ártani egy szellemgyógyász?',
     talkTitle: 'Képes távolról ártani egy szellemgyógyász?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'szellemgyógyászat',
+      'rontás',
+      'távgyógyítás',
+      'ártás',
+      'spiritualitás',
+    ],
   },
   // note: tag-ek AI által generálva 'Hogyan lehetek túl a depresszión?'-hoz
   {
@@ -29,7 +36,15 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogyan lehetek túl a depresszión?',
     talkTitle: 'Hogyan lehetek túl a depresszión?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'depresszió',
+      'lélek',
+      'öngyógyítás',
+      'szomorúság',
+      'kilábalás',
+      'pszichológia',
+    ],
   },
   // note: tag-ek AI által generálva 'Min múlik egy súlyos baleset végkimenetele?'-hoz
   {
@@ -39,7 +54,14 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Min múlik egy súlyos baleset végkimenetele?',
     talkTitle: 'Min múlik egy súlyos baleset végkimenetele?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'baleset',
+      'sors',
+      'karma',
+      'túlélés',
+      'élet és halál',
+    ],
   },
   // note: tag-ek AI által generálva '"Mindenkinek adok szeretetet, de nem tudok elfogadni. Mit csináljak?"'-hoz
   {
@@ -51,7 +73,14 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
       '"Mindenkinek adok szeretetet, de nem tudok elfogadni. Mit csináljak?"',
     talkTitle:
       '"Mindenkinek adok szeretetet, de nem tudok elfogadni. Mit csináljak?"',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'szeretet',
+      'elfogadás',
+      'adok-kapok egyensúlya',
+      'önismeret',
+      'ego',
+    ],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];

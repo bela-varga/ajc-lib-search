@@ -189,7 +189,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Társadalom, egyén, gyógyulás',
     talkTitle: 'Társadalom, egyén, gyógyulás',
-    tags: ['covid', 'koronavírus', 'járvány', 'egyén', 'társadalom'],
+    tags: [
+      'teljes videó',
+      'covid',
+      'koronavírus',
+      'járvány',
+      'egyén',
+      'társadalom',
+    ],
   },
   {
     id: '0006-01-02',
@@ -357,7 +364,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mi történik a halál után?',
     talkTitle: 'Mi történik a halál után?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'halál',
+      'túlvilág',
+      'lélek',
+      'átmenet',
+      'elmúlás',
+      'spiritualitás',
+    ],
   },
   {
     id: '0011-01-02',
@@ -385,7 +400,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogyan vészeld át ép lélekkel az életed újabb korlátozását?',
     talkTitle: 'Hogyan vészeld át ép lélekkel az életed újabb korlátozását?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'lélek', 'korlátozás', 'élet', 'megélések'],
   },
   // note: tag-ek AI által generálva 'Függőség a karantén idején'-hoz
   {
@@ -395,9 +410,9 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Függőség a karantén idején',
     talkTitle: 'Függőség a karantén idején',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'függőség', 'karantén', 'járvány', 'covid'],
   },
-  // note: tag-ek AI által generálva 'Függőség a karantén idején'-hoz
+  // note: tag-ek AI által generálva 'Párkapcsolat: miért van az, hogy aki neked tetszik, annak te nem?'-hoz
   {
     id: '0014-01-01',
     youtubeLink: 'https://www.youtube.com/watch?v=MYPGNZe_qKo',
@@ -407,7 +422,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Párkapcsolat: miért van az, hogy aki neked tetszik, annak te nem?',
     talkTitle:
       'Párkapcsolat: miért van az, hogy aki neked tetszik, annak te nem?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'párkapcsolat',
+      'vonzalom',
+      'ismerkedés',
+      'viszonzatlan szerelem',
+      'elutasítás',
+      'önismeret',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2020 november'-hoz
   {

@@ -132,3 +132,8 @@ Video adatok:
 
 Note: chatGPT-nek beírva a base promptot és utána a Video Adatok részt irogatva egymás után más-más videókkal, 5 videót csinál meg rendesen, és utána már nem követi a kért struktúrát. Tehát érdemes 4-5 videó után új chatet indítani, újra a base prompttal.
 Nem ellenőriztem, hogy hallucinációk is keletkeznek-e, remélem nem. Az sem segít, hogy amikor ezt írom (Antigravity-ben), akkor ahogy gépeltem, hogy "Nem ellenőriztem, hogy hallucinációk is keletkeznek-e,", ő azt ajánlotta fel hogy " de valószínűleg igen"...
+
+---
+
+Antigravity prompt to add tags:
+update libraryList_part_01.ts with relevant tags at line XXX. The tags should be relevant to the title: "TITLE"

@@ -849,8 +849,8 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     spotifyLink: '',
     timestamp: 0,
     topicTitle: 'Mire számíthatunk a 2021-es, 22-es és 23-as évben?',
-    talkTitle: 'AMire számíthatunk a 2021-es, 22-es és 23-as évben?',
-    tags: ['teljes videó'],
+    talkTitle: 'Mire számíthatunk a 2021-es, 22-es és 23-as évben?',
+    tags: ['teljes videó', 'jövő', '2021', '2022', '2023'],
   },
   // note: tag-ek AI által generálva 'Nőiesség-férfiasság, szexualitás, LMBTQ'-hoz
   {
@@ -860,7 +860,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Nőiesség-férfiasság, szexualitás, LMBTQ',
     talkTitle: 'Nőiesség-férfiasság, szexualitás, LMBTQ',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'nőiesség', 'férfiasság', 'szexualitás', 'LMBTQ'],
   },
   // note: tag-ek AI által generálva 'A valódi segítség titka/ritka...'-hoz
   {
@@ -870,7 +870,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A valódi segítség titka/ritka...',
     talkTitle: 'A valódi segítség titka/ritka...',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'segítség', 'szolgálat', 'önzetlenség'],
   },
   // note: tag-ek AI által generálva 'Törvény, rend, rendőrség'-hoz
   {
@@ -880,7 +880,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Törvény, rend, rendőrség',
     talkTitle: 'Törvény, rend, rendőrség',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'törvény', 'rend', 'rendőrség', 'társadalom'],
   },
   // note: tag-ek AI által generálva 'Reinkarnáció, szellemek-entitások, abortusz'-hoz
   {
@@ -890,7 +890,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Reinkarnáció, szellemek-entitások, abortusz',
     talkTitle: 'Reinkarnáció, szellemek-entitások, abortusz',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'reinkarnáció',
+      'szellemek',
+      'entitások',
+      'abortusz',
+    ],
   },
   // note: tag-ek AI által generálva 'Létezik háttérhatalom?'-hoz
   {
@@ -900,7 +906,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Létezik háttérhatalom?',
     talkTitle: 'Létezik háttérhatalom?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'háttérhatalom',
+      'politika',
+      'világrend',
+      'manipuláció',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. február'-hez
   {
@@ -2021,7 +2033,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Kommunizmus, liberalizmus, konzervatív jobboldal',
     talkTitle: 'Kommunizmus, liberalizmus, konzervatív jobboldal',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'kommunizmus',
+      'liberalizmus',
+      'konzervatív',
+      'jobboldal',
+      'politika',
+      'ideológia',
+    ],
   },
   // note: tag-ek AI által generálva 'Miért megy tönkre a párkapcsolat?'-hoz
   {
@@ -2031,7 +2051,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért megy tönkre a párkapcsolat?',
     talkTitle: 'Miért megy tönkre a párkapcsolat?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'párkapcsolat', 'szakítás', 'problémák', 'válság'],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. április'-hoz
   {
@@ -2504,7 +2524,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Nyár előadások, kurzusok és táborok a Covid fényében',
     talkTitle: 'Nyár előadások, kurzusok és táborok a Covid fényében',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'nyár', 'előadás', 'kurzus', 'tábor', 'covid'],
   },
   // note: tag-ek AI által generálva 'Tényleg elzár a lelkedtől a Covid-oltás?'-hoz
   {
@@ -2514,7 +2534,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Tényleg elzár a lelkedtől a Covid-oltás?',
     talkTitle: 'Tényleg elzár a lelkedtől a Covid-oltás?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'covid', 'oltás', 'lélek', 'spiritualitás'],
   },
   // note: tag-ek AI által generálva 'Gyermekneve(l)tés - hagyd, hogy a gyermeked veled együtt fedezze fel önmagát'-hoz
   {
@@ -2526,7 +2546,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Gyermekneve(l)tés - hagyd, hogy a gyermeked veled együtt fedezze fel önmagát',
     talkTitle:
       'Gyermekneve(l)tés - hagyd, hogy a gyermeked veled együtt fedezze fel önmagát',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'gyermeknevelés',
+      'gyermek',
+      'szülőség',
+      'önismeret',
+    ],
   },
   // note: tag-ek AI által generálva 'Gyermekkor 2.0 - ki a felnőtt?'-hoz
   {
@@ -2536,7 +2562,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Gyermekkor 2.0 - ki a felnőtt?',
     talkTitle: 'Gyermekkor 2.0 - ki a felnőtt?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'gyermekkor', 'felnőtt', 'felelősség', 'érzelem'],
   },
   // note: tag-ek AI által generálva '.J. Christian - Előadás, 2021. május'-hoz
   {
@@ -2998,7 +3024,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Intimitás (a szeretet illata)',
     talkTitle: 'Intimitás (a szeretet illata)',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'intimitás', 'szeretet', 'kapcsolódás', 'érzelmek'],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. június'-hoz
   {
@@ -3289,7 +3315,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Párkapcsolat: megcsalás, mikromegcsalás',
     talkTitle: 'Párkapcsolat: megcsalás, mikromegcsalás',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'párkapcsolat',
+      'megcsalás',
+      'mikromegcsalás',
+      'hűtlenség',
+      'bizalom',
+    ],
   },
   // note: tag-ek kézzel írva 'Work, Success, Money (intermediate)'-hoz
   {
@@ -3757,7 +3790,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Féltékenység',
     talkTitle: 'Féltékenység',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'féltékenység',
+      'párkapcsolat',
+      'önbizalom',
+      'félelem',
+      'érzelmek',
+    ],
   },
   // note: tag-ek AI által generálva 'Hogyan lehet látni a jövőt?'-hoz
   {
@@ -3767,7 +3807,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogyan lehet látni a jövőt?',
     talkTitle: 'Hogyan lehet látni a jövőt?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'jövő',
+      'idő',
+      'tudatosság',
+      'megérzés',
+      'spiritualitás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. augusztus'-hoz
   {
@@ -4317,7 +4364,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Milyen a guruk, mesterek és coachok torz egoizmusa?',
     talkTitle: 'Milyen a guruk, mesterek és coachok torz egoizmusa?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'guru',
+      'mester',
+      'coach',
+      'ego',
+      'egoizmus',
+      'spiritualitás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. szeptember'-hoz
   {
@@ -4529,7 +4584,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért ragaszkodom ahhoz, akinek nem kellek?',
     talkTitle: 'Miért ragaszkodom ahhoz, akinek nem kellek?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'párkapcsolat',
+      'ragaszkodás',
+      'függőség',
+      'önértékelés',
+      'érzelmek',
+    ],
   },
   // note: tag-ek AI által generálva '2021. szeptemberi előadás - Megválaszolatlan kérdések'-hoz
   {

@@ -125,5 +125,10 @@ Video adatok:
 
 - video link:
 - video title:
-- id: 0011-01-XX (csak az XX-et változtasd)
+- id: 0101-01-XX (csak az XX-et változtasd)
 - timestampek:
+
+---
+
+Note: chatGPT-nek beírva a base promptot és utána a Video Adatok részt irogatva egymás után más-más videókkal, 5 videót csinál meg rendesen, és utána már nem követi a kért struktúrát. Tehát érdemes 4-5 videó után új chatet indítani, újra a base prompttal.
+Nem ellenőriztem, hogy hallucinációk is keletkeznek-e, remélem nem. Az sem segít, hogy amikor ezt írom (Antigravity-ben), akkor ahogy gépeltem, hogy "Nem ellenőriztem, hogy hallucinációk is keletkeznek-e,", ő azt ajánlotta fel hogy " de valószínűleg igen"...

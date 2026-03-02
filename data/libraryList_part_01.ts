@@ -5384,7 +5384,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Milyen a spirituális útkeresők, tanítványok egoizmusa?',
     talkTitle: 'Milyen a spirituális útkeresők, tanítványok egoizmusa?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'spiritualitás',
+      'útkeresés',
+      'tanítvány',
+      'ego',
+      'egoizmus',
+      'önismeret',
+    ],
   },
   // note: tag-ek AI által generálva 'Miért nem kíván szexuálisan a párom?'-hoz
   {
@@ -5394,7 +5402,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért nem kíván szexuálisan a párom?',
     talkTitle: 'Miért nem kíván szexuálisan a párom?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'párkapcsolat',
+      'szexualitás',
+      'vágy',
+      'intimitás',
+      'válság',
+    ],
   },
   // note: tag-ek AI által generálva 'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?'-hoz
   {
@@ -5406,7 +5421,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?',
     talkTitle:
       'A főnököd utasíthat, hogy oltasd magad - mi lesz a vírus jövője?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'vírus',
+      'oltás',
+      'jövő',
+      'munkahely',
+      'kötelező oltás',
+    ],
   },
   // note: tag-ek AI által generálva 'Tévedni isteni dolog'-hoz
   {
@@ -5416,7 +5438,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Tévedni isteni dolog',
     talkTitle: 'Tévedni isteni dolog',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'tévedés',
+      'isteni',
+      'megbocsátás',
+      'fejlődés',
+      'önismeret',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'Hogyan ússzam meg a következő világgazdasági válságot?'-hoz
   {
@@ -5426,7 +5456,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogyan ússzam meg a következő világgazdasági válságot?',
     talkTitle: 'Hogyan ússzam meg a következő világgazdasági válságot?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'világgazdaság',
+      'válság',
+      'gazdasági válság',
+      'pénzügy',
+      'felkészülés',
+      'megoldás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. november'-hoz
   {

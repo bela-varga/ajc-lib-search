@@ -5987,7 +5987,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Gondolatébresztő kérdések a vírus okozta bolond világról',
     talkTitle: 'Gondolatébresztő kérdések a vírus okozta bolond világról',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'vírus', 'járvány', 'társadalom', 'világhelyzet'],
   },
   // note: tag-ek AI által generálva 'Hogy lehet minden a szeretet, ha ennyi borzalom történik a világban?'-hoz
   {
@@ -5999,7 +5999,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Hogy lehet minden a szeretet, ha ennyi borzalom történik a világban?',
     talkTitle:
       'Hogy lehet minden a szeretet, ha ennyi borzalom történik a világban?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'szeretet', 'borzalom', 'világhelyzet', 'szenvedés'],
   },
   // note: tag-ek AI által generálva 'Mi van az anyagi világon túl?'-hoz
   {
@@ -6009,7 +6009,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mi van az anyagi világon túl?',
     talkTitle: 'Mi van az anyagi világon túl?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'anyagi világ',
+      'spiritualitás',
+      'túlvilág',
+      'létezés',
+    ],
   },
   // note: tag-ek AI által generálva 'Mikor tegyek meg mindent a célomért, illetve mikor engedjem el?'-hoz
   {
@@ -6021,7 +6027,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Mikor tegyek meg mindent a célomért, illetve mikor engedjem el?',
     talkTitle:
       'Mikor tegyek meg mindent a célomért, illetve mikor engedjem el?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'célok',
+      'akarat',
+      'elengedés',
+      'kitartás',
+      'döntés',
+    ],
   },
   // note: tag-ek AI által generálva 'Az elengedés technikája'-hoz
   {
@@ -6031,7 +6044,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Az elengedés technikája',
     talkTitle: 'Az elengedés technikája',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'elengedés', 'technika', 'érzelmek', 'tudatosság'],
   },
   // note: tag-ek AI által generálva 'Létezik a mester és tanítvány szerelme, vagy csak illúzió?'-hoz
   {
@@ -6041,7 +6054,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Létezik a mester és tanítvány szerelme, vagy csak illúzió?',
     talkTitle: 'Létezik a mester és tanítvány szerelme, vagy csak illúzió?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'mester',
+      'tanítvány',
+      'szerelem',
+      'kapcsolat',
+      'illúzió',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. december'-hoz
   {
@@ -6369,7 +6389,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Áldott, boldog karácsonyt! (2021)',
     talkTitle: 'Áldott, boldog karácsonyt! (2021)',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'karácsony', 'ünnep', '2021', 'szeretet'],
   },
   // note: tag-ek AI által generálva '2021. decemberi előadás - Megválaszolatlan kérdések'-hoz
   {
@@ -6600,7 +6620,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A lélek, a tudat, az Isten tényleg mind halott?',
     talkTitle: 'A lélek, a tudat, az Isten tényleg mind halott?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'lélek', 'tudat', 'Isten', 'hit', 'létezés'],
   },
   // note: tag-ek AI által generálva 'Hogyan betegszik meg a tested?'-hoz
   {
@@ -6610,7 +6630,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogyan betegszik meg a tested?',
     talkTitle: 'Hogyan betegszik meg a tested?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'betegség', 'test', 'egészség', 'pszichoszomatika'],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2022. január'-hoz
   {
@@ -6884,7 +6904,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mesterek különböző tanításai a megvilágosodáshoz',
     talkTitle: 'Mesterek különböző tanításai a megvilágosodáshoz',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'mesterek',
+      'tanítás',
+      'megvilágosodás',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'Önbizalom vs kétség'-hoz
   {
@@ -6894,7 +6920,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Önbizalom vs kétség',
     talkTitle: 'Önbizalom vs kétség',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'önbizalom',
+      'kétség',
+      'önértékelés',
+      'bizonytalanság',
+    ],
   },
   // note: tag-ek AI által generálva '2022. januári előadás - Megválaszolatlan kérdések'-hoz
   {
@@ -7161,7 +7193,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért vette el tőlem a sors a boldogságot?',
     talkTitle: 'Miért vette el tőlem a sors a boldogságot?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'sors', 'boldogság', 'szenvedés', 'életvezetés'],
   },
   // note: tag-ek AI által generálva 'Az öntudatlan létezés - mi történik az elméjüket vesztett emberekkel?'-hoz
   {
@@ -7173,7 +7205,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Az öntudatlan létezés - mi történik az elméjüket vesztett emberekkel?',
     talkTitle:
       'Az öntudatlan létezés - mi történik az elméjüket vesztett emberekkel?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'öntudat',
+      'létezés',
+      'elme',
+      'tudatosság',
+      'mentális állapot',
+    ],
   },
   // note: tag-ek AI által generálva 'Lesz-e krisztusi második eljövetel - mi Isten akarata?'-hoz
   {
@@ -7183,7 +7222,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Lesz-e krisztusi második eljövetel - mi Isten akarata?',
     talkTitle: 'Lesz-e krisztusi második eljövetel - mi Isten akarata?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'Isten akarata',
+      'Krisztus',
+      'második eljövetel',
+      'hit',
+      'megváltás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2022. február'-hoz
   {
@@ -7704,7 +7750,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mit hoz a jövő az orosz-ukrán háborúban?',
     talkTitle: 'Mit hoz a jövő az orosz-ukrán háborúban?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'jövő',
+      'orosz-ukrán háború',
+      'konfliktus',
+      'geopolitika',
+    ],
   },
   // note: tag-ek AI által generálva 'Az igazság, a bőség és az élet rejtett ösvényei'-hoz
   {
@@ -7714,7 +7766,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Az igazság, a bőség és az élet rejtett ösvényei',
     talkTitle: 'Az igazság, a bőség és az élet rejtett ösvényei',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'igazság',
+      'bőség',
+      'életút',
+      'rejtett ösvények',
+      'spiritualitás',
+    ],
   },
   {
     id: '0087-01-02',
@@ -7798,7 +7857,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Látók, jósok, szakértők - hogy lehet megkülönböztetni a hamis információt a tényektől?',
     talkTitle:
       'Látók, jósok, szakértők - hogy lehet megkülönböztetni a hamis információt a tényektől?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'látók',
+      'jósok',
+      'információ',
+      'igazság',
+      'megkülönböztetés',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'Mi a háború lelki-szellemi-spirituális oka?'-hoz
   {
@@ -7808,7 +7875,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mi a háború lelki-szellemi-spirituális oka?',
     talkTitle: 'Mi a háború lelki-szellemi-spirituális oka?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'háború',
+      'lélek',
+      'szellem',
+      'spiritualitás',
+      'ok-okozat',
+    ],
   },
   // note: tag-ek AI által generálva 'Mi az ideális korkülönbség egy párkapcsolatban?'-hoz
   {
@@ -7818,7 +7892,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mi az ideális korkülönbség egy párkapcsolatban?',
     talkTitle: 'Mi az ideális korkülönbség egy párkapcsolatban?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'párkapcsolat',
+      'korkülönbség',
+      'szerelem',
+      'kapcsolati dinamika',
+      'ideális partner',
+    ],
   },
   // note: tag-ek AI által generálva 'A sors megváltoztatása - lelki segítők munkássága'-hoz
   {
@@ -7828,7 +7909,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A sors megváltoztatása - lelki segítők munkássága',
     talkTitle: 'A sors megváltoztatása - lelki segítők munkássága',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'sors',
+      'segítők',
+      'változás',
+      'önismeret',
+      'spirituális segítség',
+    ],
   },
   {
     id: '0091-01-02',
@@ -7919,7 +8007,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Az orosz-ukrán háború igazságai - az érme mindhárom oldala',
     talkTitle: 'Az orosz-ukrán háború igazságai - az érme mindhárom oldala',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'orosz-ukrán háború',
+      'háború',
+      'igazság',
+      'nézőpontok',
+      'politika',
+    ],
   },
   // note: tag-ek AI által generálva 'Spiritualitás, egységtudat - vegetáriánus vagy húsos táplálkozás?'-hoz
   {
@@ -7931,7 +8026,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
       'Spiritualitás, egységtudat - vegetáriánus vagy húsos táplálkozás?',
     talkTitle:
       'Spiritualitás, egységtudat - vegetáriánus vagy húsos táplálkozás? ',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'spiritualitás',
+      'egységtudat',
+      'vegetáriánus',
+      'hús evés',
+      'táplálkozás',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'Mi történik a háborúban meghalt ártatlanok lelkével?'-hoz
   {
@@ -7941,7 +8044,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mi történik a háborúban meghalt ártatlanok lelkével?',
     talkTitle: 'Mi történik a háborúban meghalt ártatlanok lelkével?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'háború',
+      'halál',
+      'lélek',
+      'ártatlanság',
+      'élet a halál után',
+      'spiritualitás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2022. március'-hoz
   {
@@ -8265,7 +8376,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     topicTitle:
       'Kire szavazzak 2022 áprilisában? (Előadás részlet 2022 január)',
     talkTitle: 'Kire szavazzak 2022 áprilisában? (Előadás részlet 2022 január)',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'választás',
+      'szavazás',
+      'politika',
+      '2022 április',
+      'tudatos döntés',
+      'közélet',
+    ],
   },
   // note: tag-ek AI által generálva '2022. márciusi előadás - Megválaszolatlan kérdések'-hoz
   {
@@ -8384,7 +8503,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A lélek védelme - van értelme meditálni a Föld békéjéért?',
     talkTitle: 'A lélek védelme - van értelme meditálni a Föld békéjéért?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'lélek védelme',
+      'meditáció',
+      'Föld békéje',
+      'világbéke',
+      'tudatosság',
+      'szellemi munka',
+    ],
   },
   // note: tag-ek AI által generálva 'Mi az öregedés titka?'-hoz
   {
@@ -8394,7 +8521,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mi az öregedés titka?',
     talkTitle: 'Mi az öregedés titka?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'öregedés',
+      'titok',
+      'életút',
+      'biológia',
+      'egészség',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'Legyőzhetö az állandó agyalás?'-hoz
   {
@@ -8404,7 +8539,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Legyőzhetö az állandó agyalás?',
     talkTitle: 'Legyőzhetö az állandó agyalás?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'agyalás',
+      'túlgondolás',
+      'gondolatok',
+      'mentális béke',
+      'tudatosság',
+      'megoldás',
+    ],
   },
   // note: tag-ek AI által generálva 'Miért hagyom, hogy mások irányítsanak?'-hoz
   {
@@ -8414,7 +8557,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért hagyom, hogy mások irányítsanak?',
     talkTitle: 'Miért hagyom, hogy mások irányítsanak?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'irányítás',
+      'befolyásolás',
+      'önállóság',
+      'határok',
+      'tudatosság',
+      'önismeret',
+    ],
   },
   // note: tag-ek AI által generálva 'Elvárás - létezik angyali segítség?'-hoz
   {
@@ -8424,7 +8575,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Elvárás - létezik angyali segítség?',
     talkTitle: 'Elvárás - létezik angyali segítség?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'elvárás',
+      'angyali segítség',
+      'angyalok',
+      'segítség',
+      'spiritualitás',
+      'hit',
+    ],
   },
   // note: tag-ek AI által generálva 'Lehetséges, hogy egy lélek nem érdemli meg a szeretetet?'-hoz
   {
@@ -8434,7 +8593,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Lehetséges, hogy egy lélek nem érdemli meg a szeretetet?',
     talkTitle: 'Lehetséges, hogy egy lélek nem érdemli meg a szeretetet?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'lélek',
+      'szeretet',
+      'érdemesség',
+      'spiritualitás',
+      'önelfogadás',
+      'megbocsátás',
+    ],
   },
   // note: tag-ek AI által generálva 'Találkozhatok az elhunyt szerettemmel a halál után?'-hoz
   {
@@ -8444,7 +8611,16 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Találkozhatok az elhunyt szerettemmel a halál után?',
     talkTitle: 'Találkozhatok az elhunyt szerettemmel a halál után?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'elhunyt szeretteink',
+      'halál után',
+      'túlvilág',
+      'kapcsolat',
+      'lélek',
+      'spiritualitás',
+      'vigasz',
+    ],
   },
   // note: tag-ek AI által generálva 'Hogyan lehetne befejezni az orosz-ukrán háborút?'-hoz
   {
@@ -8454,7 +8630,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogyan lehetne befejezni az orosz-ukrán háborút?',
     talkTitle: 'Hogyan lehetne befejezni az orosz-ukrán háborút?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'orosz-ukrán háború',
+      'háború',
+      'béke',
+      'megoldás',
+      'politika',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2022. április'-hoz
   {
@@ -8852,7 +9036,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A sorsod uralkodik rajtad, vagy létezik a szabad akarat?',
     talkTitle: 'A sorsod uralkodik rajtad, vagy létezik a szabad akarat?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'sors',
+      'szabad akarat',
+      'döntés',
+      'irányítás',
+      'életút',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'Miért ilyen hiszékenyek a spirituális emberek?'-hoz
   {
@@ -8862,7 +9054,14 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért ilyen hiszékenyek a spirituális emberek?',
     talkTitle: 'Miért ilyen hiszékenyek a spirituális emberek?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'hiszékenység',
+      'spiritualitás',
+      'tudatosság',
+      'kritikai gondolkodás',
+      'önismeret',
+    ],
   },
   // note: tag-ek AI által generálva 'A megvilágosodáson innen és túl'-hoz
   {
@@ -8872,7 +9071,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A megvilágosodáson innen és túl',
     talkTitle: 'A megvilágosodáson innen és túl',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'megvilágosodás',
+      'tudatosság',
+      'szellemi út',
+      'transzcendencia',
+      'önismeret',
+      'spirituális fejlődés',
+    ],
   },
   // note: tag-ek AI által generálva 'Tényleg mi, az emberek teremtjük a világot?'-hoz
   {
@@ -8882,7 +9089,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Tényleg mi, az emberek teremtjük a világot?',
     talkTitle: 'Tényleg mi, az emberek teremtjük a világot?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'teremtés',
+      'világ teremtése',
+      'tudatosság',
+      'emberiség',
+      'felelősség',
+      'spirituális elvek',
+    ],
   },
   // note: tag-ek AI által generálva 'Miért pattintanak le az első randi után?'-hoz
   {
@@ -8892,7 +9107,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Miért pattintanak le az első randi után?',
     talkTitle: 'Miért pattintanak le az első randi után?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'randizás',
+      'első randi',
+      'elutasítás',
+      'párkapcsolat',
+      'önismeret',
+      'kommunikáció',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2022. május'-hoz
   {
@@ -9366,7 +9589,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Hogy működnek a párhuzamos univerzumok?',
     talkTitle: 'Hogy működnek a párhuzamos univerzumok?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'párhuzamos univerzumok',
+      'univerzum',
+      'valóság',
+      'dimenziók',
+      'spiritualitás',
+      'kvantum-szint',
+    ],
   },
   // note: tag-ek AI által generálva 'A titkos tudás titka'-hoz
   {
@@ -9376,7 +9607,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A titkos tudás titka',
     talkTitle: 'A titkos tudás titka',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'titkos tudás',
+      'rejtett igazságok',
+      'ezotéria',
+      'belső tudás',
+      'tudatosság',
+      'spiritualitás',
+    ],
   },
   // note: tag-ek AI által generálva 'A csend a lélek valósága.'-hoz
   {
@@ -9386,7 +9625,16 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A csend a lélek valósága.',
     talkTitle: 'A csend a lélek valósága.',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'csend',
+      'lélek',
+      'valóság',
+      'belső béke',
+      'meditáció',
+      'tudatosság',
+      'spiritualitás',
+    ],
   },
   // note: tag-ek AI által generálva 'Tényleg meg van írva, hogy mikor halok meg?'-hoz
   {
@@ -9396,7 +9644,15 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Tényleg meg van írva, hogy mikor halok meg?',
     talkTitle: 'Tényleg meg van írva, hogy mikor halok meg?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'halál',
+      'sors',
+      'életút',
+      'predesztináció',
+      'szellemi törvények',
+      'tudatosság',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2022. június'-hoz
   {

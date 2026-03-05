@@ -9,12 +9,7 @@ Any item here may or may not be implemented.
 
 ## Possible Future Enhancements
 
-- [x] Add toggle for search order (for now order by video id: asc, desc)
 - [ ] When we click on a talk title, it should open that talk in a new tab
-- [x] Add "search in search in search" (e.g. search for "halál" in the search results)
-  - [x] discover options to do this on multiple levels
-  - [x] implement SearchEngine to support this
-  - [x] implement UI to support this
 - [ ] Home page upgrades
   - [ ] add "Legutóbbi videók" section with 10 latest videos (teljes videó)
   - [ ] add "Véletlenszerá ajánló" section - or change Start Here part to show 5-6 random tag from 15-20 tags (note: always show "teljes videó" tag)
@@ -26,16 +21,9 @@ Any item here may or may not be implemented.
   - [ ] make the changes and document them in chatGPT_prompt_base.md so the same mistake would not be repeated in future changes
   - [ ] or... write a script that checks for the changes that should be changed and fix them automagically?
 - [ ] Give the whole json to an AI and ask to reconsider the tags to be better
-- [ ] Add search filters
-  - [ ] Add title search
-  - [ ] Add description search
-  - [ ] Add tags search
 - [ ] Add copy link functionality
-  - [x] Add search query to URL
-  - [ ] Add filters to URL
-  - [x] Add pagination to URL
-  - [x] Add sorting (newest/oldest first)URL
   - [ ] Add 'Copy link' button
+- [ ] Option to exclude tags/search strings from search
 - [ ] Fuzzy search integration (Fuse.js)
 - [ ] Favorites/bookmarks (localStorage)
 - [ ] Keyboard shortcuts (/ to focus, arrows to navigate)

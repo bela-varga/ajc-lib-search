@@ -74,10 +74,16 @@ describe('Home route', () => {
       screen.getByText('Nem tudod mit keress? Kezdd itt!'),
     ).toBeInTheDocument();
 
-    const tags = ['teljes videó', 'tudat', 'lélek', 'szeretet', 'halál'];
-    tags.forEach((tag) => {
-      expect(screen.getByRole('button', { name: tag })).toBeInTheDocument();
-    });
+    // 'teljes videó' is always pinned first
+    expect(
+      screen.getByRole('button', { name: 'teljes videó' }),
+    ).toBeInTheDocument();
+
+    // 1 pinned + 5 random = 6 chips total (search button is excluded by name)
+    // We count only the suggested tag buttons (not the search submit button)
+    const allButtons = screen.getAllByRole('button');
+    const tagButtons = allButtons.filter((btn) => btn.closest('form') === null);
+    expect(tagButtons).toHaveLength(6);
   });
 
   it('calls handleSearch when a suggested tag is clicked', () => {
@@ -89,10 +95,11 @@ describe('Home route', () => {
 
     renderHome();
 
-    const tagButton = screen.getByRole('button', { name: 'tudat' });
+    // 'teljes videó' is always pinned, so it is always available to click
+    const tagButton = screen.getByRole('button', { name: 'teljes videó' });
     fireEvent.click(tagButton);
 
-    expect(handleSearchMock).toHaveBeenCalledWith('tudat');
+    expect(handleSearchMock).toHaveBeenCalledWith('teljes videó');
   });
 
   it('renders results state correctly', () => {

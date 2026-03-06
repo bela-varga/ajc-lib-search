@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-03-05] - StartHere Component Refactor
+
+### Changed
+
+- Extracted the "Start here" suggested tags section from `home.tsx` into a dedicated `StartHere` component (`app/components/StartHere.tsx`)
+- `StartHere` now always shows `teljes videó` pinned first, followed by 5 randomly selected tags from an expanded pool of options (refreshes on each page load)
+
+---
+
 ## [2026-02-28] - Library List Update
 
 ### Changed

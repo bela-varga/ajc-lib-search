@@ -2,7 +2,7 @@ import { SearchBar } from '~/components/SearchBar';
 import ResultsList from '~/components/ResultsList';
 import { useSearch } from '~/hooks/useSearch';
 import { Pagination } from '~/components/Pagination';
-import { Chip } from '~/components/Chip';
+import { StartHere } from '~/components/StartHere';
 
 export function meta() {
   return [
@@ -13,16 +13,6 @@ export function meta() {
     },
   ];
 }
-
-const SUGGESTED_TAGS = [
-  'teljes videó',
-  'tudat',
-  'lélek',
-  'szeretet',
-  'család',
-  'elengedés',
-  'halál',
-];
 
 export default function Home() {
   const {
@@ -60,23 +50,7 @@ export default function Home() {
               queries={searchQueries}
             />
 
-            {!hasSearched && (
-              <div className="text-center animate-in fade-in slide-in-from-top-4 duration-700">
-                <p className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-3">
-                  Nem tudod mit keress? Kezdd itt!
-                </p>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {SUGGESTED_TAGS.map((tag) => (
-                    <Chip
-                      key={tag}
-                      label={tag}
-                      onClick={handleSearch}
-                      className="px-4 py-1.5 text-sm bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-700"
-                    />
-                  ))}
-                </div>
-              </div>
-            )}
+            {!hasSearched && <StartHere onSearch={handleSearch} />}
           </div>
 
           {hasSearched && (

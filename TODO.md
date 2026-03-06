@@ -12,7 +12,7 @@ Any item here may or may not be implemented.
 - [ ] When we click on a talk title, it should open that talk in a new tab
 - [ ] Home page upgrades
   - [ ] add "Legutóbbi videók" section with 10 latest videos (teljes videó)
-  - [ ] add "Véletlenszerá ajánló" section - or change Start Here part to show 5-6 random tag from 15-20 tags (note: always show "teljes videó" tag)
+  - [x] add "Véletlenszerű ajánló" section - or change `StartHere` component to show 5-6 random tags from 15-20 tags (note: always show "teljes videó" tag)
 - [ ] Update AJC audio library with more data
 - [ ] Ask AI to go through all audio library elements (maybe in batch) and if there is only 'teljes videó' tag, add more tags based on topic title
 - [ ] Check all tags and make them consistent (like 'gyerekek', 'gyermek' -> 'gyerek' and check for each other tag)

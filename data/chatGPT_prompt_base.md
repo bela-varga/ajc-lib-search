@@ -136,4 +136,4 @@ Nem ellenőriztem, hogy hallucinációk is keletkeznek-e, remélem nem. Az sem s
 ---
 
 Antigravity prompt to add tags:
-update libraryList_part_01.ts with relevant tags at line XXX. The tags should be relevant to the title: "TITLE"
+Read the talkTitle in libraryList_part_02.ts at line XXX and update the tags in the next row to have relevant tags for that title. Do not read other tags, just write the ones you think should belong to the title based on just the talkTitle.

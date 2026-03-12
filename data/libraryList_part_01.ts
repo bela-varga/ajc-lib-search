@@ -1418,7 +1418,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     talkTitle: '2021. februári előadás - Megválaszolatlan kérdések',
     tags: ['2021 február előadás', 'zárás'],
   },
-  // note: tag-ek AI által generálva '2021. március előadás - A lélek útja a testbe és a test útjai a lélekhez'-hez
+  // note: tag-ek AI által generálva 'Tudás-hit-bölcsesség'-hez
   {
     id: '0025-01-01',
     youtubeLink: 'https://www.youtube.com/watch?v=e5OsB1R0D-Q',
@@ -1426,7 +1426,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Tudás-hit-bölcsesség',
     talkTitle: 'Tudás-hit-bölcsesség',
-    tags: ['tudás', 'hit', 'bölcsesség'],
+    tags: ['teljes videó', 'tudás', 'hit', 'bölcsesség'],
   },
   // note: tag-ek AI által generálva 'Érdekfeszítő elzárási és oltási tájékoztatás'-hez
   {
@@ -1436,7 +1436,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Érdekfeszítő elzárási és oltási tájékoztatás',
     talkTitle: 'Érdekfeszítő elzárási és oltási tájékoztatás',
-    tags: ['oltás', 'tájékoztatás'],
+    tags: ['teljes videó', 'oltás', 'tájékoztatás'],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2021. március'-hez
   {

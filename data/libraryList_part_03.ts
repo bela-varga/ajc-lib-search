@@ -2246,7 +2246,15 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '180. Honnan veszed az ember tökéletességébe vetett hited?',
     talkTitle: '180. Honnan veszed az ember tökéletességébe vetett hited?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'ember',
+      'tökéletesség',
+      'hit',
+      'eredendő jóság',
+      'emberi természet',
+      'bizalom',
+    ],
   },
   // note: tag-ek AI által generálva '181. Megéri barátkozni a másikkal a szakítás után?'-hoz
   {
@@ -2256,7 +2264,15 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '181. Megéri barátkozni a másikkal a szakítás után?',
     talkTitle: '181. Megéri barátkozni a másikkal a szakítás után?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'barátság',
+      'szakítás',
+      'szakítás után',
+      'párkapcsolat',
+      'elengedés',
+      'kapcsolat',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Karácsonyi előadás, Székelyudvarhely, 2023. december'-hoz
   {
@@ -2268,7 +2284,14 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
       'A.J. Christian - Karácsonyi előadás, Székelyudvarhely, 2023. december',
     talkTitle:
       'A.J. Christian - Karácsonyi előadás, Székelyudvarhely, 2023. december',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      '2023 december előadás',
+      'karácsony',
+      'Székelyudvarhely',
+      'ünnep',
+      'előadás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2023. december'-hoz
   {
@@ -9727,7 +9750,15 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '234. Kassai Lajos miért tartja “prolinak” a nyaralást?',
     talkTitle: '234. Kassai Lajos miért tartja “prolinak” a nyaralást?',
-    tags: ['teljes videó'],
+    tags: [
+      'teljes videó',
+      'Kassai Lajos',
+      'nyaralás',
+      'vélemény',
+      'életmód',
+      'kritika',
+      'értékrend',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2025. március'-hoz
   {

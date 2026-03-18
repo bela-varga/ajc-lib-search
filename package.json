@@ -12,7 +12,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "check": "npm run typecheck && npm run lint:fix && npm run format"
+    "check": "npm run typecheck && npm run lint:fix && npm run format",
+    "countTags": "node scripts/count_tags.mjs",
+    "unifyTags": "node scripts/unify_tags.mjs",
+    "unifyTags:write": "node scripts/unify_tags.mjs --write"
   },
   "dependencies": {
     "@react-router/node": "7.12.0",

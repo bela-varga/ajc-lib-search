@@ -41,7 +41,7 @@ export const tagUnifyMap = {
   // ── §2 Singular / plural ────────────────────────────────────────────────────
   kapcsolatok: 'kapcsolat',
   gondolatok: 'gondolat',
-  'érzések': 'érzés',
+  érzések: 'érzés',
   álmok: 'álom',
   jelenségek: 'jelenség',
   szimbólumok: 'szimbólum',
@@ -70,9 +70,7 @@ export const tagUnifyMap = {
   szomszédok: 'szomszéd',
   pénzügyek: 'pénzügy',
   technikák: 'technika',
-  // practice: keep 'gyakorlás' as canonical
-  gyakorlat: 'gyakorlás',
-  gyakorlatok: 'gyakorlás',
+  gyakorlatok: 'gyakorlat',
   // emotions: keep the plural 'érzelmek' (higher count)
   érzelem: 'érzelmek',
   minták: 'minta',
@@ -106,7 +104,7 @@ export const tagUnifyMap = {
 
   // §3c Ego
   egó: 'ego',
-  egoizmus: 'ego',
+  // egoizmus: 'ego',
 
   // §3d Nárcizmus
   narcizmus: 'nárcizmus',
@@ -141,27 +139,27 @@ export const tagUnifyMap = {
   öntudatosság: 'tudatosság',
 
   // §3i Jelenlét (tudatos jelenlét / jelen pillanat)
-  'tudatos jelenlét': 'jelenlét',
+  // 'tudatos jelenlét': 'jelenlét',
   'itt és most': 'jelenlét',
-  jelen: 'jelenlét',
+  // jelen: 'jelenlét',
 
   // §3j Fejlődés
-  'személyes fejlődés': 'fejlődés',
-  'egyéni fejlődés': 'fejlődés',
-  'belső fejlődés': 'fejlődés',
-  'lelki fejlődés': 'fejlődés',
-  'szellemi fejlődés': 'fejlődés',
-  'spirituális fejlődés': 'fejlődés',
+  // 'személyes fejlődés': 'fejlődés',
+  // 'egyéni fejlődés': 'fejlődés',
+  // 'belső fejlődés': 'fejlődés',
+  // 'lelki fejlődés': 'fejlődés',
+  // 'szellemi fejlődés': 'fejlődés',
+  // 'spirituális fejlődés': 'fejlődés',
 
   // §3k Gyógyulás / gyógyítás
-  gyógyítás: 'gyógyulás',
+  // gyógyítás: 'gyógyulás',
   öngyógyítás: 'gyógyulás',
   'lelki gyógyulás': 'gyógyulás',
-  'kvantum gyógyítás': 'gyógyulás',
-  kvantumgyógyítás: 'gyógyulás',
-  szellemgyógyászat: 'gyógyulás',
-  energiagyógyászat: 'gyógyulás',
-  távolgyógyítás: 'gyógyulás',
+  'kvantum gyógyítás': 'gyógyítás',
+  kvantumgyógyítás: 'gyógyítás',
+  szellemgyógyászat: 'gyógyítás',
+  energiagyógyászat: 'gyógyítás',
+  távolgyógyítás: 'gyógyítás',
 
   // §3l Betegség
   'testi betegségek': 'betegség',
@@ -174,22 +172,27 @@ export const tagUnifyMap = {
   // §3m Félelem
   félelemkeltés: 'félelem',
 
-  // §3n Energia
+  // §3n Energia, energetika
   energiák: 'energia',
-  energetika: 'energia',
+  // energetika: 'energia',
   energiamező: 'energia',
   energiacsere: 'energia',
   energiafolyam: 'energia',
   energiaközpontok: 'energia',
+  'energetikai kapcsolat': 'energetika',
+  'energetikai tisztítás': 'energetika',
+  'energetikai hatás': 'energetika',
+  'energetikai lenyomat': 'energetika',
+  'energetikai változás': 'energetika',
 
   // §3o Manifesztáció / vonzás törvénye
-  manifesztáció: 'vonzás törvénye',
-  manifestáció: 'vonzás törvénye',
-  valóságteremtés: 'vonzás törvénye',
+  // manifesztáció: 'vonzás törvénye',
+  manifestáció: 'manifesztáció',
+  valóságteremtés: 'manifesztáció',
   bevonzás: 'vonzás törvénye',
 
   // §3p Megbocsátás
-  jóvátétel: 'megbocsátás',
+  // jóvátétel: 'megbocsátás',
   bocsánatkérés: 'megbocsátás',
 
   // §3q Önismeret
@@ -200,36 +203,36 @@ export const tagUnifyMap = {
   önmegvalósítás: 'önismeret',
   önkifejezés: 'önismeret',
 
-  // §3r Önszeretet / önértékelés – keeping separate per review note; 
+  // §3r Önszeretet / önértékelés – keeping separate per review note;
   // only merge clear variants:
   önbizalomhiány: 'önbizalom',
 
   // §3s Segítség / segítés
-  segítés: 'segítség',
-  'segítő szakma': 'segítség',
-  segítségnyújtás: 'segítség',
-  'segítő munka': 'segítség',
-  'segítő szerep': 'segítség',
+  // segítés: 'segítség',
+  'segítő szakma': 'segítés',
+  segítségnyújtás: 'segítés',
+  'segítő munka': 'segítés',
+  'segítő szerep': 'segítés',
   'segítség elfogadása': 'segítség',
-  'szociális segítség': 'segítség',
-  'mások segítése': 'segítség',
+  'szociális segítség': 'segítés',
+  'mások segítése': 'segítés',
   'önzetlen segítség': 'segítség',
   // 'segítők' (8) and 'segítő' (2) kept separate as they denote persons, not the act
 
   // §3t Háború
-  'orosz-ukrán háború': 'háború',
-  'ukrán orosz háború': 'háború',
-  'orosz ukrán háború': 'háború',
-  'nyersanyag háború': 'háború',
-  nyersanyagháború: 'háború',
-  'harmadik világháború': 'háború',
-  'III. világháború': 'háború',
-  'II. Világháború': 'háború',
-  világháború: 'háború',
+  // 'orosz-ukrán háború': 'háború',
+  'ukrán orosz háború': 'orosz-ukrán háború',
+  'orosz ukrán háború': 'orosz-ukrán háború',
+  'nyersanyag háború': 'nyersanyagháború',
+  // nyersanyagháború: 'háború',
+  'harmadik világháború': 'világháború',
+  'III. világháború': 'világháború',
+  'II. Világháború': 'világháború',
+  világháború: 'világháború',
 
   // §3u Meditáció
   'transzcendentális meditáció': 'meditáció',
-  'vezeted meditáció': 'meditáció',
+  'vezetett meditáció': 'meditáció',
   'igazi meditáció': 'meditáció',
   'halál meditáció': 'meditáció',
   békemeditáció: 'meditáció',
@@ -247,7 +250,7 @@ export const tagUnifyMap = {
 
   // §3x Testkilépés
   'testen kívüli élmény': 'testkilépés',
-  'test nélküli létezés': 'testkilépés',
+  // 'test nélküli létezés': 'testkilépés',
 
   // §3y Megvilágosodás
   felébredés: 'megvilágosodás',
@@ -266,8 +269,8 @@ export const tagUnifyMap = {
   antroposzófia: 'antropozófia',
   pszichoszomatikus: 'pszichoszomatika',
   'déjà vu': 'deja vu',
-  'csend tábor': 'csend',
-  csendtábor: 'csend',
+  // 'csend tábor': 'csend',
+  csendtábor: 'csend tábor',
   'lelkiismeret-furdalás': 'lelkiismeretfurdalás',
   'vízöntő korszak': 'vízöntőkor',
   'nazca vonalak': 'nazca-vonalak',

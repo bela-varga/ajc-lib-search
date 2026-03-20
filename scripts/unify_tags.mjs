@@ -20,7 +20,13 @@
  *   node scripts/unify_tags.mjs --write --no-backup
  */
 
-import { readFileSync, writeFileSync, copyFileSync, readdirSync } from 'fs';
+import {
+  readFileSync,
+  writeFileSync,
+  copyFileSync,
+  readdirSync,
+  existsSync,
+} from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -34,7 +40,9 @@ const DRY_RUN = !args.includes('--write');
 const NO_BACKUP = args.includes('--no-backup');
 
 if (DRY_RUN) {
-  console.log('🔍  DRY-RUN mode – no files will be changed. Pass --write to apply.\n');
+  console.log(
+    '🔍  DRY-RUN mode – no files will be changed. Pass --write to apply.\n',
+  );
 } else {
   console.log('✏️   WRITE mode – files will be modified in-place.\n');
 }
@@ -51,7 +59,7 @@ console.log(
 // ── Data files (auto-discovered) ─────────────────────────────────────────────
 const dataDir = resolve(__dirname, '../data');
 const dataFiles = readdirSync(dataDir)
-  .filter((f) => f.startsWith('libraryList_part_'))
+  .filter((f) => f.startsWith('libraryList_part_') && !f.includes('.bak'))
   .sort();
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -104,7 +112,13 @@ function cleanTagsBlock(block) {
 
   if (isMultiLine) {
     if (tags.length === 0) return '[]';
-    return '[\n' + tags.map((t) => `${indent}'${t}',`).join('\n') + '\n' + indent.slice(2) + ']';
+    return (
+      '[\n' +
+      tags.map((t) => `${indent}'${t}',`).join('\n') +
+      '\n' +
+      indent.slice(2) +
+      ']'
+    );
   } else {
     // Single-line: e.g.  ['tag1', 'tag2']
     return '[' + tags.map((t) => `'${t}'`).join(', ') + ']';
@@ -149,7 +163,13 @@ for (const filename of dataFiles) {
 
   if (!DRY_RUN) {
     if (!NO_BACKUP) {
-      copyFileSync(filePath, filePath + '.bak');
+      let backupPath = filePath + '.bak';
+      let counter = 2;
+      while (existsSync(backupPath)) {
+        backupPath = filePath + `.bak.${counter.toString().padStart(2, '0')}`;
+        counter++;
+      }
+      copyFileSync(filePath, backupPath);
     }
     writeFileSync(filePath, modified, 'utf-8');
   }

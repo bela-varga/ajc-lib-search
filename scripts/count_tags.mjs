@@ -76,4 +76,6 @@ const lines = [
 const outputPath = resolve(__dirname, 'tags_count.txt');
 writeFileSync(outputPath, lines.join('\n'), 'utf-8');
 
-console.log(`\n✅ Done! ${sorted.length} unique tags written to:\n   ${outputPath}`);
+console.log(
+  `\n✅ Done! ${sorted.length} unique tags written to:\n   ${outputPath}`,
+);

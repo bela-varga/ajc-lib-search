@@ -7,6 +7,7 @@ Each section below lists tags that should be merged, the **→ keep** canonical 
 and the tags that should be **replaced / deleted**.
 
 Format:
+
 ```
 → keep:    <canonical tag>          (total combined count)
   replace: <tag to remove>          (current count)
@@ -19,79 +20,78 @@ Format:
 
 These are identical words differing only in case or accenting.
 
-| → Keep (canonical) | Replace these |
-|---|---|
-| `jézus` (7) | `Jézus` (7) → merged total: **14** |
-| `isten` (9) | `Isten` (10) → merged total: **19** |
-| `oroszország` (3) | `Oroszország` (3) → merged total: **6** |
-| `ukrajna` (5) | `Ukrajna` (6) → merged total: **11** |
-| `magyarország` (5) | `Magyarország` (12) → merged total: **17** |
-| `ai` (2) | `AI` (2) → merged total: **4** |
-| `ufo` (1) | `UFO` (1), `ufó` (5), `ufók` (2), `UFÓK` (1) → merged total: **10** |
-| `rudolf steiner` (2) | `Rudolf Steiner` (2) → merged total: **4** |
-| `krisztus` (3) | `Krisztus` (1) → merged total: **4** |
-| `szeretetmozaik` (2) | `Szeretetmozaik` (87) → merged total: **89** |
-| `atlantisz` (1) | `Atlantisz` (1) → merged total: **2** |
-| `usa` (1) | `USA` (2) → merged total: **3** |
-| `föld` (5) | `Föld` (8) → merged total: **13** |
-| `kína` (3) | `Kína` (1) → merged total: **4** |
-| `tudatos figyelem` (14) | `Tudatos Figyelem` (1) → merged total: **15** |
-| `adhd` (1) | `ADHD` (2) → merged total: **3** |
-
+| → Keep (canonical)      | Replace these                                                       |
+| ----------------------- | ------------------------------------------------------------------- |
+| `jézus` (7)             | `Jézus` (7) → merged total: **14**                                  |
+| `isten` (9)             | `Isten` (10) → merged total: **19**                                 |
+| `oroszország` (3)       | `Oroszország` (3) → merged total: **6**                             |
+| `ukrajna` (5)           | `Ukrajna` (6) → merged total: **11**                                |
+| `magyarország` (5)      | `Magyarország` (12) → merged total: **17**                          |
+| `ai` (2)                | `AI` (2) → merged total: **4**                                      |
+| `ufo` (1)               | `UFO` (1), `ufó` (5), `ufók` (2), `UFÓK` (1) → merged total: **10** |
+| `rudolf steiner` (2)    | `Rudolf Steiner` (2) → merged total: **4**                          |
+| `krisztus` (3)          | `Krisztus` (1) → merged total: **4**                                |
+| `szeretetmozaik` (2)    | `Szeretetmozaik` (87) → merged total: **89**                        |
+| `atlantisz` (1)         | `Atlantisz` (1) → merged total: **2**                               |
+| `usa` (1)               | `USA` (2) → merged total: **3**                                     |
+| `föld` (5)              | `Föld` (8) → merged total: **13**                                   |
+| `kína` (3)              | `Kína` (1) → merged total: **4**                                    |
+| `tudatos figyelem` (14) | `Tudatos Figyelem` (1) → merged total: **15**                       |
+| `adhd` (1)              | `ADHD` (2) → merged total: **3**                                    |
 
 ---
 
 ## 2. Singular / plural duplicates
 
-| → Keep (canonical) | Replace these |
-|---|---|
-| `kapcsolat` (73) | `kapcsolatok` (71) → merged total: **144** |
-| `gondolat` (11) | `gondolatok` (7) → merged total: **18** |
-| `érzés` (3) | `érzések` (3) → merged total: **6** |
-| `álom` (29) | `álmok` (8) → merged total: **37** |
-| `problémák` (3) | `probléma` (3) → merged total: **6** |
-| `jelenség` (7) | `jelenségek` (3) → merged total: **10** |
-| `szimbólum` (4) | `szimbólumok` (3) → merged total: **7** |
-| `törvény` (2) | `törvények` (2) → merged total: **4** |
-| `élmény` (9) | `élmények` (2) → merged total: **11** |
-| `változás` (34) | `változások` (2) → merged total: **36** |
-| `döntés` (42) | `döntések` (4) → merged total: **46** |
-| `gyerek` (10) | `gyerekek` (10), `gyermekek` (1) → merged total: **21** |
-| `szülő` (11) | `szülők` (8) → merged total: **19** |
-| `tanfolyam` (2) | `tanfolyamok` (2) → merged total: **4** |
-| `kurzus` (28) | `kurzusok` (3) → merged total: **31** |
-| `tanítás` (24) | `tanítások` (4) → merged total: **28** |
-| `tanítvány` (4) | `tanítványok` (1) → merged total: **5** |
-| `tanító` (7) | `tanítók` (5), `tanítók` (5) → merged total: **17** |
-| `barátság` (9) | `barátok` (4) → merged total: **13** |
-| `látomás` (3) | `látomások` (2) → merged total: **5** |
-| `látó` (2) | `látók` (2) → merged total: **4** |
-| `rezgés` (7) | `rezgések` (1) → merged total: **8** |
-| `bolygó` (3) | `bolygók` (2) → merged total: **5** |
-| `válasz` (3) | `válaszok` (4) → merged total: **7** |
-| `egyén` (5) | `egyének` (1) → merged total: **6** |
-| `vitamin` (2) | `vitaminok` (2) → merged total: **4** |
-| `könyv` (23) | `könyvek` (2) → merged total: **25** |
-| `kérdés` (7) | `kérdések` (4) → merged total: **11** |
-| `szomszéd` (2) | `szomszédok` (2) → merged total: **4** |
-| `pénzügy` (9) | `pénzügyek` (7) → merged total: **16** |
-| `technika` (11) | `technikák` (4) → merged total: **15** |
-| `gyakorlás` (15) | `gyakorlat` (14), `gyakorlatok` (1) → merged total: **30** |
-| `érzelem` (7) | `érzelmek` (64) → merge both under `érzelmek` total: **71** |
-| `minta` (1) | `minták` (4) → merge under `minták` total: **5** |
-| `hatás` (18) | `hatások` (3) → merged total: **21** |
-| `lezárás` (4) | `lezárások` (1) → merged total: **5** |
-| `lelki okok` (3) | `lelki ok` → n/a; also consider `testi okok` (1) grouped separately |
-| `képesség` (3) | `képességek` (7) → merge under `képességek` total: **10** |
-| `feladat` (1) | — keep as-is (low count, no clear twin) |
-| `életek` (3) | `előző életek` (9), `előző élet` (4) → merge under `előző életek` total: **13** |
-
+| → Keep (canonical) | Replace these                                                                   |
+| ------------------ | ------------------------------------------------------------------------------- |
+| `kapcsolat` (73)   | `kapcsolatok` (71) → merged total: **144**                                      |
+| `gondolat` (11)    | `gondolatok` (7) → merged total: **18**                                         |
+| `érzés` (3)        | `érzések` (3) → merged total: **6**                                             |
+| `álom` (29)        | `álmok` (8) → merged total: **37**                                              |
+| `problémák` (3)    | `probléma` (3) → merged total: **6**                                            |
+| `jelenség` (7)     | `jelenségek` (3) → merged total: **10**                                         |
+| `szimbólum` (4)    | `szimbólumok` (3) → merged total: **7**                                         |
+| `törvény` (2)      | `törvények` (2) → merged total: **4**                                           |
+| `élmény` (9)       | `élmények` (2) → merged total: **11**                                           |
+| `változás` (34)    | `változások` (2) → merged total: **36**                                         |
+| `döntés` (42)      | `döntések` (4) → merged total: **46**                                           |
+| `gyerek` (10)      | `gyerekek` (10), `gyermekek` (1) → merged total: **21**                         |
+| `szülő` (11)       | `szülők` (8) → merged total: **19**                                             |
+| `tanfolyam` (2)    | `tanfolyamok` (2) → merged total: **4**                                         |
+| `kurzus` (28)      | `kurzusok` (3) → merged total: **31**                                           |
+| `tanítás` (24)     | `tanítások` (4) → merged total: **28**                                          |
+| `tanítvány` (4)    | `tanítványok` (1) → merged total: **5**                                         |
+| `tanító` (7)       | `tanítók` (5), `tanítók` (5) → merged total: **17**                             |
+| `barátság` (9)     | `barátok` (4) → merged total: **13**                                            |
+| `látomás` (3)      | `látomások` (2) → merged total: **5**                                           |
+| `látó` (2)         | `látók` (2) → merged total: **4**                                               |
+| `rezgés` (7)       | `rezgések` (1) → merged total: **8**                                            |
+| `bolygó` (3)       | `bolygók` (2) → merged total: **5**                                             |
+| `válasz` (3)       | `válaszok` (4) → merged total: **7**                                            |
+| `egyén` (5)        | `egyének` (1) → merged total: **6**                                             |
+| `vitamin` (2)      | `vitaminok` (2) → merged total: **4**                                           |
+| `könyv` (23)       | `könyvek` (2) → merged total: **25**                                            |
+| `kérdés` (7)       | `kérdések` (4) → merged total: **11**                                           |
+| `szomszéd` (2)     | `szomszédok` (2) → merged total: **4**                                          |
+| `pénzügy` (9)      | `pénzügyek` (7) → merged total: **16**                                          |
+| `technika` (11)    | `technikák` (4) → merged total: **15**                                          |
+| `gyakorlás` (15)   | `gyakorlat` (14), `gyakorlatok` (1) → merged total: **30**                      |
+| `érzelem` (7)      | `érzelmek` (64) → merge both under `érzelmek` total: **71**                     |
+| `minta` (1)        | `minták` (4) → merge under `minták` total: **5**                                |
+| `hatás` (18)       | `hatások` (3) → merged total: **21**                                            |
+| `lezárás` (4)      | `lezárások` (1) → merged total: **5**                                           |
+| `lelki okok` (3)   | `lelki ok` → n/a; also consider `testi okok` (1) grouped separately             |
+| `képesség` (3)     | `képességek` (7) → merge under `képességek` total: **10**                       |
+| `feladat` (1)      | — keep as-is (low count, no clear twin)                                         |
+| `életek` (3)       | `előző életek` (9), `előző élet` (4) → merge under `előző életek` total: **13** |
 
 ---
 
 ## 3. Synonym / semantic duplicates
 
 ### 3a. Halál és utána
+
 ```
 → keep:    halál (138)
   replace: halál utáni lét (9)
@@ -106,9 +106,11 @@ These are identical words differing only in case or accenting.
   replace: halál utáni fejlődés (1)
   replace: halál utáni forma (1)
 ```
+
 > Alternatively keep `halálközeli élmény` as its own tag – it denotes NDE, not post-death state.
 
 ### 3b. Reinkarnáció / újjászületés
+
 ```
 → keep:    reinkarnáció (32)
   replace: újjászületés (20)
@@ -120,6 +122,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3c. Ego
+
 ```
 → keep:    ego (33)
   replace: egó (2)
@@ -128,6 +131,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3d. Nárcizmus
+
 ```
 → keep:    nárcizmus (5)
   replace: narcizmus (1)
@@ -137,6 +141,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3e. Párkapcsolat
+
 ```
 → keep:    párkapcsolat (102)
   replace: párkapcsolatok (1)
@@ -147,6 +152,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3f. Sors / eleve elrendeltség
+
 ```
 → keep:    sors (56)
   replace: eleve elrendeltség (3)
@@ -162,6 +168,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3g. Karma
+
 ```
 → keep:    karma (29)
   replace: karmikus (3)
@@ -173,6 +180,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3h. Tudatosság / tudatosodás
+
 ```
 → keep:    tudatosság (182)
   replace: tudatosodás (7)
@@ -183,6 +191,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3i. Tudatos figyelem / jelenlét
+
 ```
 → keep:    jelenlét (27)
   replace: tudatos jelenlét (2)
@@ -194,6 +203,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3j. Fejlődés (személyes / lelki / szellemi / spirituális)
+
 ```
 → keep:    fejlődés (40)
   replace: személyes fejlődés (1)
@@ -204,9 +214,11 @@ These are identical words differing only in case or accenting.
   replace: spirituális fejlődés (7)
   replace: emberiség fejlődése (2)
 ```
+
 > Note: these are overlapping but distinguishable. Consider keeping `spirituális fejlődés` as a separate tag if the spiritual vs. personal distinction matters.
 
 ### 3k. Gyógyulás / gyógyítás
+
 ```
 → keep:    gyógyulás (26)
   replace: gyógyítás (19)
@@ -220,6 +232,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3l. Betegség
+
 ```
 → keep:    betegség (39)
   replace: testi betegségek (1)
@@ -231,14 +244,17 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3m. Félelemkultúra → félelem
+
 ```
 → keep:    félelem (46)
   replace: halálfélelem (4)
   replace: félelemkeltés (1)
 ```
+
 > `halálfélelem` is a frequent, specific compound – consider keeping it.
 
 ### 3n. Energia (általános)
+
 ```
 → keep:    energia (33)
   replace: energiák (2)
@@ -255,6 +271,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3o. Manifesztáció / vonzás törvénye
+
 ```
 → keep:    vonzás törvénye (4)
   replace: manifesztáció (2)
@@ -265,6 +282,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3p. Megbocsátás
+
 ```
 → keep:    megbocsátás (15)
   replace: megbánás (2)           → borderline – different meaning; review
@@ -273,6 +291,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3q. Önismeret / önreflexió
+
 ```
 → keep:    önismeret (125)
   replace: önreflexió (5)
@@ -284,6 +303,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3r. Önszeretet / önelfogadás
+
 ```
 → keep:    önszeretet (5)
   replace: önelfogadás (5)
@@ -292,9 +312,11 @@ These are identical words differing only in case or accenting.
   replace: önbizalom (13)
   replace: önbizalomhiány (4)
 ```
+
 > These differ in nuance – review whether to keep `önértékelés` and `önbizalom` separate.
 
 ### 3s. Segítség / segítés
+
 ```
 → keep:    segítség (26)
   replace: segítés (24)
@@ -311,6 +333,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3t. Háború / orosz-ukrán konfliktus
+
 ```
 → keep:    háború (29)
   replace: orosz-ukrán háború (5)
@@ -325,6 +348,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3u. Meditáció
+
 ```
 → keep:    meditáció (20)
   replace: transzcendentális meditáció (2)
@@ -336,6 +360,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3v. Lelkiállapot
+
 ```
 → keep:    lelkiállapot (6)
   replace: lelki állapot (4)
@@ -348,6 +373,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3w. Álom / tudatos álmodás
+
 ```
 → keep:    álom (29)           [general dreams]
 → keep:    tudatos álmodás (6) [lucid dreaming – distinct concept]
@@ -359,6 +385,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3x. Testkilépés
+
 ```
 → keep:    testkilépés (7)
   replace: testen kívüli élmény (3)
@@ -366,6 +393,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3y. Felébredés / megvilágosodás
+
 ```
 → keep:    megvilágosodás (36)
   replace: felébredés (6)
@@ -376,6 +404,7 @@ These are identical words differing only in case or accenting.
 ```
 
 ### 3z. Spirituális út
+
 ```
 → keep:    spirituális út (12)
   replace: lelki út (1)
@@ -391,40 +420,38 @@ These are identical words differing only in case or accenting.
 
 These should be removed from all entries entirely (they are likely script artefacts or copy-paste errors).
 
-| Tag | Count | Reason |
-|---|---|---|
-| `,` | 2 | Punctuation artefact |
-| `s degree)", ` | 3+1 | Broken string |
-| `I. 1.` through `I. 32.` | 32× | Index number artefacts (likely from a numbered list that got serialised as tags) |
-| `II. 1.` through `II. 24.` | 24× | Same |
-| `IV. 1.` through `IV. 12.` | 12× | Same |
-| `V. 1.` through `V. 7.` | 7× | Same |
-| `VI. 1.` through `VI. 7.` | 7× | Same |
-
+| Tag                        | Count | Reason                                                                           |
+| -------------------------- | ----- | -------------------------------------------------------------------------------- |
+| `,`                        | 2     | Punctuation artefact                                                             |
+| `s degree)", `             | 3+1   | Broken string                                                                    |
+| `I. 1.` through `I. 32.`   | 32×   | Index number artefacts (likely from a numbered list that got serialised as tags) |
+| `II. 1.` through `II. 24.` | 24×   | Same                                                                             |
+| `IV. 1.` through `IV. 12.` | 12×   | Same                                                                             |
+| `V. 1.` through `V. 7.`    | 7×    | Same                                                                             |
+| `VI. 1.` through `VI. 7.`  | 7×    | Same                                                                             |
 
 ---
 
 ## 5. Inconsistent spelling / typos
 
-| → Keep | Replace |
-|---|---|
-| `ezotéria` (3) | `ezoterika` (1), `ezoterikus` (1) |
-| `antropozófia` (1) | `antroposzófia` (1) → merge |
-| `pszichoszomatika` (1) | `pszichoszomatikus` (1) → merge |
-| `kvantumgyógyítás` (1) | `kvantum gyógyítás` (1) → merge |
-| `manifesztáció` (2) | `manifestáció` (2) → merge (one is a typo) |
-| `lelkiismeret-furdalás` (1) | `lelkiismeretfurdalás` (1) → merge |
-| `haláltípusok` (1) | `halál típusok` → n/a; keep as-is |
-| `déjà vu` (2) | `deja vu` (1) → merge |
-| `csend tábor` (1) | `csendtábor` (1), `Csend tábor` (2) → pick one form |
-| `Rudolf Steiner` (2) | `rudolf steiner` (2) → already in §1 |
-| `megszállás` (2) | `megszállottság` (2) → different meanings; keep both |
-| `vízöntő korszak` (1) | `vízöntőkor` (1) → merge |
-| `nazca vonalak` (1) | `nazca-vonalak` (1) → merge |
-| `nyersanyag háború` (1) | `nyersanyagháború` (1) → merge |
-| `titkosügynök` (1) | `titkos ügynök` (1) → merge |
-| `egzisztenciális krízis` (1) | consider merging with `válság` |
-
+| → Keep                       | Replace                                              |
+| ---------------------------- | ---------------------------------------------------- |
+| `ezotéria` (3)               | `ezoterika` (1), `ezoterikus` (1)                    |
+| `antropozófia` (1)           | `antroposzófia` (1) → merge                          |
+| `pszichoszomatika` (1)       | `pszichoszomatikus` (1) → merge                      |
+| `kvantumgyógyítás` (1)       | `kvantum gyógyítás` (1) → merge                      |
+| `manifesztáció` (2)          | `manifestáció` (2) → merge (one is a typo)           |
+| `lelkiismeret-furdalás` (1)  | `lelkiismeretfurdalás` (1) → merge                   |
+| `haláltípusok` (1)           | `halál típusok` → n/a; keep as-is                    |
+| `déjà vu` (2)                | `deja vu` (1) → merge                                |
+| `csend tábor` (1)            | `csendtábor` (1), `Csend tábor` (2) → pick one form  |
+| `Rudolf Steiner` (2)         | `rudolf steiner` (2) → already in §1                 |
+| `megszállás` (2)             | `megszállottság` (2) → different meanings; keep both |
+| `vízöntő korszak` (1)        | `vízöntőkor` (1) → merge                             |
+| `nazca vonalak` (1)          | `nazca-vonalak` (1) → merge                          |
+| `nyersanyag háború` (1)      | `nyersanyagháború` (1) → merge                       |
+| `titkosügynök` (1)           | `titkos ügynök` (1) → merge                          |
+| `egzisztenciális krízis` (1) | consider merging with `válság`                       |
 
 ---
 
@@ -433,34 +460,33 @@ These should be removed from all entries entirely (they are likely script artefa
 These are fine as-is if detail is desired, but could be merged if the tag vocabulary
 needs to be simplified further.
 
-| Specific tag(s) | Suggested parent |
-|---|---|
-| `halálfélelem` (4), `félelemkeltés` (1) | `félelem` |
-| `gazdagság` (4), `bőség` (3), `anyagiak` (4) | `pénz` or `anyag` |
-| `gyermeknevelés` (9), `nevelés` (8), `gyereknevelés` (1) | merge all under `gyermeknevelés` |
-| `konfliktus` (12), `családi konfliktus` (2), `kapcsolati válság` (2) | `konfliktus` |
-| `önbizalom` (13), `önbizalomhiány` (4) | `önbizalom` |
-| `gyász` (25), `veszteség` (12) | keep distinct (grief vs. loss) |
-| `csend` (8), `Csend tábor` (2), `csend tábor` (1), `csendtábor` (1) | `csend` + `elvonulás` |
-| `szexualitás` (23), `szex` (2), `szeretkezés` (2), `intimitás` (10) | keep `szexualitás` |
-| `mentális egészség` (9), `mentális állapot` (4), `pszichés állapot` (1) | `mentális egészség` |
-| `identitás` (20), `önazonosság` (17), `öntudat` (5) | consider merging under `identitás` |
-| `tudat` (88), `tudatállapot` (13), `tudatszint` (3), `tudatmódosítás` (3) | keep `tudat` as parent |
-| `közösség` (17), `összetartozás` (3), `összefogás` (2) | `közösség` |
-| `erkölcs` (16), `morál` (2), `etika` (9) | `erkölcs` |
-| `politika` (41), `geopolitika` (9), `világpolitika` (2) | `politika` |
-| `family: szülő-gyerek` → `szülő` + `gyerek` | split compound tags |
-
+| Specific tag(s)                                                           | Suggested parent                   |
+| ------------------------------------------------------------------------- | ---------------------------------- |
+| `halálfélelem` (4), `félelemkeltés` (1)                                   | `félelem`                          |
+| `gazdagság` (4), `bőség` (3), `anyagiak` (4)                              | `pénz` or `anyag`                  |
+| `gyermeknevelés` (9), `nevelés` (8), `gyereknevelés` (1)                  | merge all under `gyermeknevelés`   |
+| `konfliktus` (12), `családi konfliktus` (2), `kapcsolati válság` (2)      | `konfliktus`                       |
+| `önbizalom` (13), `önbizalomhiány` (4)                                    | `önbizalom`                        |
+| `gyász` (25), `veszteség` (12)                                            | keep distinct (grief vs. loss)     |
+| `csend` (8), `Csend tábor` (2), `csend tábor` (1), `csendtábor` (1)       | `csend` + `elvonulás`              |
+| `szexualitás` (23), `szex` (2), `szeretkezés` (2), `intimitás` (10)       | keep `szexualitás`                 |
+| `mentális egészség` (9), `mentális állapot` (4), `pszichés állapot` (1)   | `mentális egészség`                |
+| `identitás` (20), `önazonosság` (17), `öntudat` (5)                       | consider merging under `identitás` |
+| `tudat` (88), `tudatállapot` (13), `tudatszint` (3), `tudatmódosítás` (3) | keep `tudat` as parent             |
+| `közösség` (17), `összetartozás` (3), `összefogás` (2)                    | `közösség`                         |
+| `erkölcs` (16), `morál` (2), `etika` (9)                                  | `erkölcs`                          |
+| `politika` (41), `geopolitika` (9), `világpolitika` (2)                   | `politika`                         |
+| `family: szülő-gyerek` → `szülő` + `gyerek`                               | split compound tags                |
 
 ---
 
 ## 7. Summary: priority order
 
-| Priority | Category | Estimated tags affected |
-|---|---|---|
-| 🔴 High | §4 – Junk tags (numbered lists, punctuation) | ~85 |
-| 🔴 High | §1 – Case duplicates | ~16 pairs |
-| 🟠 Medium | §2 – Singular/plural | ~35 pairs |
-| 🟠 Medium | §5 – Typos / inconsistent spelling | ~15 pairs |
-| 🟡 Low | §3 – Semantic synonyms | ~30 groups |
-| 🟢 Optional | §6 – Roll-up of specifics | ~20 groups |
+| Priority    | Category                                     | Estimated tags affected |
+| ----------- | -------------------------------------------- | ----------------------- |
+| 🔴 High     | §4 – Junk tags (numbered lists, punctuation) | ~85                     |
+| 🔴 High     | §1 – Case duplicates                         | ~16 pairs               |
+| 🟠 Medium   | §2 – Singular/plural                         | ~35 pairs               |
+| 🟠 Medium   | §5 – Typos / inconsistent spelling           | ~15 pairs               |
+| 🟡 Low      | §3 – Semantic synonyms                       | ~30 groups              |
+| 🟢 Optional | §6 – Roll-up of specifics                    | ~20 groups              |

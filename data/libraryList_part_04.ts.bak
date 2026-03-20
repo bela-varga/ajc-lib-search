@@ -272,7 +272,12 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '237. Milyen a valóban jó, szociális segítő munka?',
     talkTitle: '237. Milyen a valóban jó, szociális segítő munka?',
-    tags: ['teljes videó', 'szociális munka', 'segítés', 'hivatás'],
+    tags: [
+      'teljes videó',
+      'szociális munka',
+      'segítés',
+      'hivatás',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2025. április'-hoz
   {
@@ -979,7 +984,12 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     topicTitle:
       'Nárcisztikus kapcsolat miért vesz el rengeteg energiát, hogy lehet jól kijönni a kapcsolatból?',
     talkTitle: 'A.J. Christian - Előadás, 2025. május',
-    tags: ['2025 május előadás', 'nárcizmus', 'energia', 'kapcsolat'],
+    tags: [
+      '2025 május előadás',
+      'nárcizmus',
+      'energia',
+      'kapcsolat',
+    ],
   },
   {
     id: '0305-01-21',
@@ -1110,7 +1120,13 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'Lehúzó kapcsolatból kilépni úgy, hogy a gyerekek ne sérüljenek?',
     talkTitle:
       '240. A.J. Christian - Előadás, 2025. május - Megválaszolatlan kérdések',
-    tags: ['2025 május előadás', 'kapcsolat', 'válás', 'gyerek', 'felelősség'],
+    tags: [
+      '2025 május előadás',
+      'kapcsolat',
+      'válás',
+      'gyerek',
+      'felelősség',
+    ],
   },
   {
     id: '0306-01-09',
@@ -1718,7 +1734,13 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '245. A mesterséges intelligencia kérdezett A.J. Christiantól',
     talkTitle: '245. A mesterséges intelligencia kérdezett A.J. Christiantól',
-    tags: ['teljes videó', 'mesterséges intelligencia', 'ai', 'kérdés', 'jövő'],
+    tags: [
+      'teljes videó',
+      'mesterséges intelligencia',
+      'ai',
+      'kérdés',
+      'jövő',
+    ],
   },
   // note: tag-ek AI által generálva '246. Hogy tudhatom meg, hogy ki vagyok én?'-hoz
   {
@@ -2422,7 +2444,12 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 5616,
     topicTitle: 'Miért bukkannak fel mindig újabb gyógyító technikák? ',
     talkTitle: 'A.J. Christian - Előadás, 2025. szeptember',
-    tags: ['2025 szeptember előadás', 'gyógyítás', 'technika', 'spiritualitás'],
+    tags: [
+      '2025 szeptember előadás',
+      'gyógyítás',
+      'technika',
+      'spiritualitás',
+    ],
   },
   {
     id: '0321-01-17',
@@ -2596,7 +2623,13 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 353,
     topicTitle: 'Mi lett volna ha... Kell ezzel foglalkozni?',
     talkTitle: 'A.J. Christian - Előadás, 2025. október',
-    tags: ['2025 október előadás', 'múlt', 'megbánás', 'gondolat', 'elengedés'],
+    tags: [
+      '2025 október előadás',
+      'múlt',
+      'megbánás',
+      'gondolat',
+      'elengedés',
+    ],
   },
   {
     id: '0325-01-04',
@@ -2879,7 +2912,13 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 2329,
     topicTitle: 'A végtelen eleve elrendeltetett, ha igen ki által, mi által?',
     talkTitle: 'A.J. Christian - Előadás, 2025. november',
-    tags: ['2025 november előadás', 'végtelen', 'sors', 'filozófia', 'létezés'],
+    tags: [
+      '2025 november előadás',
+      'végtelen',
+      'sors',
+      'filozófia',
+      'létezés',
+    ],
   },
   {
     id: '0328-01-07',
@@ -2914,7 +2953,13 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     topicTitle:
       '1. Mi az a kérdés, amivel nem kell hozzád fordulni? 2.Van kérdés amit nem válaszolsz meg? 3.Az anyagrecsegés (ropogás) oka',
     talkTitle: 'A.J. Christian - Előadás, 2025. november',
-    tags: ['2025 november előadás', 'kérdés', 'válasz', 'határok', 'jelenség'],
+    tags: [
+      '2025 november előadás',
+      'kérdés',
+      'válasz',
+      'határok',
+      'jelenség',
+    ],
   },
   {
     id: '0328-01-10',
@@ -4396,7 +4441,13 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     topicTitle:
       '1. Az ember életét mennyire predesztinálja a születés és az anya érzelmi állapota? 2. A Nappalis könyvedben szereplők valósak?',
     talkTitle: 'A.J. Christian - Előadás, 2026. február',
-    tags: ['2026 február előadás', 'születés', 'sors', 'anya', 'könyv'],
+    tags: [
+      '2026 február előadás',
+      'születés',
+      'sors',
+      'anya',
+      'könyv',
+    ],
   },
   {
     id: '0347-01-10',

@@ -1011,14 +1011,7 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 5463,
     topicTitle: 'Azt mondtad a múlt-jelen-jövő életek egyszerre zajlanak',
     talkTitle: 'A.J. Christian - Előadás, 2022. augusztus',
-    tags: [
-      '2022 augusztus előadás',
-      'idő',
-      'múlt',
-      'jelen',
-      'jövő',
-      'előző életek',
-    ],
+    tags: ['2022 augusztus előadás', 'idő', 'múlt', 'jelen', 'jövő', 'előző életek'],
   },
   {
     id: '0135-01-19',
@@ -1414,7 +1407,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 500,
     topicTitle: 'Mit tegyek, hogy el tudjam fogadni a segítséged?',
     talkTitle: 'Előadás, 2022. szeptember',
-    tags: ['2022 szeptember előadás', 'segítség', 'bizalom', 'nyitottság'],
+    tags: [
+      '2022 szeptember előadás',
+      'segítség',
+      'bizalom',
+      'nyitottság',
+    ],
   },
   {
     id: '0139-01-05',
@@ -1546,7 +1544,11 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     topicTitle:
       'Ha valakik együtt halnak meg, együtt mennek tovább? Szakmám ugyanaz lesz a köv. életben?',
     talkTitle: 'Előadás, 2022. szeptember',
-    tags: ['2022 szeptember előadás', 'halál', 'reinkarnáció'],
+    tags: [
+      '2022 szeptember előadás',
+      'halál',
+      'reinkarnáció',
+    ],
   },
   {
     id: '0139-01-18',
@@ -3528,7 +3530,11 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 3458,
     topicTitle: 'Meditáció hatása, ajánlanál technikát?',
     talkTitle: '2022. novemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2022 november előadás', 'meditáció', 'technika'],
+    tags: [
+      '2022 november előadás',
+      'meditáció',
+      'technika',
+    ],
   },
   {
     id: '0157-01-10',
@@ -3693,7 +3699,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     topicTitle:
       'Tibeti Phowa gyakorlat (halál meditáció), tudatos halál technikát kidolgoztad?',
     talkTitle: '2022. novemberi előadás - Megválaszolatlan kérdések 2. rész',
-    tags: ['2022 november előadás', 'phowa', 'meditáció', 'tudatos halál'],
+    tags: [
+      '2022 november előadás',
+      'phowa',
+      'meditáció',
+      'tudatos halál',
+    ],
   },
   {
     id: '0158-01-06',
@@ -3841,7 +3852,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 236,
     topicTitle: 'Veleszületett fülbetegség',
     talkTitle: '2022. novemberi előadás - Megválaszolatlan kérdések 3. rész',
-    tags: ['2022 november előadás', 'fülbetegség', 'betegség', 'egészség'],
+    tags: [
+      '2022 november előadás',
+      'fülbetegség',
+      'betegség',
+      'egészség',
+    ],
   },
   {
     id: '0159-01-03',
@@ -3877,7 +3893,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 2067,
     topicTitle: 'Ajánlj 10 könyvet a megvilágosodásért',
     talkTitle: '2022. novemberi előadás - Megválaszolatlan kérdések 3. rész',
-    tags: ['2022 november előadás', 'könyv', 'megvilágosodás', 'spiritualitás'],
+    tags: [
+      '2022 november előadás',
+      'könyv',
+      'megvilágosodás',
+      'spiritualitás',
+    ],
   },
   {
     id: '0159-01-07',
@@ -4967,7 +4988,11 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 3192,
     topicTitle: 'Ételosztás',
     talkTitle: 'A.J. Christian - Előadás, 2022. december',
-    tags: ['2022 december előadás', 'ételosztás', 'segítés'],
+    tags: [
+      '2022 december előadás',
+      'ételosztás',
+      'segítés',
+    ],
   },
   {
     id: '0165-01-15',
@@ -4976,7 +5001,13 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 3303,
     topicTitle: 'Halál után a test miért marad meg?',
     talkTitle: 'A.J. Christian - Előadás, 2022. december',
-    tags: ['2022 december előadás', 'halál', 'test', 'lélek', 'halál után'],
+    tags: [
+      '2022 december előadás',
+      'halál',
+      'test',
+      'lélek',
+      'halál után',
+    ],
   },
   {
     id: '0165-01-16',
@@ -5327,7 +5358,11 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 2407,
     topicTitle: 'Van valami, vagy valaki, aki miatt ide mindig visszatérsz?',
     talkTitle: 'Személyes kérdések - személyes válaszok',
-    tags: ['személyes kérdések személyes válaszok', 'visszatérés', 'kapcsolat'],
+    tags: [
+      'személyes kérdések személyes válaszok',
+      'visszatérés',
+      'kapcsolat',
+    ],
   },
   {
     id: '0166-01-18',
@@ -5773,7 +5808,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 1685,
     topicTitle: 'Szűz lélek születése, egós létünk',
     talkTitle: '2022. decemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2022 december előadás', 'szűz lélek', 'ego', 'lélek születése'],
+    tags: [
+      '2022 december előadás',
+      'szűz lélek',
+      'ego',
+      'lélek születése',
+    ],
   },
   {
     id: '0169-01-06',
@@ -5874,7 +5914,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 5279,
     topicTitle: 'Arcokat látok magam előtt',
     talkTitle: '2022. decemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2022 december előadás', 'látomás', 'arcok', 'pszichés jelenségek'],
+    tags: [
+      '2022 december előadás',
+      'látomás',
+      'arcok',
+      'pszichés jelenségek',
+    ],
   },
   {
     id: '0169-01-13',
@@ -6076,7 +6121,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'A nárcisztikus személyiségzavar',
     talkTitle: 'A nárcisztikus személyiségzavar',
-    tags: ['teljes videó', 'nárcizmus', 'személyiségzavar', 'pszichológia'],
+    tags: [
+      'teljes videó',
+      'nárcizmus',
+      'személyiségzavar',
+      'pszichológia',
+    ],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2023. január'-hoz
   {
@@ -6633,7 +6683,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     topicTitle:
       'Miért olyan jó a halálunk utáni élet és mit lehet annyi ideig csinálni?',
     talkTitle: 'Az emberi élet némely kérdései',
-    tags: ['az emberi élet némely kérdései', 'halál után', 'lélek', 'túlvilág'],
+    tags: [
+      'az emberi élet némely kérdései',
+      'halál után',
+      'lélek',
+      'túlvilág',
+    ],
   },
   {
     id: '0176-01-05',
@@ -7109,7 +7164,11 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 2498,
     topicTitle: 'Csoport karma egy pénzügyi veszteség?',
     talkTitle: '2023. februári előadás - Megválaszolatlan kérdések',
-    tags: ['2023 február előadás', 'karma', 'pénzügyi veszteség'],
+    tags: [
+      '2023 február előadás',
+      'karma',
+      'pénzügyi veszteség',
+    ],
   },
   {
     id: '0182-01-09',
@@ -7137,7 +7196,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 3721,
     topicTitle: 'Miért csak akkor kellek, ha van valakim?',
     talkTitle: '2023. februári előadás - Megválaszolatlan kérdések',
-    tags: ['2023 február előadás', 'kapcsolat', 'párkapcsolat', 'önértékelés'],
+    tags: [
+      '2023 február előadás',
+      'kapcsolat',
+      'párkapcsolat',
+      'önértékelés',
+    ],
   },
   {
     id: '0182-01-12',
@@ -7533,7 +7597,11 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 4079,
     topicTitle: 'Narcisztikus személyiségzavar',
     talkTitle: 'A.J. Christian - Előadás, 2023. március',
-    tags: ['2023 március előadás', 'nárcizmus', 'pszichológia'],
+    tags: [
+      '2023 március előadás',
+      'nárcizmus',
+      'pszichológia',
+    ],
   },
   {
     id: '0189-01-14',
@@ -8513,7 +8581,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 4972,
     topicTitle: 'Indigókristály gyerekek / szinkronicitás',
     talkTitle: 'A.J. Christian - Előadás, 2023. május',
-    tags: ['2023. május előadás', 'indigókristály', 'gyerek', 'szinkronicitás'],
+    tags: [
+      '2023. május előadás',
+      'indigókristály',
+      'gyerek',
+      'szinkronicitás',
+    ],
   },
   {
     id: '0200-01-18',
@@ -8855,7 +8928,12 @@ export const audioLibraryList_part_02: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: 'Mit jelent az, hogy “Éld meg önmagad”?',
     talkTitle: 'Mit jelent az, hogy “Éld meg önmagad”?',
-    tags: ['teljes videó', 'önismeret', 'életmód', 'jelenlét'],
+    tags: [
+      'teljes videó',
+      'önismeret',
+      'életmód',
+      'jelenlét',
+    ],
   },
   // note: tag-ek AI által generálva '162. Gyógyítható a Borderline személyiségzavar?'-hoz
   {

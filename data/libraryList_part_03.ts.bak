@@ -462,7 +462,13 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Együttélés drogokkal és pszichés betegségekkel terhelt családtaggal',
     talkTitle: '2023. júliusi előadás - Megválaszolatlan kérdések',
-    tags: ['2023 július előadás', 'család', 'drog', 'betegség', 'együttélés'],
+    tags: [
+      '2023 július előadás',
+      'család',
+      'drog',
+      'betegség',
+      'együttélés',
+    ],
   },
   {
     id: '0214-01-20',
@@ -587,7 +593,11 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 859,
     topicTitle: 'Miért van, hogy vannak akik a mélyponton világosodnak meg?',
     talkTitle: 'A.J. Christian - Előadás, 2023. augusztus',
-    tags: ['2023 augusztus előadás', 'mélypont', 'megvilágosodás'],
+    tags: [
+      '2023 augusztus előadás',
+      'mélypont',
+      'megvilágosodás',
+    ],
   },
   {
     id: '0218-01-05',
@@ -682,7 +692,13 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 4166,
     topicTitle: 'Egy anya hogyan fordulhat a gyermeke ellen?',
     talkTitle: 'A.J. Christian - Előadás, 2023. augusztus',
-    tags: ['2023 augusztus előadás', 'anya', 'gyermek', 'család', 'kapcsolat'],
+    tags: [
+      '2023 augusztus előadás',
+      'anya',
+      'gyermek',
+      'család',
+      'kapcsolat',
+    ],
   },
   {
     id: '0218-01-13',
@@ -796,7 +812,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 8365,
     topicTitle: 'Hogyan ne felejtsek el figyelni a halálom után?',
     talkTitle: 'A.J. Christian - Előadás, 2023. augusztus',
-    tags: ['2023 augusztus előadás', 'halál', 'tudatosság', 'halál után'],
+    tags: [
+      '2023 augusztus előadás',
+      'halál',
+      'tudatosság',
+      'halál után',
+    ],
   },
   {
     id: '0218-01-22',
@@ -905,7 +926,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 1785,
     topicTitle: 'Eltűnt gyerekek',
     talkTitle: '174. 2023. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2023 augusztus előadás', 'eltűnt gyerekek', 'gyerek', 'társadalom'],
+    tags: [
+      '2023 augusztus előadás',
+      'eltűnt gyerekek',
+      'gyerek',
+      'társadalom',
+    ],
   },
   {
     id: '0219-01-07',
@@ -1153,7 +1179,11 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 2820,
     topicTitle: 'Hogyan lehet szabadulni a negatív karmától?',
     talkTitle: 'A.J. Christian - Előadás, 2023. szeptember',
-    tags: ['2023 szeptember előadás', 'karma', 'felszabadulás'],
+    tags: [
+      '2023 szeptember előadás',
+      'karma',
+      'felszabadulás',
+    ],
   },
   {
     id: '0221-01-09',
@@ -1397,7 +1427,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Öntudatlan halálkor újra megkapjuk azt a feladatot amiből nem tanultunk? Abban a  másik dimenzióban tényleg elég ráfókuszálni, hogy ne kerüljünk újra az újjászületés folyamába?',
     talkTitle: 'A.J. Christian - Előadás, 2023. október',
-    tags: ['2023 október előadás', 'halál', 'reinkarnáció', 'tanulás'],
+    tags: [
+      '2023 október előadás',
+      'halál',
+      'reinkarnáció',
+      'tanulás',
+    ],
   },
   {
     id: '0223-01-08',
@@ -1620,7 +1655,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Húsz éve nem gyógyuló betegségem állandó szomorúsággal tölt el. Min változtassak?',
     talkTitle: '178. 2023. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2023 október előadás', 'betegség', 'szomorúság', 'élethelyzet'],
+    tags: [
+      '2023 október előadás',
+      'betegség',
+      'szomorúság',
+      'élethelyzet',
+    ],
   },
   {
     id: '0224-01-03',
@@ -1695,7 +1735,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 3452,
     topicTitle: 'Lélek és szellem. Újjászületések',
     talkTitle: '178. 2023. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2023 október előadás', 'lélek', 'szellem', 'reinkarnáció'],
+    tags: [
+      '2023 október előadás',
+      'lélek',
+      'szellem',
+      'reinkarnáció',
+    ],
   },
   {
     id: '0224-01-10',
@@ -3005,7 +3050,13 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 4997,
     topicTitle: 'Ásványok, kristályok hatása.',
     talkTitle: '182. 2024. januári előadás - Megválaszolatlan kérdések',
-    tags: ['2024 január előadás', 'ásványok', 'kristályok', 'hatás', 'energia'],
+    tags: [
+      '2024 január előadás',
+      'ásványok',
+      'kristályok',
+      'hatás',
+      'energia',
+    ],
   },
   {
     id: '0232-01-16',
@@ -3130,7 +3181,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Következő életemben mindent újra kell kezdenem? Találkozom a barátaimmal, családommal?',
     talkTitle: 'A.J. Christian - Előadás, 2024. február',
-    tags: ['2024 február előadás', 'reinkarnáció', 'család', 'barátság'],
+    tags: [
+      '2024 február előadás',
+      'reinkarnáció',
+      'család',
+      'barátság',
+    ],
   },
   {
     id: '0234-01-06',
@@ -3139,7 +3195,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 2730,
     topicTitle: 'Transzcendentális meditáció hatására oldódik a karmám?',
     talkTitle: 'A.J. Christian - Előadás, 2024. február',
-    tags: ['2024 február előadás', 'meditáció', 'karma', 'spiritualitás'],
+    tags: [
+      '2024 február előadás',
+      'meditáció',
+      'karma',
+      'spiritualitás',
+    ],
   },
   {
     id: '0234-01-07',
@@ -3634,7 +3695,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 804,
     topicTitle: 'A szeretet a teremtés? Közös békemeditáció?',
     talkTitle: 'A.J. Christian - Előadás, 2024. március',
-    tags: ['2024 március előadás', 'szeretet', 'teremtés', 'meditáció'],
+    tags: [
+      '2024 március előadás',
+      'szeretet',
+      'teremtés',
+      'meditáció',
+    ],
   },
   {
     id: '0238-01-05',
@@ -4072,7 +4138,11 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 2161,
     topicTitle: 'Miért nem tartasz vezetett meditációt?',
     talkTitle: 'A.J. Christian - Előadás, 2024. április',
-    tags: ['2024 április előadás', 'meditáció', 'gyakorlat'],
+    tags: [
+      '2024 április előadás',
+      'meditáció',
+      'gyakorlat',
+    ],
   },
   {
     id: '0239-01-10',
@@ -4370,7 +4440,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 1314,
     topicTitle: 'Meg van írva az anyagi biztonság sikerülhet-e vagy sem?',
     talkTitle: '187. 2024. áprilisi előadás - Megválaszolatlan kérdések',
-    tags: ['2024 április előadás', 'anyagi biztonság', 'sors', 'siker'],
+    tags: [
+      '2024 április előadás',
+      'anyagi biztonság',
+      'sors',
+      'siker',
+    ],
   },
   {
     id: '0240-01-05',
@@ -4461,7 +4536,11 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 3937,
     topicTitle: 'Spontán testkilépés az utcán',
     talkTitle: '187. 2024. áprilisi előadás - Megválaszolatlan kérdések',
-    tags: ['2024 április előadás', 'testkilépés', 'spontán élmény'],
+    tags: [
+      '2024 április előadás',
+      'testkilépés',
+      'spontán élmény',
+    ],
   },
   {
     id: '0240-01-13',
@@ -4658,7 +4737,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 669,
     topicTitle: '"Újjászületés", hasonlóság, ismétlődés',
     talkTitle: 'A.J. Christian - Előadás, 2024. május',
-    tags: ['2024 május előadás', 'reinkarnáció', 'hasonlóság', 'ismétlődés'],
+    tags: [
+      '2024 május előadás',
+      'reinkarnáció',
+      'hasonlóság',
+      'ismétlődés',
+    ],
   },
   {
     id: '0246-01-05',
@@ -4763,7 +4847,13 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 3970,
     topicTitle: 'Azahriah erős hatása. Eleve elrendelt a születése?',
     talkTitle: 'A.J. Christian - Előadás, 2024. május',
-    tags: ['2024 május előadás', 'Azahriah', 'hatás', 'sors', 'születés'],
+    tags: [
+      '2024 május előadás',
+      'Azahriah',
+      'hatás',
+      'sors',
+      'születés',
+    ],
   },
   {
     id: '0246-01-14',
@@ -5060,7 +5150,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 1888,
     topicTitle: 'A film előre meg van írva? ',
     talkTitle: 'A.J. Christian - Előadás, 2024. június',
-    tags: ['2024 június előadás', 'sors', 'szabad akarat', 'életút'],
+    tags: [
+      '2024 június előadás',
+      'sors',
+      'szabad akarat',
+      'életút',
+    ],
   },
   {
     id: '0252-01-08',
@@ -6118,7 +6213,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle: 'Sors előre meg van írva?',
     talkTitle:
       '207. A.J. Christian - Előadás, 2024. augusztus - Megválaszolatlan kérdések',
-    tags: ['2024 augusztus előadás', 'sors', 'szabad akarat', 'életút'],
+    tags: [
+      '2024 augusztus előadás',
+      'sors',
+      'szabad akarat',
+      'életút',
+    ],
   },
   {
     id: '0264-01-14',
@@ -6138,7 +6238,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle: 'Halál utáni formánk, fény felé',
     talkTitle:
       '207. A.J. Christian - Előadás, 2024. augusztus - Megválaszolatlan kérdések',
-    tags: ['2024 augusztus előadás', 'halál után', 'fény', 'lélek'],
+    tags: [
+      '2024 augusztus előadás',
+      'halál után',
+      'fény',
+      'lélek',
+    ],
   },
   {
     id: '0264-01-16',
@@ -6755,7 +6860,11 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle: 'Mitől tudatosodik valaki, miért pont ő?',
     talkTitle:
       '215. A.J. Christian - Előadás, 2024. szeptember - Megválaszolatlan kérdések',
-    tags: ['2024 szeptember előadás', 'tudatosság', 'spirituális fejlődés'],
+    tags: [
+      '2024 szeptember előadás',
+      'tudatosság',
+      'spirituális fejlődés',
+    ],
   },
   {
     id: '0273-01-16',
@@ -7670,7 +7779,11 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 189,
     topicTitle: 'Önbizalom-önbizalomhiány',
     talkTitle: 'A.J. Christian - Előadás, 2024. november',
-    tags: ['2024 november előadás', 'önbizalom', 'önértékelés'],
+    tags: [
+      '2024 november előadás',
+      'önbizalom',
+      'önértékelés',
+    ],
   },
   {
     id: '0285-01-03',
@@ -7741,7 +7854,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Befolyásolható a következő újjászületés helye azzal hol halunk meg?',
     talkTitle: 'A.J. Christian - Előadás, 2024. november',
-    tags: ['2024 november előadás', 'reinkarnáció', 'halál', 'hely'],
+    tags: [
+      '2024 november előadás',
+      'reinkarnáció',
+      'halál',
+      'hely',
+    ],
   },
   {
     id: '0285-01-08',
@@ -8113,7 +8231,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Christian első testkilépése. Árva gyerekeken szeretnék segíteni.',
     talkTitle: 'A.J. Christian - Előadás, 2024. december',
-    tags: ['2024 december előadás', 'testkilépés', 'árva gyerekek', 'segítés'],
+    tags: [
+      '2024 december előadás',
+      'testkilépés',
+      'árva gyerekek',
+      'segítés',
+    ],
   },
   {
     id: '0288-01-16',
@@ -8137,7 +8260,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 6432,
     topicTitle: 'Meg lehet szabadulni a kishitűségtől?',
     talkTitle: 'A.J. Christian - Előadás, 2024. december',
-    tags: ['2024 december előadás', 'kishitűség', 'önbizalom', 'felszabadulás'],
+    tags: [
+      '2024 december előadás',
+      'kishitűség',
+      'önbizalom',
+      'felszabadulás',
+    ],
   },
   {
     id: '0288-01-18',
@@ -8156,7 +8284,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Transzcendentális meditáció már nem adja amit korábban adott..',
     talkTitle: 'A.J. Christian - Előadás, 2024. december',
-    tags: ['2024 december előadás', 'meditáció', 'gyakorlat', 'változás'],
+    tags: [
+      '2024 december előadás',
+      'meditáció',
+      'gyakorlat',
+      'változás',
+    ],
   },
   {
     id: '0288-01-20',
@@ -8174,7 +8307,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     timestamp: 7664,
     topicTitle: 'Nem tudom mi az igazi meditáció...',
     talkTitle: 'A.J. Christian - Előadás, 2024. december',
-    tags: ['2024 december előadás', 'meditáció', 'önismeret', 'gyakorlás'],
+    tags: [
+      '2024 december előadás',
+      'meditáció',
+      'önismeret',
+      'gyakorlás',
+    ],
   },
   {
     id: '0288-01-22',
@@ -9083,7 +9221,12 @@ export const audioLibraryList_part_03: AudioLibSearchElement[] = [
     topicTitle:
       'Hogyan tettél szert a tudásodra? Segíteni szeretnék én is másoknak.',
     talkTitle: 'A.J. Christian - Előadás, 2025. február',
-    tags: ['2025 február előadás', 'tudás', 'segítés', 'tanítás'],
+    tags: [
+      '2025 február előadás',
+      'tudás',
+      'segítés',
+      'tanítás',
+    ],
   },
   {
     id: '0295-01-03',

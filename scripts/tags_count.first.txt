@@ -1,33 +1,33 @@
 Tag counts – AJC Library
-Generated: 2026-03-19T13:21:39.080Z
-Unique tags: 2725  |  Total tag usages: 11944
+Generated: 2026-03-18T06:36:53.090Z
+Unique tags: 2898  |  Total tag usages: 12008
 
  Count  Tag
 ------  ---
    349  teljes videó
-   192  tudatosság
    186  spiritualitás
-   144  kapcsolat
-   141  önismeret
+   182  tudatosság
    138  halál
+   125  önismeret
    119  lélek
-   103  párkapcsolat
-    89  szeretetmozaik
+   102  párkapcsolat
     88  tudat
+    87  Szeretetmozaik
     83  2022 november előadás
     75  létezés
-    71  érzelmek
+    73  kapcsolat
+    71  kapcsolatok
     69  jövő
     68  család
     67  egészség
     65  figyelem
+    64  érzelmek
     63  2021 március előadás
     60  2022 szeptember előadás
-    59  sors
     58  2022 július előadás
     57  2022 december előadás
     57  2023 február előadás
-    57  reinkarnáció
+    56  sors
     54  2021 február előadás
     54  2022 január előadás
     54  2022 október előadás
@@ -43,9 +43,7 @@ Unique tags: 2725  |  Total tag usages: 11944
     48  2024 április előadás
     47  2021 május előadás
     47  2022 augusztus előadás
-    47  megvilágosodás
     46  2025 január előadás
-    46  döntés
     46  félelem
     46  személyes kérdések személyes válaszok
     45  2022 június előadás
@@ -56,20 +54,18 @@ Unique tags: 2725  |  Total tag usages: 11944
     44  elengedés
     44  társadalom
     43  2023 január előadás
-    43  betegség
-    43  halál után
     42  2024 január előadás
     42  2025 február előadás
+    42  döntés
     42  életút
     41  2021 október előadás
     41  2025 március előadás
     41  politika
     40  2023 március előadás
     40  2025 április előadás
-    40  energia
     40  fejlődés
     39  2022 április előadás
-    39  álom
+    39  betegség
     39  felelősség
     39  végtelen
     38  2021 december előadás
@@ -81,46 +77,50 @@ Unique tags: 2725  |  Total tag usages: 11944
     36  2024 augusztus előadás
     36  2025 május előadás
     36  2026 január előadás
+    36  megvilágosodás
     36  pszichológia
-    36  változás
     35  2022 február előadás
     35  2024 szeptember előadás
     35  születés
     34  2022 március előadás
     34  2023. június előadás
     34  2025 december előadás
-    34  ego
     34  filozófia
     34  kommunikáció
+    34  változás
     33  2025 augusztus előadás
+    33  ego
+    33  energia
     32  2021 június előadás
+    32  reinkarnáció
     32  villámkérdés
-    31  gyógyulás
-    31  karma
-    31  kurzus
     30  2021 július előadás
     30  2024 március előadás
     30  érzékelés
-    30  segítés
     29  2025 november előadás
     29  2026 február előadás
+    29  álom
     29  háború
+    29  karma
     28  2023 december előadás
     28  élethelyzet
-    28  jelenlét
-    28  tanítás
+    28  kurzus
     28  tudatos halál
-    27  segítség
+    27  jelenlét
     27  test
     26  élet
+    26  gyógyulás
     26  idő
+    26  segítség
     25  gyász
-    25  könyv
     25  tanulás
     24  2020 december előadás
     24  gazdaság
     24  hit
+    24  segítés
+    24  tanítás
     23  dimenziók
+    23  könyv
     23  szerelem
     23  szexualitás
     22  2023 szeptember előadás
@@ -128,26 +128,24 @@ Unique tags: 2725  |  Total tag usages: 11944
     22  2024 május előadás
     22  2025 szeptember előadás
     22  elfogadás
-    22  gyógyítás
     22  szorongás
     21  2020 november előadás
     21  2025 június előadás
-    21  gyerek
-    21  hatás
     21  kapcsolódás
     21  pénz
     21  trauma
     21  vallás
     20  identitás
     20  meditáció
+    20  újjászületés
     19  gyermek
-    19  isten
+    19  gyógyítás
+    19  halál után
     19  munka
     19  szabad akarat
-    19  szülő
     18  2020 március előadás
     18  2024 június előadás
-    18  gondolat
+    18  hatás
     18  járvány
     18  szenvedés
     18  történelem
@@ -156,20 +154,15 @@ Unique tags: 2725  |  Total tag usages: 11944
     17  függőség
     17  határok
     17  közösség
-    17  magyarország
     17  önazonosság
-    17  spirituális út
     17  válság
     17  zárás
     16  2024 november előadás
     16  2025 október előadás
     16  boldogság
     16  egység
-    16  előző életek
     16  erkölcs
     16  hivatás
-    16  megbocsátás
-    16  pénzügy
     16  szabadság
     16  túlvilág
     16  univerzum
@@ -178,28 +171,24 @@ Unique tags: 2725  |  Total tag usages: 11944
     15  bizalom
     15  élet értelme
     15  gyakorlás
-    15  gyakorlat
-    15  önbizalom
-    15  technika
+    15  megbocsátás
     15  technológia
     15  tudás
-    15  tudatos figyelem
     14  elmúlás
     14  emberiség
-    14  energetika
-    14  jézus
+    14  gyakorlat
     14  magány
     14  mester
     14  oltás
     14  öngyilkosság
     14  rasszizmus
+    14  tudatos figyelem
     14  tudatos teremtés
     14  választás
     13  állatok
-    13  barátság
     13  covid
-    13  föld
     13  igazság
+    13  önbizalom
     13  szakítás
     13  tudatállapot
     13  útkeresés
@@ -208,40 +197,46 @@ Unique tags: 2725  |  Total tag usages: 11944
     12  fájdalom
     12  hála
     12  konfliktus
-    12  lelkiállapot
+    12  Magyarország
     12  megélés
     12  motiváció
     12  múlt
-    12  tanító
+    12  spirituális út
     11  befektetés
     11  bizonytalanság
     11  egyensúly
-    11  élmény
-    11  kérdés
+    11  gondolat
     11  megértés
-    11  ukrajna
+    11  szülő
+    11  technika
     11  veszteség
     10  anya
     10  bűntudat
     10  dimenzió
     10  előadás
     10  figyelő
+    10  gyerek
+    10  gyerekek
     10  gyermekvállalás
     10  ima
     10  intimitás
-    10  jelenség
-    10  képességek
+    10  Isten
     10  látás
     10  tábor
     10  tapasztalat
     10  tudatalatti
-    10  ufo
+     9  barátság
      9  depresszió
+     9  élmény
+     9  előző életek
+     9  energetika
      9  etika
      9  geopolitika
      9  gyermeknevelés
+     9  halál utáni lét
      9  harag
      9  intuíció
+     9  isten
      9  karácsony
      9  megfigyelés
      9  mentális egészség
@@ -249,8 +244,10 @@ Unique tags: 2725  |  Total tag usages: 11944
      9  nők
      9  önértékelés
      9  összeesküvés
+     9  pénzügy
      9  szellem
      9  válás
+     8  álmok
      8  azonosulás
      8  csend
      8  életvezetés
@@ -259,44 +256,52 @@ Unique tags: 2725  |  Total tag usages: 11944
      8  emberi természet
      8  emlékezés
      8  fókusz
+     8  Föld
      8  gondolkodás
      8  házasság
      8  kreativitás
      8  megoldás
      8  mindennapok
-     8  nárcizmus
      8  nevelés
      8  okok
      8  oktatás
-     8  orosz-ukrán háború
      8  önfejlesztés
      8  öregedés
-     8  rezgés
      8  segítők
      8  siker
      8  személyiség
+     8  szülők
      8  tanács
      8  természet
-     8  testkilépés
      8  testvér
-     8  tudatos álmodás
      8  világ
      8  világhelyzet
      7  aggodalom
      7  asztrológia
      7  demencia
+     7  érzelem
      7  férfiak
+     7  gondolatok
+     7  halál utáni élet
      7  harmadik szem
      7  harmónia
      7  határtalanság
      7  hitelesség
      7  időskor
+     7  jelenség
+     7  jézus
+     7  Jézus
      7  jóslat
+     7  képességek
+     7  kérdés
      7  külföld
+     7  pénzügyek
+     7  rezgés
      7  spirituális fejlődés
-     7  szimbólum
+     7  tanító
      7  táplálkozás
-     7  válasz
+     7  testkilépés
+     7  tudatosodás
      7  zene
      6  alkoholizmus
      6  állapot
@@ -304,7 +309,6 @@ Unique tags: 2725  |  Total tag usages: 11944
      6  belső hang
      6  célok
      6  cselekvés
-     6  egyén
      6  elakadás
      6  életcél
      6  életciklus
@@ -312,23 +316,26 @@ Unique tags: 2725  |  Total tag usages: 11944
      6  empátia
      6  én
      6  értelem
-     6  érzés
      6  észlelés
+     6  felébredés
      6  feloldás
      6  férfi
      6  határtalan szeretet
+     6  inkarnáció
      6  ítélkezés
      6  jelentés
      6  kapcsolati dinamika
      6  kezelés
-     6  manifesztáció
+     6  lelkiállapot
      6  manipuláció
      6  megváltó
      6  mesterséges intelligencia
-     6  oroszország
+     6  önmegfigyelés
      6  szellemek
      6  szokások
      6  szolgálat
+     6  tudatos álmodás
+     6  Ukrajna
      6  vélemény
      6  viselkedés
      5  agresszió
@@ -339,15 +346,15 @@ Unique tags: 2725  |  Total tag usages: 11944
      5  belső szabadság
      5  biológia
      5  biztonság
-     5  bolygó
      5  csalódás
      5  egyedüllét
+     5  egyén
      5  emberek
      5  eredet
      5  érintés
      5  erőszak
-     5  ezotéria
      5  figyelés
+     5  föld
      5  földönkívüliek
      5  gonoszság
      5  gyermekkori trauma
@@ -359,15 +366,18 @@ Unique tags: 2725  |  Total tag usages: 11944
      5  jóga
      5  kereszténység
      5  különbség
-     5  látomás
      5  lélektan
      5  lelki fejlődés
-     5  lezárás
+     5  magyarország
      5  megérzés
+     5  nárcizmus
      5  nő
      5  nyugdíj
+     5  orosz-ukrán háború
      5  önelfogadás
      5  önfegyelem
+     5  öngyógyítás
+     5  önreflexió
      5  önszeretet
      5  öntudat
      5  önvédelem
@@ -378,19 +388,18 @@ Unique tags: 2725  |  Total tag usages: 11944
      5  szándék
      5  szegénység
      5  szülőség
-     5  tanítvány
+     5  tanítók
      5  tapasztalás
      5  terhesség
      5  tükör
+     5  ufó
      5  újrakezdés
+     5  ukrajna
      5  üzenet
      5  védelem
-     5  világháború
      5  vírus
-     5  vonzás törvénye
      4  3 kérdés 3 válasz
      4  agy
-     4  ai
      4  alkohol
      4  anyagiak
      4  aranykor
@@ -399,12 +408,14 @@ Unique tags: 2725  |  Total tag usages: 11944
      4  baba
      4  baleset
      4  bántás
+     4  barátok
      4  befogadás
      4  befolyásolás
      4  belső állapot
      4  belső béke
      4  biblia
      4  csakra
+     4  döntések
      4  edzés
      4  egoizmus
      4  élelmiszer
@@ -412,6 +423,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      4  életérzés
      4  életkor
      4  életválság
+     4  előző élet
      4  emlékek
      4  emlékezet
      4  erő
@@ -427,7 +439,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      4  idővonal
      4  internet
      4  jó és rossz
-     4  kína
+     4  kérdések
      4  kiteljesedés
      4  klinikai halál
      4  kóma
@@ -435,10 +447,11 @@ Unique tags: 2725  |  Total tag usages: 11944
      4  koronavírus
      4  korszakváltás
      4  környezet
-     4  krisztus
+     4  következő élet
      4  kultúra
      4  küldetés
-     4  látó
+     4  lelki állapot
+     4  lezárás
      4  lustaság
      4  mechanizmus
      4  megélhetés
@@ -446,41 +459,44 @@ Unique tags: 2725  |  Total tag usages: 11944
      4  memória
      4  mentális állapot
      4  mesterek
-     4  minta
+     4  minták
      4  misztikum
      4  nehézségek
      4  ok-okozat
+     4  önbizalomhiány
      4  őszinteség
      4  pandémia
      4  pánik
      4  rák
      4  szellemi fejlődés
+     4  szellemi út
      4  szerencse
      4  szerepek
      4  szertartás
-     4  szomszéd
+     4  szimbólum
      4  támogatás
-     4  tanfolyam
+     4  tanítások
+     4  tanítvány
      4  társ
+     4  technikák
      4  temetés
      4  terápia
      4  tettek
      4  továbblépés
      4  történet
-     4  törvény
      4  traumaoldás
      4  tudatos döntés
      4  túlélés
      4  ünnep
+     4  válaszok
      4  visszajelzés
-     4  vitamin
      4  vonzalom
+     4  vonzás törvénye
      4  Work, Success, Money (basic)
      4  Work, Success, Money (intermediate)
      4  youtube
      3  2026
      3  abortusz
-     3  adhd
      3  aggódás
      3  agyalás
      3  akadályok
@@ -488,6 +504,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  alkalmazkodás
      3  alkotás
      3  állam
+     3  álmodás
      3  anyagi biztonság
      3  anyaság
      3  arc
@@ -497,17 +514,21 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  belső munka
      3  belső változás
      3  bitcoin
+     3  bolygó
      3  bölcsesség
      3  bőség
      3  buddhizmus
      3  családállítás
-     3  deja vu
+     3  determináció
      3  dohányzás
      3  drog
      3  düh
      3  éberség
+     3  ébredés
      3  élet vége
+     3  életek
      3  élettörténet
+     3  eleve elrendeltség
      3  elhagyás
      3  elhunyt szeretteink
      3  ellentét
@@ -516,8 +537,11 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  emberi élet
      3  építés
      3  érzékenység
+     3  érzés
+     3  érzések
      3  eszköz
      3  ételosztás
+     3  ezotéria
      3  felismerés
      3  felkészülés
      3  feltétel nélküli szeretet
@@ -537,7 +561,9 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  halálos kurzus
      3  hamvasztás
      3  harc
+     3  harmadik világháború
      3  hatalom
+     3  hatások
      3  hatékonyság
      3  horoszkóp
      3  hűség
@@ -552,22 +578,29 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  iskola
      3  ismétlődés
      3  jelen
+     3  jelenségek
      3  jövőbelátás
      3  jövőkép
      3  jövős előadás
+     3  karmikus
+     3  képesség
      3  képzelet
      3  kérés
      3  keresés
      3  kétely
      3  kimerültség
+     3  kína
      3  kiút
      3  kívülállóság
      3  kontroll
      3  körforgás
      3  köszönet
      3  kötődés
+     3  krisztus
      3  kritika
+     3  kurzusok
      3  küzdelem
+     3  látomás
      3  lélekcsalád
      3  lélektárs
      3  lélekvédelem
@@ -592,8 +625,12 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  nyugalom
      3  online
      3  orgazmus
+     3  oroszország
+     3  Oroszország
      3  önállóság
+     3  önkifejezés
      3  önkontroll
+     3  önmegvalósítás
      3  önzetlenség
      3  összeomlás
      3  összetartozás
@@ -602,14 +639,15 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  probléma
      3  problémák
      3  ragaszkodás
-     3  rudolf steiner
      3  s degree)", 
      3  skizofrénia
+     3  spirituális ébredés
      3  stressz
      3  szavazás
      3  szellemiség
      3  szem
      3  személyiségzavar
+     3  szimbólumok
      3  szinkronicitás
      3  szív
      3  szülés
@@ -617,6 +655,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  telepátia
      3  teljesség
      3  tér
+     3  testen kívüli élmény
      3  testi tünet
      3  tévedés
      3  titok
@@ -625,8 +664,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      3  tudatmódosítás
      3  tudatszint
      3  tudattalan
-     3  usa
      3  utazás
+     3  válasz
      3  váltás
      3  véletlen
      3  vendéglátás
@@ -643,18 +682,20 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  A J
      2  adás
      2  addikció
+     2  ADHD
      2  agykontroll
+     2  ai
+     2  AI
      2  ajándék
      2  akarat
      2  akaraterő
      2  áldozat
      2  allergia
+     2  álmodozás
      2  altatás
      2  analógia
      2  angyalok
-     2  antropozófia
      2  anyagi világ
-     2  atlantisz
      2  átmenet
      2  átok
      2  auralátás
@@ -670,6 +711,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  bizsergés
      2  blokkok
      2  boldogtalanság
+     2  bolygók
      2  böjt
      2  bűn
      2  chemtrail
@@ -679,11 +721,11 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  családi kapcsolat
      2  családi konfliktus
      2  csatornázás
-     2  csend tábor
      2  Csend tábor
      2  csillagászat
      2  dedikálás
      2  definíció
+     2  déjà vu
      2  diéta
      2  digitális pénz
      2  digitális világ
@@ -692,9 +734,11 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  édesanya
      2  édesapa
      2  egészségügy
+     2  egó
      2  egzisztencia
      2  egyenlőség
      2  elalvás
+     2  élet a halál után
      2  élet hossza
      2  élet nehézségei
      2  élet-halál
@@ -709,6 +753,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  életvitel
      2  ellentmondás
      2  elmélet
+     2  élmények
      2  elszigeteltség
      2  eltávolodás
      2  elvárás
@@ -716,6 +761,9 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  emberi viselkedés
      2  emberiség fejlődése
      2  emlék
+     2  energiagyógyászat
+     2  energiák
+     2  energiamező
      2  énfigyelés
      2  entitások
      2  építkezés
@@ -755,6 +803,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  gyakorlatsor
      2  gyermekkor
      2  halál folyamata
+     2  halál utáni állapot
      2  haldokló
      2  halhatatlanság
      2  halogatás
@@ -812,6 +861,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  korlátozás
      2  kozmosz
      2  költözés
+     2  könyvek
      2  körömrágás
      2  követés
      2  közösségi média
@@ -822,17 +872,25 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  kutyák
      2  különbségek
      2  lakás
+     2  látó
+     2  látók
+     2  látomások
      2  lazaság
      2  lelkek
-     2  lelkiismeretfurdalás
+     2  lelki
+     2  lelki gyógyulás
+     2  leszületés
      2  lét
      2  létezők
      2  magyar nyelv
      2  Magyar Péter
      2  magyarok
      2  magyarság
+     2  manifestáció
+     2  manifesztáció
      2  mártír
      2  mások
+     2  mások segítése
      2  másság
      2  médiumitás
      2  megbánás
@@ -842,6 +900,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  megszállás
      2  megszállottság
      2  megtakarítás
+     2  megtestesülés
      2  megváltás
      2  mélypont
      2  mindennapi élet
@@ -849,7 +908,6 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  most
      2  működés
      2  nap
-     2  nazca-vonalak
      2  negatív gondolatok
      2  negatív hatások
      2  Németország
@@ -857,7 +915,6 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  nézőpontok
      2  női egészség
      2  nyelvek
-     2  nyersanyagháború
      2  nyilvánosság
      2  ok
      2  okostelefon
@@ -865,6 +922,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  országok
      2  önbecsapás
      2  önérvényesítés
+     2  önmegismerés
      2  önrasszizmus
      2  önszabotázs
      2  öntudatlan
@@ -880,16 +938,19 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  piramisok
      2  polarítás
      2  pozitivitás
+     2  predesztináció
      2  psziché
      2  pszichedelikumok
-     2  pszichoszomatika
      2  reiki
      2  relativitás
      2  remény
      2  rendszer
      2  repülés
      2  rossz
+     2  rudolf steiner
      2  segítő
+     2  segítő szakma
+     2  segítségnyújtás
      2  sötétség
      2  spirituális fogalmak
      2  spirituális hatások
@@ -905,6 +966,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  szemlélet
      2  szépség
      2  szerep
+     2  szeretetmozaik
      2  szeretkezés
      2  szex
      2  szimbolika
@@ -912,8 +974,12 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  szintek
      2  szociális munka
      2  szomorúság
+     2  szomszéd
+     2  szomszédok
      2  szülő-gyerek kapcsolat
      2  találkozás
+     2  tanfolyam
+     2  tanfolyamok
      2  tanulság
      2  tavasz
      2  távgyógyítás
@@ -925,17 +991,28 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  testi halál
      2  testi tünetek
      2  tisztesség
-     2  titkos ügynök
      2  tökéletesség
+     2  törvény
+     2  törvények
+     2  transzcendentális meditáció
+     2  tudatos álom
+     2  tudatos élet
+     2  tudatos ember
      2  tudatos jelenlét
      2  tudomány
+     2  ufók
      2  újraélesztés
+     2  ukrán orosz háború
+     2  USA
      2  útmutatás
      2  vágyak
      2  vállalkozás
+     2  valóságteremtés
+     2  változások
      2  változtatás
      2  várandósság
      2  védekezés
+     2  vezetett meditáció
      2  vezetők
      2  videó
      2  világpolitika
@@ -943,7 +1020,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      2  világvége
      2  visszaesés
      2  vita
-     2  vízöntőkor
+     2  vitamin
+     2  vitaminok
      2  vizualizáció
      2  zárkózottság
      2  zsákutca
@@ -968,6 +1046,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  adalékanyag
      1  adatok
      1  adatvédelem
+     1  adhd
      1  adminisztráció
      1  adók
      1  adok-kapok egyensúlya
@@ -1016,6 +1095,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  anonimitás
      1  antipátia
      1  antiszociális
+     1  antroposzófia
+     1  antropozófia
      1  anya elvesztése
      1  anya-gyermek
      1  anyag világ
@@ -1048,6 +1129,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  átadás
      1  átérzés
      1  átjárhatóság
+     1  atlantisz
+     1  Atlantisz
      1  átlépés
      1  átmeneti állapot
      1  átmenetiség
@@ -1076,6 +1159,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  befolyás
      1  beharangozó
      1  bejelentés
+     1  békemeditáció
      1  békesség
      1  beletörődés
      1  belső ego
@@ -1113,6 +1197,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  betiltás
      1  bevésődés
      1  bevétel
+     1  bevonzás
      1  bezárás
      1  bezáródás
      1  Bhagavad-gítá
@@ -1123,6 +1208,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  biznisz
      1  biztatás
      1  blackout
+     1  bocsánatkérés
      1  bolygóállás
      1  borderline
      1  borzalom
@@ -1168,18 +1254,24 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  császármetszés
      1  cselekedet
      1  cselekedetek
+     1  csend tábor
      1  Csend ülések
+     1  csendtábor
      1  csillagállás
      1  csillagkapu
      1  csillagnemzetségek
      1  csillagok
      1  csodák
      1  csont
+     1  csoport karma
      1  csoportos foglalkozás
+     1  csoportos karma
      1  csönd
      1  daganat
+     1  daganatos betegség
      1  dalai láma
      1  david copperfield
+     1  deja vu
      1  demokrácia
      1  démonok
      1  digitális állampolgárság
@@ -1213,6 +1305,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  egyedülálló
      1  egyéjszakás kalandok
      1  egyen
+     1  egyének
      1  egyéni fejlődés
      1  egyéntudat
      1  Egyesült Államok
@@ -1288,6 +1381,9 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  elnyomás
      1  eloszlás
      1  élőlények
+     1  előre elrendeltség
+     1  előre megírt élet
+     1  előre megírtság
      1  előrejelzés
      1  előrejutás
      1  előrelátás
@@ -1325,8 +1421,16 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  emberség
      1  emlékezetkiesés
      1  én-tudat
+     1  energetikai hatás
+     1  energetikai kapcsolat
+     1  energetikai lenyomat
+     1  energetikai tisztítás
+     1  energetikai változás
      1  energia lények
+     1  energiacsere
      1  energiaellátás
+     1  energiafolyam
+     1  energiaközpontok
      1  epilepszia
      1  érdek
      1  érdeklődés
@@ -1360,6 +1464,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  érzelmi stabilitás
      1  érzelmi zsarolás
      1  esély
+     1  eszmélés
      1  ételminőség
      1  ETF
      1  étkezés
@@ -1369,6 +1474,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  Európa helyzete
      1  evészavar
      1  ex
+     1  ezoterika
+     1  ezoterikus
      1  facebook
      1  faj létrehozása
      1  fájdalom mentesen
@@ -1379,7 +1486,9 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  fejlődés útja
      1  fekete lyuk
      1  feladat
+     1  felébresztés
      1  feledékenység
+     1  félelemkeltés
      1  felelősségvállalás
      1  felemelkedés
      1  feleség
@@ -1481,11 +1590,13 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  grigorij grabovoj
      1  gyakorlati élet
      1  gyakorlati haszon
+     1  gyakorlatok
      1  gyakrabban
      1  gyengeség
      1  gyereknevelés
      1  gyermek halála
      1  gyermek nélkül
+     1  gyermekek
      1  gyermekkori emlékek
      1  gyermekkori zaklatás
      1  gyíkemberek
@@ -1500,6 +1611,12 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  hagyományőrzés
      1  haj
      1  haladás
+     1  halál meditáció
+     1  halál utáni események
+     1  halál utáni fejlődés
+     1  halál utáni forma
+     1  halál utáni tapasztalat
+     1  halál utáni tudat
      1  halálélmény
      1  halálgondolat
      1  halálos baleset
@@ -1621,6 +1738,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  idővel
      1  időzítés
      1  igavonó barom
+     1  igazi meditáció
      1  igazi valóm
      1  igazmondás
      1  igazolódás
@@ -1652,6 +1770,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  II. 8.
      1  II. 9.
      1  II. János Pál pápa
+     1  II. Világháború
+     1  III. világháború
      1  illuminátusok
      1  imádkozás
      1  imádság
@@ -1677,6 +1797,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  istenkapcsolat
      1  ítélet
      1  ítélkezés mentesség
+     1  itt és most
      1  itt ragadt lélek
      1  itt ragadt szellem
      1  IV. 1.
@@ -1728,6 +1849,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  kapzsiság
      1  karate
      1  karizma
+     1  karmikus adósság
+     1  karmikus terhek
      1  káromkodás
      1  káros hatás
      1  Kárpátalja
@@ -1780,6 +1903,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  kilépés
      1  kilövés
      1  kimutatás
+     1  Kína
      1  kinyilatkoztatás
      1  királynő
      1  királyok
@@ -1844,6 +1968,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  középút
      1  közlekedés
      1  közoktatás
+     1  közös álom
      1  közös előadás
      1  közös nyelv
      1  közteherviselés
@@ -1853,9 +1978,11 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  kriptovaluta
      1  krisna
      1  krisna vallás
+     1  Krisztus
      1  krisztusi lényeg
      1  krisztusi tudat
      1  kritikai gondolkodás
+     1  krónikus betegség
      1  kryon
      1  kulcs
      1  kultúrák
@@ -1871,8 +1998,10 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  külső jegyek
      1  külső körülmények
      1  külső változás
+     1  kvantum gyógyítás
      1  kvantum-szint
      1  kvantumfizika
+     1  kvantumgyógyítás
      1  kvark
      1  lady diana
      1  lakásvásárlás
@@ -1907,8 +2036,11 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  lelki nehézségek
      1  lelki nemesedés
      1  lelki társ
+     1  lelki út
      1  lelki válság
      1  lelkiismeret
+     1  lelkiismeret-furdalás
+     1  lelkiismeretfurdalás
      1  lemondás
      1  lengyel-pálca
      1  lenyomat
@@ -1919,6 +2051,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  létidő
      1  létjogosultság
      1  levitáció
+     1  lezárások
      1  liberalizmus
      1  libidó
      1  lidércnyomás
@@ -1965,7 +2098,9 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  maximalizmus
      1  medencetáji feszülés
      1  médiatudatosság
+     1  meditáció hatása
      1  médium
+     1  meg van írva
      1  megalázás
      1  megélések
      1  megemlékezés
@@ -2059,12 +2194,19 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  napkitörés
      1  napnézés
      1  napvihar
+     1  nárcisztikus
+     1  nárcisztikus kapcsolat
+     1  narcisztikus személyiségzavar
+     1  narcizmus
      1  narkotikumok
+     1  nazca vonalak
+     1  nazca-vonalak
      1  negatív álom
      1  negatív energia
      1  negatív fókusz
      1  negatív hatás
      1  negatív jóslat
+     1  negatív karma
      1  negatív spirál
      1  negatív tett
      1  négyes ikrek
@@ -2115,6 +2257,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  nyelvhasználat
      1  nyelvtanulás
      1  nyerés
+     1  nyersanyag háború
+     1  nyersanyagháború
      1  nyitott
      1  nyomásérzés
      1  nyomtatás
@@ -2134,6 +2278,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  online oktatás
      1  online tér
      1  Orosz
+     1  orosz ukrán háború
      1  ország helyzete
      1  orvosok
      1  orvostudomány
@@ -2165,10 +2310,13 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  önsegítés
      1  öntudatlan hatás
      1  öntudatlanság
+     1  öntudatosság
      1  önuralom
      1  önvaló
      1  önváltozás
+     1  önvizsgálat
      1  önzés
+     1  önzetlen segítség
      1  önzőség
      1  öregkori bölcsesség
      1  öregség
@@ -2211,6 +2359,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  parentifikáció
      1  párhuzamos élet
      1  párhuzamos univerzumok
+     1  párkapcsolatok
      1  parlagfű
      1  passzív fejlődés
      1  passzív létezés
@@ -2257,10 +2406,13 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  pszi-sebészet
      1  pszichedelikus szerek
      1  pszichés állapot
+     1  pszichés betegség
      1  pszichés jelenségek
      1  pszichológiai hatás
      1  pszichológus
      1  pszichopata
+     1  pszichoszomatika
+     1  pszichoszomatikus
      1  ptsd
      1  pulzálás
      1  pusztítás
@@ -2301,6 +2453,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  részvény
      1  revízió
      1  revolut
+     1  rezgések
      1  rezgésszint
      1  ritmus
      1  robotok
@@ -2313,6 +2466,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  rossz tulajdonságok
      1  rovarliszt
      1  rózsakeresztesek
+     1  Rudolf Steiner
      1  rugalmasság
      1  ruha
      1  ruhavásárlás
@@ -2329,6 +2483,9 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  sci-fi
      1  se veled se nélküled
      1  segíteni másoknak
+     1  segítő munka
+     1  segítő szerep
+     1  segítség elfogadása
      1  sejtmemória
      1  semmi
      1  semmi állapot
@@ -2393,6 +2550,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  szekta
      1  szél
      1  széles spektrum
+     1  szellemgyógyászat
      1  szellemi aspektusok
      1  szellemi fejlettség
      1  szellemi fogyatékosság
@@ -2455,6 +2613,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  szívritmuszavar
      1  szívtelenség
      1  szóbeli bántalmazás
+     1  szociális segítség
      1  szociopata
      1  szolgálati közlemény
      1  szoptatás
@@ -2484,6 +2643,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  támogatók
      1  tanácsadás
      1  tanár
+     1  tanítványok
      1  tanmese
      1  tantra
      1  tanulási nehézség
@@ -2536,6 +2696,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  test nélküli segítő
      1  testetlen állapot
      1  testi állapot
+     1  testi betegségek
      1  testi emlékezet
      1  testi okok
      1  testi problémák
@@ -2557,6 +2718,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  titkolás
      1  titkos társaságok
      1  titkos tudás
+     1  titkos ügynök
+     1  titkosügynök
      1  titkosszolgálat
      1  titokzatosság
      1  tízmilliószoros nap
@@ -2582,6 +2745,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  tudatok
      1  tudatos
      1  tudatos befogadás
+     1  Tudatos Figyelem
      1  tudatos gondolkozás
      1  tudatos halál kurzus
      1  tudatos kilépés
@@ -2602,12 +2766,17 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  türelmetlenség
      1  tűzszünet
      1  tv
+     1  ufo
+     1  UFO
+     1  UFÓK
      1  új út
      1  új világrend
+     1  újratestesülés
      1  Ukrán
      1  ukrán férfiak
      1  ultraegoizmus
      1  univerzális rakéta
+     1  usa
      1  usa választás
      1  út
      1  utánélet
@@ -2671,6 +2840,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  végtelen szeretet
      1  végtelen valóság
      1  végzet
+     1  veleszületett betegség
      1  vendéglátóipar
      1  vérplazma
      1  vesekő
@@ -2696,6 +2866,7 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  világbéke
      1  világérzékelés
      1  világgazdaság
+     1  világháború
      1  világháló
      1  világi élet
      1  világkonfliktus
@@ -2712,6 +2883,8 @@ Unique tags: 2725  |  Total tag usages: 11944
      1  visszaütés
      1  vízér
      1  vízerek
+     1  vízöntő korszak
+     1  vízöntőkor
      1  vízözön
      1  vizsga
      1  volt férj

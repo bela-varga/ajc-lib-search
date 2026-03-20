@@ -3656,7 +3656,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 5210,
     topicTitle: 'Félelemkeltés- Mit kéne csinálni?',
     talkTitle: 'A.J. Christian - Előadás, 2021. július',
-    tags: ['2021 július előadás', 'félelem', 'tudatosság', 'reakció'],
+    tags: [
+      '2021 július előadás',
+      'félelem',
+      'tudatosság',
+      'reakció',
+    ],
   },
   {
     id: '0047-01-20',
@@ -3744,7 +3749,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 2193,
     topicTitle: 'Mi történik a halál után az állatoknál?',
     talkTitle: '2021. júliusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 július előadás', 'halál', 'állatok', 'lélek', 'halál után'],
+    tags: [
+      '2021 július előadás',
+      'halál',
+      'állatok',
+      'lélek',
+      'halál után',
+    ],
   },
   {
     id: '0048-01-09',
@@ -3880,7 +3891,11 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 1023,
     topicTitle: 'Christian, tartanál vezetett meditációt?',
     talkTitle: 'A.J. Christian - Előadás, 2021. augusztus',
-    tags: ['2021. augusztus előadás', 'meditáció', 'gyakorlat'],
+    tags: [
+      '2021. augusztus előadás',
+      'meditáció',
+      'gyakorlat',
+    ],
   },
   {
     id: '0051-01-07',
@@ -4323,7 +4338,11 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 4535,
     topicTitle: 'Megvilágosodás',
     talkTitle: '2021. augusztusi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. augusztus előadás', 'megvilágosodás', 'spiritualitás'],
+    tags: [
+      '2021. augusztus előadás',
+      'megvilágosodás',
+      'spiritualitás',
+    ],
   },
   {
     id: '0052-01-19',
@@ -4626,7 +4645,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 1075,
     topicTitle: 'Kvantumgyógyítás',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'gyógyítás', 'gyógyulás', 'energia'],
+    tags: [
+      '2021. szeptember előadás',
+      'gyógyítás',
+      'gyógyulás',
+      'energia',
+    ],
   },
   {
     id: '0056-01-06',
@@ -4644,7 +4668,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 1383,
     topicTitle: 'Változások Németországban',
     talkTitle: '2021. szeptemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021. szeptember előadás', 'Németország', 'változás', 'társadalom'],
+    tags: [
+      '2021. szeptember előadás',
+      'Németország',
+      'változás',
+      'társadalom',
+    ],
   },
   {
     id: '0056-01-08',
@@ -5132,7 +5161,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 1941,
     topicTitle: 'Miről lehet felismerni egy tudatos embert?',
     talkTitle: '2021. októberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 október előadás', 'tudatosság', 'önismeret', 'éberség'],
+    tags: [
+      '2021 október előadás',
+      'tudatosság',
+      'önismeret',
+      'éberség',
+    ],
   },
   {
     id: '0058-01-09',
@@ -6056,7 +6090,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 422,
     topicTitle: 'Halál utáni pillanat',
     talkTitle: 'A.J. Christian - Előadás, 2021. december',
-    tags: ['2021 december előadás', 'halál', 'halál után', 'lélek', 'elmúlás'],
+    tags: [
+      '2021 december előadás',
+      'halál',
+      'halál után',
+      'lélek',
+      'elmúlás',
+    ],
   },
   {
     id: '0072-01-04',
@@ -6237,7 +6277,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 3990,
     topicTitle: 'Aura - egymásra hatás - időtényező',
     talkTitle: 'A.J. Christian - Előadás, 2021. december',
-    tags: ['2021 december előadás', 'aura', 'energetika', 'idő', 'kapcsolódás'],
+    tags: [
+      '2021 december előadás',
+      'aura',
+      'energetika',
+      'idő',
+      'kapcsolódás',
+    ],
   },
   {
     id: '0072-01-17',
@@ -6357,7 +6403,11 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 91,
     topicTitle: 'Létezik igazán önzetlen segítség?',
     talkTitle: '2021. decemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 december előadás', 'segítség', 'önzetlenség'],
+    tags: [
+      '2021 december előadás',
+      'segítség',
+      'önzetlenség',
+    ],
   },
   {
     id: '0074-01-03',
@@ -6448,7 +6498,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     topicTitle:
       'A sors élményfüggő (Ha meg van írva hogy meghalok, akkor meghalok)',
     talkTitle: '2021. decemberi előadás - Megválaszolatlan kérdések',
-    tags: ['2021 december előadás', 'sors', 'szabad akarat', 'halál'],
+    tags: [
+      '2021 december előadás',
+      'sors',
+      'szabad akarat',
+      'halál',
+    ],
   },
   {
     id: '0074-01-10',
@@ -7362,7 +7417,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 2820,
     topicTitle: 'Létezik hogy két ember ugyanazt álmodja?',
     talkTitle: 'A.J. Christian - Előadás, 2022. február',
-    tags: ['2022 február előadás', 'álom', 'tudatalatti', 'kapcsolódás'],
+    tags: [
+      '2022 február előadás',
+      'álom',
+      'tudatalatti',
+      'kapcsolódás',
+    ],
   },
   {
     id: '0084-01-15',
@@ -8018,7 +8078,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 509,
     topicTitle: 'Halál utáni események (Forrás; Fény)',
     talkTitle: 'A.J. Christian - Előadás, 2022. március',
-    tags: ['2022 március előadás', 'halál után', 'forrás', 'fény', 'lélek'],
+    tags: [
+      '2022 március előadás',
+      'halál után',
+      'forrás',
+      'fény',
+      'lélek',
+    ],
   },
   {
     id: '0095-01-04',
@@ -8240,7 +8306,13 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 4180,
     topicTitle: 'Hogyan tudok segíteni beteg édesapámon?',
     talkTitle: 'A.J. Christian - Előadás, 2022. március',
-    tags: ['2022 március előadás', 'betegség', 'segítés', 'család', 'szeretet'],
+    tags: [
+      '2022 március előadás',
+      'betegség',
+      'segítés',
+      'család',
+      'szeretet',
+    ],
   },
   {
     id: '0095-01-20',
@@ -8946,12 +9018,7 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 5245,
     topicTitle: 'Négy éves eszmélésem óta kívülállónak érzem magam',
     talkTitle: '2022. áprilisi előadás - Megválaszolatlan kérdések',
-    tags: [
-      '2022 április előadás',
-      'kívülállóság',
-      'megvilágosodás',
-      'identitás',
-    ],
+    tags: ['2022 április előadás', 'kívülállóság', 'megvilágosodás', 'identitás'],
   },
   // note: tag-ek AI által generálva 'A sorsod uralkodik rajtad, vagy létezik a szabad akarat?'-hoz
   {
@@ -9923,7 +9990,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 1749,
     topicTitle: 'Karmikus adósság felszabadítása',
     talkTitle: '2022. júniusi előadás - Megválaszolatlan kérdések',
-    tags: ['2022 június előadás', 'karma', 'felszabadítás', 'spiritualitás'],
+    tags: [
+      '2022 június előadás',
+      'karma',
+      'felszabadítás',
+      'spiritualitás',
+    ],
   },
   {
     id: '0120-01-06',
@@ -9994,7 +10066,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 4187,
     topicTitle: 'A barátság fogalma',
     talkTitle: '2022. júniusi előadás - Megválaszolatlan kérdések',
-    tags: ['2022 június előadás', 'barátság', 'kapcsolat', 'emberi viszonyok'],
+    tags: [
+      '2022 június előadás',
+      'barátság',
+      'kapcsolat',
+      'emberi viszonyok',
+    ],
   },
   {
     id: '0120-01-12',
@@ -10064,7 +10141,12 @@ export const audioLibraryList_part_01: AudioLibSearchElement[] = [
     timestamp: 5978,
     topicTitle: 'Szívbetegség, daganatos betegség',
     talkTitle: '2022. júniusi előadás - Megválaszolatlan kérdések',
-    tags: ['2022 június előadás', 'szívbetegség', 'betegség', 'egészség'],
+    tags: [
+      '2022 június előadás',
+      'szívbetegség',
+      'betegség',
+      'egészség',
+    ],
   },
   {
     id: '0120-01-18',

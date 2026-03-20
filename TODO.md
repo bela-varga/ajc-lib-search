@@ -13,14 +13,14 @@ Any item here may or may not be implemented.
 - [ ] Home page upgrades
   - [ ] add "Legutóbbi videók" section with 10 latest videos (teljes videó)
   - [x] add "Véletlenszerű ajánló" section - or change `StartHere` component to show 5-6 random tags from 15-20 tags (note: always show "teljes videó" tag)
-- [ ] Update AJC audio library with more data
-- [ ] Ask AI to go through all audio library elements (maybe in batch) and if there is only 'teljes videó' tag, add more tags based on topic title
-- [ ] Check all tags and make them consistent (like 'gyerekek', 'gyermek' -> 'gyerek' and check for each other tag)
-  - [ ] grep and list all the tags from the json
-  - [ ] check what changes should be made
-  - [ ] make the changes and document them in chatGPT_prompt_base.md so the same mistake would not be repeated in future changes
-  - [ ] or... write a script that checks for the changes that should be changed and fix them automagically?
-- [ ] Give the whole json to an AI and ask to reconsider the tags to be better
+- [x] Update AJC audio library with more data
+- [x] Ask AI to go through all audio library elements (maybe in batch) and if there is only 'teljes videó' tag, add more tags based on topic title
+- [x] Check all tags and make them consistent (like 'gyerekek', 'gyermek' -> 'gyerek' and check for each other tag)
+  - [x] grep and list all the tags from the json
+  - [x] check what changes should be made
+  - [x] make the changes and document them in chatGPT_prompt_base.md so the same mistake would not be repeated in future changes
+  - [x] or... write a script that checks for the changes that should be changed and fix them automagically?
+- [x] Give the whole json to an AI and ask to reconsider the tags to be better
 - [ ] Add copy link functionality
   - [ ] Add 'Copy link' button
 - [ ] Option to exclude tags/search strings from search

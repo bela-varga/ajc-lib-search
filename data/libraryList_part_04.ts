@@ -4632,6 +4632,23 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       '274. A.J. Christian - Előadás, 2026. február - Megválaszolatlan kérdések',
     tags: ['2026 február előadás', 'befejezés'],
   },
+  // note: tag-ek AI által generálva '275. Miért nem megy a tudatos álmodás?'-hoz
+  {
+    id: '0350-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=NEYp6lPhGpU',
+    spotifyLink: '',
+    timestamp: 0,
+    topicTitle: '275. Miért nem megy a tudatos álmodás?',
+    talkTitle: '275. Miért nem megy a tudatos álmodás?',
+    tags: [
+      'teljes videó',
+      'tudatos álmodás',
+      'álom',
+      'tudatosság',
+      'akadály',
+      'nehézség',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

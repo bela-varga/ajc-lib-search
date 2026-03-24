@@ -4649,6 +4649,23 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'nehézség',
     ],
   },
+    // note: tag-ek AI által generálva '276. A halál után létezik megvilágosodás?'-hoz
+  {
+    id: '0351-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=CX5hnFdwI0M',
+    spotifyLink: '',
+    timestamp: 0,
+    topicTitle: '276. A halál után létezik megvilágosodás?',
+    talkTitle: '276. A halál után létezik megvilágosodás?',
+    tags: [
+      'teljes videó',
+      'halál',
+      'megvilágosodás',
+      'halál után',
+      'tudatosság',
+      'spiritualitás',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

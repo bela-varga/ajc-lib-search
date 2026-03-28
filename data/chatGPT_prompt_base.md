@@ -110,6 +110,7 @@ A video id-ja nézzen ki így: pl. 0007-01-XX - ahol csak az XX részt változta
 A 01 maga a teljes videó, "teljes videó" tag-gel, utána jönnek a timestampes részek.
 FONTOS:
 
+- NE változtasd meg a video title-t!
 - NE változtasd meg semelyik topic címet sem, úgy másold be, ahogy a timestamp után meg van adva!
 - a legelső videó "teljes video" tag-et kap, valamint azt a tag-et amit minden más videó is megkap a videón belül. A legelső videó CSAK ezt a kettő tag-et kapja, másikat nem.
 - ne tegyél be sehova sem kommentet

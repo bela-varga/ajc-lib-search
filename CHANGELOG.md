@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-03-28] - Dark Mode Support
+
+### Added
+
+- dark mode toggle
+- dark mode as default when the browser is in dark mode
+
+### Changed
+
+- `privacy.tsx`: updated privacy notice to document the `localStorage` usage for the dark mode preference
+
+---
+
 ## [2026-03-05] - StartHere Component Refactor
 
 ### Changed

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
+import { useDarkMode } from '~/hooks/useDarkMode';
 
 interface MenuItem {
   path: string;
@@ -16,6 +17,7 @@ const MENU_ITEMS: MenuItem[] = [
 
 export function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDark, toggleDark] = useDarkMode();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -72,8 +74,8 @@ export function HamburgerMenu() {
         }`}
         aria-label="Főmenü"
       >
-        <div className="pt-20 px-6">
-          <ul className="space-y-4">
+        <div className="pt-20 px-6 flex flex-col h-full pb-8">
+          <ul className="space-y-4 flex-1">
             {MENU_ITEMS.map((item) => (
               <li key={item.path}>
                 <Link
@@ -86,6 +88,19 @@ export function HamburgerMenu() {
               </li>
             ))}
           </ul>
+
+          {/* Dark / Light mode toggle */}
+          <button
+            id="dark-mode-toggle"
+            onClick={toggleDark}
+            className="mt-8 flex items-center gap-3 py-3 px-4 rounded-lg text-base font-medium text-gray-900 dark:text-gray-100 hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors w-full"
+            aria-label={isDark ? 'Váltás világos módra' : 'Váltás sötét módra'}
+          >
+            <span className="text-xl" aria-hidden="true">
+              {isDark ? '☀️' : '🌙'}
+            </span>
+            {isDark ? 'Világos mód' : 'Sötét mód'}
+          </button>
         </div>
       </nav>
     </>

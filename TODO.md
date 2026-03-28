@@ -27,7 +27,7 @@ Any item here may or may not be implemented.
 - [ ] Fuzzy search integration (Fuse.js)
 - [ ] Favorites/bookmarks (localStorage)
 - [ ] Keyboard shortcuts (/ to focus, arrows to navigate)
-- [ ] Dark mode toggle
+- [x] Dark mode toggle
 - [ ] Search history
 - [ ] Virtual scrolling for large libraries
 - [ ] dynamic import of library data

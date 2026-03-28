@@ -30,7 +30,9 @@ export default function Privacy() {
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Az oldal nem gyűjt, nem tárol és nem dolgoz fel semmilyen
-              személyes adatot.
+              személyes adatot. A böngésző helyi tárhelyét (localStorage)
+              kizárólag a megjelenítési beállítás (sötét/világos mód)
+              megőrzésére használja.
             </p>
 
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
@@ -46,6 +48,26 @@ export default function Privacy() {
               <li>backend szervert,</li>
               <li>API-hívásokat.</li>
             </ul>
+            <p className="text-gray-700 dark:text-gray-300 mb-2">
+              Az alkalmazás a böngésző{' '}
+              <code className="bg-gray-100 dark:bg-gray-700 px-1 rounded text-sm">
+                localStorage
+              </code>{' '}
+              tárhelyét az alábbi célra használja:
+            </p>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mb-4 ml-4">
+              <li>
+                <code className="bg-gray-100 dark:bg-gray-700 px-1 rounded text-sm">
+                  ajc-dark-mode
+                </code>{' '}
+                — a sötét/világos megjelenítési mód beállításának megőrzése.
+              </li>
+            </ul>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Ez az adat kizárólag a felhasználó saját eszközén tárolódik,
+              személyes adatot nem tartalmaz, és az alkalmazás semmilyen
+              szervernek nem továbbítja.
+            </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Minden funkció kizárólag a felhasználó eszközén, helyben fut.
             </p>

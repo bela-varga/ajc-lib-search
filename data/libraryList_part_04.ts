@@ -4845,6 +4845,16 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     talkTitle: 'A.J. Christian - Előadás, 2026. március',
     tags: ['2026 március előadás', 'befejezés'],
   },
+  // note: tag-ek AI által generálva '277. Van értelme a párkapcsolatnak?'-hoz
+  {
+    id: '0353-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=jep3nGSewWE',
+    spotifyLink: '',
+    timestamp: 0,
+    topicTitle: '277. Van értelme a párkapcsolatnak?',
+    talkTitle: '277. Van értelme a párkapcsolatnak?',
+    tags: ['teljes videó', 'párkapcsolat', 'szeretet', 'kapcsolat', 'értelem', 'egyedüllét'],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

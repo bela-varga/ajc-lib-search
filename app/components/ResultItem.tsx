@@ -16,16 +16,14 @@ export default function ResultItem({
   timestamp,
   onTagClick,
 }: ResultItemProps) {
-  const getYoutubeLink = () => {
-    if (!youtubeLink) return null;
-    if (timestamp && timestamp > 0) {
-      const separator = youtubeLink.includes('?') ? '&' : '?';
-      return `${youtubeLink}${separator}t=${timestamp}s`;
-    }
-    return youtubeLink;
+  const appendTimestamp = (url: string) => {
+    if (!timestamp || timestamp <= 0) return url;
+    const separator = url.includes('?') ? '&' : '?';
+    return `${url}${separator}t=${timestamp}s`;
   };
 
-  const finalYoutubeLink = getYoutubeLink();
+  const finalYoutubeLink = youtubeLink ? appendTimestamp(youtubeLink) : null;
+  const finalSpotifyLink = spotifyLink ? appendTimestamp(spotifyLink) : null;
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-4 hover:shadow-md transition-shadow duration-200">
@@ -66,13 +64,27 @@ export default function ResultItem({
               YouTube
             </ExternalLink>
           )}
-          {spotifyLink && (
-            <ExternalLink
-              href={spotifyLink}
-              className="text-sm font-medium text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
-            >
-              Spotify
-            </ExternalLink>
+          {finalSpotifyLink && (
+            <span className="relative group inline-block">
+              <ExternalLink
+                href={finalSpotifyLink}
+                className="text-sm font-medium text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
+              >
+                Spotify
+                {timestamp && timestamp > 0 ? ' (+/- egy perc innen)' : ''}
+              </ExternalLink>
+              {!!timestamp && timestamp > 0 && (
+                <span
+                  role="tooltip"
+                  className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 rounded-lg bg-gray-900 dark:bg-gray-700 text-white text-xs px-3 py-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-50 leading-relaxed"
+                >
+                  A Spotify linkek nem biztos hogy pontosan oda mutatnak ahol
+                  kezdődik az adott részlet. Előfordulhat, hogy kicsit előre
+                  vagy hátra kell tekerned hogy oda juss.
+                  <span className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900 dark:border-t-gray-700" />
+                </span>
+              )}
+            </span>
           )}
         </div>
       </div>

@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-03-31] - Spotify link tooltip
+
+### Added
+
+- timestamp linking for spotify links
+- tooltip to spotify links to warn the user that the link might not be exact
+
+---
+
 ## [2026-03-28] - Dark Mode Support
 
 ### Added

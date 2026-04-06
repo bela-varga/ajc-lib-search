@@ -4862,6 +4862,23 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'egyedüllét',
     ],
   },
+  // note: tag-ek AI által generálva '278. Pránanadi és Mihály arkangyal.'-hoz
+  {
+    id: '0354-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=lToVJ6OsZmc',
+    spotifyLink: 'https://open.spotify.com/episode/015wmOdTtWmUUuWIqyHPz2',
+    timestamp: 0,
+    topicTitle: '278. Pránanadi és Mihály arkangyal.',
+    talkTitle: '278. Pránanadi és Mihály arkangyal.',
+    tags: [
+      'teljes videó',
+      'pránanadi',
+      'mihály arkangyal',
+      'arkangyal',
+      'spiritualitás',
+      'energia',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

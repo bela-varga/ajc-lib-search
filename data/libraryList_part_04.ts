@@ -4879,6 +4879,23 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'energia',
     ],
   },
+  // note: tag-ek AI által generálva '279. Kire szavazzak 2026. április 12-én?'-hoz
+  {
+    id: '0355-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=wS_cmCf6va0',
+    spotifyLink: 'https://open.spotify.com/episode/2kIAN5e6tA7PI8ydmT69xw',
+    timestamp: 0,
+    topicTitle: '279. Kire szavazzak 2026. április 12-én?',
+    talkTitle: '279. Kire szavazzak 2026. április 12-én?',
+    tags: [
+      'teljes videó',
+      'szavazás',
+      'választás',
+      'politika',
+      '2026',
+      'döntés',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

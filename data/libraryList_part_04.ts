@@ -4896,6 +4896,202 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'döntés',
     ],
   },
+  // note: tag-ek AI által generálva '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések'-hoz
+  {
+    id: '0356-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 0,
+    topicTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: ['teljes videó', '2026 március előadás'],
+  },
+  {
+    id: '0356-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 126,
+    topicTitle: 'Az emberiség pozitív idővonaláról ha beszélnél!',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: ['2026 március előadás', 'emberiség', 'pozitív idővonal', 'jövő'],
+  },
+  {
+    id: '0356-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 685,
+    topicTitle:
+      'Ha jelenlétként vagyunk, az nem önátverés, mert akkor nem veszünk tudomást a problémákról?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'jelenlét',
+      'tudatosság',
+      'problémák',
+      'önátverés',
+    ],
+  },
+  {
+    id: '0356-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 1012,
+    topicTitle:
+      '1.Ha sokat gyakorlok, a halálban már nem fog visszahúzni semmi? 2.Tudatos teremtést el lehet rontani?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'gyakorlás',
+      'halál',
+      'tudatos teremtés',
+      'fejlődés',
+    ],
+  },
+  {
+    id: '0356-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 1289,
+    topicTitle: 'Tai Chi és Csikung hogy gyógyít?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'tai chi',
+      'csikung',
+      'gyógyítás',
+      'energia',
+    ],
+  },
+  {
+    id: '0356-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 1522,
+    topicTitle:
+      'Szeretet, jól szeretni a másikat...és miért van a félelemnek ekkora teremtő ereje, hogy lehet saját érdekünkben használni?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'szeretet',
+      'félelem',
+      'teremtő erő',
+      'kapcsolat',
+    ],
+  },
+  {
+    id: '0356-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 1991,
+    topicTitle:
+      'Miért nem emlékezhetünk halál utánra, hogy mi van odaát a szerettünkkel?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'halál után',
+      'emlékezés',
+      'túlvilág',
+      'szerettek',
+    ],
+  },
+  {
+    id: '0356-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 2724,
+    topicTitle: 'Mi a gondolat?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: ['2026 március előadás', 'gondolat', 'elme', 'tudat'],
+  },
+  {
+    id: '0356-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 3246,
+    topicTitle: 'Lesz háború hazánkban?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: ['2026 március előadás', 'háború', 'jövő', 'magyarország'],
+  },
+  {
+    id: '0356-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 3797,
+    topicTitle: 'Honnan tudhatom mennyire vagyok valódi?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: ['2026 március előadás', 'valódiság', 'önismeret', 'identitás'],
+  },
+  {
+    id: '0356-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 4247,
+    topicTitle: 'A fájdalommal mit lehet kezdeni?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: ['2026 március előadás', 'fájdalom', 'kezelés', 'elfogadás'],
+  },
+  {
+    id: '0356-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 4664,
+    topicTitle: '1. A hirtelen düh kezelése 2. Mi egy Végtelen Tudat vagyunk?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'düh',
+      'érzelmek',
+      'végtelen tudat',
+      'önismeret',
+    ],
+  },
+  {
+    id: '0356-01-13',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 5172,
+    topicTitle:
+      'Hogyan térjek vissza az életbe, ha ez a program fut? Anyám helyett meghalok?',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'élet',
+      'programok',
+      'család',
+      'áldozathozatal',
+    ],
+  },
+  {
+    id: '0356-01-14',
+    youtubeLink: 'https://www.youtube.com/watch?v=8kY8iUfDlZo',
+    spotifyLink: 'https://open.spotify.com/episode/6joJouzLbZBGRSCQCYFgCj',
+    timestamp: 5545,
+    topicTitle:
+      'A halál folyamata (előző életek hozzánk kötődő elvarratlan szálai)',
+    talkTitle:
+      '280. A.J. Christian - Előadás, 2026. március - Megválaszolatlan kérdések',
+    tags: [
+      '2026 március előadás',
+      'halál folyamata',
+      'előző életek',
+      'karma',
+      'elvarratlan szálak',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

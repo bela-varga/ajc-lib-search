@@ -1,5 +1,7 @@
 import type { AudioLibSearchElement } from '../types/library.types';
 
+const DIACRITIC_REGEX = /[\u0300-\u036f]/g;
+
 /**
  * Searches the audio library for items matching the given query.
  * The search is case-insensitive and checks the title, description, and tags.
@@ -15,7 +17,7 @@ export function searchLibrary(
   queries: string[],
 ): AudioLibSearchElement[] {
   const normalizedQueries = queries.reduce((acc, q) => {
-    const normalizedQ = q.trim().toLowerCase();
+    const normalizedQ = normalizeForSearch(q);
     if (normalizedQ) {
       acc.push(normalizedQ);
     }
@@ -33,13 +35,21 @@ export function searchLibrary(
 
 function filterLibraryByQuery(library: AudioLibSearchElement[], query: string) {
   return library.filter((item) => {
-    const talkTitleMatch = item.talkTitle?.toLowerCase().includes(query);
-    const topicTitleMatch = item.topicTitle?.toLowerCase().includes(query);
-    const descriptionMatch = item.description?.toLowerCase().includes(query);
+    const talkTitleMatch = normalizeForSearch(item.talkTitle).includes(query);
+    const topicTitleMatch = normalizeForSearch(item.topicTitle).includes(query);
+    const descriptionMatch = normalizeForSearch(item.description).includes(query);
     const tagMatch = item.tags?.some((tag) =>
-      tag.toLowerCase().includes(query),
+      normalizeForSearch(tag).includes(query),
     );
 
     return talkTitleMatch || topicTitleMatch || descriptionMatch || tagMatch;
   });
+}
+
+function normalizeForSearch(value?: string): string {
+  return (value ?? '')
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(DIACRITIC_REGEX, '');
 }

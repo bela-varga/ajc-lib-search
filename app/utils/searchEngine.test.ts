@@ -58,6 +58,15 @@ const mockLibrary: AudioLibSearchElement[] = [
     youtubeLink: 'https://www.youtube.com/watch?v=6',
     spotifyLink: 'https://www.spotify.com/track/6',
   },
+  {
+    id: '7',
+    talkTitle: 'Magyar spiritualitás',
+    description: 'A megvilágosodás útja az életben',
+    tags: ['élet', 'megvilágosodás'],
+    timestamp: 0,
+    youtubeLink: 'https://www.youtube.com/watch?v=7',
+    spotifyLink: 'https://www.spotify.com/track/7',
+  },
 ];
 
 describe('searchLibrary', () => {
@@ -124,17 +133,41 @@ describe('searchLibrary', () => {
     expect(results[0].id).toBe('3');
   });
 
-  it('should handle queries with accents', () => {
-    // "Café" has an accent
-    const results = searchLibrary(mockLibrary, ['Café']);
-    expect(results).toHaveLength(1);
-    expect(results[0].id).toBe('5');
+  it('should handle queries with accents and without accents interchangeably', () => {
+    const accentedResults = searchLibrary(mockLibrary, ['Café']);
+    expect(accentedResults).toHaveLength(1);
+    expect(accentedResults[0].id).toBe('5');
 
-    // Verify that searching without accent does NOT find the accented item (current limitation)
-    const resultsNoAccent = searchLibrary(mockLibrary, ['cafe']);
-    expect(resultsNoAccent).toEqual([]);
+    const noAccentResults = searchLibrary(mockLibrary, ['cafe']);
+    expect(noAccentResults).toHaveLength(1);
+    expect(noAccentResults[0].id).toBe('5');
+
+    const mixedAccentResults = searchLibrary(mockLibrary, ['càfe']);
+    expect(mixedAccentResults).toHaveLength(1);
+    expect(mixedAccentResults[0].id).toBe('5');
   });
 
+  it('should match Hungarian tags across accent variations', () => {
+    const exactAccent = searchLibrary(mockLibrary, ['élet']);
+    expect(exactAccent).toHaveLength(1);
+    expect(exactAccent[0].id).toBe('7');
+
+    const noAccent = searchLibrary(mockLibrary, ['elet']);
+    expect(noAccent).toHaveLength(1);
+    expect(noAccent[0].id).toBe('7');
+
+    const mixedAccent = searchLibrary(mockLibrary, ['èlet']);
+    expect(mixedAccent).toHaveLength(1);
+    expect(mixedAccent[0].id).toBe('7');
+
+    const megvilagosodas = searchLibrary(mockLibrary, ['megvilagosodas']);
+    expect(megvilagosodas).toHaveLength(1);
+    expect(megvilagosodas[0].id).toBe('7');
+
+    const megvilágosodás = searchLibrary(mockLibrary, ['megvilágosodás']);
+    expect(megvilágosodás).toHaveLength(1);
+    expect(megvilágosodás[0].id).toBe('7');
+  });
   describe('multiple search queries', () => {
     it('should narrow down results with each additional query (AND logic)', () => {
       const singleResults = searchLibrary(mockLibrary, ['jazz']);

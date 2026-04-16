@@ -16,10 +16,10 @@ describe('StartHere component', () => {
     expect(chips[0]).toHaveTextContent('teljes videó');
   });
 
-  it('renders exactly 6 chips (1 pinned + 5 random)', () => {
+  it('renders exactly 11 chips (1 pinned + 10 random)', () => {
     render(<StartHere onSearch={vi.fn()} />);
     const chips = screen.getAllByRole('button');
-    expect(chips).toHaveLength(6);
+    expect(chips).toHaveLength(11);
   });
 
   it('all rendered chips are from the known tag pool (including teljes videó)', () => {

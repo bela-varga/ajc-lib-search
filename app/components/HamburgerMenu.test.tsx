@@ -36,20 +36,20 @@ describe('HamburgerMenu', () => {
 
   it('closes the menu when hamburger button is clicked again', () => {
     renderMenu();
-    const button = screen.getByRole('button');
+    const button = screen.getByRole('button', { name: /menü megnyitása/i });
 
     // Open menu
     fireEvent.click(button);
     expect(screen.getByRole('navigation')).toHaveClass('translate-x-0');
 
     // Close menu
-    fireEvent.click(button);
+    fireEvent.click(screen.getByRole('button', { name: /menü bezárása/i }));
     expect(screen.getByRole('navigation')).toHaveClass('translate-x-full');
   });
 
   it('displays navigation links when menu is open', () => {
     renderMenu();
-    const button = screen.getByRole('button');
+    const button = screen.getByRole('button', { name: /menü megnyitása/i });
 
     // Open menu
     fireEvent.click(button);
@@ -70,7 +70,7 @@ describe('HamburgerMenu', () => {
 
   it('closes menu when a navigation link is clicked', () => {
     renderMenu();
-    const button = screen.getByRole('button');
+    const button = screen.getByRole('button', { name: /menü megnyitása/i });
 
     // Open menu
     fireEvent.click(button);
@@ -86,7 +86,7 @@ describe('HamburgerMenu', () => {
 
   it('closes menu when overlay is clicked', () => {
     const { container } = renderMenu();
-    const button = screen.getByRole('button');
+    const button = screen.getByRole('button', { name: /menü megnyitása/i });
 
     // Open menu
     fireEvent.click(button);
@@ -103,7 +103,7 @@ describe('HamburgerMenu', () => {
 
   it('has correct navigation links', () => {
     renderMenu();
-    const button = screen.getByRole('button');
+    const button = screen.getByRole('button', { name: /menü megnyitása/i });
 
     // Open menu
     fireEvent.click(button);

@@ -37,7 +37,9 @@ function filterLibraryByQuery(library: AudioLibSearchElement[], query: string) {
   return library.filter((item) => {
     const talkTitleMatch = normalizeForSearch(item.talkTitle).includes(query);
     const topicTitleMatch = normalizeForSearch(item.topicTitle).includes(query);
-    const descriptionMatch = normalizeForSearch(item.description).includes(query);
+    const descriptionMatch = normalizeForSearch(item.description).includes(
+      query,
+    );
     const tagMatch = item.tags?.some((tag) =>
       normalizeForSearch(tag).includes(query),
     );

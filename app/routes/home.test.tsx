@@ -79,11 +79,11 @@ describe('Home route', () => {
       screen.getByRole('button', { name: 'teljes videó' }),
     ).toBeInTheDocument();
 
-    // 1 pinned + 5 random = 6 chips total (search button is excluded by name)
+    // 1 pinned + 10 random = 11 chips total (search button is excluded by name)
     // We count only the suggested tag buttons (not the search submit button)
     const allButtons = screen.getAllByRole('button');
     const tagButtons = allButtons.filter((btn) => btn.closest('form') === null);
-    expect(tagButtons).toHaveLength(6);
+    expect(tagButtons).toHaveLength(11);
   });
 
   it('calls handleSearch when a suggested tag is clicked', () => {

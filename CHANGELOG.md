@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-04-16] - Search normalization update
+
+### Changed
+
+- Added additional normalization steps for search by removing diacritics/accents from search terms and values, making searches accent-insensitive (e.g. both "elet" and "èlet" now match "élet").
+
+---
+
 ## [2026-03-31] - Spotify link tooltip
 
 ### Added

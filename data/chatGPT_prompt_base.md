@@ -124,7 +124,8 @@ Kérlek csak annyit válaszolj hogy "Rendben, várom az adatokat, és utána ado
 
 Video adatok:
 
-- video link:
+- youtube link:
+- spotify link:
 - video title:
 - id: 0301-01-XX (csak az XX-et változtasd)
 - timestampek:

@@ -1973,7 +1973,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'érzelmek',
     ],
   },
-  // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
+  // note: tag-ek AI által generálva '247. A.J. Christian - Előadás, 2025. augusztus - Megválaszolatlan kérdések'-hoz
   {
     id: '0316-01-01',
     youtubeLink: 'https://www.youtube.com/watch?v=rdL0uOh9InA',
@@ -5355,6 +5355,191 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'vélemény',
       'változás',
       'önismeret',
+    ],
+  },
+  // note: tag-ek AI által generálva '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések'-hoz
+  {
+    id: '0358-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 0,
+    topicTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: ['teljes videó', '2026 április előadás'],
+  },
+  {
+    id: '0358-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 124,
+    topicTitle: 'Emberi halandóság és a Végtelen hogyan kapcsolódik?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'emberi halandóság',
+      'halandóság',
+      'végtelen',
+    ],
+  },
+  {
+    id: '0358-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 428,
+    topicTitle: 'A jövő már eldöntött vagy több lehetőség is van?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: ['2026 április előadás', 'jövő', 'sors', 'lehetőségek'],
+  },
+  {
+    id: '0358-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 816,
+    topicTitle:
+      'Lehetséges kilépni az életből öngyilkosság nélkül, ha a Földön már méltatlan az élet?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'életből kilépés',
+      'öngyilkosság',
+      'föld',
+      'méltatlan élet',
+    ],
+  },
+  {
+    id: '0358-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 976,
+    topicTitle:
+      'A szeretet és ragaszkodás csapda, mert újraszületésre késztet?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'szeretet',
+      'ragaszkodás',
+      'csapda',
+      'újraszületés',
+    ],
+  },
+  {
+    id: '0358-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 1387,
+    topicTitle: 'Gyermeknevelésről',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: ['2026 április előadás', 'gyermeknevelés', 'gyerek', 'nevelés'],
+  },
+  {
+    id: '0358-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 1993,
+    topicTitle: 'Tisza Párt nyert, ez milyen szempontból jó és rossz?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'Tisza Párt',
+      'politika',
+      'győzelem',
+      'jó és rossz',
+    ],
+  },
+  {
+    id: '0358-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 2382,
+    topicTitle:
+      '1.Miként élhetünk meg minél több szépséget? 2.Halál utáni világokban miben találhatunk értelmet?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'szépség',
+      'halál utáni világok',
+      'értelem',
+      'élet értelme',
+    ],
+  },
+  {
+    id: '0358-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 2885,
+    topicTitle:
+      'A Szeretet szinte megvalósíthatatlan itt - miért van a félelemnek ekkora teremtő ereje?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'szeretet',
+      'félelem',
+      'teremtő erő',
+      'megvalósítás',
+    ],
+  },
+  {
+    id: '0358-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 3256,
+    topicTitle: 'Segítőként kevesen jutnak el hozzám...',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: ['2026 április előadás', 'segítő', 'segítés', 'elérés'],
+  },
+  {
+    id: '0358-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 3879,
+    topicTitle:
+      'A szégyenérzetet és a családban mindenkit meg kell mentenem érzést hogy lehet letenni?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'szégyenérzet',
+      'család',
+      'megmentés',
+      'elengedés',
+    ],
+  },
+  {
+    id: '0358-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 4308,
+    topicTitle: 'Megcsal a párom?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: ['2026 április előadás', 'megcsalás', 'párkapcsolat', 'párom'],
+  },
+  {
+    id: '0358-01-13',
+    youtubeLink: 'https://www.youtube.com/watch?v=GLvTaB-8r1o',
+    spotifyLink: 'https://open.spotify.com/episode/6FASElW7H8ZvDGqgZFM9Kn',
+    timestamp: 4926,
+    topicTitle:
+      'Epstein akták kerültek nyilvánosságra, háttérhatalom, egyház, ezek csak összeesküvés elméletek vagy valóban ez zajlik a világban?',
+    talkTitle:
+      '281. A.J. Christian - Előadás, 2026. április - Megválaszolatlan kérdések',
+    tags: [
+      '2026 április előadás',
+      'Epstein akták',
+      'háttérhatalom',
+      'egyház',
+      'összeesküvés elméletek',
     ],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz

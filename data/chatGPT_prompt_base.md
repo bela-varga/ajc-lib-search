@@ -138,4 +138,4 @@ Nem ellenőriztem, hogy hallucinációk is keletkeznek-e, remélem nem. Az sem s
 ---
 
 Antigravity prompt to add tags:
-Read the talkTitle in libraryList_part_04.ts at line XXX and update the tags in the next row to have relevant tags for that title. Do not read other tags, just write the ones you think should belong to the title based on just the talkTitle.
+Do not read any other file or part of the codebase, only read the talkTitle in libraryList_part_04.ts at line XXX and update the tags in the next row to have relevant tags for that title. Leave 'teljes videó' as first tag and update the array by adding more tags after that. Do not read other tags, just write the ones you think should belong to the title based on just the talkTitle you read.

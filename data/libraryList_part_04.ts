@@ -5542,6 +5542,23 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'összeesküvés elméletek',
     ],
   },
+  // note: tag-ek AI által generálva '282. Hogyan fejezzem be az önpusztítást?'-hoz
+  {
+    id: '0359-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=dXTv6y_K9vg',
+    spotifyLink: 'https://open.spotify.com/episode/1kz6K0xqKMdoKGhSb381Ve',
+    timestamp: 0,
+    topicTitle: '282. Hogyan fejezzem be az önpusztítást?',
+    talkTitle: '282. Hogyan fejezzem be az önpusztítást?',
+    tags: [
+      'teljes videó',
+      'önpusztítás',
+      'önsorsrontás',
+      'önbántalmazás',
+      'rossz szokások',
+      'változás',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

@@ -5559,6 +5559,23 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'változás',
     ],
   },
+  // note: tag-ek AI által generálva '283. A fájdalom értelme'-hoz
+  {
+    id: '0360-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=EVEpGXkp9ZM',
+    spotifyLink: 'https://open.spotify.com/episode/0dahSQ3XHnP3scsRLNlNKd',
+    timestamp: 0,
+    topicTitle: '283. A fájdalom értelme',
+    talkTitle: '283. A fájdalom értelme',
+    tags: [
+      'teljes videó',
+      'fájdalom',
+      'szenvedés',
+      'értelem',
+      'lelki folyamatok',
+      'élethelyzetek',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

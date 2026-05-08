@@ -5577,6 +5577,25 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     ],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
+  {
+    id: '0361-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=zhriwtRk-CE',
+    spotifyLink: 'https://open.spotify.com/episode/4r0tnBuT73nliC5S7cnwvt',
+    timestamp: 0,
+    topicTitle: '284. Valódi vagyok, vagy csak egy program?',
+    talkTitle: '284. Valódi vagyok, vagy csak egy program?',
+    tags: [
+      'teljes videó',
+      'valódiság',
+      'identitás',
+      'öntudat',
+      'tudat',
+      'szimuláció',
+      'programozottság',
+      'filozófia',
+    ],
+  },
+  // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 
 // for one-item video, just copy and change the following:
@@ -5585,7 +5604,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0307-01-01',
     youtubeLink: 'youtubeLinkComesHere',
-    spotifyLink: '',
+    spotifyLink: 'spotifyLinkComesHere',
     timestamp: 0,
     topicTitle: 'topicTitleComesHere',
     talkTitle: 'TalkTitleComesHere',

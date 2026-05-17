@@ -5595,6 +5595,40 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'filozófia',
     ],
   },
+  // note: tag-ek AI által generálva '285. Mi az angyalok és démonok feladata?'-hoz
+  {
+    id: '0362-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=eQL9-IioZW8',
+    spotifyLink: 'https://open.spotify.com/episode/5LLy3V00O5VkRCR21vrY33',
+    timestamp: 0,
+    topicTitle: '285. Mi az angyalok és démonok feladata?',
+    talkTitle: '285. Mi az angyalok és démonok feladata?',
+    tags: [
+      'teljes videó',
+      'angyalok',
+      'démonok',
+      'szellemi lények',
+      'feladatok',
+      'spiritualitás',
+    ],
+  },
+  // note: tag-ek AI által generálva '286. Tanítványok és hasznos gyakorlatok'-hoz
+  {
+    id: '0363-01-01',
+    youtubeLink: 'youtubeLinkComesHere',
+    spotifyLink: 'https://open.spotify.com/episode/0daLtXsi2aoMHuICCm70lc',
+    timestamp: 0,
+    topicTitle: '286. Tanítványok és hasznos gyakorlatok',
+    talkTitle: '286. Tanítványok és hasznos gyakorlatok',
+    tags: [
+      'teljes videó',
+      'tanítvány',
+      'gyakorlat',
+      'tanulás',
+      'fejlődés',
+      'spirituális gyakorlat',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

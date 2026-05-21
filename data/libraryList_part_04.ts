@@ -5629,6 +5629,22 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'spirituális gyakorlat',
     ],
   },
+  // note: tag-ek AI által generálva '287. Mi Isten célja?'-hoz
+  {
+    id: '0364-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=ytcOBYCwBlQ',
+    spotifyLink: 'https://open.spotify.com/episode/0ZkES1lrPyBH7KTCc8NcgC',
+    timestamp: 0,
+    topicTitle: '287. Mi Isten célja?',
+    talkTitle: '287. Mi Isten célja?',
+    tags: [
+      'teljes videó',
+      'Isten célja',
+      'isteni terv',
+      'élet célja',
+      'teremtés célja',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

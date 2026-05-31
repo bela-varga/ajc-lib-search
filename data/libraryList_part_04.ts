@@ -5683,7 +5683,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-01',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 0,
     topicTitle: 'A.J. Christian - Előadás, 2026. május',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5692,7 +5692,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-02',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 206,
     topicTitle: 'Pánik, félelem',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5701,7 +5701,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-03',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 530,
     topicTitle: 'Tartanál egynapos megvilágosodás kurzust?',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5710,7 +5710,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-04',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 712,
     topicTitle:
       'Mi a különbség a között aki tudja, hogy teljes és a között aki az?',
@@ -5720,7 +5720,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-05',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 754,
     topicTitle:
       'Múltbéli eseményeket újraélek, sokat sírok, lelkileg megvisel, mit csináljak másképp hogy oldódjon?',
@@ -5737,7 +5737,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-06',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 1077,
     topicTitle:
       '1. Két pici gyerekkel 40 éves nőként elhagynám a férjem 2. Erős összetartó testvéri kapcsolat mitől függ?',
@@ -5754,7 +5754,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-07',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 1753,
     topicTitle:
       'A földre születést az okozza, hogy a lélek figyelme egy érzésre fókuszál? Miért születnek sokkal többen nehéz körülmények közé? Beteg testbe fókuszálva mit oldhat fel a lélek?',
@@ -5771,7 +5771,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-08',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 2179,
     topicTitle: 'Hogyan kell döntést hozni?',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5780,7 +5780,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-09',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 2286,
     topicTitle: 'Féltékenység',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5789,7 +5789,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-10',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 2948,
     topicTitle: 'Empátia tárgyakkal',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5798,7 +5798,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-11',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 3148,
     topicTitle: 'A Világ szörnyűségeit hogyan éljem meg?',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5813,7 +5813,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-12',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 3491,
     topicTitle: '3 napos tábor májusban?',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5822,7 +5822,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-13',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 3644,
     topicTitle: 'Nemesfémek értékállósága, kriprovaluta',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5837,7 +5837,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-14',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 3927,
     topicTitle:
       'Óvatosság és önsorsrontás, félelemből hozott döntés negatívan hat?',
@@ -5853,7 +5853,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-15',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 4160,
     topicTitle: 'Alvajárás, holdkórosság',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5862,7 +5862,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-16',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 4589,
     topicTitle: 'Várható nagyobb lezárás ebben az évben?',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5871,7 +5871,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-17',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 4675,
     topicTitle: 'Élet és halál kérdése',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5880,7 +5880,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-18',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 5043,
     topicTitle: 'Elkerülő személyiségzavar (AVPD)',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5894,7 +5894,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-19',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 5357,
     topicTitle: 'Unokahúgomról kérdeznélek',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5903,7 +5903,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-20',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 5431,
     topicTitle: 'Tudatos létezőként hogy - hogy itt vagy közöttünk?',
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
@@ -5912,7 +5912,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-21',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 5549,
     topicTitle:
       'Mélyen belül egy mozdíthatatlan erő van bennem, amit nem érint nehéz élethelyzet sem, vészhelyzetekben mindig érzem.',
@@ -5928,7 +5928,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
   {
     id: '0367-01-22',
     youtubeLink: 'https://www.youtube.com/watch?v=ED6D01ZJ6AE',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/episode/292duBmH0vUfHPdJWuWtMe',
     timestamp: 5771,
     topicTitle:
       'Minek a függvénye, hogy a figyelem mit ragad meg, befolyásolható?',

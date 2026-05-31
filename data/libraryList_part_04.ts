@@ -5645,6 +5645,40 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'teremtés célja',
     ],
   },
+  // note: tag-ek AI által generálva '288. Hogy lehet boldog az emberiség?'-hoz
+  {
+    id: '0365-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=mtwubrMqjpM',
+    spotifyLink: 'https://open.spotify.com/episode/24YSEDhk7f8GdbGYaG3SYE',
+    timestamp: 0,
+    topicTitle: '288. Hogy lehet boldog az emberiség?',
+    talkTitle: '288. Hogy lehet boldog az emberiség?',
+    tags: [
+      'teljes videó',
+      'boldogság',
+      'emberiség',
+      'közös boldogság',
+      'társadalmi jólét',
+      'emberi fejlődés',
+    ],
+  },
+  // note: tag-ek AI által generálva '289. A Tudatos Teremtés nehézségei'-hoz
+  {
+    id: '0366-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=4KMkW5DEOqk',
+    spotifyLink: 'https://open.spotify.com/episode/1wpQkADGrqIvGHzxKFEnwv',
+    timestamp: 0,
+    topicTitle: '289. A Tudatos Teremtés nehézségei',
+    talkTitle: '289. A Tudatos Teremtés nehézségei',
+    tags: [
+      'teljes videó',
+      'tudatos teremtés',
+      'teremtés',
+      'nehézségek',
+      'belső akadályok',
+      'önismeret',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

@@ -5935,6 +5935,24 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     talkTitle: 'A.J. Christian - Előadás, 2026. május',
     tags: ['2026 május előadás', 'figyelem', 'tudat', 'befolyásolás'],
   },
+  // note: tag-ek AI által generálva '290. A test lélek szellem igaz valósága'-hoz
+  {
+    id: '0368-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=2UMlDj40yKo',
+    spotifyLink: 'https://open.spotify.com/episode/5knYYa2UyaSb39cH4HCo0y',
+    timestamp: 0,
+    topicTitle: '290. A test lélek szellem igaz valósága',
+    talkTitle: '290. A test lélek szellem igaz valósága',
+    tags: [
+      'teljes videó',
+      'test',
+      'lélek',
+      'szellem',
+      'igaz valóság',
+      'spirituális valóság',
+      'önismeret',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

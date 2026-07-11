@@ -5953,6 +5953,438 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'önismeret',
     ],
   },
+  // note: tag-ek AI által generálva '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések'-hoz
+  {
+    id: '0369-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 0,
+    topicTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['teljes videó', '2026 május előadás'],
+  },
+  {
+    id: '0369-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 150,
+    topicTitle:
+      '1. Amit ebben az életben elsajátítottunk, azt tovább visszük a "következő" életbe? 2. Mesélj az ennél sűrűbb dimenziókról!',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'reinkarnáció',
+      'élet',
+      'dimenziók',
+      'sűrűbb dimenziók',
+    ],
+  },
+  {
+    id: '0369-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 666,
+    topicTitle:
+      'Miért azonosulok mindig a nyomorúsággal? Lett volna egy boldogabb változatom is? (Párhuzamos dimenzió, Végtelen)',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'nyomorúság',
+      'boldogság',
+      'párhuzamos dimenzió',
+      'végtelen',
+    ],
+  },
+  {
+    id: '0369-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 1071,
+    topicTitle:
+      'Lesznek megszorítások, energiaválság, áremelkedések ősszel és hogy készüljünk fel?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'megszorítások',
+      'energiaválság',
+      'áremelkedés',
+      'felkészülés',
+    ],
+  },
+  {
+    id: '0369-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 1448,
+    topicTitle:
+      '34 éves férfi vagyok, szüleimmel élek, saját lábamra kellene állnom, mind anyagilag, mind az élet más területén.',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'önállóság',
+      'szülő',
+      'család',
+      'anyagi függetlenség',
+      'saját lábra állás',
+    ],
+  },
+  {
+    id: '0369-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 2195,
+    topicTitle: 'Szerinted lesz most végre valódi változás Magyarországon?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'magyarország', 'változás'],
+  },
+  {
+    id: '0369-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 2835,
+    topicTitle:
+      'Honnan lehet tudni, mi az ami fel nem oldott csomag, amit meg kellene oldani és hogyan ne szerezzünk hozzá újat? (Halál)',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'fel nem oldott csomag', 'feloldás', 'halál'],
+  },
+  {
+    id: '0369-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 3476,
+    topicTitle: 'Világkormány előnye és hátránya. Errefelé haladunk?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'világkormány', 'jövő'],
+  },
+  {
+    id: '0369-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 4050,
+    topicTitle: 'Létezik technika, ami emlékeztet minket a szeretetre?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'szeretet', 'technika', 'emlékezés'],
+  },
+  {
+    id: '0369-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 4161,
+    topicTitle: 'Az ekcémáról',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'ekcéma'],
+  },
+  {
+    id: '0369-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 4265,
+    topicTitle: 'A család nem nézi jó szemmel a spirituális érdeklődésem.',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'család',
+      'spiritualitás',
+      'spirituális érdeklődés',
+    ],
+  },
+  {
+    id: '0369-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 4678,
+    topicTitle:
+      'Alvás közben arra eszméltem, kezd a testem feloldódni. Ez maga a halál volt vagy az elmém játszott?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'alvás',
+      'test',
+      'feloldódás',
+      'halál',
+      'elme',
+    ],
+  },
+  {
+    id: '0369-01-13',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 5079,
+    topicTitle:
+      'A júniusi  kiscsoportos foglalkozás dátumát lehet előre tudni?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'kiscsoportos foglalkozás', 'június'],
+  },
+  {
+    id: '0369-01-14',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 5166,
+    topicTitle: 'Pajzsmirigy problémáról a következő előadásban!',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'pajzsmirigy', 'pajzsmirigy probléma'],
+  },
+  {
+    id: '0369-01-15',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 5272,
+    topicTitle: 'Változókori problémákat hogy lehet jobban elviselni?',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'változókor', 'változókori problémák'],
+  },
+  {
+    id: '0369-01-16',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 5655,
+    topicTitle:
+      'Van olyan, hogy valaki nem veszi észre, hogy megszületett? Mintha nem én döntöttem volna, mintha az élet álom lenne!',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: ['2026 május előadás', 'születés', 'élet', 'álom', 'döntés'],
+  },
+  {
+    id: '0369-01-17',
+    youtubeLink: 'https://www.youtube.com/watch?v=XzSYUj8m6Lo',
+    spotifyLink: 'https://open.spotify.com/episode/0n8wjUf1c9llla8UIHvwXg',
+    timestamp: 6222,
+    topicTitle: 'Miért választjuk a szenvedést és mi értelme van? (Végtelen)',
+    talkTitle:
+      '291. A.J. Christian - Előadás, 2026. május - Megválaszolatlan kérdések',
+    tags: [
+      '2026 május előadás',
+      'szenvedés',
+      'választás',
+      'értelem',
+      'végtelen',
+    ],
+  },
+  // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2026. június'-hoz
+  {
+    id: '0370-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 0,
+    topicTitle: 'A.J. Christian - Előadás, 2026. június',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['teljes videó', '2026 június előadás'],
+  },
+  {
+    id: '0370-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 160,
+    topicTitle:
+      'Párkapcsolatban a kezdeti szeretet áramlás után, miért záródnak be, miért félnek szeretni az emberek? (traumák)',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'párkapcsolat',
+      'szeretet',
+      'félelem',
+      'traumák',
+    ],
+  },
+  {
+    id: '0370-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 984,
+    topicTitle:
+      'Mik a feltételei, hogy egy számomra kellemes idővonalat válasszak?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['2026 június előadás', 'idővonal', 'választás'],
+  },
+  {
+    id: '0370-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 1378,
+    topicTitle: 'Mi az élet élvezetének receptje?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['2026 június előadás', 'élet', 'élet élvezete', 'élvezet'],
+  },
+  {
+    id: '0370-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 1840,
+    topicTitle:
+      'Említetted döntsem el, hogy emberi vagy nem emberi dolgokat választok. Lehet választani vagy a Tudatos Figyelem által megjön minden?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['2026 június előadás', 'döntés', 'választás', 'tudatos figyelem'],
+  },
+  {
+    id: '0370-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 2425,
+    topicTitle:
+      '1. Hogyan tudnék kapcsolódni a hozzám kötődő segítő energiákhoz? 2. Hogy lehet megkülönböztetni a valódi intuitív útmutatást a saját gondolataimtól?  (Döntés)',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'segítő energiák',
+      'intuíció',
+      'útmutatás',
+      'gondolat',
+      'döntés',
+    ],
+  },
+  {
+    id: '0370-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 2756,
+    topicTitle:
+      '1. Újra megtestesülhetünk az elmúlt korokba? 2. Lehetséges táplálék nélküli létezési forma a Földön?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'reinkarnáció',
+      'elmúlt korok',
+      'táplálék nélküli létezés',
+      'föld',
+    ],
+  },
+  {
+    id: '0370-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 3199,
+    topicTitle:
+      'Várható a közeljövőben UFO észlelések nyilvánosságra hozatala?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'ufo',
+      'UFO észlelések',
+      'nyilvánosságra hozatal',
+    ],
+  },
+  {
+    id: '0370-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 3424,
+    topicTitle:
+      'Ha a halál folyamatában, ha bennem nem maradt negatív élmény egy helyzettel kapcsolatban, de a másikban igen, akkor is át kell élnem a másik szempontjából a helyzetet?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'halál',
+      'negatív élmény',
+      'átélés',
+      'nézőpont',
+    ],
+  },
+  {
+    id: '0370-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 3588,
+    topicTitle:
+      'Említetted, a tudás amit képviselsz nem való az embereknek, sőt még fejlettebb szinteken sem értik, de akkor kinek való? (Végtelen)',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'tudás',
+      'emberek',
+      'fejlettségi szintek',
+      'végtelen',
+    ],
+  },
+  {
+    id: '0370-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 3889,
+    topicTitle:
+      '1. Az állatok egója 2. Miért magyarnak születtél? 3. Nyugtass meg nem lesz Mad Max 3. a közeljövőben!',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'állatok',
+      'ego',
+      'magyarság',
+      'születés',
+      'jövő',
+    ],
+  },
+  {
+    id: '0370-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 4643,
+    topicTitle: 'Kiteljesedés tábor, mire számíthatok?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'kiteljesedés tábor',
+      'kiteljesedés',
+      'tábor',
+    ],
+  },
+  {
+    id: '0370-01-13',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 4859,
+    topicTitle: 'Gyanúm, kislányomat abuzálja az apja, mit tegyek?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['2026 június előadás', 'abúzus', 'gyerek', 'család', 'apa'],
+  },
+  {
+    id: '0370-01-14',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 5064,
+    topicTitle: 'Széleskörű a tudásod',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['2026 június előadás', 'tudás'],
+  },
+  {
+    id: '0370-01-15',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 5669,
+    topicTitle: 'USA miért támogatja Izraelt?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: ['2026 június előadás', 'usa', 'Izrael', 'támogatás'],
+  },
+  {
+    id: '0370-01-16',
+    youtubeLink: 'https://www.youtube.com/watch?v=83t3K4VZxbI',
+    spotifyLink: 'https://open.spotify.com/episode/077QJPwo94g3uWDpUdY1fH',
+    timestamp: 7349,
+    topicTitle:
+      'Ritka idegrendszeri ( gyógyíthatatlan)  betegségre, Refsum-ra van alternatív gyógymód?',
+    talkTitle: 'A.J. Christian - Előadás, 2026. június',
+    tags: [
+      '2026 június előadás',
+      'idegrendszeri betegség',
+      'Refsum',
+      'alternatív gyógymód',
+      'gyógyítás',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

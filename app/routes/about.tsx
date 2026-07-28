@@ -32,21 +32,19 @@ export default function About() {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Ez az oldal nem Christian kezdeményezésére készült - de remélem
-              hasznos tud lenni másoknak is, nem csak nekem. Azért csináltam,
-              mert volt hogy emlékeztem, hogy valamelyik online előadásban volt
-              szó valamiről, de nem tudtam megtalálni. Akkor gondoltam arra,
-              bárcsak lenne egy egyszerű mód az A. J. Christian
-              &quot;könyvtáron&quot; belüli keresésre.
+              Ezt az oldalt azért csináltam, mert volt hogy emlékeztem, hogy
+              valamelyik online előadásban volt szó valamiről, de nem tudtam
+              megtalálni. Akkor gondoltam arra, bárcsak lenne egy egyszerű mód
+              az A. J. Christian &quot;könyvtáron&quot; belüli keresésre.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Ez egy végtelenül egyszerű applikáció, nem használ adatbázist, nem
-              frissül automatikusan, egyszerűen csak a böngészőben fut, és keres
-              az eddig elmentett videók között. Ez azt is jelenti, hogy ha kijön
+              Ez egy egyszerű applikáció, nem használ adatbázist, nem frissül
+              automatikusan, egyszerűen csak a böngészőben fut, és keres az
+              eddig elmentett videók között. Ez azt is jelenti, hogy ha kijön
               egy új videó Christian youtube oldalán, akkor az nem kerül fel ide
-              automatikusan. Ennélfogva előfordulhat, hogy amikor ezt az oldalt
-              nézed, akkor az utolsó pár videó nincs még a listában.
+              automatikusan. Így előfordulhat, hogy amikor ezt az oldalt nézed,
+              akkor az utolsó pár videó nincs még a listában.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               A lista jelenleg az{' '}
@@ -102,8 +100,9 @@ export default function About() {
             </ul>
 
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Sajnos nincs időm minden videót megnézni és beírni a címkéket, így
-              a legtöbb videóhoz AI-al generáltatom a hozzá tartozó címkéket.
+              Sajnos nincs időm minden videót újra alaposan végignézni és beírni
+              a címkéket, így a legtöbb videóhoz AI-al generáltatom a hozzá
+              tartozó címkéket.
             </p>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-2">
@@ -113,18 +112,12 @@ export default function About() {
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Ha van kedved, segíthetsz - akár ezen github repo fejlesztésében,
               akár csak a &quot;könyvtár adatok&quot; frissítésében. Bármi
-              észrevételed, gondolatod van ezzel az oldallal kapcsolatban,
-              nyugodtan jelezd nekem emailben:{' '}
+              észrevételed, gondolatod, ötleted van ezzel az oldallal
+              kapcsolatban, nyugodtan jelezd nekem emailben:{' '}
               <a href="mailto:bela.varga.work@gmail.com">
                 bela.varga.work@gmail.com
               </a>
               .
-            </p>
-
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Az oldal fel van készítve arre, hogy Spotify linkeket is kezeljen,
-              de én nem vagyok fent Spotify-on. Ha szeretnéd, hogy Spotify
-              linkek is legyenek, keress meg!
             </p>
           </div>
         </div>

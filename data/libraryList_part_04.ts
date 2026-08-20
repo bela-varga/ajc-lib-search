@@ -6621,6 +6621,228 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     ],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
+
+  {
+    id: '0372-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 0,
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['teljes videó', '2026 július előadás'],
+  },
+  {
+    id: '0372-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 120,
+    topicTitle:
+      'A múltban ártottam, mit kezdjek a bűntudattal, a szeretet felé hogyan emelkedhetnék? (jelenlét, figyelem)',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: [
+      '2026 július előadás',
+      'bűntudat',
+      'szeretet',
+      'jelenlét',
+      'figyelem',
+    ],
+  },
+  {
+    id: '0372-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 706,
+    topicTitle:
+      'Az emberiséget irányítani akarják, 20 - 30 év múlva milyen világ jön?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'emberiség', 'irányítás', 'jövő', 'világ'],
+  },
+  {
+    id: '0372-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 1318,
+    topicTitle:
+      'Auralátásakor mi történik? Köldökben, hasban feszültség (testi - lelki böjt)',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: [
+      '2026 július előadás',
+      'auralátás',
+      'testi',
+      'lelkiállapot',
+      'böjt',
+      'feszültség',
+    ],
+  },
+  {
+    id: '0372-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 1807,
+    topicTitle:
+      'A Figyelmet minél többet gyakorlom, annál kevesebb a misztikus élmény',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'figyelem', 'misztikus élmény', 'gyakorlás'],
+  },
+  {
+    id: '0372-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 1914,
+    topicTitle:
+      'Egyes gombák használata mennyire támogatja a jelenlét állapotot, a tudatosságot, vagy mennyire rombolják azokat?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'gombák', 'jelenlét', 'tudatosság'],
+  },
+  {
+    id: '0372-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 2339,
+    topicTitle: 'Mi a gondolat, hol van, honnan jön?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'gondolat', 'tudatosság'],
+  },
+  {
+    id: '0372-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 2654,
+    topicTitle: 'Rovarfóbiások a gyerekeim',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'rovarfóbia', 'gyerek', 'fóbia'],
+  },
+  {
+    id: '0372-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 2991,
+    topicTitle:
+      'A megfigyelő be tudna avatkozni a történetbe vagy passzívan figyel?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'megfigyelő', 'figyelem', 'beavatkozás'],
+  },
+  {
+    id: '0372-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 3369,
+    topicTitle:
+      'Hipochondriára hajlamos embernek mit tanácsolnál? (jelenlét, figyelem)',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'hipochondria', 'jelenlét', 'figyelem'],
+  },
+  {
+    id: '0372-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 4350,
+    topicTitle: 'Amulett értelme, hatása.',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'amulett', 'hatás'],
+  },
+  {
+    id: '0372-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 4624,
+    topicTitle:
+      '1. A hét meg nem született testvérem is az én próbálkozásom volt, kell foglalkoznom ezzel? 2. Figyelem, azonosulás',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'testvér', 'figyelem', 'azonosulás'],
+  },
+  {
+    id: '0372-01-13',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 5211,
+    topicTitle: 'Barátomat félrekezelték, egészsége nem javul, mit tegyünk?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'egészség', 'félrekezelés', 'segítség'],
+  },
+  {
+    id: '0372-01-14',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 5888,
+    topicTitle: 'Halál utáni örömök, milyen lehetőségeink vannak választani?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'halál', 'halál után', 'öröm', 'választás'],
+  },
+  {
+    id: '0372-01-15',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 6410,
+    topicTitle:
+      'Demens apukám teljesen leépült, hogy segítsük, mi játszódik le benne, érez-e bármit?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'demencia', 'időskor', 'segítség', 'érzés'],
+  },
+  {
+    id: '0372-01-16',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 7031,
+    topicTitle:
+      'Ha akarom nem sikerül, ha nem akarom megtörténik. Akkor ne akarjak semmit, majd az univerzum megadja? ( teremtés)',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'teremtés', 'akarat', 'univerzum'],
+  },
+  {
+    id: '0372-01-17',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 7463,
+    topicTitle: 'Mi történik a táborban az utolsó este a tűz körül?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'tábor', 'tűz', 'utolsó este'],
+  },
+  {
+    id: '0372-01-18',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 7762,
+    topicTitle:
+      'Ha figyelek, jelen vagyok, "eltűnök", tudok másoknak segíteni anélkül hogy rájuk erőltetném az akaratom ?',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: ['2026 július előadás', 'figyelem', 'jelenlét', 'segítség', 'akarat'],
+  },
+  {
+    id: '0372-01-19',
+    youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
+    spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
+    timestamp: 7973,
+    topicTitle:
+      'Párom társaságában olyan, mintha otthon lennék. Mi ez, szerelem, szeretet, vagy csak fizikai vonzódás? (párkapcsolat)',
+    talkTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
+    tags: [
+      '2026 július előadás',
+      'szerelem',
+      'szeretet',
+      'fizikai vonzódás',
+      'párkapcsolat',
+    ],
+  },
+  // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 
 // for one-item video, just copy and change the following:

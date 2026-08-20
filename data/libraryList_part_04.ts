@@ -6620,13 +6620,14 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'környezet',
     ],
   },
-  // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
-
+  // note: tag-ek AI által generálva '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések'-hoz
   {
     id: '0372-01-01',
     youtubeLink: 'https://www.youtube.com/watch?v=I_4Jp0A4gBE',
     spotifyLink: 'https://open.spotify.com/episode/5h6MHDtcUqnISMhJelS56C',
     timestamp: 0,
+    topicTitle:
+      '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
     talkTitle:
       '292. A.J. Christian - Előadás, 2026. július - Megválaszolatlan kérdések',
     tags: ['teljes videó', '2026 július előadás'],

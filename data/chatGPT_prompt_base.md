@@ -1,23 +1,39 @@
-Egy podcasteket tartalmazó audio library-hez csinálok json-t, de typescriptben, hogy típusos legyen. Ebben kérlek, hogy segíts.
+# Podcast Audio Library – TypeScript JSON Generator
 
-A "json"-ban AudioLibSearchElement[] van, és ez az AudioLibSearchElement típus:
+Egy podcastokat tartalmazó audio library-hez készítek **TypeScriptben típusos adatokat**.
 
-```
+## KIMENETI FORMÁTUM – NAGYON FONTOS
+
+A feladat eredménye **kizárólag kimásolható, SZÖVEGES TypeScript kód** legyen.
+
+**Semmilyen körülmények között ne generálj képet, screenshotot, diagramot vagy bármilyen más vizuális tartalmat. Ne használj image generationt vagy image toolt.**
+
+A kész eredményt **egyetlen ` ```ts ` kódblokkban** add vissza, hogy közvetlenül ki tudjam másolni.
+
+**Ne adj magyarázatot, kommentárt, tanácsot vagy egyéb szöveget a kód mellé.**
+
+---
+
+A "JSON" valójában egy `AudioLibSearchElement[]` típusú TypeScript tömb.
+
+Az `AudioLibSearchElement` típus:
+
+```ts
 export type AudioLibSearchElement = {
-    id: string;
-    youtubeLink?: string;
-    spotifyLink?: string;
-    timestamp: number;
-    talkTitle: string;
-    topicTitle?: string;
-    description?: string;
-    tags: string[];
-}
+  id: string;
+  youtubeLink?: string;
+  spotifyLink?: string;
+  timestamp: number;
+  talkTitle: string;
+  topicTitle?: string;
+  description?: string;
+  tags: string[];
+};
 ```
 
 Egy példa eredmény egy előző videóról, amit én kézzel megcsináltam:
 
-```
+```ts
 export const audioLibraryList: AudioLibSearchElement[] = [
   {
     id: '0005-01-01',
@@ -99,26 +115,73 @@ export const audioLibraryList: AudioLibSearchElement[] = [
     topicTitle: 'Család: szülő-gyerek',
     talkTitle: 'Előadás, 2020 március',
     tags: ['2020 március előadás', 'család', 'szülő', 'gyerek'],
-  }
+  },
 ];
 ```
 
-Megadom neked a video youtube linkjét, és a videó leírásából kimásolom azt a részt, ahol a timestampek és a téma címek vannak.
-Ebből kérlek csinálj nekem a videóról egy "json"-t, a fenti példa alapján.
+Megadom neked a videó YouTube-linkjét, Spotify-linkjét, címét, az ID alapját, valamint a videó leírásából kimásolom azt a részt, ahol a timestampek és a téma címek vannak.
 
-A video id-ja nézzen ki így: pl. 0007-01-XX - ahol csak az XX részt változtatod, és azt mondja meg, hogy a videón belül hányadik timestamp.
-A 01 maga a teljes videó, "teljes videó" tag-gel, utána jönnek a timestampes részek.
-FONTOS:
+Ezekből készíts nekem a videóról egy `AudioLibSearchElement[]` típusú TypeScript tömböt a fenti példa alapján.
 
-- NE változtasd meg a video title-t!
-- NE változtasd meg semelyik topic címet sem, úgy másold be, ahogy a timestamp után meg van adva!
-- a legelső videó "teljes video" tag-et kap, valamint azt a tag-et amit minden más videó is megkap a videón belül. A legelső videó CSAK ezt a kettő tag-et kapja, másikat nem.
-- ne tegyél be sehova sem kommentet
-- ne adj további tanácsokat, már másik chat-ben programozó AI-al meg lett beszélve a struktúra és a felhasználás, csak a "json"-generálást kérem tőled
-- a topicTitle alapján tegyél be tag-eket, amik szerinted megfelelnek az adott címhez
-- a tömbben az utolsó object után is tegyél vesszőt!
+## SZABÁLYOK
 
-Kérlek csak annyit válaszolj hogy "Rendben, várom az adatokat, és utána adom az adatokat, egyszerre mindig csak egy videóhoz.
+- **NE változtasd meg a video title-t!** Pontosan úgy használd a `talkTitle` mezőben, ahogy én megadom.
+- **NE változtasd meg egyik `topicTitle` címet sem!** A topic címeket karakter szerint úgy másold be, ahogy a timestamp után meg vannak adva.
+- A timestampeket `timestamp` mezőként **másodpercben** add meg.
+  - Például `2:04` → `124`
+  - `11:37` → `697`
+  - `1:00:22` → `3622`
+
+- A legelső elem mindig a teljes videó legyen, `timestamp: 0` értékkel.
+- A legelső videó `topicTitle` értéke és `talkTitle` értéke a megadott video title legyen.
+- A legelső videó **pontosan két taget kapjon**:
+  1. `'teljes videó'`
+  2. azt a közös taget, amit a videó összes többi eleme is megkap.
+
+- A legelső videó **semmilyen más taget ne kapjon**.
+- Minden timestampes elem kapja meg a videó közös tagjét.
+- A `topicTitle` alapján tegyél hozzá további, releváns tageket, amelyek szerinted jól használhatók kereséshez.
+- A tagek legyenek magyarul, és lehetőleg egyszerű, kereshető kifejezések legyenek.
+- A `youtubeLink` minden elemnél ugyanaz legyen, a megadott YouTube-link.
+- A `spotifyLink` minden elemnél ugyanaz legyen, a megadott Spotify-link.
+- A `talkTitle` minden elemnél ugyanaz legyen, a megadott video title.
+- Az ID-k formátuma: `XXXX-01-YY`.
+- Az `XXXX-01` részt **NE változtasd meg**; azt pontosan úgy használd, ahogy megadom.
+- Csak az utolsó `YY` részt növeld:
+  - `01` = teljes videó
+  - `02` = első timestampes téma
+  - `03` = második timestampes téma
+  - stb.
+
+- Az ID-k két számjegyűek legyenek (`01`, `02`, `03`, ...).
+- Az elemek sorrendje pontosan kövesse a megadott timestamp-ek sorrendjét.
+- **NE tegyél be sehová kommentet.**
+- A tömbben az **utolsó object után is legyen vessző**.
+- Ne adj hozzá `description` mezőt, hacsak külön nem kérem.
+- Ne adj hozzá olyan mezőt, amely nem szerepel az `AudioLibSearchElement` típusban.
+- Ne módosítsd a megadott URL-eket.
+- Ne módosítsd a címekben lévő szóközöket, írásjeleket, kötőjeleket vagy egyéb karaktereket.
+- **Mindig egyetlen videó adatait dolgozd fel egyszerre.**
+- Ne próbáld korábbi videók adataival összekeverni az aktuális videót.
+
+## VÁLASZ FORMÁTUMA
+
+A válaszod kizárólag a kész TypeScript kód legyen, egyetlen ` ```ts ` kódblokkban.
+
+Sem előtte, sem utána ne írj semmit.
+
+A kód formája:
+
+```ts
+export const audioLibraryList: AudioLibSearchElement[] = [
+  {
+    ...
+  },
+  {
+    ...
+  },
+];
+```
 
 ---
 
@@ -127,7 +190,7 @@ Video adatok:
 - youtube link:
 - spotify link:
 - video title:
-- id: 0301-01-XX (csak az XX-et változtasd)
+- id: 0301-01-YY (csak az YY-et változtasd)
 - timestampek:
 
 ---

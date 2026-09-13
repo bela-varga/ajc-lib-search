@@ -7142,6 +7142,425 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     talkTitle: '293. A cigányság valódi története',
     tags: ['teljes videó', 'cigányság', 'roma', 'történelem'],
   },
+  // note: tag-ek AI által generálva '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések'-hoz
+  {
+    id: '0375-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 0,
+    topicTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['teljes videó', '2026 augusztus előadás'],
+  },
+  {
+    id: '0375-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 290,
+    topicTitle: 'Amint ellazulok történeteket, emberekről képeket látok',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'ellazulás',
+      'képek',
+      'emberek',
+      'történetek',
+    ],
+  },
+  {
+    id: '0375-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 766,
+    topicTitle: 'Gerincvelősorvadás betegségből merre tovább? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'gerincvelősorvadás',
+      'betegség',
+      'gyógyulás',
+    ],
+  },
+  {
+    id: '0375-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 1600,
+    topicTitle: 'A halál fájdalmas? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'halál', 'fájdalom'],
+  },
+  {
+    id: '0375-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 2056,
+    topicTitle: 'Amint elkészült az első fantasy regényem úgy érzem kiégtem!',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'kiégés', 'fantasy', 'regény', 'írás'],
+  },
+  {
+    id: '0375-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 2518,
+    topicTitle:
+      'Első barátom meghalt, nagyon hiányzik, hogy tudnám őt magamban lezárni?',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'barát',
+      'halál',
+      'hiány',
+      'gyász',
+      'elengedés',
+    ],
+  },
+  {
+    id: '0375-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 2943,
+    topicTitle:
+      'Legenda, hit vagy valós történelmi személyek, vallásos alakok, mint pl. Mózes története, Arthur király, Merlin?',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'legenda',
+      'hit',
+      'történelem',
+      'Mózes',
+      'Arthur király',
+      'Merlin',
+    ],
+  },
+  {
+    id: '0375-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 3819,
+    topicTitle: 'Miért jelenik meg egy vágy, ha sosem teljesül? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'vágy', 'beteljesülés', 'vágyak'],
+  },
+  {
+    id: '0375-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 4230,
+    topicTitle: 'Hálás vagyok a táborért! ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'hála', 'tábor'],
+  },
+  {
+    id: '0375-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 4258,
+    topicTitle:
+      'Nincs már hitem a hinduizmusban, kereszténységben, buddhizmusban, energiagyógyászatban, nincs kapaszkodóm, jó irányba haladok?  (hit - valóság, elengedés, Végtelen,  minden/semmi)',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'hit',
+      'hinduizmus',
+      'kereszténység',
+      'buddhizmus',
+      'gyógyítás',
+      'valóság',
+      'elengedés',
+      'Végtelen',
+      'minden',
+      'semmi',
+    ],
+  },
+  {
+    id: '0375-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 4839,
+    topicTitle: 'Más valóságokban is van újratestesülés, karma, halál?',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'más valóságok',
+      'reinkarnáció',
+      'karma',
+      'halál',
+    ],
+  },
+  {
+    id: '0375-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 5446,
+    topicTitle: 'Tudatosság - öntudatlanság határmezsgyéje',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'tudatosság', 'öntudatlanság'],
+  },
+  {
+    id: '0375-01-13',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 5732,
+    topicTitle: '1.Újabb teljesség kötet van tervben? 2. Kegyes hazugság ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'Teljesség',
+      'könyv',
+      'kötet',
+      'kegyes hazugság',
+      'hazugság',
+    ],
+  },
+  {
+    id: '0375-01-14',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 6201,
+    topicTitle:
+      'Mérhetetlen fájdalmat érzek a világban zajló szenvedések láttán! Miért érint meg ennyire? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'fájdalom',
+      'szenvedés',
+      'világ',
+      'együttérzés',
+    ],
+  },
+  {
+    id: '0375-01-15',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 6846,
+    topicTitle: 'Ki teremtette Istent? (Végtelen) ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'isten', 'teremtés', 'Végtelen'],
+  },
+  {
+    id: '0375-01-16',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 7161,
+    topicTitle:
+      'Sztrók után javult az állapotom, majd romlott mentálisan is, aminek valószínű OCD az oka. OCD miért alakul ki, mit lehet tenni? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'sztrók',
+      'állapotromlás',
+      'mentális állapot',
+      'OCD',
+      'kényszerbetegség',
+    ],
+  },
+  {
+    id: '0375-01-17',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 7770,
+    topicTitle:
+      'Embereket, párkapcsolataimat nem tudom megtartani, mi lehet az oka? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'emberi kapcsolatok',
+      'párkapcsolat',
+      'kapcsolat',
+      'megtartás',
+    ],
+  },
+  {
+    id: '0375-01-18',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 8425,
+    topicTitle: 'Meditáció célja, értelme ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'meditáció', 'cél', 'értelem'],
+  },
+  {
+    id: '0375-01-19',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 8716,
+    topicTitle:
+      '1.Hogy alakul a genetika a gyermekben, ha a szülők más éghajlatról jönnek? \n2.Óraátállításkor és utazáskor fellépő időeltolódás okozta stresszt hogy lehet csökkenteni? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'genetika',
+      'gyermek',
+      'szülő',
+      'éghajlat',
+      'óraátállítás',
+      'utazás',
+      'időeltolódás',
+      'stressz',
+    ],
+  },
+  {
+    id: '0375-01-20',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 9110,
+    topicTitle:
+      '1.Több mesterünk is lehet? 2.Miért nem szabad hangfelvételt készíteni előadáskor? \n3.A nézőpont teremti a valóságot? 4.A nyitott kérdések teret nyitnak? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'mester',
+      'hangfelvétel',
+      'előadás',
+      'nézőpont',
+      'valóság',
+      'nyitott kérdések',
+    ],
+  },
+  {
+    id: '0375-01-21',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 9812,
+    topicTitle:
+      'Ha mindkét szülő fogyatékos, hogyan lehet a gyereknek saját élete, hogy találja meg az egyensúlyt a szülő élete és a sajátja között? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'fogyatékosság',
+      'szülő',
+      'gyermek',
+      'saját élet',
+      'egyensúly',
+    ],
+  },
+  {
+    id: '0375-01-22',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 10103,
+    topicTitle: 'Figyelem gyakorlásának tapasztalata',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'figyelem', 'gyakorlás', 'tapasztalat'],
+  },
+  {
+    id: '0375-01-23',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 10181,
+    topicTitle:
+      '1.A létezésben van logika? 2.A nyelv korlátozza mit látunk a valóságból?',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: ['2026 augusztus előadás', 'létezés', 'logika', 'nyelv', 'valóság'],
+  },
+  {
+    id: '0375-01-24',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 10550,
+    topicTitle:
+      'Párom szenvedélybeteg, gyűjtögető, nagyon megromlott a viszonyunk, mit tanácsolnál?',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'párkapcsolat',
+      'szenvedélybetegség',
+      'függőség',
+      'gyűjtögetés',
+      'kapcsolat',
+    ],
+  },
+  {
+    id: '0375-01-25',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 10955,
+    topicTitle:
+      '20 éve foglalkozom önismerettel, szeretnék a halálban tudatosan választani. Jó úton vagyok vagy az út is illúzió? A Szeretetet hogyan választhatom tudatosan? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'önismeret',
+      'halál',
+      'tudatosság',
+      'út',
+      'illúzió',
+      'Szeretet',
+    ],
+  },
+  {
+    id: '0375-01-26',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'https://open.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 11455,
+    topicTitle:
+      '1. Egy látó megjósolta a férjem gyors halálát, hogy lehetséges ez? 2. A lélek mikor dönti el, hogy távozni szeretne? ',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'látó',
+      'jóslat',
+      'halál',
+      'lélek',
+      'távozás',
+    ],
+  },
+  {
+    id: '0375-01-27',
+    youtubeLink: 'https://www.youtube.com/watch?v=9YQpnfw8gv0',
+    spotifyLink: 'httpsopen.spotify.com/episode/5UlS8KXhponahgaxmD8Vsw',
+    timestamp: 11884,
+    topicTitle:
+      'A barátnőm szociális munkakörben dolgozik, szépsége ellenére miért nem tudott kiteljesedni lelki gyógyítóként?',
+    talkTitle:
+      '294. A.J. Christian - Előadás, 2026. augusztus - Elveszett kérdések',
+    tags: [
+      '2026 augusztus előadás',
+      'szociális munka',
+      'kiteljesedés',
+      'lelki gyógyítás',
+      'gyógyító',
+    ],
+  },
+  // note: tag-ek AI által generálva '295. Ki teremtette Istent?'-hoz
+  {
+    id: '0376-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=xjRRqOceLJw',
+    spotifyLink: 'https://open.spotify.com/episode/4mOGmgXqjJHVVTZsldBC6V',
+    timestamp: 0,
+    topicTitle: '295. Ki teremtette Istent?',
+    talkTitle: '295. Ki teremtette Istent?',
+    tags: ['teljes videó'],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

@@ -183,6 +183,8 @@ export const audioLibraryList: AudioLibSearchElement[] = [
 ];
 ```
 
+Most csak annyit írj, hogy "várom az adatokat". Utána küldöm a video adatokat és azok alapján csináld meg és írd meg a fenti audioLibraryList-et.
+
 ---
 
 Video adatok:

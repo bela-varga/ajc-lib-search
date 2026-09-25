@@ -7559,7 +7559,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '295. Ki teremtette Istent?',
     talkTitle: '295. Ki teremtette Istent?',
-    tags: ['teljes videó'],
+    tags: ['teljes videó', 'isten', 'teremtés', 'hit', 'vallás', 'filozófia'],
   },
   // note: tag-ek AI által generálva 'A.J. Christian - Előadás, 2026. szeptember'-hoz
   {
@@ -7796,6 +7796,16 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'Mi értelme van ebben az életben fejlődni, ha ez a következőkre semmilyen hatással nincs?',
     talkTitle: 'A.J. Christian - Előadás, 2026. szeptember',
     tags: ['2026 szeptember előadás', 'fejlődés', 'élet', 'következő életek'],
+  },
+  // note: tag-ek AI által generálva '296. Hogyan tudom elviselni az emberek sötét oldalát?'-hoz
+  {
+    id: '0378-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=KdNKdiTDJ3s',
+    spotifyLink: 'https://open.spotify.com/episode/3SPlNOZzzEHop29maKP2Jh',
+    timestamp: 0,
+    topicTitle: '296. Hogyan tudom elviselni az emberek sötét oldalát?',
+    talkTitle: '296. Hogyan tudom elviselni az emberek sötét oldalát?',
+    tags: ['teljes videó', 'emberi természet', 'rossz', 'megbocsátás', 'kapcsolat', 'lelki egészség'],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];

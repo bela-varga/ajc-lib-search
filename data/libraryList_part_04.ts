@@ -7805,7 +7805,32 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     timestamp: 0,
     topicTitle: '296. Hogyan tudom elviselni az emberek sötét oldalát?',
     talkTitle: '296. Hogyan tudom elviselni az emberek sötét oldalát?',
-    tags: ['teljes videó', 'emberi természet', 'rossz', 'megbocsátás', 'kapcsolat', 'lelki egészség'],
+    tags: [
+      'teljes videó',
+      'emberi természet',
+      'rossz',
+      'megbocsátás',
+      'kapcsolat',
+      'lelki egészség',
+    ],
+  },
+  // note: tag-ek AI által generálva '297. Miért terhes a várandósság?'-hoz
+  {
+    id: '0379-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=CeUnBdYCpJ0',
+    spotifyLink: 'https://open.spotify.com/episode/0YpoWnAOVhsGucjcekIPKi',
+    timestamp: 0,
+    topicTitle: '297. Miért terhes a várandósság?',
+    talkTitle: '297. Miért terhes a várandósság?',
+    tags: [
+      'teljes videó',
+      'várandósság',
+      'terhesség',
+      'babavárás',
+      'kismama',
+      'anyaság',
+      'szülés',
+    ],
   },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];

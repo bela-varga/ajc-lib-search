@@ -8094,7 +8094,7 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
     spotifyLink: 'https://open.spotify.com/episode/5uz0XNCvI4pQPk33lFVTH3',
     timestamp: 6796,
     topicTitle:
-      '1. Elhunyt édesanyámhoz ha beszélek hallja, tud reagálni? 2. Ha sírok érzékeli? ',
+      '1. Elhunyt édesanyámhoz ha beszélek hallja, tud reagálni? 2. Ha sírok érzékeli? 3. Mennyi ideig vannak elhunyt szeretteink a köztes létben, bardo-ban?',
     talkTitle: 'A.J. Christian - Előadás, 2026. október',
     tags: [
       '2026 október előadás',
@@ -8104,24 +8104,9 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'lélek',
       'kapcsolat az elhunytakkal',
       'túlvilág',
-    ],
-  },
-  {
-    id: '0380-01-17',
-    youtubeLink: 'https://www.youtube.com/watch?v=Ygf8hUjv0bc',
-    spotifyLink: 'https://open.spotify.com/episode/5uz0XNCvI4pQPk33lFVTH3',
-    timestamp: 0,
-    topicTitle:
-      '3. Mennyi ideig vannak elhunyt szeretteink a köztes létben, bardo-ban?',
-    talkTitle: 'A.J. Christian - Előadás, 2026. október',
-    tags: [
-      '2026 október előadás',
       'elhunyt szeretteink',
       'köztes lét',
       'bardo',
-      'halál után',
-      'túlvilág',
-      'lélek',
     ],
   },
   {

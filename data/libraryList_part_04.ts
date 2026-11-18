@@ -8284,6 +8284,258 @@ export const audioLibraryList_part_04: AudioLibSearchElement[] = [
       'spiritualitás',
     ],
   },
+  // note: tag-ek AI által generálva '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések'-hoz
+  {
+    id: '0382-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 0,
+    topicTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: ['teljes videó', '2026 október előadás'],
+  },
+  {
+    id: '0382-01-02',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 104,
+    topicTitle: 'A turizmus tönkre megy, milyen munkának lesz jövője? ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'turizmus',
+      'munka',
+      'jövő',
+      'munkalehetőség',
+      'mesterséges intelligencia',
+    ],
+  },
+  {
+    id: '0382-01-03',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 871,
+    topicTitle: 'Honnan jön a bizonytalanság, a kevés vagyok érzet? ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'bizonytalanság',
+      'önbizalom',
+      'önértékelés',
+      'kevés vagyok érzés',
+    ],
+  },
+  {
+    id: '0382-01-04',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 1218,
+    topicTitle: 'Allergiát hogyan okozom magamnak és mi a megoldás? ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'allergia',
+      'betegség',
+      'test',
+      'gyógyulás',
+      'egészség',
+    ],
+  },
+  {
+    id: '0382-01-05',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 1563,
+    topicTitle:
+      'Az AI korában kell tartani attól, hogy a Terminátor c. filmben mutatottt esemény kialakuljon?',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'ai',
+      'mesterséges intelligencia',
+      'Terminátor',
+      'jövő',
+      'technológia',
+      'robotok',
+    ],
+  },
+  {
+    id: '0382-01-06',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 1873,
+    topicTitle: 'Párkapcsolati elakadás ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'párkapcsolat',
+      'kapcsolati problémák',
+      'szerelem',
+      'elakadás',
+    ],
+  },
+  {
+    id: '0382-01-07',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 2321,
+    topicTitle:
+      'Ha most lenne lerakva a kereszténység alapja, miben változna a forma? ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'kereszténység',
+      'vallás',
+      'hit',
+      'spiritualitás',
+      'egyház',
+    ],
+  },
+  {
+    id: '0382-01-08',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 2589,
+    topicTitle: 'A fehér zaj jelenségről',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: ['2026 október előadás', 'fehér zaj', 'zaj', 'hangok', 'jelenség'],
+  },
+  {
+    id: '0382-01-09',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 3024,
+    topicTitle: 'Atlantiszról, özönvíz előtti állapotról tudnál mesélni?  ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'atlantisz',
+      'özönvíz',
+      'ősi civilizációk',
+      'történelem',
+      'mítoszok',
+    ],
+  },
+  {
+    id: '0382-01-10',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 4092,
+    topicTitle:
+      'Halálközeli élményt ki irányítja és halálközeli élmény nélkül is el lehet jutni ebbe az állapotba? Testkilépés és tudatos álmodás közötti különbség.',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'halálközeli élmény',
+      'testkilépés',
+      'tudatos álmodás',
+      'tudat',
+      'spiritualitás',
+    ],
+  },
+  {
+    id: '0382-01-11',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 5411,
+    topicTitle:
+      'Az emberkereskedelem női áldozatait segítem, sok mocskot látok. Egyre jobban távolodom a férfiaktól, pedig vágyom az ölelésre, de elvesztettem a hitem! ',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'emberkereskedelem',
+      'áldozatsegítés',
+      'nők',
+      'férfiak',
+      'bizalom',
+      'ölelés',
+      'kapcsolat',
+      'trauma',
+    ],
+  },
+  {
+    id: '0382-01-12',
+    youtubeLink: 'https://www.youtube.com/watch?v=ZKb8-sp_7dg',
+    spotifyLink: 'https://open.spotify.com/episode/6mGdO8jhaSNpmytcHVjKIA',
+    timestamp: 5909,
+    topicTitle:
+      'Lehet, hogy valaki gonosznak születik, ez karma, előző életnek van ehhez köze?',
+    talkTitle:
+      '299. A.J. Christian - Előadás, 2026. október - Megválaszolatlan kérdések',
+    tags: [
+      '2026 október előadás',
+      'gonoszság',
+      'karma',
+      'előző életek',
+      'reinkarnáció',
+      'lélek',
+      'spiritualitás',
+    ],
+  },
+  // note: tag-ek AI által generálva '300. Mi a leghatékonyabb út a tudatosság felé?'-hoz
+  {
+    id: '0383-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=40we70Z9WOA',
+    spotifyLink: 'https://open.spotify.com/episode/7ny9BYBxwvE08k5SB6LTlk',
+    timestamp: 0,
+    topicTitle: '300. Mi a leghatékonyabb út a tudatosság felé?',
+    talkTitle: '300. Mi a leghatékonyabb út a tudatosság felé?',
+    tags: [
+      'teljes videó',
+      'tudatosság',
+      'önismeret',
+      'spiritualitás',
+      'meditáció',
+    ],
+  },
+  // note: tag-ek AI által generálva '301. Gyerekkoromban elhagytak a szüleim, hogy bocsássak meg nekik?'-hoz
+  {
+    id: '0384-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=JnhRabru0Kw',
+    spotifyLink: 'https://open.spotify.com/episode/0DnkgksvqHCAobTcLAR43m',
+    timestamp: 0,
+    topicTitle:
+      '301. Gyerekkoromban elhagytak a szüleim, hogy bocsássak meg nekik?',
+    talkTitle:
+      '301. Gyerekkoromban elhagytak a szüleim, hogy bocsássak meg nekik?',
+    tags: [
+      'teljes videó',
+      'gyerekkor',
+      'szülő',
+      'megbocsátás',
+      'elhagyatottság',
+      'trauma',
+    ],
+  },
+  // note: tag-ek AI által generálva '302. Kiléphetek a Mátrixból?'-hoz
+  {
+    id: '0385-01-01',
+    youtubeLink: 'https://www.youtube.com/watch?v=UZ2_9x0-pIk',
+    spotifyLink: 'https://open.spotify.com/episode/1whotLw6LPoaGIqy4nrWF0',
+    timestamp: 0,
+    topicTitle: '302. Kiléphetek a Mátrixból?',
+    talkTitle: '302. Kiléphetek a Mátrixból?',
+    tags: [
+      'teljes videó',
+      'mátrix',
+      'tudatosság',
+      'valóság',
+      'spiritualitás',
+      'önismeret',
+    ],
+  },
   // note: tag-ek AI által generálva 'TalkTitleComesHere'-hoz
 ];
 

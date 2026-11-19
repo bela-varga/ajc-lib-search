@@ -18,6 +18,7 @@ export default function Home() {
   const {
     hasSearched,
     handleSearch,
+    handleExclusiveSearch,
     removeQuery,
     searchQueries,
     paginatedResults,
@@ -65,6 +66,7 @@ export default function Home() {
                 results={paginatedResults}
                 totalResults={totalResults}
                 onTagClick={handleSearch}
+                onLectureTagClick={handleExclusiveSearch}
                 currentSort={currentSort}
                 onSortChange={handleSortChange}
               />

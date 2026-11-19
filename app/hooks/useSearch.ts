@@ -13,6 +13,7 @@ interface UseSearchResult {
   results: AudioLibSearchElement[];
   hasSearched: boolean;
   handleSearch: (query: string) => void;
+  handleExclusiveSearch: (query: string) => void;
   removeQuery: (query: string) => void;
   searchQueries: string[];
   currentPage: number;
@@ -71,6 +72,20 @@ export function useSearch(): UseSearchResult {
     [setSearchParams],
   );
 
+  const handleExclusiveSearch = useCallback(
+    (newQuery: string) => {
+      const trimmed = newQuery.trim();
+      if (!trimmed) return;
+      setSearchParams((prev) => {
+        prev.delete('q');
+        prev.append('q', trimmed);
+        prev.delete('page');
+        return prev;
+      });
+    },
+    [setSearchParams],
+  );
+
   const removeQuery = useCallback(
     (queryToRemove: string) => {
       setSearchParams((prev) => {
@@ -118,6 +133,7 @@ export function useSearch(): UseSearchResult {
     results,
     hasSearched,
     handleSearch,
+    handleExclusiveSearch,
     removeQuery,
     searchQueries,
     currentPage: validPage,

@@ -4,6 +4,7 @@ import { Chip } from './Chip';
 
 type ResultItemProps = AudioLibSearchElement & {
   onTagClick?: (tag: string) => void;
+  onLectureTagClick?: (tag: string) => void;
 };
 
 export default function ResultItem({
@@ -15,6 +16,7 @@ export default function ResultItem({
   spotifyLink,
   timestamp,
   onTagClick,
+  onLectureTagClick,
 }: ResultItemProps) {
   const appendTimestamp = (url: string) => {
     if (!timestamp || timestamp <= 0) return url;
@@ -24,6 +26,8 @@ export default function ResultItem({
 
   const finalYoutubeLink = youtubeLink ? appendTimestamp(youtubeLink) : null;
   const finalSpotifyLink = spotifyLink ? appendTimestamp(spotifyLink) : null;
+  const lectureTag = tags?.find((tag) => /.+ előadás$/i.test(tag));
+  const isLectureVideo = tags?.includes('teljes videó') && lectureTag;
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-4 hover:shadow-md transition-shadow duration-200">
@@ -31,7 +35,17 @@ export default function ResultItem({
         <div>
           {topicTitle && (
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight">
-              {topicTitle}
+              {isLectureVideo ? (
+                <button
+                  type="button"
+                  onClick={() => onLectureTagClick?.(lectureTag)}
+                  className="cursor-pointer text-left hover:text-blue-600 dark:hover:text-blue-400"
+                >
+                  {topicTitle}
+                </button>
+              ) : (
+                topicTitle
+              )}
             </h3>
           )}
           {talkTitle && (

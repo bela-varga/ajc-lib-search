@@ -200,6 +200,28 @@ describe('useSearch', () => {
     expect(params.getAll('q')).toEqual(['existing']);
   });
 
+  it('handleExclusiveSearch replaces existing queries and resets page', () => {
+    searchParamsGetAllMock.mockReturnValue(['existing', 'other']);
+    searchParamsGetMock.mockReturnValue(null);
+
+    const { result } = renderHook(() => useSearch());
+
+    act(() => {
+      result.current.handleExclusiveSearch('2026 október előadás');
+    });
+
+    const updateFn = setSearchParamsMock.mock.calls[0][0];
+    const params = new URLSearchParams([
+      ['q', 'existing'],
+      ['q', 'other'],
+      ['page', '5'],
+    ]);
+    updateFn(params);
+
+    expect(params.getAll('q')).toEqual(['2026 október előadás']);
+    expect(params.has('page')).toBe(false);
+  });
+
   it('handleSearch ignores empty or whitespace-only strings', () => {
     searchParamsGetAllMock.mockReturnValue([]);
     searchParamsGetMock.mockReturnValue(null);

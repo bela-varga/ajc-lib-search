@@ -72,6 +72,33 @@ describe('ResultItem', () => {
     expect(onTagClick).toHaveBeenCalledWith('tag1');
   });
 
+  it('makes a full lecture video title searchable by its lecture tag only', () => {
+    const onLectureTagClick = vi.fn();
+    render(
+      <ResultItem
+        {...mockItem}
+        tags={['teljes videó', '2026 október előadás']}
+        onLectureTagClick={onLectureTagClick}
+      />,
+    );
+
+    const title = screen.getByRole('button', { name: 'Test Topic' });
+    fireEvent.click(title);
+
+    expect(onLectureTagClick).toHaveBeenCalledWith('2026 október előadás');
+  });
+
+  it('does not make titles clickable without both required tags', () => {
+    renderResultItem({
+      ...mockItem,
+      tags: ['teljes videó', '2026 október'],
+    });
+
+    expect(
+      screen.queryByRole('button', { name: 'Test Topic' }),
+    ).not.toBeInTheDocument();
+  });
+
   it('does not throw when onTagClick is not provided', () => {
     // Should render without crashing; click should be a no-op
     renderResultItem(mockItem, undefined);

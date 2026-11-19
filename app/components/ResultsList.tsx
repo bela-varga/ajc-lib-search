@@ -5,6 +5,7 @@ interface ResultsListProps {
   results: AudioLibSearchElement[];
   totalResults: number;
   onTagClick?: (tag: string) => void;
+  onLectureTagClick?: (tag: string) => void;
   currentSort?: string;
   onSortChange?: (sort: string) => void;
 }
@@ -13,6 +14,7 @@ export default function ResultsList({
   results,
   totalResults,
   onTagClick,
+  onLectureTagClick,
   currentSort = 'newest',
   onSortChange,
 }: ResultsListProps) {
@@ -52,7 +54,12 @@ export default function ResultsList({
 
       <div className="grid grid-cols-1 gap-4">
         {results.map((result) => (
-          <ResultItem key={result.id} {...result} onTagClick={onTagClick} />
+          <ResultItem
+            key={result.id}
+            {...result}
+            onTagClick={onTagClick}
+            onLectureTagClick={onLectureTagClick}
+          />
         ))}
       </div>
     </div>
